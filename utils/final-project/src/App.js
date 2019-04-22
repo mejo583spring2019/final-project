@@ -1,6 +1,21 @@
 import React, { Component } from 'react';
-// import table from "./components/table/index.js"
+import Chart from "./components/table/chart";
+// import table from "./components/table/index"
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      chartData: {}
+    }
+  }
+  componentWillMount() {
+    this.getChartData();
+  }
+  getChartData() {
+    this.setState({
+
+    })
+  }
   render() {
     return (
       <div className="App">
@@ -10,6 +25,7 @@ class App extends Component {
           </p>
           
         </header>
+        <Chart />
       </div>
     );
   }
