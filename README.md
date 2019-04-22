@@ -15,4 +15,9 @@ Edited categories to be numerical values instead of strings; edited titles to el
 Converted data from .csv to .json format.
 
 
+###Styling
+Used node modules for Bootstrap, Canvas JS
+
+
+
 
