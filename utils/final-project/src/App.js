@@ -1,21 +1,14 @@
 import React, { Component } from 'react';
-
+// import table from "./components/table/index.js"
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <p>
-            I'm alive!
+            I'm alive! for now
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          
         </header>
       </div>
     );
