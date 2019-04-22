@@ -5,39 +5,28 @@ class Chart extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      charData: {
-        labels: ["boston", "city2", "city3", "city4", "city5", "city6"],
-        datasets: [
-          {
-            label: "population",
-            data: [
-              100,
-              200,
-              300,
-              400,
-              500,
-              600
-            ],
-            backgroundColor: 'rgba(255,0,0.5)'
-          }
-        ]
-      }
+      chartData: props.chartData
     }
+  }
+
+  static defaultProps = {
+    displayTitle: true,
+    displayLegend: true,
+    legendPosition: "bottom"
   }
   render() {
     return (
       <div className="chart">
         <Bar
-          data={this.state.charData}
+          data={this.state.chartData}
           options={{
             title: {
-              display: true,
+              display: this.props.displayTitle,
               text: "Largest Cities in Mass.",
               fontSize: 25
             },
             legend: {
               display: true,
-              position: "right"
             }
           }}
         />

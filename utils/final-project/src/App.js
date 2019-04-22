@@ -1,19 +1,40 @@
 import React, { Component } from 'react';
 import Chart from "./components/table/chart";
 // import table from "./components/table/index"
+
+
+
+
 class App extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       chartData: {}
     }
   }
+
   componentWillMount() {
     this.getChartData();
   }
   getChartData() {
     this.setState({
-
+      chartData: {
+        labels: ["boston", "city2", "city3", "city4", "city5", "city6"],
+        datasets: [
+          {
+            label: "population",
+            data: [
+              100,
+              200,
+              300,
+              400,
+              500,
+              600
+            ],
+            backgroundColor: 'rgba(255,0,0.5)'
+          }
+        ]
+      }
     })
   }
   render() {
@@ -25,7 +46,7 @@ class App extends Component {
           </p>
           
         </header>
-        <Chart />
+        <Chart chartData={this.state.chartData}/>
       </div>
     );
   }
