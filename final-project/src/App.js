@@ -1,15 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
+/** App component builds out main part
+ * of website.
+ */
 class App extends Component {
+  /**
+ * Render the main page.
+ * @return {any} JSX element
+ */
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            I'm going to build my awesome final project here, so get ready.
           </p>
           <a
             className="App-link"
