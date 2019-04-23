@@ -1,0 +1,117 @@
+/* Questions for Lee
+* 1. Hamburger navbar has no background on click
+* 2. 
+*
+*
+ */
+
+body {
+  font-family: 'VT323', monospace;
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #797A7A;
+}
+
+nav a {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+nav {
+  height: 80px;
+}
+
+#mainBody{
+  background-image: url("./media/clouds.gif");
+  background-color: #cccccc;
+  height: 900px;
+}
+
+#mainBody {
+  color:black;
+  font-size: 1.1rem;
+}
+
+#title {
+  font-size: 2.6rem;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#title-text {
+  color:black;
+  background-color:rgba(255, 255, 255, 0.6);
+  height: 200px;
+}
+
+/* #earth-title {
+  text-align: center;
+} */
+
+#page-title a {
+  color: black;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  #mainBody{
+    background-image: url("./media/clouds.gif");
+    background-color: #cccccc;
+    height: 1150px;
+  }
+  #title-text {
+    color:black;
+    background-color:rgba(255, 255, 255, 0.6);
+    height: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #mainBody{
+    background-image: url("./media/clouds.gif");
+    background-color: #cccccc;
+    height: 1150px;
+  }
+  #title-text {
+    color:black;
+    background-color:rgba(255, 255, 255, 0.6);
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #mainBody{
+    background-image: url("./media/clouds.gif");
+    background-color: #cccccc;
+    height: 1150px;
+  }
+  #title-text {
+    color:black;
+    background-color:rgba(255, 255, 255, 0.6);
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #mainBody{
+    background-image: url("./media/clouds.gif");
+    background-color: #cccccc;
+    height: 1350px;
+  }
+  #title-text {
+    color:black;
+    background-color:rgba(255, 255, 255, 0.6);
+    height: 570px;
+  }
+}
