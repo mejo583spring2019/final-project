@@ -37,7 +37,6 @@ const gdp = [
 {"state":"Arkansas","gdp":"124918","percent_national":"0.66"},
 {"state":"Nebraska","gdp":"121774","percent_national":"0.63"},
 {"state":"Mississippi","gdp":"111707","percent_national":"0.59"},
-{"state":"Puerto Rico","gdp":"103135","percent_national":"0.55[A]"},
 {"state":"New Mexico","gdp":"97090","percent_national":"0.51"},
 {"state":"Hawaii","gdp":"88136","percent_national":"0.46"},
 {"state":"New Hampshire","gdp":"80516","percent_national":"0.42"},

@@ -1,26 +1,39 @@
 import React, { Component } from 'react';
-import {Bar} from "react-chartjs-2";
+import {Bubble} from "react-chartjs-2";
 import sal from "../../data/sal";
+import wage from "../../data/wage";
+import gdp from "../../data/gdp";
 
 
-let salary = [];
-let states= [];
+let salary = [];  /** average salary in each state */
+let min= [];  /** minimum wage in each state */
+let gross= [];  /** gdp in each state */
+let states= [];  /** gdp in each state */
 
-class Chart extends Component {
+
+
+class Bubbles extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      chartData: props.chartData
+      bubbleData: props.bubbleData
     }
   }
  /** Creates an array that seperates the data in sal.js into 2 arrays to be used in averageSalData */
  makeDataArray() {
   console.log("test");
   for(let i = 0; i < sal.length; i++) {
-    states[i] = sal[i].state;
     salary[i] = sal[i].salary;
+    states[i] = sal[i].state;
+    gross[i] = gdp[i].gdp;
+  } 
+  for(let i = 0; i < wage.length; i++) {
 
-  }  console.log(salary);
+    if (wage[i].year === "2015") {
+      min[i] = wage[i].minimum-wage;
+
+    }
+  }
  
 }
   static defaultProps = {
@@ -37,13 +50,22 @@ class Chart extends Component {
     /** Builds Salary Chart */
     averageSalData() {
       this.setState({
-        chartData: {
+        bubbleData: {
           labels: states,
           datasets: [
             {
               label: "Average Salary (in USD)",
-              data: salary,
-              backgroundColor: 'rgba(255,0,0.5)'
+              data: {
+                // X Value
+                x: min,
+            
+                // Y Value
+                y: salary,
+            
+                // Bubble radius in pixels (not scaled).
+                r: gross
+            },
+              backgroundColor: 'rgba(255,225,0.5)'
             }
           ]
         }
@@ -51,13 +73,13 @@ class Chart extends Component {
     }
   render() {
     return (
-      <div className="chart">
-        <Bar
-          data={this.state.chartData}
+      <div className="bubble">
+        <Bubble
+          data={this.state.bubbleData}
           options={{
             title: {
               display: this.props.displayTitle,
-              text: "Salary in Each US State",
+              text: "Salary, Minimum Wage and GDP of each US State",
               fontSize: 25
             },
             legend: {
@@ -70,4 +92,4 @@ class Chart extends Component {
   }
 }
 
-export default Chart;
+export default Bubbles;
