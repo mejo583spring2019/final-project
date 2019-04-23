@@ -1,0 +1,54 @@
+body {
+  font-family: 'VT323', monospace;
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #797A7A;
+}
+
+.section-header {
+  font-size: 2rem;
+}
+
+.small-header {
+  margin-top: 30px;
+  font-size: 1.4rem;
+}
+
+.list {
+  font-style: italic;
+}
+
+#title {
+  font-size: 2.6rem;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#intro{
+  margin-bottom: 40px;
+}
+
+#category-tabs {
+  margin-left: 70px;
+}
+
+#category-tabs a{
+  color:black;
+  text-decoration: none;
+}
+
+#category-tabs a-active{
+  color:black;
+  background: grey;
+  text-decoration: none;
+}
