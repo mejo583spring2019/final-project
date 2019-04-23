@@ -51,9 +51,10 @@ class About extends Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
+                    <img className="category-image" alt="earth" src={require('../../media/planet.png')} />
                     <h1 className="section-header">World languages</h1>
                     <Row>
-                      <Col>World languages denotes those languages that are easiest for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</Col>
+                      <Col><p>World languages denotes those languages that are easiest for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
                     </Row>
                     <Row>
                       <Col>
