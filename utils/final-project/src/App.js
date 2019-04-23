@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import Chart from "./components/table/chart";
 // import table from "./components/table/index"
+import sal from "./data/sal";
 
 
-
+let salary = [];
+let states= [];
 
 class App extends Component {
   constructor() {
@@ -12,31 +14,38 @@ class App extends Component {
       chartData: {}
     }
   }
+  /** Creates an array that seperates the data in sal.js into 2 arrays to be used in averageSalData */
+  makeDataArray() {
+    console.log("test");
+    for(let i = 0; i < sal.length; i++) {
+      states[i] = sal[i].state;
+      salary[i] = sal[i].salary;
 
-  componentWillMount() {
-    this.getChartData();
+    }  console.log(salary);
+   
   }
-  getChartData() {
+  /** calls functions after it has loaded */
+  componentWillMount() {
+    this.makeDataArray(); 
+    
+    this.averageSalData();
+  }
+  /** Builds Salary Chart */
+  averageSalData() {
     this.setState({
       chartData: {
-        labels: ["boston", "city2", "city3", "city4", "city5", "city6"],
+        labels: states,
         datasets: [
           {
             label: "population",
-            data: [
-              100,
-              200,
-              300,
-              400,
-              500,
-              600
-            ],
+            data: salary,
             backgroundColor: 'rgba(255,0,0.5)'
           }
         ]
       }
     })
   }
+  /**Renders the application */
   render() {
     return (
       <div className="App">
