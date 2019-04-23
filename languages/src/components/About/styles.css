@@ -36,10 +36,16 @@ a:hover{
   width:200px;
 }
 
-#title {
+#title-card {
   font-size: 2.6rem;
   margin-top: 50px;
   text-align: center;
+  align-content: center;
+  width: 100%;
+  height: 150px;
+  background-image: url("../../media/clouds.gif");
+  background-color: #cccccc;
+  margin-bottom: 20px;
 }
 
 #intro{

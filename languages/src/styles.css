@@ -1,7 +1,7 @@
 /* Questions for Lee
 * 1. Hamburger navbar has no background on click
-* 2.  
-*
+* 2. How to close the gap between the section headers and the navbar? 
+* 3. The graphs. pls help
 *
  */
 
@@ -32,9 +32,9 @@ nav {
 }
 
 #mainBody{
-  background-image: url("./media/clouds.gif");
+  background-image: url("./media/sparkle-2.gif");
   background-color: #cccccc;
-  height: 900px;
+  height: 1000px;
 }
 
 #mainBody {
@@ -46,6 +46,7 @@ nav {
   font-size: 2.6rem;
   margin-top: 50px;
   text-align: center;
+  color:white;
 }
 
 #title-text {
@@ -54,9 +55,9 @@ nav {
   height: 200px;
 }
 
-/* #earth-title {
-  text-align: center;
-} */
+#earth-title {
+ margin-left: 260px;
+}
 
 #page-title a {
   color: black;
@@ -65,21 +66,20 @@ nav {
 
 @media only screen and (max-width: 1200px) {
   #mainBody{
-    background-image: url("./media/clouds.gif");
+    background-image: url("./media/sparkle-2.gif");
     background-color: #cccccc;
     height: 1150px;
   }
   #title-text {
     color:black;
     background-color:rgba(255, 255, 255, 0.6);
-    height: 300px;
+    height: 250px;
   }
 }
 
-
 @media only screen and (max-width: 1000px) {
   #mainBody{
-    background-image: url("./media/clouds.gif");
+    background-image: url("./media/sparkle-2.gif");
     background-color: #cccccc;
     height: 1150px;
   }
@@ -92,26 +92,26 @@ nav {
 
 @media only screen and (max-width: 800px) {
   #mainBody{
-    background-image: url("./media/clouds.gif");
+    background-image: url("./media/sparkle-2.gif");
     background-color: #cccccc;
-    height: 1150px;
+    height: 1250px;
   }
   #title-text {
     color:black;
     background-color:rgba(255, 255, 255, 0.6);
-    height: 400px;
+    height: 430px;
   }
 }
 
 @media only screen and (max-width: 500px) {
   #mainBody{
-    background-image: url("./media/clouds.gif");
+    background-image: url("./media/sparkle-2.gif");
     background-color: #cccccc;
     height: 1350px;
   }
   #title-text {
     color:black;
     background-color:rgba(255, 255, 255, 0.6);
-    height: 570px;
+    height: 500px;
   }
 }

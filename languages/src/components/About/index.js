@@ -19,7 +19,9 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h1 id="title">About</h1>
+        <div id="title-card">
+          <h1><br />About</h1>
+        </div>
         <Container>
           <Row>
             <Col id="intro">

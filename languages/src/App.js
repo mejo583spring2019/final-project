@@ -44,9 +44,9 @@ function Index() {
               <img
                 id="earth-title"
                 alt="earth"
-                src={require('./media/planet.png')}
-                width="400"
-                height="400"
+                src={require('./media/title-planet.gif')}
+                width="550"
+                height="550"
                 className="center-block"
               />
             </Col>
@@ -94,7 +94,7 @@ class App extends Component {
                 <Nav.Link href="#/resources/">resources</Nav.Link>
               </Nav>
               <Nav>
-                <Nav.Link href="https://www.state.gov/documents/organization/247092.pdf" target="_blank" rel="noopener noreferrer">data</Nav.Link>
+                <Nav.Link href="https://www.state.gov/documents/organization/247092.pdf" target="_blank" rel="noopener noreferrer">more info</Nav.Link>
                 <Nav.Link eventKey={2} href="https://www.github.com/tianasama" target="_blank" rel="noopener noreferrer">
                   <img src={require('./media/tianasama-link.png')} alt="tianasama bart simpson link" />
                 </Nav.Link>

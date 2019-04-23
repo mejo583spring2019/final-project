@@ -19,7 +19,9 @@ class Resources extends Component {
   render() {
     return (
       <div>
-        <h1 id="title">Resources</h1>
+        <div id="title-card">
+          <h1><br />Resources</h1>
+        </div>
         <Container>
           <Row>
             <Col id="intro">
