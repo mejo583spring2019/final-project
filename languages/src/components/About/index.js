@@ -54,7 +54,7 @@ class About extends Component {
                     <img className="category-image" alt="earth" src={require('../../media/planet.png')} />
                     <h1 className="section-header">World languages</h1>
                     <Row>
-                      <Col><p>World languages denotes those languages that are easiest for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
+                      <Col className="caption"><p>World languages denotes those languages that are easiest for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
                     </Row>
                     <Row>
                       <Col>
@@ -70,7 +70,7 @@ class About extends Component {
                   <Tab.Pane eventKey="second">
                     <h1 className="section-header">Moderate languages</h1>
                     <Row>
-                      <Col>Moderate languages denotes those languages that are moderately difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</Col>
+                      <Col className="caption"><p>Moderate languages denotes those languages that are moderately difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
                     </Row>
                     <Row>
                       <Col>
@@ -85,7 +85,7 @@ class About extends Component {
                   <Tab.Pane eventKey="third">
                     <h1 className="section-header">Hard languages</h1>
                     <Row>
-                      <Col>Hard languages denotes those languages that are difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</Col>
+                      <Col className="caption"><p>Hard languages denotes those languages that are moderately difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
                     </Row>
                     <Row>
                       <Col>
@@ -100,7 +100,7 @@ class About extends Component {
                   <Tab.Pane eventKey="fourth">
                     <h1 className="section-header">Advanced languages</h1>
                     <Row>
-                      <Col>Advanced languages denotes those languages that are extremely difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</Col>
+                      <Col className="caption"><p>Advanced languages denotes those languages that are moderately difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
                     </Row>
                     <Row>
                       <Col>
