@@ -16,6 +16,9 @@ class App extends Component {
           <h1>The Cost of Higher Education</h1>
         </header>
         <section className="main flex">
+          <p>
+            You wanna know more about my project? The look no further than here.
+          </p>
           <img
             src="/img/nc-outline.svg"
             alt="An outline of North Carolina"
