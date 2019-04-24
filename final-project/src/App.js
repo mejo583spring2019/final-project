@@ -11,10 +11,21 @@ class App extends Component {
  */
   render() {
     return (
-      <div className="flex">
-        <header className="App-header">
+      <div className="flex-column">
+        <header className="App-header flex-column">
           <h1>The Cost of Higher Education</h1>
+          <img
+            src="/img/mortarboard.svg"
+            alt="A cartoon of a college mortarboard"
+          />
         </header>
+        <section className="main flex">
+          <img
+            src="/img/nc-outline.svg"
+            alt="An outline of North Carolina"
+          />
+
+        </section>
       </div>
     );
   }
