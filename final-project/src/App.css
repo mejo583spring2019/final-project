@@ -17,8 +17,13 @@ body {
 
 .App-header {
   width: 100%;
-  height: auto;
+  height: 100vh;
+  color: white;
+  text-shadow: 2px 2px 7px #333;
   background-color: #aaa;
+  background-image: url("/img/mortarboard.svg");
+  background-position: center;
+  background-repeat: no-repeat;
   flex-direction: column;
   background-attachment: fixed;
 }
