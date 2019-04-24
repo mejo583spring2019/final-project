@@ -20,7 +20,8 @@ class App extends Component {
         </header>
         <section className="main flex">
           <p>
-            Race plays an important factor in undestanding how someone's college completion rate can be affected by his or her own's identity.
+            Race plays an important factor in undestanding how someone's college
+            completion rate can be affected by his or her own's identity.
             According to a <a href="https://nscresearchcenter.org/signaturereport12-supplement-2/" target="_blank" rel="noopener noreferrer">report</a> published by the National Student Clearinghouse Research Center in 2017. This data found that 6-year completion rates of black students were the lowest among all racial groups at 45.9 percent, while Asians had the higest 6-year completion rate at 71.7 percent. The average across 6-year completion rate was 62.4 percent.
           </p>
           <p>

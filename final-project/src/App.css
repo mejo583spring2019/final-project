@@ -42,11 +42,21 @@ body {
 }
 
 .main p {
-  margin: 10vh auto;
+  margin: 7vh auto;
+  min-width: 50vw;
+  width: 680px;
   font-size: 1.3rem;
   font-family: "Poppins", sans-serif;
 }
 
 .main p:first-of-type {
   margin-top: 30vh;
+}
+
+.main p a {
+  color: inherit;
+}
+
+.main p a:hover {
+  color: cornflowerblue;
 }
