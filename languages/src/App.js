@@ -10,7 +10,6 @@ import Row from 'react-bootstrap/Row';
 
 // Components
 import About from "./components/About";
-import ColumnChart from "./components/ColumnChart";
 import Pick from "./components/Pick";
 import Resources from "./components/Resources";
 
@@ -86,7 +85,6 @@ class App extends Component {
                 <Nav.Link href="#/about">about </Nav.Link>
                 <Nav.Link href="#/pick">pick a language</Nav.Link>
                 <Nav.Link href="#/resources/">resources</Nav.Link>
-                <Nav.Link href="#/columnchart/">column</Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link href="https://www.state.gov/documents/organization/247092.pdf" target="_blank" rel="noopener noreferrer">more info</Nav.Link>
@@ -103,7 +101,6 @@ class App extends Component {
             <Route path="/about/" component={About} />
             <Route path="/pick/" component={Pick} />
             <Route path="/resources/" component={Resources} />
-            <Route path="/columnchart/" component={ColumnChart} />
           </div>
         </Router>
       </div>

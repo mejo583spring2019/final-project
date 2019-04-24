@@ -45,13 +45,13 @@ class About extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">By hour</Nav.Link>
+                    <Nav.Link eventKey="first">By location</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="second">By week</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">By location</Nav.Link>
+                    <Nav.Link eventKey="third">By hour</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
@@ -59,13 +59,17 @@ class About extends Component {
               {/* CHART ONE */}
               <Col sm={9}>
                 <Tab.Content>
+                  {/* CHART THREE - MAP*/}
                   <Tab.Pane eventKey="first">
-                    <h1 className="section-header">By hour</h1>
+                    <h1 className="section-header">By location</h1>
                     <Row>
-                      <Col className="caption"><p>Estimates the number of hours it takes to learn a particular language.</p></Col>
+                      <Col className="caption"><p>Determines which regions of the world contain the highest concentration of each level of language difficulty.</p></Col>
                     </Row>
                     <Row>
-                      <Col><Hour /></Col>
+                      <Col className="caption"><p>Estimates the number of weeks it takes to learn a particular language.</p></Col>
+                    </Row>
+                    <Row>
+                      <Col className="chart"><Map /></Col>
 
                     </Row>
                     <br />
@@ -74,7 +78,6 @@ class About extends Component {
                     <br />
                     <br />
                   </Tab.Pane>
-
 
                   {/* CHART TWO */}
                   <Tab.Pane eventKey="second">
@@ -83,7 +86,7 @@ class About extends Component {
                       <Col className="caption"><p>Estimates the number of weeks it takes to learn a particular language.</p></Col>
                     </Row>
                     <Row>
-                      <Col><Week /></Col>
+                      <Col className="chart"><Week /></Col>
 
                     </Row>
                     <br />
@@ -93,20 +96,14 @@ class About extends Component {
                     <br />
                   </Tab.Pane>
 
-
-                  {/* CHART THREE - MAP*/}
                   <Tab.Pane eventKey="third">
-                    <h1 className="section-header">By location</h1>
+                    <h1 className="section-header">By hour</h1>
                     <Row>
-                      <Col className="caption"><p>Determines which regions of the world contain the highest concentration of each level of language difficulty.</p></Col>
+                      <Col className="caption"><p>Estimates the number of hours it takes to learn a particular language.</p></Col>
                     </Row>
                     <Row>
-                      <Col>
-                        <h3 className="small-header">The data:</h3>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col><div id="map"></div></Col>
+                      <Col><Hour /></Col>
+
                     </Row>
                     <br />
                     <br />
