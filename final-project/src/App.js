@@ -11,19 +11,9 @@ class App extends Component {
  */
   render() {
     return (
-      <div className="App">
+      <div className="flex">
         <header className="App-header">
-          <p>
-            I'm going to build my awesome final project here, so get ready.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <h1>The Cost of Higher Education</h1>
         </header>
       </div>
     );
