@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 body {
   font-size: 16px;
 }
@@ -26,6 +28,7 @@ body {
   background-repeat: no-repeat;
   flex-direction: column;
   background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
 }
 
 .App-header img {
@@ -36,4 +39,14 @@ body {
   width: 100%;
   height: auto;
   flex-direction: column;
+}
+
+.main p {
+  margin: 10vh auto;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.main p:first-of-type {
+  margin-top: 30vh;
 }

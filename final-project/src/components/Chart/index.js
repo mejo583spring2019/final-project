@@ -14,7 +14,7 @@ import React, { Component } from "react";
 
 const options = {
   chart: {
-    type: "spline",
+    type: "bar",
   },
   title: {
     text: "My chart",
@@ -26,7 +26,14 @@ const options = {
   ],
 };
 
+/** Chart component builds the highchart
+ * and renders it on the page
+ */
 class Chart extends Component {
+  /** renders the highchart
+   * @return {any} build HighchartsReact
+   * pass through Highcharts and options
+   */
   render() {
     return (
       <div>
