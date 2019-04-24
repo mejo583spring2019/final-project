@@ -6,9 +6,11 @@ This seed repo will be updated with configuration changes as needed until the pr
 #Colophon 
 So far, I've used these resources:
 for Node Fetch: https://www.npmjs.com/package/node-fetch
+For Writing JSON to File: https://nodejs.org/api/fs.html
 
 For Chart JS: 
 https://www.chartjs.org/docs/latest/charts/bubble.html
 
 For my data:
 http://api.tvmaze.com/shows/83/cast
+
