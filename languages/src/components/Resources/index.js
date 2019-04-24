@@ -25,7 +25,7 @@ class Resources extends Component {
         <Container>
           <Row>
             <Col id="intro">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius. In dapibus gravida ex.
+              <strong>Strong language skills begin with a strong education.</strong> Check out the resources below to get started on your journey to learning a new language.
             </Col>
           </Row>
         </Container>
@@ -49,11 +49,7 @@ class Resources extends Component {
                   <Tab.Pane eventKey="first">
                     <h1 className="section-header">General resources</h1>
                     <Row>
-                      <Col className="caption"><p>Moderate languages denotes those languages that are moderately difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
-                    </Row>
-                    <Row>
                       <Col>
-                        <h3 className="small-header">Such languages include:</h3>
                         <p>French</p>
                         <p>French</p>
                       </Col>
@@ -63,11 +59,7 @@ class Resources extends Component {
                   <Tab.Pane eventKey="second">
                     <h1 className="section-header">By language</h1>
                     <Row>
-                      <Col className="caption"><p>Moderate languages denotes those languages that are moderately difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.<br /><br /><br /></p></Col>
-                    </Row>
-                    <Row>
                       <Col>
-                        <p>French</p>
                         <p>French</p>
                       </Col>
                       <Col>

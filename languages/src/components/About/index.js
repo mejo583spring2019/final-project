@@ -25,7 +25,10 @@ class About extends Component {
         <Container>
           <Row>
             <Col id="intro">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius. In dapibus gravida ex. Phasellus iaculis sem ullamcorper purus finibus, ac porta mi pretium. Maecenas ac tellus imperdiet, fermentum ipsum id, consequat libero. Vivamus sed ex id urna iaculis iaculis et ut ligula. Etiam tempus metus ut urna euismod, nec sodales sem sagittis. Vestibulum ac mi interdum, eleifend mauris ut, dignissim dolor.
+              <p><strong>According to the Foreign Service Institute:</strong></p>
+              <p><em>"All estimates relating to the length of time needed to elarn these languages to a S-3/R-3 (tktk) proficiency level assume tha tthe student is a native speaker of English with no prior knowledge of the language to be learned. It is also assumed that the student has very good or better aptitude for classroom learning of foreign languages."</em></p>
+              <p><strong>The Foreign Service Institute also notes that:</strong></p>
+              <p><em>"Although languages are grouped into general 'categories' of difficulty for native English speakers, within each category some languages are more difficult than others."</em></p>
             </Col>
           </Row>
         </Container>
@@ -37,26 +40,29 @@ class About extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">World</Nav.Link>
+                    <Nav.Link eventKey="first">World languages</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Moderate</Nav.Link>
+                    <Nav.Link eventKey="second">Moderate languages</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">Hard</Nav.Link>
+                    <Nav.Link eventKey="third">Hard languages</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fourth">Advanced</Nav.Link>
+                    <Nav.Link eventKey="fourth">Advanced languages</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <img className="category-image" alt="earth" src={require('../../media/planet.png')} />
+                    <img
+                      className="category-image"
+                      alt="earth"
+                      src={require('../../media/moderate.png')} />
                     <h1 className="section-header">World languages</h1>
                     <Row>
-                      <Col className="caption"><p>World languages denotes those languages that are easiest for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
+                      <Col className="caption"><p>Also known as Category I languages, world languages denotes those languages that are easiest for English speakers to learn and which closely cognate with English.</p></Col>
                     </Row>
                     <Row>
                       <Col>
@@ -64,15 +70,24 @@ class About extends Component {
                       </Col>
                     </Row>
                     <Row>
-                      <Col></Col>
-                      <Col></Col>
+                      <Col>Danish<br />Dutch<br />French</Col>
+                      <Col>Italian<br />Norwegian<br />Portuguese</Col>
+                      <Col>Romanian<br />Spanish<br />Swedish</Col>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
                     </Row>
                   </Tab.Pane>
 
                   <Tab.Pane eventKey="second">
                     <h1 className="section-header">Moderate languages</h1>
                     <Row>
-                      <Col className="caption"><p>Moderate languages denotes those languages that are moderately difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
+                      <Col className="caption"><p>Also known as Category II languages, moderate languages denotes those languages which take slightly longer for native English speakers to master.</p></Col>
                     </Row>
                     <Row>
                       <Col>
@@ -80,14 +95,24 @@ class About extends Component {
                       </Col>
                     </Row>
                     <Row>
-                      <Col></Col>
-                      <Col></Col>
+                      <Col>German<br />Haitian</Col>
+                      <Col>Indonesian<br />Malay</Col>
+                      <Col>Swahili</Col>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
                     </Row>
                   </Tab.Pane>
+
                   <Tab.Pane eventKey="third">
                     <h1 className="section-header">Hard languages</h1>
                     <Row>
-                      <Col className="caption"><p>Hard languages denotes those languages that are moderately difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
+                      <Col className="caption"><p>Also known as Category III languages, hard languages denotes those languages that are relatively difficult for English speakers to learn. Languages in this category, the largest of the four, have significant linguistic and/or cultural differences from English.</p></Col>
                     </Row>
                     <Row>
                       <Col>
@@ -95,14 +120,25 @@ class About extends Component {
                       </Col>
                     </Row>
                     <Row>
-                      <Col></Col>
-                      <Col></Col>
+                      <Col>Albanian<br />Amharic<br />Armenian<br />Azerbaijani<br />Bengali<br />Bulgarian<br />Burmese<br />Czech<br />Dari<br />Estonian<br />Farsi<br />Finnish<br />Georgian<br />Greek<br />Gujarati<br />Hausa<br />Hebrew</Col>
+
+                      <Col>Hindi<br />Hungarian<br />Icelandic<br />Kazakh<br />Khmer<br />Kurdishh<br />Kyrgyz<br />Lao<br />Latvian<br />Lithuanian<br />Macedonian<br />Mongolian<br />Nepali<br />Pashto<br />Polish<br />Russian<br />Serbo-Croatian</Col>
+
+                      <Col>Sinhala<br />Slovak<br />Slovenian<br />Somali<br />Tagalog<br />Tajiki<br />Tamil<br />Telugu<br />Thai<br />Tibetan<br />Turkish<br />Turkmen<br />Ukrainian<br />Urdu<br />Uzbek<br />Vietnamese</Col>
                     </Row>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
                     <h1 className="section-header">Advanced languages</h1>
                     <Row>
-                      <Col className="caption"><p>Advanced languages denotes those languages that are moderately difficult for English speakers to learn. Nullam fringilla nec enim vel fringilla. Vestibulum cursus fermentum ante a posuere. Mauris eget ligula non magna convallis varius.</p></Col>
+                      <Col className="caption"><p>Also known as Category IV languages, advanced languages denotes those languages which are exceptionally difficult for native English speakers to learn. Languages in this category are likely to require over a year and a half to master.</p></Col>
                     </Row>
                     <Row>
                       <Col>
@@ -110,9 +146,17 @@ class About extends Component {
                       </Col>
                     </Row>
                     <Row>
-                      <Col></Col>
-                      <Col></Col>
+                      <Col>Arabic<br />Chinese (Cantonese and Mandarin)</Col>
+                      <Col>Japanese<br />Korean</Col>
                     </Row>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>

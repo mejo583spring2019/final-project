@@ -8,9 +8,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 
-// React Router
-
-
 // Components
 import About from "./components/About";
 import Hour from "./components/Hour";
@@ -52,8 +49,8 @@ function Index() {
             </Col>
           </Row>
           <Row id='title-text'>
-            <Col><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu lectus ac purus lacinia consequat et ac nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec elit libero, elementum ut mi eget, tristique malesuada lorem. Proin semper in ante at mollis. Quisque eget sapien massa. Praesent ac sem vel libero tempor pellentesque. In non congue nulla. In non congue nulla. In non congue nulla.</Col>
-            <Col><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu lectus ac purus lacinia consequat et ac nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec elit libero, elementum ut mi eget, tristique malesuada lorem. Proin semper in ante at mollis. Quisque eget sapien massa. Praesent ac sem vel libero tempor pellentesque. In non congue nulla. In non congue nulla. In non congue nulla.</Col>
+            <Col><br /><strong>It's true.</strong> Less than 25% of people living in the United States speak a second language (compare that to citizens of countries like Denmark and Sweden, who speak an average of three by the time they are adults). As our world becomes increasingly interconnected, the need for multilingualism will only continue to grow as people learn to operate in an international context. But when the majority of the population cannot communicate, <strong>how can English-speakers keep up? </strong></Col>
+            <Col><br />Research has shown correlation between bilingualism and higher intelligence, memory skills, academic performance, networking skills, and marketability. When knowing a second language reaps nothing but benefits, <strong>why not take the leap to learn?</strong> We're here to guide the everyday English speaker on their journey to becoming a polyglot, whether that journey begins with something as simple as Spanish or as challenging as Chinese. Explore our site and discover which language will be your next best friend.</Col>
           </Row>
         </Container>
       </div>
@@ -75,7 +72,7 @@ class App extends Component {
       <div>
         <div id="#myNavbar">
           <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
-            <Navbar.Brand href="#navTitle">
+            <Navbar.Brand href="#/">
               <img
                 alt="earth"
                 src={require('./media/planet-icon.png')}
