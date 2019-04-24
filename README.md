@@ -2,5 +2,4 @@
 
 This seed repo will be updated with configuration changes as needed until the project is due.
 
-#Data Preparation
 
