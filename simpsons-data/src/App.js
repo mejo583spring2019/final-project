@@ -2,7 +2,11 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
+/** this is a JSDOC comment*/
 class App extends Component {
+  /** this is a JSDOC comment
+ * @return {div}
+*/
   render() {
     return (
       <div className="App">
