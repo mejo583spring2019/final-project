@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Chart from "./components/Chart/";
 
 /** App component builds out main part
  * of website.
@@ -25,7 +26,7 @@ class App extends Component {
             src="/img/nc-outline.svg"
             alt="An outline of North Carolina"
           />
-
+          <Chart />
         </section>
       </div>
     );
