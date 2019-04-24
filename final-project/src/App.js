@@ -13,7 +13,9 @@ class App extends Component {
     return (
       <div className="flex-column">
         <header className="App-header flex-column">
-          <h1>The Cost of Higher Education</h1>
+          <h1>Race to the Finish</h1>
+          <h3>A look at how race affects college completion</h3>
+          <h4>By Brooke Fisher</h4>
         </header>
         <section className="main flex">
           <p>

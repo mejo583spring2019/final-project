@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "total": 1,
+    "page": 0,
+    "per_page": 20
+  },
+  "results": [
+    {
+      "latest.completion.completion_rate_4yr_150_black": 0.7586,
+      "latest.completion.completion_rate_4yr_150nt": 0.8205,
+      "latest.completion.completion_rate_4yr_150_hispanic": 0.7969,
+      "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0215,
+      "latest.completion.completion_rate_4yr_150_white": 0.8356,
+      "latest.completion.completion_rate_4yr_150_race.unknown": 0.8056,
+      "school.name": "Elon University",
+      "latest.completion.completion_rate_4yr_150_nhpi": 1,
+      "latest.student.demographics.race_ethnicity.two_or_more": 0.0276,
+      "latest.student.size": 6008,
+      "latest.student.demographics.race_ethnicity.black": 0.0534,
+      "latest.student.demographics.race_ethnicity.aian": 0.0013,
+      "latest.student.demographics.race_ethnicity.nhpi": 0.0003,
+      "latest.completion.completion_rate_4yr_150_asian": 0.7895,
+      "latest.completion.completion_rate_4yr_150_aian": 0.6667,
+      "latest.student.demographics.race_ethnicity.black_non_hispanic": 0.0577,
+      "latest.student.demographics.race_ethnicity.hispanic": 0.0611,
+      "latest.completion.completion_rate_4yr_150_2ormore": 0.76,
+      "latest.student.demographics.race_ethnicity.asian": 0.0245,
+      "latest.student.demographics.race_ethnicity.unknown": 0.0043,
+      "latest.student.demographics.race_ethnicity.asian_pacific_islander": 0.0138,
+      "id": 198516,
+      "latest.student.demographics.race_ethnicity.white": 0.8059,
+      "latest.student.demographics.race_ethnicity.white_non_hispanic": 0.8074
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "total": 1,
+    "page": 0,
+    "per_page": 20
+  },
+  "results": [
+    {
+      "latest.completion.completion_rate_4yr_150_black": 0.5364,
+      "latest.completion.completion_rate_4yr_150nt": 0.5654,
+      "latest.completion.completion_rate_4yr_150_hispanic": 0.6452,
+      "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0093,
+      "latest.completion.completion_rate_4yr_150_white": 0.5697,
+      "latest.completion.completion_rate_4yr_150_race.unknown": 0.5455,
+      "school.name": "Western Carolina University",
+      "latest.completion.completion_rate_4yr_150_nhpi": 1,
+      "latest.student.demographics.race_ethnicity.two_or_more": 0.0411,
+      "latest.student.size": 9002,
+      "latest.student.demographics.race_ethnicity.black": 0.0642,
+      "latest.student.demographics.race_ethnicity.aian": 0.007,
+      "latest.student.demographics.race_ethnicity.nhpi": 0.0012,
+      "latest.completion.completion_rate_4yr_150_asian": 0.5833,
+      "latest.completion.completion_rate_4yr_150_aian": 0.8,
+      "latest.student.demographics.race_ethnicity.black_non_hispanic": 0,
+      "latest.student.demographics.race_ethnicity.hispanic": 0.0624,
+      "latest.completion.completion_rate_4yr_150_2ormore": 0.4528,
+      "latest.student.demographics.race_ethnicity.asian": 0.0132,
+      "latest.student.demographics.race_ethnicity.unknown": 0.0122,
+      "latest.student.demographics.race_ethnicity.asian_pacific_islander": 0,
+      "id": 200004,
+      "latest.student.demographics.race_ethnicity.white": 0.7893,
+      "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
+    }
+  ]
+}
