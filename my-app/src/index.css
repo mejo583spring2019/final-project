@@ -13,8 +13,9 @@ code {
     monospace;
 }
 
-#container {
-	min-width: 320px;
-	max-width: 800px;
-	margin: 0 auto;
+.highcharts-tooltip span {
+  height:auto;
+  width:140px;
+  overflow:auto;
+  white-space:normal !important;
 }

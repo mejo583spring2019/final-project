@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import Chart from "./highchart.js";
+// import Chart from "./highchart.js";
+import SectionWipes from "./scroll.js";
 
 /**
  * create app
@@ -12,7 +13,7 @@ class App extends Component {
  */
   render() {
     return (
-      <Chart></Chart>
+      <SectionWipes></SectionWipes>
 
     );
   }

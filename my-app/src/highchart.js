@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
+// import { render } from "react-dom";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import hcMore from "highcharts/highcharts-more.src"; // module
@@ -11,7 +11,19 @@ if (typeof Highcharts === "object") {
 const options = {
   chart: {
     type: "packedbubble",
-    height: "100%",
+    height: "700px",
+    events: {
+      click: function() {
+        this.tooltip.hide();
+      },
+    },
+  },
+  legend: {
+    align: "center",
+    verticalAlign: "top",
+    floating: true,
+    x: 0,
+    y: 30,
   },
   title: {
     text: "Deadiliest Houses in Game of Thrones",
@@ -37,11 +49,11 @@ const options = {
       dataLabels: {
         enabled: true,
         format: "{point.name}",
-        filter: {
-          property: "y",
-          operator: ">",
-          value: 250,
-        },
+        // filter: {
+        //   property: "y",
+        //   operator: ">",
+        //  value: 1,
+        //  },
         style: {
           color: "black",
           textOutline: "none",
@@ -52,11 +64,12 @@ const options = {
   },
   series: [{
     name: "House Stark",
+    label: "House Stark",
     color: "rgba(46, 204, 113, .5)",
-    opacity: "10",
     data: [{
       name: "Arya Stark",
       value: 11,
+      // eslint-disable-next-line max-len
       victims: "Red Keep Stableboy, Frey Soldier, Polliver, Rorge, Ghita, Meryn Trant, The Waif, Black Walder Rivers, Lothar Frey, Walder Frey, Petyr Baelish",
     },
     {
@@ -163,56 +176,63 @@ const options = {
   }, {
     name: "House Martell",
     data: [{
-      name: "El Salvador",
-      value: 7,
+      name: "Ellaria Sand",
+      value: 2,
+      victims: "Myrcella Baratheon, Doran Martell",
     },
     {
-      name: "Venezuela",
-      value: 1,
+      name: "Tyene Sand",
+      value: 2,
+      victims: "Areo Hotah, Maester Caleotte",
+    },
+    {
+      name: "Obara Sand",
+      value: 2,
+      victims: "Merchant Captain, Trystane Martell",
     }],
   }, {
     name: "House Greyjoy",
     data: [{
-      name: "El Salvador",
-      value: 7,
+      name: "Euron Greyjoy",
+      value: 3,
+      victims: "Balon Greyjoy, Obara Sand, Nymeria Sand",
     },
     {
-      name: "Venezuela",
-      value: 1,
+      name: "Theon Greyjoy",
+      value: 5,
+      victims: "Stiv, Rodrik Cassel, Myranda, Bolton Soldier, Harrag",
     }],
   }, {
     name: "House Frey",
     data: [{
-      name: "El Salvador",
-      value: 7,
+      name: "Black Walder Rivers",
+      value: 1,
+      victims: "Catelyn Stark",
     },
     {
-      name: "Venezuela",
+      name: "Lothar Frey",
       value: 1,
+      victims: "Talisa Maegyr",
     }],
   }, {
-    name: "House Tully",
+    name: "House Bolton",
     data: [{
-      name: "El Salvador",
-      value: 7,
+      name: "Ramsay Snow",
+      value: 9,
+      // eslint-disable-next-line max-len
+      victims: "Master Torturer, Medger Cerwyn, Lady Cerwyn, Unidentified Cerwyn, Old Woman, Roose Bolton, Osha, Rickon Stark, Wun Wun",
     },
     {
-      name: "Venezuela",
+      name: "Roose Bolton",
       value: 1,
+      victims: "Robb Stark",
     }],
   }, {
     name: "House Tyrell",
     data: [{
-      name: "Nepal",
-      value: 2,
-    },
-    {
-      name: "Georgia",
-      value: 5,
-    },
-    {
-      name: "Brunei Darussalam",
-      value: 4,
+      name: "Olenna Tyrell",
+      value: 1,
+      victims: "Joffrey Baratheon",
     }],
   }],
 };
@@ -222,7 +242,7 @@ const options = {
  */
 class Chart extends React.Component {
   /**
- * @return {hello}
+ * @return {chart}
  */
   render() {
     return (
