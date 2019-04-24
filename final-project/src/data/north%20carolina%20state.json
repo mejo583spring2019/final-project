@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "total": 2,
+    "page": 0,
+    "per_page": 20
+  },
+  "results": [
+    {
+      "latest.completion.completion_rate_4yr_150nt": 0.7705,
+      "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0438,
+      "school.name": "North Carolina State University at Raleigh",
+      "latest.student.demographics.race_ethnicity.two_or_more": 0.0383,
+      "latest.student.size": 22390,
+      "latest.student.demographics.race_ethnicity.black": 0.0597,
+      "latest.student.demographics.race_ethnicity.aian": 0.004,
+      "latest.student.demographics.race_ethnicity.nhpi": 0.0007,
+      "latest.student.demographics.race_ethnicity.black_non_hispanic": 0,
+      "latest.student.demographics.race_ethnicity.hispanic": 0.0488,
+      "latest.student.demographics.race_ethnicity.asian": 0.0589,
+      "latest.student.demographics.race_ethnicity.unknown": 0.0202,
+      "latest.student.demographics.race_ethnicity.asian_pacific_islander": 0,
+      "id": 199193,
+      "latest.student.demographics.race_ethnicity.white": 0.7257,
+      "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
+    },
+    {
+      "latest.completion.completion_rate_4yr_150nt": 0.4348,
+      "latest.student.demographics.race_ethnicity.non_resident_alien": 0.014,
+      "school.name": "North Carolina A & T State University",
+      "latest.student.demographics.race_ethnicity.two_or_more": 0.0393,
+      "latest.student.size": 9354,
+      "latest.student.demographics.race_ethnicity.black": 0.8208,
+      "latest.student.demographics.race_ethnicity.aian": 0.0025,
+      "latest.student.demographics.race_ethnicity.nhpi": 0.0001,
+      "latest.student.demographics.race_ethnicity.black_non_hispanic": 0,
+      "latest.student.demographics.race_ethnicity.hispanic": 0.0331,
+      "latest.student.demographics.race_ethnicity.asian": 0.0072,
+      "latest.student.demographics.race_ethnicity.unknown": 0.0339,
+      "latest.student.demographics.race_ethnicity.asian_pacific_islander": 0,
+      "id": 199102,
+      "latest.student.demographics.race_ethnicity.white": 0.0491,
+      "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "total": 1,
+    "page": 0,
+    "per_page": 20
+  },
+  "results": [
+    {
+      "latest.completion.completion_rate_4yr_150nt": 0.9457,
+      "latest.student.demographics.race_ethnicity.non_resident_alien": 0.1025,
+      "school.name": "Duke University",
+      "latest.student.demographics.race_ethnicity.two_or_more": 0.0167,
+      "latest.student.size": 6467,
+      "latest.student.demographics.race_ethnicity.black": 0.0983,
+      "latest.student.demographics.race_ethnicity.aian": 0.0059,
+      "latest.student.demographics.race_ethnicity.nhpi": 0.0008,
+      "latest.student.demographics.race_ethnicity.black_non_hispanic": 0.0983,
+      "latest.student.demographics.race_ethnicity.hispanic": 0.0816,
+      "latest.student.demographics.race_ethnicity.asian": 0.2165,
+      "latest.student.demographics.race_ethnicity.unknown": 0.022,
+      "latest.student.demographics.race_ethnicity.asian_pacific_islander": 0.2156,
+      "id": 198419,
+      "latest.student.demographics.race_ethnicity.white": 0.4557,
+      "latest.student.demographics.race_ethnicity.white_non_hispanic": 0.4659
+    }
+  ]
+}

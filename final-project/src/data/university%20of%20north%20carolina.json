@@ -6,9 +6,11 @@
   },
   "results": [
     {
+      "latest.completion.completion_rate_4yr_150nt": 0.911,
       "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0249,
       "school.name": "University of North Carolina at Chapel Hill",
       "latest.student.demographics.race_ethnicity.two_or_more": 0.0431,
+      "latest.student.size": 18169,
       "latest.student.demographics.race_ethnicity.black": 0.0784,
       "latest.student.demographics.race_ethnicity.aian": 0.0053,
       "latest.student.demographics.race_ethnicity.nhpi": 0.0007,
@@ -22,9 +24,11 @@
       "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
     },
     {
+      "latest.completion.completion_rate_4yr_150nt": 0.7189,
       "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0087,
       "school.name": "University of North Carolina Wilmington",
       "latest.student.demographics.race_ethnicity.two_or_more": 0.0353,
+      "latest.student.size": 13608,
       "latest.student.demographics.race_ethnicity.black": 0.0478,
       "latest.student.demographics.race_ethnicity.aian": 0.005,
       "latest.student.demographics.race_ethnicity.nhpi": 0.001,
@@ -38,9 +42,11 @@
       "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
     },
     {
+      "latest.completion.completion_rate_4yr_150nt": 0.6178,
       "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0178,
       "school.name": "University of North Carolina School of the Arts",
       "latest.student.demographics.race_ethnicity.two_or_more": 0.0446,
+      "latest.student.size": 897,
       "latest.student.demographics.race_ethnicity.black": 0.0914,
       "latest.student.demographics.race_ethnicity.aian": 0.0067,
       "latest.student.demographics.race_ethnicity.nhpi": 0.0011,
@@ -54,9 +60,11 @@
       "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
     },
     {
+      "latest.completion.completion_rate_4yr_150nt": 0.6203,
       "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0064,
       "school.name": "University of North Carolina at Asheville",
       "latest.student.demographics.race_ethnicity.two_or_more": 0.0442,
+      "latest.student.size": 3462,
       "latest.student.demographics.race_ethnicity.black": 0.0439,
       "latest.student.demographics.race_ethnicity.aian": 0.0049,
       "latest.student.demographics.race_ethnicity.nhpi": 0.0003,
@@ -70,9 +78,11 @@
       "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
     },
     {
+      "latest.completion.completion_rate_4yr_150nt": 0.5701,
       "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0243,
       "school.name": "University of North Carolina at Charlotte",
       "latest.student.demographics.race_ethnicity.two_or_more": 0.0418,
+      "latest.student.size": 23246,
       "latest.student.demographics.race_ethnicity.black": 0.1627,
       "latest.student.demographics.race_ethnicity.aian": 0.0031,
       "latest.student.demographics.race_ethnicity.nhpi": 0.0014,
@@ -86,9 +96,11 @@
       "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
     },
     {
+      "latest.completion.completion_rate_4yr_150nt": 0.5381,
       "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0178,
       "school.name": "University of North Carolina at Greensboro",
       "latest.student.demographics.race_ethnicity.two_or_more": 0.0463,
+      "latest.student.size": 15781,
       "latest.student.demographics.race_ethnicity.black": 0.2793,
       "latest.student.demographics.race_ethnicity.aian": 0.0039,
       "latest.student.demographics.race_ethnicity.nhpi": 0.0008,
@@ -102,9 +114,11 @@
       "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
     },
     {
+      "latest.completion.completion_rate_4yr_150nt": 0.361,
       "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0069,
       "school.name": "University of North Carolina at Pembroke",
       "latest.student.demographics.race_ethnicity.two_or_more": 0.0268,
+      "latest.student.size": 5344,
       "latest.student.demographics.race_ethnicity.black": 0.3583,
       "latest.student.demographics.race_ethnicity.aian": 0.1508,
       "latest.student.demographics.race_ethnicity.nhpi": 0.0007,
@@ -118,16 +132,18 @@
       "latest.student.demographics.race_ethnicity.white_non_hispanic": 0
     },
     {
+      "latest.completion.completion_rate_4yr_150nt": 0.1281,
       "latest.student.demographics.race_ethnicity.non_resident_alien": 0.0212,
-      "latest.student.demographics.race_ethnicity.hispanic": 0.0424,
-      "latest.student.demographics.race_ethnicity.asian": 0,
-      "latest.student.demographics.race_ethnicity.unknown": 0.6314,
       "school.name": "University of Phoenix-North Carolina",
       "latest.student.demographics.race_ethnicity.two_or_more": 0.0042,
-      "id": 484729,
+      "latest.student.size": 236,
       "latest.student.demographics.race_ethnicity.black": 0.2458,
       "latest.student.demographics.race_ethnicity.aian": 0,
       "latest.student.demographics.race_ethnicity.nhpi": 0,
+      "latest.student.demographics.race_ethnicity.hispanic": 0.0424,
+      "latest.student.demographics.race_ethnicity.asian": 0,
+      "latest.student.demographics.race_ethnicity.unknown": 0.6314,
+      "id": 484729,
       "latest.student.demographics.race_ethnicity.white": 0.0551,
       "latest.student.demographics.race_ethnicity.white_non_hispanic": null,
       "latest.student.demographics.race_ethnicity.black_non_hispanic": null,
