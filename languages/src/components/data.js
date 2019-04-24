@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "category": "1",
     "language": "Danish",
