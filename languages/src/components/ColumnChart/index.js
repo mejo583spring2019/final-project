@@ -22,10 +22,25 @@ class ColumnChart extends Component {
 
   render() {
     const options = {
+      width: 1100,
       title: {
-        text: "Basic Column Chart"
+        text: "Languages by hour",
+        fontFamily: "VT323",
+      },
+      scaleShowValues: true,
+      axisX: {
+        labelFontFamily: "VT323",
+        ticks: {
+          autoSkip: false
+        }
+      },
+      axisY: {
+        viewportMinimum: 0,
+        viewportMaximum: 2500,
+        labelFontFamily: "VT323",
       },
       animationEnabled: true,
+      theme: "light1",
       data: [
         {
           // Change type to "doughnut", "line", "splineArea", etc.
@@ -37,8 +52,7 @@ class ColumnChart extends Component {
 
     return (
       <div>
-        <h1>React Column Chart</h1>
-        <CanvasJSChart options={options}
+        <CanvasJSChart options={options} id="byHour"
         /* onRef={ref => this.chart = ref} */
         />
         {/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}

@@ -1,55 +1,58 @@
 import React, { Component } from 'react';
 import CanvasJSReact from '../../assets/canvasjs.react';
+import data from '../data.js';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-var CanvasJS = CanvasJSReact.CanvasJS;
 
 class Hour extends Component {
-  addSymbols(e) {
-    var suffixes = ["", "K", "M", "B"];
-    var order = Math.max(Math.floor(Math.log(e.value) / Math.log(1000)), 0);
-    if (order > suffixes.length - 1)
-      order = suffixes.length - 1;
-    var suffix = suffixes[order];
-    return CanvasJS.formatNumber(e.value / Math.pow(1000, order)) + suffix;
+  chartdata = this.getData(data);
+  getData(data) {
+    let chartdata = [];
+    for (let i = 0; i < data.length; i++) {
+      chartdata[i] = {
+        label: data[i].language,
+        y: parseInt(data[i].hours)
+      }
+    }
+    return chartdata;
   }
-
-  // Add for loop here
-
-
 
   render() {
     const options = {
-      animationEnabled: true,
-      theme: "light2",
-      title: {
-        text: "Most Popular Social Networking Sites"
-      },
+      width: 1000,
+      height: 500,
+      scaleShowValues: true,
       axisX: {
-        title: "Social Network",
-        reversed: true,
+        title: "Languages",
+        titleFontFamily: "VT323",
+        titleFontSize: 20,
+        labelFontFamily: "VT323",
+        labelFontSize: 8,
+        interval: 1,
+        ticks: {
+          autoSkip: false,
+        }
       },
       axisY: {
-        title: "Monthly Active Users",
-        labelFormatter: this.addSymbols
+        title: "Hours to learn",
+        titleFontFamily: "VT323",
+        titleFontSize: 20,
+        labelFontFamily: "VT323",
+        labelFontSize: 12,
       },
-      data: [{
-        type: "bar",
-        dataPoints: [
-          { y: 2200000000, label: "Facebook" },
-          { y: 1800000000, label: "YouTube" },
-          { y: 800000000, label: "Instagram" },
-          { y: 563000000, label: "Qzone" },
-          { y: 376000000, label: "Weibo" },
-          { y: 336000000, label: "Twitter" },
-          { y: 330000000, label: "Reddit" }
-        ]
-      }]
+      animationEnabled: true,
+      theme: "light1",
+      data: [
+        {
+          // Change type to "doughnut", "line", "splineArea", etc.
+          type: "column",
+          dataPoints: this.chartdata,
+        }
+      ]
     }
 
     return (
       <div>
-        <h1>React Bar Chart</h1>
-        <CanvasJSChart options={options}
+        <CanvasJSChart options={options} id="byHour"
         /* onRef={ref => this.chart = ref} */
         />
         {/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}

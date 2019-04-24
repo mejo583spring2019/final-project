@@ -4,6 +4,7 @@ const data = [
     "language": "Danish",
     "weeks": "24",
     "hours": "600",
+    "location": "Europe",
     "title": "World",
     "description": "Languages closely cognate with English"
   },
@@ -12,6 +13,7 @@ const data = [
     "language": "Dutch",
     "weeks": "24",
     "hours": "600",
+    "location": "Europe",
     "title": "World",
     "description": "Languages closely cognate with English"
   },
@@ -20,6 +22,7 @@ const data = [
     "language": "French",
     "weeks": "30",
     "hours": "750",
+    "location": "Europe",
     "title": "World",
     "description": "Languages closely cognate with English"
   },
@@ -28,6 +31,7 @@ const data = [
     "language": "Italian",
     "weeks": "24",
     "hours": "600",
+    "location": "Europe",
     "title": "World",
     "description": "Languages closely cognate with English"
   },
@@ -36,6 +40,7 @@ const data = [
     "language": "Norwegian",
     "weeks": "24",
     "hours": "600",
+    "location": "Europe",
     "title": "World",
     "description": "Languages closely cognate with English"
   },
@@ -44,6 +49,7 @@ const data = [
     "language": "Portuguese",
     "weeks": "24",
     "hours": "600",
+    "location": ["South America", "Europe"],
     "title": "World",
     "description": "Languages closely cognate with English"
   },
@@ -52,6 +58,7 @@ const data = [
     "language": "Romanian",
     "weeks": "24",
     "hours": "600",
+    "location": "Europe",
     "title": "World",
     "description": "Languages closely cognate with English"
   },
@@ -60,6 +67,7 @@ const data = [
     "language": "Spanish",
     "weeks": "24",
     "hours": "600",
+    "location": ["Europe", "South America", "North America"],
     "title": "World",
     "description": "Languages closely cognate with English"
   },
@@ -68,6 +76,7 @@ const data = [
     "language": "Swedish",
     "weeks": "24",
     "hours": "600",
+    "location": "Europe",
     "title": "World",
     "description": "Languages closely cognate with English"
   },
@@ -76,6 +85,7 @@ const data = [
     "language": "German",
     "weeks": "36",
     "hours": "900",
+    "location": "Europe",
     "title": "Moderate",
     "description": "Languages that take a little longer than Category I languages"
   },
@@ -84,6 +94,7 @@ const data = [
     "language": "Haitian Creole",
     "weeks": "36",
     "hours": "900",
+    "location": "Caribbean",
     "title": "Moderate",
     "description": "Languages that take a little longer than Category I languages"
   },
@@ -92,6 +103,7 @@ const data = [
     "language": "Indonesian",
     "weeks": "36",
     "hours": "900",
+    "location": "Asia",
     "title": "Moderate",
     "description": "Languages that take a little longer than Category I languages"
   },
@@ -100,6 +112,7 @@ const data = [
     "language": "Malay",
     "weeks": "36",
     "hours": "900",
+    "location": "Asia",
     "title": "Moderate",
     "description": "Languages that take a little longer than Category I languages"
   },
@@ -107,6 +120,7 @@ const data = [
     "category": "2",
     "language": "Swahili",
     "weeks": "36",
+    "location": "Africa",
     "hours": "900",
     "title": "Moderate",
     "description": "Languages that take a little longer than Category I languages"
@@ -116,6 +130,7 @@ const data = [
     "language": "Albanian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -124,6 +139,7 @@ const data = [
     "language": "Amharic",
     "weeks": "44",
     "hours": "1100",
+    "location": "Africa",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -132,6 +148,7 @@ const data = [
     "language": "Armenian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -140,6 +157,7 @@ const data = [
     "language": "Azerbaijani",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -148,6 +166,7 @@ const data = [
     "language": "Bengali",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -156,6 +175,7 @@ const data = [
     "language": "Bulgarian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -165,6 +185,7 @@ const data = [
     "weeks": "44",
     "hours": "1100",
     "title": "Hard",
+    "location": "Asia",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
   {
@@ -172,6 +193,7 @@ const data = [
     "language": "Czech",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -180,6 +202,7 @@ const data = [
     "language": "Dari",
     "weeks": "44",
     "hours": "1100",
+    "location": "Middle East",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -188,6 +211,7 @@ const data = [
     "language": "Estonian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -196,6 +220,7 @@ const data = [
     "language": "Farsi",
     "weeks": "44",
     "hours": "1100",
+    "location": "Middle East",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -204,6 +229,7 @@ const data = [
     "language": "Finnish",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -212,6 +238,7 @@ const data = [
     "language": "Georgian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -220,6 +247,7 @@ const data = [
     "language": "Greek",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -228,6 +256,7 @@ const data = [
     "language": "Gujarati",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -236,6 +265,7 @@ const data = [
     "language": "Hausa",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -244,6 +274,7 @@ const data = [
     "language": "Hebrew",
     "weeks": "44",
     "hours": "1100",
+    "location": "Middle East",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -252,6 +283,7 @@ const data = [
     "language": "Hindi",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -260,6 +292,7 @@ const data = [
     "language": "Hungarian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -268,6 +301,7 @@ const data = [
     "language": "Icelandic",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -276,6 +310,7 @@ const data = [
     "language": "Kazakh",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -284,6 +319,7 @@ const data = [
     "language": "Khmer",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -292,6 +328,7 @@ const data = [
     "language": "Kurdish",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -300,6 +337,7 @@ const data = [
     "language": "Kyrgyz",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -308,6 +346,7 @@ const data = [
     "language": "Lao",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -316,6 +355,7 @@ const data = [
     "language": "Latvian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -324,6 +364,7 @@ const data = [
     "language": "Lithuanian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -332,6 +373,7 @@ const data = [
     "language": "Macedonian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -340,6 +382,7 @@ const data = [
     "language": "Mongolian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -348,6 +391,7 @@ const data = [
     "language": "Nepali",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -356,6 +400,7 @@ const data = [
     "language": "Pashto",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -364,6 +409,7 @@ const data = [
     "language": "Polish",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -372,6 +418,7 @@ const data = [
     "language": "Russian",
     "weeks": "44",
     "hours": "1100",
+    "location": ["Asia", "Europe"],
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -380,6 +427,7 @@ const data = [
     "language": "Serbo-Croatian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -388,6 +436,7 @@ const data = [
     "language": "Sinhala",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -396,6 +445,7 @@ const data = [
     "language": "Slovak",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -404,6 +454,7 @@ const data = [
     "language": "Slovenian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -412,6 +463,7 @@ const data = [
     "language": "Somali",
     "weeks": "44",
     "hours": "1100",
+    "location": "Africa",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -420,6 +472,7 @@ const data = [
     "language": "Tagalog",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -428,6 +481,7 @@ const data = [
     "language": "Tajiki",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -436,6 +490,7 @@ const data = [
     "language": "Tamil",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -444,6 +499,7 @@ const data = [
     "language": "Telugu",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -452,6 +508,7 @@ const data = [
     "language": "Thai",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -460,6 +517,7 @@ const data = [
     "language": "Tibetan",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -468,6 +526,7 @@ const data = [
     "language": "Turkish",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -476,6 +535,7 @@ const data = [
     "language": "Turkmen",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -484,6 +544,7 @@ const data = [
     "language": "Ukranian",
     "weeks": "44",
     "hours": "1100",
+    "location": "Europe",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -492,6 +553,7 @@ const data = [
     "language": "Urdu",
     "weeks": "44",
     "hours": "1100",
+    "location": "Middle East",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -500,6 +562,7 @@ const data = [
     "language": "Uzbek",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -508,6 +571,7 @@ const data = [
     "language": "Vietnamese",
     "weeks": "44",
     "hours": "1100",
+    "location": "Asia",
     "title": "Hard",
     "description": "Languages with significant linguistic and/or cultural differences from English"
   },
@@ -516,6 +580,7 @@ const data = [
     "language": "Arabic",
     "weeks": "88",
     "hours": "2200",
+    "location": "Middle East",
     "title": "Advanced",
     "description": "Languages which are exceptionally difficult for native English speakers"
   },
@@ -524,6 +589,7 @@ const data = [
     "language": "Cantonese",
     "weeks": "88",
     "hours": "2200",
+    "location": "Asia",
     "title": "Advanced",
     "description": "Languages which are exceptionally difficult for native English speakers"
   },
@@ -532,6 +598,7 @@ const data = [
     "language": "Mandarin",
     "weeks": "88",
     "hours": "2200",
+    "location": "Asia",
     "title": "Advanced",
     "description": "Languages which are exceptionally difficult for native English speakers"
   },
@@ -540,6 +607,7 @@ const data = [
     "language": "Japanese",
     "weeks": "88",
     "hours": "2200",
+    "location": "Asia",
     "title": "Advanced",
     "description": "Languages which are exceptionally difficult for native English speakers"
   },
@@ -548,6 +616,7 @@ const data = [
     "language": "Korean",
     "weeks": "88",
     "hours": "2200",
+    "location": "Asia",
     "title": "Advanced",
     "description": "Languages which are exceptionally difficult for native English speakers"
   }
