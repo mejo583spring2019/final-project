@@ -48,7 +48,7 @@ function main() {
         .then(
             (json) =>
               fs.writeFileSync(
-                  `data/${s.name}.json`, JSON.stringify(json, null, 2)
+                  `data/${s.name}.js`, JSON.stringify(json.results, null, 2)
               )
         );
   });
