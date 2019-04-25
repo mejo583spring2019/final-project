@@ -1,47 +1,51 @@
 import React, { Component } from 'react';
 import {Bar} from "react-chartjs-2";
-import sal from "../../data/sal";
+import wage from "../../data/wage";
 
 
-let salary = [];
+let wages = [];
 let states= [];
 
-class Chart extends Component {
+class Wages extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      chartData: props.chartData
+      this.state = {
+      barData: props.barData
     }
   }
  /** Creates an array that seperates the data in sal.js into 2 arrays to be used in averageSalData */
  makeDataArray() {
-  for(let i = 0; i < sal.length; i++) {
-    states[i] = sal[i].state;
-    salary[i] = sal[i].salary;
-
-  }  
- 
+   console.log("test");
+   for(let i = 0; i < wage.length; i++) {
+     states[i] = wage[i].state;
+    wages[i] = wage[i].minimumWage;
+    console.log(wages[i])
+    
+    if(wages[i] === "0") {
+      wages[i] = "7.25";
+      console.log(states)
 }
-  static defaultProps = {
-    displayTitle: true,
-    displayLegend: true,
-    legendPosition: "bottom"
-  }
-    /** calls functions after it has loaded */
-    componentWillMount() {
-      this.makeDataArray(); 
-      
-      this.averageSalData();
+      console.log(wages[i] + " test 2")
     }
-    /** Builds Salary Chart */
-    averageSalData() {
-      this.setState({
-        chartData: {
-          labels: states,
-          datasets: [
-            {
-              label: "Average Salary (in USD)",
-              data: salary,
+    
+  } 
+  
+
+
+/** calls functions after it has loaded */
+componentWillMount() {
+  this.makeDataArray();
+  this.averageWageData();
+}
+/** Builds wage wage */
+averageWageData() {
+  this.setState({
+    wageData: {
+      labels: states,
+      datasets: [
+        {
+          label: "Average wage (in USD)",
+              data: wages,
               backgroundColor: 'rgba(255,0,0.5)'
             }
           ]
@@ -50,13 +54,13 @@ class Chart extends Component {
     }
   render() {
     return (
-      <div className="chart">
+      <div className="wage">
         <Bar
-          data={this.state.chartData}
+          data={this.state.wageData}
           options={{
             title: {
               display: this.props.displayTitle,
-              text: "Salary in Each US State",
+              text: "wage in Each US State",
               fontSize: 25
             },
             legend: {
@@ -81,4 +85,4 @@ class Chart extends Component {
   }
 }
 
-export default Chart;
+export default Wages;

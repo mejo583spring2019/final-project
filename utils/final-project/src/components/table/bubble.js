@@ -5,9 +5,7 @@ import wage from "../../data/wage";
 import gdp from "../../data/gdp";
 
 
-let salary = [];  /** average salary in each state */
-let min= [];  /** minimum wage in each state */
-let gross= [];  /** gdp in each state */
+
 let states= [];  /** gdp in each state */
 
 
@@ -19,23 +17,33 @@ class Bubbles extends Component {
       bubbleData: props.bubbleData
     }
   }
+
+ 
  /** Creates an array that seperates the data in sal.js into 2 arrays to be used in averageSalData */
  makeDataArray() {
-  console.log("test");
-  for(let i = 0; i < sal.length; i++) {
-    salary[i] = sal[i].salary;
-    states[i] = sal[i].state;
-    gross[i] = gdp[i].gdp;
-  } 
-  for(let i = 0; i < wage.length; i++) {
 
-    if (wage[i].year === "2015") {
-      min[i] = wage[i].minimum-wage;
+  let wages2015 = wage.filter(r => r.year === "2015");
+  let wagesByState = {};
+  let gdpByState = {};
 
-    }
-  }
- 
+  wages2015.forEach(r => {
+    wagesByState[r.state] = r;
+  })
+  gdp.forEach(r => {
+    gdpByState[r.state] = r;
+  })
+  let bubbleArray = [];
+  sal.forEach(d => {
+    bubbleArray.push({
+      x: Number.parseFloat(wagesByState[d.state].minimumWage).toFixed(2),
+      y: parseInt( d.salary),
+      r: parseInt(gdpByState[d.state].gdp)*.00005,
+    })
+  })
+
+  return bubbleArray;
 }
+
   static defaultProps = {
     displayTitle: true,
     displayLegend: true,
@@ -49,23 +57,53 @@ class Bubbles extends Component {
     }
     /** Builds Salary Chart */
     averageSalData() {
+      // data = {
+      //   labels: ['January'],
+      //   datasets: [
+      //     {
+      //       label: 'My First dataset',
+      //       fill: false,
+      //       lineTension: 0.1,
+      //       backgroundColor: 'rgba(75,192,192,0.4)',
+      //       borderColor: 'rgba(75,192,192,1)',
+      //       borderCapStyle: 'butt',
+      //       borderDash: [],
+      //       borderDashOffset: 0.0,
+      //       borderJoinStyle: 'miter',
+      //       pointBorderColor: 'rgba(75,192,192,1)',
+      //       pointBackgroundColor: '#fff',
+      //       pointBorderWidth: 1,
+      //       pointHoverRadius: 5,
+      //       pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+      //       pointHoverBorderColor: 'rgba(220,220,220,1)',
+      //       pointHoverBorderWidth: 2,
+      //       pointRadius: 1,
+      //       pointHitRadius: 10,
+      //       data: [{x:10,y:20,r:5}]
+      //     }
+      //   ]
+      // };
       this.setState({
         bubbleData: {
           labels: states,
-          datasets: [
-            {
+          datasets: [{
               label: "Average Salary (in USD)",
-              data: {
-                // X Value
-                x: min,
-            
-                // Y Value
-                y: salary,
-            
-                // Bubble radius in pixels (not scaled).
-                r: gross
-            },
-              backgroundColor: 'rgba(255,225,0.5)'
+              data:this.makeDataArray(),
+              backgroundColor: 'rgba(75,192,192,0.4)',
+              borderColor: 'rgba(75,192,192,1)',
+              borderCapStyle: 'butt',
+              borderDash: [],
+              borderDashOffset: 0.0,
+              borderJoinStyle: 'miter',
+              pointBorderColor: 'rgba(75,192,192,1)',
+              pointBackgroundColor: '#fff',
+              pointBorderWidth: 1,
+              pointHoverRadius: 5,
+              pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+              pointHoverBorderColor: 'rgba(220,220,220,1)',
+              pointHoverBorderWidth: 2,
+              pointRadius: 1,
+              pointHitRadius: 10
             }
           ]
         }
@@ -77,13 +115,17 @@ class Bubbles extends Component {
         <Bubble
           data={this.state.bubbleData}
           options={{
-            title: {
-              display: this.props.displayTitle,
-              text: "Salary, Minimum Wage and GDP of each US State",
-              fontSize: 25
-            },
-            legend: {
-              display: true,
+            scales: {
+              xAxes: [{
+                gridLines: {
+                  display: false
+                }
+              }],
+              yAxes: [{
+                gridLines: {
+                  display: false
+                }
+              }]
             }
           }}
         />

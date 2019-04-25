@@ -1,5 +1,4 @@
 const gdp = [
-{"state":"United States","gdp":"19,263,350","percent_national":"100.00"},
 {"state":"California","gdp":"2746873","percent_national":"14.17"},
 {"state":"Texas","gdp":"1696206","percent_national":"8.64"},
 {"state":"New York","gdp":"1547116","percent_national":"8.1"},

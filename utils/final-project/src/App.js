@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
 import Chart from "./components/table/chart";
-import Bubbles from "./components/table/chart";
-
-// import table from "./components/table/index"
-
-
-
-
-
+import Bubbles from "./components/table/bubble";
+import Wages from "./components/table/bar";
+import Jumbotrons from "./components/story/jumbotron";
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       chartData: {},
-      bubbleData: {}
+      bubbleData: {},
+      barData: {}
+
 
     }
   }
@@ -29,8 +26,13 @@ class App extends Component {
           </p>
           
         </header>
+        <Jumbotrons />
         <Chart chartData={this.state.chartData}/>
-        <Bubbles bubbleData={this.state.bubbleData}/>
+        <Bubbles bubbleData={this.state.bubbleData}/> 
+        <Wages barData={this.state.barData}/> 
+        
+
+
 
       </div>
     );

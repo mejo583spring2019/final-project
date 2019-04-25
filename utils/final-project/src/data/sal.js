@@ -20,7 +20,6 @@ const sal = [
 {"state":"Illinois","salary":"59588"},
 {"state":"Rhode Island","salary":"58073"},
 {"state":"Vermont","salary":"56990"},
-{"state":"United states","salary":"55775"},
 {"state":"Pennsylvania","salary":"55702"},
 {"state":"Texas","salary":"55653"},
 {"state":"Wisconsin","salary":"55638"},
