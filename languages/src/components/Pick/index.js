@@ -45,7 +45,7 @@ class About extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">By location</Nav.Link>
+                    <Nav.Link eventKey="first">By region</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="second">By week</Nav.Link>
@@ -61,12 +61,9 @@ class About extends Component {
                 <Tab.Content>
                   {/* CHART THREE - MAP*/}
                   <Tab.Pane eventKey="first">
-                    <h1 className="section-header">By location</h1>
+                    <h1 className="section-header">By region</h1>
                     <Row>
                       <Col className="caption"><p>Determines which regions of the world contain the highest concentration of each level of language difficulty.</p></Col>
-                    </Row>
-                    <Row>
-                      <Col className="caption"><p>Estimates the number of weeks it takes to learn a particular language.</p></Col>
                     </Row>
                     <Row>
                       <Col className="chart"><Map /></Col>

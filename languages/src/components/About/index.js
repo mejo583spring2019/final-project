@@ -25,10 +25,9 @@ class About extends Component {
         <Container>
           <Row>
             <Col id="intro">
-              <p><strong>According to the Foreign Service Institute:</strong></p>
-              <p><em>"All estimates relating to the length of time needed to elarn these languages to a S-3/R-3 (tktk) proficiency level assume tha tthe student is a native speaker of English with no prior knowledge of the language to be learned. It is also assumed that the student has very good or better aptitude for classroom learning of foreign languages."</em></p>
-              <p><strong>The Foreign Service Institute also notes that:</strong></p>
-              <p><em>"Although languages are grouped into general 'categories' of difficulty for native English speakers, within each category some languages are more difficult than others."</em></p>
+              <p>The information on this website is based on data pulled from the Foreign Language Institute. The estimates assume that students are native English speakers with no prior knowledge of a second language, as well as that the students have a high aptitude for classroom learning of foreign languages.</p>
+              <p>Languages are organized into four categories, each of which varies in degree of difficulty for native English speakers. The Foreign Language Institute notes that languages within the same category may vary in individual difficulty. </p>
+              <p><em className="blue">Students should note that this list is not exhaustive.</em> This website provides information and resources on the 70 most studied languages around the world.</p>
             </Col>
           </Row>
         </Container>
@@ -57,16 +56,16 @@ class About extends Component {
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
                     <img
-                      className="category-image"
+                      className="measure"
                       alt="earth"
-                      src={require('../../media/moderate.png')} />
+                      src={require('../../media/world.png')} />
                     <h1 className="section-header">World languages</h1>
                     <Row>
                       <Col className="caption"><p>Also known as Category I languages, world languages denotes those languages that are easiest for English speakers to learn and which closely cognate with English.</p></Col>
                     </Row>
                     <Row>
                       <Col>
-                        <h3 className="small-header">Such languages include:</h3>
+                        <h3 className="small-header">World languages include:</h3>
                       </Col>
                     </Row>
                     <Row>
@@ -85,13 +84,17 @@ class About extends Component {
                   </Tab.Pane>
 
                   <Tab.Pane eventKey="second">
+                    <img
+                      className="measure"
+                      alt="earth"
+                      src={require('../../media/moderate.png')} />
                     <h1 className="section-header">Moderate languages</h1>
                     <Row>
                       <Col className="caption"><p>Also known as Category II languages, moderate languages denotes those languages which take slightly longer for native English speakers to master.</p></Col>
                     </Row>
                     <Row>
                       <Col>
-                        <h3 className="small-header">Such languages include:</h3>
+                        <h3 className="small-header">Moderate languages include:</h3>
                       </Col>
                     </Row>
                     <Row>
@@ -110,13 +113,17 @@ class About extends Component {
                   </Tab.Pane>
 
                   <Tab.Pane eventKey="third">
+                    <img
+                      className="measure"
+                      alt="earth"
+                      src={require('../../media/difficult.png')} />
                     <h1 className="section-header">Hard languages</h1>
                     <Row>
                       <Col className="caption"><p>Also known as Category III languages, hard languages denotes those languages that are relatively difficult for English speakers to learn. Languages in this category, the largest of the four, have significant linguistic and/or cultural differences from English.</p></Col>
                     </Row>
                     <Row>
                       <Col>
-                        <h3 className="small-header">Such languages include:</h3>
+                        <h3 className="small-header">Hard languages include:</h3>
                       </Col>
                     </Row>
                     <Row>
@@ -136,13 +143,17 @@ class About extends Component {
                     <br />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
+                    <img
+                      className="measure"
+                      alt="earth"
+                      src={require('../../media/advanced.png')} />
                     <h1 className="section-header">Advanced languages</h1>
                     <Row>
                       <Col className="caption"><p>Also known as Category IV languages, advanced languages denotes those languages which are exceptionally difficult for native English speakers to learn. Languages in this category are likely to require over a year and a half to master.</p></Col>
                     </Row>
                     <Row>
                       <Col>
-                        <h3 className="small-header">Such languages include:</h3>
+                        <h3 className="small-header">Advanced languages include:</h3>
                       </Col>
                     </Row>
                     <Row>

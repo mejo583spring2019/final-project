@@ -1,3 +1,17 @@
+
 .caption{
   max-width: 900px;
+}
+
+.links a {
+  text-decoration: underline;
+  font-weight: 300;
+  color: black;
+  color: #007BFF;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: 600;
 }

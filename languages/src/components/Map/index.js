@@ -5,12 +5,28 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 class Map extends Component {
   chartdata = this.getData(data);
+
+  categoryOne(data) {
+    const category1data = data.filter(val => val.category === 1).map(val => val.language);
+    const category1result = {};
+    category1data.forEach(val => {
+      category1result[val] = 1 + (category1result[val] || 0);
+    })
+    console.log(category1result);
+    // { 
+    //   Danish: 3,
+    //   Dutch: 2,
+    //   Spanih: 1,
+    // }
+  }
+
+
   getData(data) {
     let chartdata = [];
     for (let i = 0; i < data.length; i++) {
       chartdata[i] = {
-        label: data[i].language,
-        y: parseInt(data[i].hours)
+        label: data[i].region,
+        y: data[i].region.length
       }
     }
     return chartdata;
@@ -44,7 +60,7 @@ class Map extends Component {
       data: [
         {
           // Change type to "doughnut", "line", "splineArea", etc.
-          type: "column",
+          type: "pie",
           dataPoints: this.chartdata,
         }
       ]

@@ -18,6 +18,10 @@ a:hover{
   color: #797A7A;
 }
 
+.blue {
+color: #007BFF;
+}
+
 .section-header {
   font-size: 2rem;
 }
@@ -25,8 +29,11 @@ a:hover{
 .small-header {
   margin-top: 30px;
   font-size: 1.4rem;
+  font-weight: 600;
 }
-
+.measure {
+  height: 120px;
+}
 .list {
   font-style: italic;
 }

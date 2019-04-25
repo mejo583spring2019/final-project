@@ -28,55 +28,48 @@ class Resources extends Component {
               <strong>Strong language skills begin with a strong education.</strong> Check out the resources below to get started on your journey to learning a new language.
             </Col>
           </Row>
+          <Row>
+            <Col className="links">
+              <h2>General</h2>
+              <h4>Rosetta Stone</h4>
+              <p><a href="https://www.rosettastone.com" target="_blank" rel="noopener noreferrer">Rosetta Stone</a></p>
+              <h4>Duolingo</h4>
+              <p><a href="https://www.duolingo.com/" target="_blank" rel="noopener noreferrer">Duolingo*</a></p>
+              <h4>Babbel</h4>
+              <p><a href="https://www.babbel.com/" target="_blank" rel="noopener noreferrer">Babbel*</a></p>
+              <h4>Busuu</h4>
+              <p><a href="https://www.busuu.com/" target="_blank" rel="noopener noreferrer">Busuu</a></p>
+              <h4>Memrise</h4>
+              <p><a href="https://www.memrise.com/" target="_blank" rel="noopener noreferrer">Memrise*</a></p>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+
+            </Col>
+            <Col className="links">
+              <h2>By language</h2>
+              <p>Online resources sorted by language.</p>
+              <p><a href="https://www.reddit.com/r/languagelearning/wiki/index" target="_blank" rel="noopener noreferrer">Reddit</a></p>
+
+              <p><a href="https://sites.google.com/site/links4languages/" target="_blank" rel="noopener noreferrer">Links4Languages</a></p>
+              <p><a href="https://http://www.languagelinksdatabase.com/free-language-resources/" target="_blank" rel="noopener noreferrer">Language Links Database</a></p>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <p><em>*Available on mobile</em></p>
+            </Col>
+          </Row>
         </Container>
 
-        {/* Tabs */}
-        <div id="category-tabs">
-          <Tab.Container defaultActiveKey="first">
-            <Row>
-              <Col sm={3}>
-                <Nav variant="pills" className="flex-column">
-                  <Nav.Item>
-                    <Nav.Link eventKey="first">General resources</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="second">By language</Nav.Link>
-                  </Nav.Item>
-                </Nav>
-              </Col>
-              <Col sm={9}>
-                <Tab.Content>
-                  <Tab.Pane eventKey="first">
-                    <h1 className="section-header">General resources</h1>
-                    <Row>
-                      <Col>
-                        <p>French</p>
-                        <p>French</p>
-                      </Col>
-                    </Row>
-                  </Tab.Pane>
 
-                  <Tab.Pane eventKey="second">
-                    <h1 className="section-header">By language</h1>
-                    <Row>
-                      <Col>
-                        <p>French</p>
-                      </Col>
-                      <Col>
-                        <p>French</p>
-                        <p>French</p>
-                      </Col>
-                      <Col>
-                        <p>French</p>
-                        <p>French</p>
-                      </Col>
-                    </Row>
-                  </Tab.Pane>
-                </Tab.Content>
-              </Col>
-            </Row>
-          </Tab.Container>
-        </div>
       </div>
     );
   }
