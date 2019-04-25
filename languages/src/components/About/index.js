@@ -25,9 +25,22 @@ class About extends Component {
         <Container>
           <Row>
             <Col id="intro">
-              <p>The information on this website is based on data pulled from the Foreign Language Institute. The estimates assume that students are native English speakers with no prior knowledge of a second language, as well as that the students have a high aptitude for classroom learning of foreign languages.</p>
-              <p>Languages are organized into four categories, each of which varies in degree of difficulty for native English speakers. The Foreign Language Institute notes that languages within the same category may vary in individual difficulty. </p>
-              <p><em className="blue">Students should note that this list is not exhaustive.</em> This website provides information and resources on the 70 most studied languages around the world.</p>
+              <p>The information on this website is based on
+                 data pulled from the Foreign Language Institute.
+                  The estimates assume that students are native
+                   English speakers with no prior knowledge of
+                    a second language, as well as that the students
+                     have a high aptitude for classroom learning of
+                      foreign languages.</p>
+              <p>Languages are organized into four categories, each
+                 of which varies in degree of difficulty for
+                  native English speakers. The Foreign Language
+                   Institute notes that languages within the same
+                    category may vary in individual difficulty. </p>
+              <p><em className="blue">Students should note
+               that this list is not exhaustive.</em> This website
+                  provides information and resources on the 70
+                 most studied languages around the world.</p>
             </Col>
           </Row>
         </Container>

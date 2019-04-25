@@ -6,12 +6,12 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 class Week extends Component {
   chartdata = this.getData(data);
   getData(data) {
-    let chartdata = [];
+    const chartdata = [];
     for (let i = 0; i < data.length; i++) {
       chartdata[i] = {
         label: data[i].language,
-        y: parseInt(data[i].weeks)
-      }
+        y: parseInt(data[i].weeks),
+      };
     }
     return chartdata;
   }
@@ -30,7 +30,7 @@ class Week extends Component {
         interval: 1,
         ticks: {
           autoSkip: false,
-        }
+        },
       },
       axisY: {
         title: "Weeks to learn",
@@ -46,16 +46,15 @@ class Week extends Component {
           // Change type to "doughnut", "line", "splineArea", etc.
           type: "bar",
           dataPoints: this.chartdata,
-        }
-      ]
-    }
+        },
+      ],
+    };
 
     return (
       <div>
         <CanvasJSChart options={options} id="byWeek"
         /* onRef={ref => this.chart = ref} */
         />
-        {/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
       </div>
     );
   }

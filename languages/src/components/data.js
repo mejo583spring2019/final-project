@@ -6,7 +6,7 @@ const data = [
     "hours": "600",
     "region": "Europe",
     "title": "World",
-    "description": "Languages closely cognate with English"
+    "description": "Languages closely cognate with English",
   },
   {
     "category": "1",
@@ -15,7 +15,7 @@ const data = [
     "hours": "600",
     "region": "Europe",
     "title": "World",
-    "description": "Languages closely cognate with English"
+    "description": "Languages closely cognate with English",
   },
   {
     "category": "1",
@@ -24,7 +24,7 @@ const data = [
     "hours": "750",
     "region": "Europe",
     "title": "World",
-    "description": "Languages closely cognate with English"
+    "description": "Languages closely cognate with English",
   },
   {
     "category": "1",
@@ -33,7 +33,7 @@ const data = [
     "hours": "600",
     "region": "Europe",
     "title": "World",
-    "description": "Languages closely cognate with English"
+    "description": "Languages closely cognate with English",
   },
   {
     "category": "1",
@@ -42,7 +42,7 @@ const data = [
     "hours": "600",
     "region": "Europe",
     "title": "World",
-    "description": "Languages closely cognate with English"
+    "description": "Languages closely cognate with English",
   },
   {
     "category": "1",
@@ -51,7 +51,7 @@ const data = [
     "hours": "600",
     "region": ["South America", "Europe"],
     "title": "World",
-    "description": "Languages closely cognate with English"
+    "description": "Languages closely cognate with English",
   },
   {
     "category": "1",
@@ -60,7 +60,7 @@ const data = [
     "hours": "600",
     "region": "Europe",
     "title": "World",
-    "description": "Languages closely cognate with English"
+    "description": "Languages closely cognate with English",
   },
   {
     "category": "1",
@@ -69,7 +69,7 @@ const data = [
     "hours": "600",
     "region": ["Europe", "South America", "North America"],
     "title": "World",
-    "description": "Languages closely cognate with English"
+    "description": "Languages closely cognate with English",
   },
   {
     "category": "1",
@@ -78,7 +78,7 @@ const data = [
     "hours": "600",
     "region": "Europe",
     "title": "World",
-    "description": "Languages closely cognate with English"
+    "description": "Languages closely cognate with English",
   },
   {
     "category": "2",
@@ -87,7 +87,7 @@ const data = [
     "hours": "900",
     "region": "Europe",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages"
+    "description": "Languages that take a little longer than Category I languages",
   },
   {
     "category": "2",
@@ -96,7 +96,7 @@ const data = [
     "hours": "900",
     "region": "Caribbean",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages"
+    "description": "Languages that take a little longer than Category I languages",
   },
   {
     "category": "2",
@@ -105,7 +105,7 @@ const data = [
     "hours": "900",
     "region": "Asia",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages"
+    "description": "Languages that take a little longer than Category I languages",
   },
   {
     "category": "2",
@@ -114,7 +114,7 @@ const data = [
     "hours": "900",
     "region": "Asia",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages"
+    "description": "Languages that take a little longer than Category I languages",
   },
   {
     "category": "2",
@@ -123,7 +123,7 @@ const data = [
     "region": "Africa",
     "hours": "900",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages"
+    "description": "Languages that take a little longer than Category I languages",
   },
   {
     "category": "3",
@@ -132,7 +132,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -141,7 +141,7 @@ const data = [
     "hours": "1100",
     "region": "Africa",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -150,7 +150,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -159,7 +159,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -168,7 +168,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -177,7 +177,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -186,7 +186,7 @@ const data = [
     "hours": "1100",
     "title": "Hard",
     "region": "Asia",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -195,7 +195,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -204,7 +204,7 @@ const data = [
     "hours": "1100",
     "region": "Middle East",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -213,7 +213,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -222,7 +222,7 @@ const data = [
     "hours": "1100",
     "region": "Middle East",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -231,7 +231,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -240,7 +240,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -249,7 +249,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -258,7 +258,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -267,7 +267,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -276,7 +276,7 @@ const data = [
     "hours": "1100",
     "region": "Middle East",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -285,7 +285,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -294,7 +294,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -303,7 +303,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -312,7 +312,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -321,7 +321,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -330,7 +330,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -339,7 +339,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -348,7 +348,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -357,7 +357,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -366,7 +366,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -375,7 +375,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -384,7 +384,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -393,7 +393,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -402,7 +402,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -411,7 +411,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -420,7 +420,7 @@ const data = [
     "hours": "1100",
     "region": ["Asia", "Europe"],
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -429,7 +429,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -438,7 +438,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -447,7 +447,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -456,7 +456,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -465,7 +465,7 @@ const data = [
     "hours": "1100",
     "region": "Africa",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -474,7 +474,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -483,7 +483,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -492,7 +492,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -501,7 +501,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -510,7 +510,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -519,7 +519,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -528,7 +528,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -537,7 +537,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -546,7 +546,7 @@ const data = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -555,7 +555,7 @@ const data = [
     "hours": "1100",
     "region": "Middle East",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -564,7 +564,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "3",
@@ -573,7 +573,7 @@ const data = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English"
+    "description": "Languages with significant linguistic and/or cultural differences from English",
   },
   {
     "category": "4",
@@ -582,7 +582,7 @@ const data = [
     "hours": "2200",
     "region": "Middle East",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers"
+    "description": "Languages which are exceptionally difficult for native English speakers",
   },
   {
     "category": "4",
@@ -591,7 +591,7 @@ const data = [
     "hours": "2200",
     "region": "Asia",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers"
+    "description": "Languages which are exceptionally difficult for native English speakers",
   },
   {
     "category": "4",
@@ -600,7 +600,7 @@ const data = [
     "hours": "2200",
     "region": "Asia",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers"
+    "description": "Languages which are exceptionally difficult for native English speakers",
   },
   {
     "category": "4",
@@ -609,7 +609,7 @@ const data = [
     "hours": "2200",
     "region": "Asia",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers"
+    "description": "Languages which are exceptionally difficult for native English speakers",
   },
   {
     "category": "4",
@@ -618,8 +618,7 @@ const data = [
     "hours": "2200",
     "region": "Asia",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers"
+    "description": "Languages which are exceptionally difficult for native English speakers",
   }
 ];
-
 export default data;

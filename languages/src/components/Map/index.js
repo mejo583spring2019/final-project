@@ -1,19 +1,19 @@
 import React, { Component } from "react";
 import CanvasJSReact from "../../assets/canvasjs.react";
 import data from "../data.js";
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 class Map extends Component {
   chartdata = this.getData(data);
 
   categoryOne(data) {
-    const category1data = data.filter(val => val.category === 1).map(val => val.language);
+    const category1data = data.filter(val =>
+      val.category === 1).map(val => val.language);
     const category1result = {};
     category1data.forEach(val => {
       category1result[val] = 1 + (category1result[val] || 0);
-    })
-    console.log(category1result);
-    // { 
+    });
+    // {
     //   Danish: 3,
     //   Dutch: 2,
     //   Spanih: 1,
@@ -22,11 +22,11 @@ class Map extends Component {
 
 
   getData(data) {
-    let chartdata = [];
+    const chartdata = [];
     for (let i = 0; i < data.length; i++) {
       chartdata[i] = {
         label: data[i].region,
-        y: data[i].region.length
+        y: data[i].region.length,
       }
     }
     return chartdata;
@@ -46,7 +46,7 @@ class Map extends Component {
         interval: 1,
         ticks: {
           autoSkip: false,
-        }
+        },
       },
       axisY: {
         title: "Hours to learn",
@@ -62,16 +62,15 @@ class Map extends Component {
           // Change type to "doughnut", "line", "splineArea", etc.
           type: "pie",
           dataPoints: this.chartdata,
-        }
-      ]
-    }
+        },
+      ],
+    };
 
     return (
       <div>
         <CanvasJSChart options={options} id="byHour"
         /* onRef={ref => this.chart = ref} */
         />
-        {/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
       </div>
     );
   }
