@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import CanvasJSReact from '../../assets/canvasjs.react';
-import data from '../data.js';
+import React, { Component } from "react";
+import CanvasJSReact from "../../assets/canvasjs.react";
+import data from "../data.js";
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 class Hour extends Component {

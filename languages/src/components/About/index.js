@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 // Bootstrap
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Tab from 'react-bootstrap/Tab';
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
+import Row from "react-bootstrap/Row";
+import Tab from "react-bootstrap/Tab";
 
 // Stylesheets
 import "./styles.css";
@@ -58,7 +58,7 @@ class About extends Component {
                     <img
                       className="measure"
                       alt="earth"
-                      src={require('../../media/world.png')} />
+                      src={require("../../media/world.png")} />
                     <h1 className="section-header">World languages</h1>
                     <Row>
                       <Col className="caption"><p>Also known as Category I languages, world languages denotes those languages that are easiest for English speakers to learn and which closely cognate with English.</p></Col>
@@ -87,7 +87,7 @@ class About extends Component {
                     <img
                       className="measure"
                       alt="earth"
-                      src={require('../../media/moderate.png')} />
+                      src={require("../../media/moderate.png")} />
                     <h1 className="section-header">Moderate languages</h1>
                     <Row>
                       <Col className="caption"><p>Also known as Category II languages, moderate languages denotes those languages which take slightly longer for native English speakers to master.</p></Col>
@@ -116,7 +116,7 @@ class About extends Component {
                     <img
                       className="measure"
                       alt="earth"
-                      src={require('../../media/difficult.png')} />
+                      src={require("../../media/difficult.png")} />
                     <h1 className="section-header">Hard languages</h1>
                     <Row>
                       <Col className="caption"><p>Also known as Category III languages, hard languages denotes those languages that are relatively difficult for English speakers to learn. Languages in this category, the largest of the four, have significant linguistic and/or cultural differences from English.</p></Col>
@@ -146,7 +146,7 @@ class About extends Component {
                     <img
                       className="measure"
                       alt="earth"
-                      src={require('../../media/advanced.png')} />
+                      src={require("../../media/advanced.png")} />
                     <h1 className="section-header">Advanced languages</h1>
                     <Row>
                       <Col className="caption"><p>Also known as Category IV languages, advanced languages denotes those languages which are exceptionally difficult for native English speakers to learn. Languages in this category are likely to require over a year and a half to master.</p></Col>
