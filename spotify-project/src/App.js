@@ -2,6 +2,7 @@
 import React from "react";
 import "./App.css";
 import Top10 from "./components/top10";
+import Top100 from "./components/top100";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </p>
       </div>
       <Top10></Top10>
+      <Top100></Top100>
     </div>
   );
 }

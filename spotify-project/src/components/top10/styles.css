@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 
-.Top10Container{
+
+#Top10Container{
     background-color: white;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -9,13 +10,21 @@
 }
 
 #Top10Intro{
-    padding: 15px;
+    padding: 15px 5px 0px 5px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    text-align: center;
+    font-weight: 300;
+    color: #1DB954;
 }
 
-.Top10Grid {
+#IntroSpan {
+    font-weight: 500;
+}
+
+#Top10Grid {
     display: grid;
     height: 80vh;
     padding: 10px;
@@ -37,7 +46,7 @@
 }
 #A02 {
     grid-area: A02;
-    background-image: url("img/DespacitoRemixCover.png");
+    background-image: url("img/DespacitoRemixCoverEdit.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -97,48 +106,82 @@
     border-radius: 10px;
 }
 
-.Top10SpotText{
-    margin: 0px;
-    opacity: 0;
-    transition: .5s;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.Top10SpotNumber{
-    margin: 0px;
-    opacity: 1;
-    text-align: center;
-    height: 40%;
-    padding-top: 1vh;
-    font-size: 8vh;
-}
-
 .Top10SpotCover1{
     padding: 0;
     margin: 0;
     height: 100%;
     background-color:rgba(218, 165, 32, .8);
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60% 40%;
+    grid-template-areas:
+        "NUM TIT TIT TIT PIC"
+        "NUM ART ART ART PIC"
 }
 
-#Number1SpotText{
-    margin: 0px;
+#Number1NumDiv{
+    grid-area: NUM;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Number1TitleDiv{
+    grid-area: TIT;
+    display: flex;
+    align-items: flex-end;
+}
+
+#Number1ArtistDiv{
+    grid-area: ART;
+    display: flex;
+    align-items: flex-start
+}
+
+#Number1ArtworkDiv{
+    grid-area: PIC;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#Number1Artwork{
+    margin-right: 1vw;
+    width: 70%;
+    border-radius: 10px;
+    background-image: url(img/ShapeOfYouCover.png);
+    background-position: center;
+    background-size: cover;
     opacity: 0;
     transition: .5s;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
+}
+
+#Number1Artwork:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
 
 #Number1SpotNumber{
-    margin: 0px;
-    opacity: 1;
-    text-align: center;
-    height: 40%;
-    padding-top: 1vh;
-    font-size: 8vh;
+    font-size: 30vh;
+    font-weight: 500;
+}
+
+#Number1SpotTitle{
+    margin: 0;
+    font-size: 6.5vw;
+    opacity: 0;
+    font-weight: 500;
+    transition: .5s;
+}
+
+#Number1SpotArtist{
+    margin: 0;
+    font-size: 4vw;
+    opacity: 0;
+    font-weight: 300;
+    transition: .5s
 }
 
 .Top10SpotCover2-4{
@@ -147,6 +190,7 @@
     height: 100%;
     background-color:rgba(192, 192, 192, .8);
     border-radius: 10px;
+    font-size: 1.5vw;
 }
 
 .Top10SpotCover5-10{
@@ -155,13 +199,67 @@
     height: 100%;
     background-color:rgba(205, 127, 50, .8);
     border-radius: 10px;
+    font-size: 1vw;
 }
 
-.Top10Spot :hover .Top10SpotText{
+.Top10SpotNumber{
+    margin: 0px;
+    opacity: 1;
+    text-align: center;
+    height: 40%;
+    padding-top: .5vh;
+    font-size: 8vh;
+    font-weight: 500;
+}
+
+.Top10SpotTitle{
+    margin: 0px;
+    opacity: 0;
+    transition: .5s;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0px;
+    font-weight: 500;
+}
+
+.Top10SpotArtist{
+    margin: 0px;
+    opacity: 0;
+    transition: .5s;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1vh;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+.Top10Spot:hover .Top10SpotTitle{
+    opacity: 1;
+    transition: .5s;
+}
+
+.Top10Spot:hover .Top10SpotArtist{
     opacity: 1;
     transition: .5s;
 }
 
 .Top10Spot :hover {
     cursor: pointer;
+}
+
+#A01 :hover #Number1SpotTitle{
+    opacity: 1;
+    transition: .5s;
+}
+
+#A01 :hover #Number1Artwork{
+    opacity: 1;
+    transition: .5s;
+}
+
+#A01 :hover #Number1SpotArtist{
+    opacity: .75 ;
+    transition: .5s;
 }
