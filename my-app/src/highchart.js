@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 // import { render } from "react-dom";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
@@ -35,12 +35,12 @@ const options = {
   },
   plotOptions: {
     packedbubble: {
-      minSize: "20%",
-      maxSize: "100%",
+      minSize: "5%",
+      maxSize: "600%",
       zMin: 0,
       zMax: 1000,
       layoutAlgorithm: {
-        gravitationalConstant: 0.05,
+        gravitationalConstant: 0.01,
         splitSeries: true,
         seriesInteraction: false,
         dragBetweenSeries: true,
@@ -65,7 +65,7 @@ const options = {
   series: [{
     name: "House Stark",
     label: "House Stark",
-    color: "rgba(46, 204, 113, .5)",
+    color: "rgba(120,120,120,1)",
     data: [{
       name: "Arya Stark",
       value: 11,
@@ -105,6 +105,7 @@ const options = {
     }],
   }, {
     name: "House Targaryen",
+    color: "rgba(219, 40, 0, 1)",
     data: [{
       name: "Aerys II Targaryen",
       value: 2,
@@ -128,6 +129,7 @@ const options = {
     }],
   }, {
     name: "House Baratheon",
+    color: "rgba(101,67,33,1)",
     data: [{
       name: "Robert Baratheon",
       value: 1,
@@ -156,6 +158,7 @@ const options = {
     }],
   }, {
     name: "House Lannister",
+    color: "rgba(255,165,0, .5)",
     data: [{
       name: "Jamie Lannister",
       value: 5,
@@ -175,6 +178,7 @@ const options = {
     }],
   }, {
     name: "House Martell",
+    color: "rgba(230, 126, 34, 1)",
     data: [{
       name: "Ellaria Sand",
       value: 2,
@@ -192,6 +196,7 @@ const options = {
     }],
   }, {
     name: "House Greyjoy",
+    color: "rgba(72,72,72,1))",
     data: [{
       name: "Euron Greyjoy",
       value: 3,
@@ -204,6 +209,7 @@ const options = {
     }],
   }, {
     name: "House Frey",
+    color: "rgba(50, 71, 139, 1)",
     data: [{
       name: "Black Walder Rivers",
       value: 1,
@@ -216,6 +222,7 @@ const options = {
     }],
   }, {
     name: "House Bolton",
+    color: "rgba(155, 3, 3, 1)",
     data: [{
       name: "Ramsay Snow",
       value: 9,
@@ -229,6 +236,7 @@ const options = {
     }],
   }, {
     name: "House Tyrell",
+    color: "rgba(56, 143, 88, 1)",
     data: [{
       name: "Olenna Tyrell",
       value: 1,

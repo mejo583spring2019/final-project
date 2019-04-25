@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Controller, Scene } from "react-scrollmagic";
 import Chart from "./highchart.js";
+import background from "./img/background.png";
+
 
 const SectionWipesStyled = styled.div`
   overflow: hidden;
@@ -13,18 +15,23 @@ const SectionWipesStyled = styled.div`
   
   .panel span {
     position: relative;
-    display: block;
+    display: inline;
     overflow: visible;
     top: 50%;
-    font-size: 80px;
+    font-size: 12px;
   }
   
   .panel.blue {
-    background-color: #3883d8;
+    background-image: url(${background});
+    background-repeat: no-repeat;
+    background-postion: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
   }
   
   .panel.turqoise {
-    background-color: #38ced7;
+    background-color: white;
+    padding-top: 20px;
   }
   
   .panel.green {
@@ -35,23 +42,39 @@ const SectionWipesStyled = styled.div`
   .panel.bordeaux {
     background-color: #953543;
   }
-  .panel span {
-      display: inline !important;
-      font-size: 12px !important;
+
+  #got{
+      padding-top: 12%;
+      max-width: 70%;
   }
+
+  #frontTitle{
+      font-family: Times New Roman;
+      font-size: 80px;
+      virtical-align: bottom;
+      margin-bottom: 3px;
+      padding-bottom: 3px;
+      padding-top: 80px;
+      margin-top: 10%;
+      color: black;
+  }
+
 `;
 
 const SectionWipes = () => (
   <SectionWipesStyled>
     <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
       <Scene pin>
-        <div className="panel blue"><span>Panel</span></div>
+        <div className="panel blue">
+          <img id="got" src={require("./img/got.png")} alt="Game of Thrones Logo"></img>
+          <p id="frontTitle">Data visualization</p>
+        </div>
       </Scene>
       <Scene pin>
-        <div className="panel turqoise"><Chart></Chart> </div>
+        <div className="panel green"> <p>Hi there!</p> </div>
       </Scene>
       <Scene pin>
-        <div className="panel green"><span>Panel</span></div>
+        <div className="panel turqoise"> <Chart></Chart> </div>
       </Scene>
       <Scene pin>
         <div className="panel bordeaux"><span>Panel</span></div>
