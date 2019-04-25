@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.Top10Container{
+    background-color: white;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+}
+
+#Top10Intro{
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Top10Grid {
+    display: grid;
+    height: 80vh;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40% 30% 30%;
+    grid-template-areas:
+        "A01 A01 A01 A01 A01 A01"
+        "A02 A02 A03 A03 A04 A04"
+        "A05 A06 A07 A08 A09 A10"
+}
+
+#A01 {
+    grid-area: A01;
+    background-image: url("img/EdSheeranPicEdit.png");
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+#A02 {
+    grid-area: A02;
+    background-image: url("img/DespacitoRemixCover.png");
+    background-position: center;
+    background-size: cover;
+}
+#A03 {
+    grid-area: A03;
+    background-image: url("img/DespacitoCover.png");
+    background-position: center;
+    background-size: cover;
+}
+#A04 {
+    grid-area: A04;
+    background-image: url("img/SomethingJustLikeThisCover.png");
+    background-position: center;
+    background-size: cover;
+}
+#A05 {
+    grid-area: A05;
+    background-image: url("img/ImTheOneCover.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#A06 {
+    grid-area: A06;
+    background-image: url("img/HumbleCover.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#A07 {
+    grid-area: A07;
+    background-image: url("img/ItAintMeCover.png");
+    background-position: center;
+    background-size: cover;
+}
+#A08{
+    grid-area: A08;
+    background-image: url("img/UnforgettableCover.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#A09{
+    grid-area: A09;
+    background-image: url("img/ThatsWhatILikeCover.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#A10{
+    grid-area: A10;
+    background-image: url("img/IDontWannaLiveForeverCover.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.Top10Spot {
+    margin: 5px;
+    color: white;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.Top10SpotText{
+    margin: 0px;
+    opacity: 0;
+    transition: .5s;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Top10SpotNumber{
+    margin: 0px;
+    opacity: 1;
+    text-align: center;
+    height: 40%;
+    padding-top: 1vh;
+    font-size: 8vh;
+}
+
+.Top10SpotCover1{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color:rgba(218, 165, 32, .8);
+    border-radius: 10px;
+}
+
+#Number1SpotText{
+    margin: 0px;
+    opacity: 0;
+    transition: .5s;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#Number1SpotNumber{
+    margin: 0px;
+    opacity: 1;
+    text-align: center;
+    height: 40%;
+    padding-top: 1vh;
+    font-size: 8vh;
+}
+
+.Top10SpotCover2-4{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color:rgba(192, 192, 192, .8);
+    border-radius: 10px;
+}
+
+.Top10SpotCover5-10{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color:rgba(205, 127, 50, .8);
+    border-radius: 10px;
+}
+
+.Top10Spot :hover .Top10SpotText{
+    opacity: 1;
+    transition: .5s;
+}
+
+.Top10Spot :hover {
+    cursor: pointer;
+}
