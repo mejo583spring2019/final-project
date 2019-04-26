@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CanvasJSReact from '../../assets/canvasjs.react';
-import { Controller, Scene } from 'react-scrollmagic';
 
 import "./styles.css";
 
