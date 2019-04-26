@@ -4,6 +4,7 @@ import { HashRouter as Router, Route } from "react-router-dom";
 // Bootstrap
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
+import Modal from "react-bootstrap/Modal";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Row from "react-bootstrap/Row";
@@ -60,11 +61,11 @@ function Index() {
               academic performance, networking skills, and marketability.
                When knowing a second language reaps nothing but benefits,
                 <strong>why not take the leap to learn?</strong> We're
-             here to guide the everyday English speaker on their
-              journey to becoming a polyglot, whether that journey
-               begins with something as simple as Spanish or as
-                challenging as Chinese. Explore our site and
-                 discover which language will be your next
+         here to guide the everyday English speaker on their
+          journey to becoming a polyglot, whether that journey
+           begins with something as simple as Spanish or as
+            challenging as Chinese. Explore our site and
+             discover which language will be your next
                       best friend.</Col>
           </Row>
         </Container>
@@ -78,6 +79,25 @@ function Index() {
    * @return {any} Tooltip JSX
    */
 class App extends Component {
+  constructor(props, context) {
+    super(props, context);
+
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+
+    this.state = {
+      show: false,
+    };
+  }
+
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
+  }
+
   /**
      * Renders app.
      * @return {any} JSX content
