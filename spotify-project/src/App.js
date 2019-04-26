@@ -1,8 +1,10 @@
 /* eslint-disable require-jsdoc */ /* REMOVE LATER */
 import React from "react";
 import "./App.css";
-import Top10 from "./components/top10";
-import Top100 from "./components/top100";
+import Top10 from "./components/Top10";
+import ChartToppers from "./components/ChartToppers";
+import Top100 from "./components/Top100";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         </p>
       </div>
       <Top10></Top10>
+      <ChartToppers></ChartToppers>
       <Top100></Top100>
     </div>
   );
