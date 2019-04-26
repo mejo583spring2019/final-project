@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
 
 // Bootstrap
+import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
@@ -61,11 +62,11 @@ function Index() {
               academic performance, networking skills, and marketability.
                When knowing a second language reaps nothing but benefits,
                 <strong>why not take the leap to learn?</strong> We're
-         here to guide the everyday English speaker on their
-          journey to becoming a polyglot, whether that journey
-           begins with something as simple as Spanish or as
-            challenging as Chinese. Explore our site and
-             discover which language will be your next
+here to guide the everyday English speaker on their
+journey to becoming a polyglot, whether that journey
+begins with something as simple as Spanish or as
+challenging as Chinese. Explore our site and
+discover which language will be your next
                       best friend.</Col>
           </Row>
         </Container>
@@ -130,13 +131,29 @@ class App extends Component {
                 <Nav.Link href="#/resources/">resources</Nav.Link>
               </Nav>
               <Nav>
-                <Nav.Link href="https://www.state.gov/documents/organization/247092.pdf" target="_blank" rel="noopener noreferrer">more info</Nav.Link>
+                <Nav.Link><Button variant="primary" onClick={this.handleShow}>
+                  More info
+        </Button>
+                </Nav.Link>
                 <Nav.Link eventKey={2} href="https://www.github.com/tianasama" target="_blank" rel="noopener noreferrer">
                   <img src={require("./media/tianasama-link.png")} alt="tianasama bart simpson link" />
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          <Modal size="lg" show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter"
+            centered>
+            <Modal.Header closeButton>
+              <Modal.Title>More info</Modal.Title>
+            </Modal.Header>
+            <Modal.Body><h4>About this site</h4><p>This website was created with <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> and associated libraries including <a href="https://react-bootstrap.github.io" target="_blank" rel="noopener noreferrer">Bootstrap</a>, <a href="https://www.chartjs.org" target="_blank" rel="noopener noreferrer">Chart.js</a>, and <a href="https://reacttraining.com/react-router/" target="_blank" rel="noopener noreferrer">Router</a>. </p><p>This site is hosted on tktk.</p><h4>Data</h4><p>Data used by this site was collected by the Foreign Service Institute and pulled from <a href="https://data.world/dataremixed/language-difficulty-ranking/workspace/file?filename=Foreign+Service+Institute+language+assignments+to+3S%2F3R.xlsx" target="_blank" rel="noopener noreferrer"></a>. You can read the full study <a href="https://www.state.gov/documents/organization/247092.pdf" target="_blank" rel="noopener noreferrer">here</a> and access additional information about the Foreign Service Institute <a href="https://www.state.gov/m/fsi/" target="_blank" rel="noopener noreferrer">here</a>.</p></Modal.Body>
+            <Modal.Footer>
+              <Button variant="primary" onClick={this.handleClose}>
+                Close
+            </Button>
+            </Modal.Footer>
+          </Modal>
         </div>
         <Router>
           <div>
