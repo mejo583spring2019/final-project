@@ -7,6 +7,10 @@ class Top10 extends Component {
   render() {
     return (
       <div id="Top10Container">
+        <h1 id="Top10Title">
+          TOP 10
+        </h1>
+        <div className="TitleUnderline"></div>
         <p id="Top10Intro">
           These are the <span id="IntroSpan">Top 10 Worldwide </span>
           songs of 2017. Click on a song to learn more!

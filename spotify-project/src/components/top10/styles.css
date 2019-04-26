@@ -9,8 +9,26 @@
     margin-bottom: 5vh;
 }
 
+#Top10Title{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 5vh;
+    color: #1DB954;
+}
+
+.TitleUnderline{
+    height: 1px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5px;
+    background-color: #1DB954; 
+}
+
 #Top10Intro{
-    padding: 15px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Montserrat', sans-serif;
