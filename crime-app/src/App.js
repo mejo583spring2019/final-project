@@ -21,10 +21,10 @@ class App extends Component {
                 <Link to="/">About Project</Link>
               </li>
               <li>
-                <Link to="/columnchart">Crime By State</Link>
+                <Link to="/linegraph/">Crime Over Time</Link>
               </li>
               <li>
-                <Link to="/linegraph/">Crime Over Time</Link>
+                <Link to="/columnchart">Crime By State</Link>
               </li>
               <li>
                 <Link to="/callophone/">Callophone</Link>

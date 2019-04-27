@@ -60,6 +60,8 @@ li {
 
 a:link {
     text-decoration: none;
+    color: #F3E6C3;
+    font-family: primary;
 }
   
 a:visited {

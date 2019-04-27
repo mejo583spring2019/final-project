@@ -1,5 +1,6 @@
 {
   "name": "crime-app",
+  "homepage": "https://cochapel.github.io/crime-info",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

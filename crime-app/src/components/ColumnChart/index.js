@@ -15,31 +15,21 @@ class BarChart extends Component {
     chartData2 = this.getTop5Data(byState);
     chartData3 = this.getBottom5Data(byState);
 
+    percentTotal = this.getTotalPercent(byState);
+
     getAllData(data) {
         let chartData = [];
-        var color = [
-            {
-                color: "#F3E6C3",
-            },
-            {
-                color: "#876933",
-            },
-            {
-                color: "#AF9154",
-            }
-        ]
 
-        var j = 0;
+        var color =
+        {
+            color: "#AF9154",
+        }
+
         for (var i = 0; i < data.length; i++) {
             chartData[i] = {
                 y: (data[i].total_crime / data[i].population) * 100,
                 label: data[i].state,
-                color: color[j].color,
-            }
-            if (j === color.length - 1) {
-                j = 0;
-            } else {
-                j++;
+                color: color.color,
             }
 
             chartData[i].y = parseFloat(Number.parseFloat(chartData[i].y).toFixed(2));
@@ -47,12 +37,32 @@ class BarChart extends Component {
         return chartData;
     }
 
+    getTotalPercent(data) {
+        let total = 0;
+        let totalPop = 0;
+
+        for (var i = 0; i < data.length; i++) {
+            total = total + parseInt(data[i].total_crime);
+            totalPop = totalPop + parseInt(data[i].population);
+        }
+
+        let totalPercent = (total / totalPop) * 100;
+        totalPercent = parseFloat(Number.parseFloat(totalPercent).toFixed(2));
+
+        return totalPercent;
+    }
+
     getTop5Data(data) {
         let chartData = [];
 
+        var color =
+        {
+            color: "#AF9154",
+        }
+
         const top5 = Object.values(data)
             .sort((a, b) => ((b.total_crime / b.population) * 100) - ((a.total_crime / a.population) * 100))
-            .slice(0, 10);
+            .slice(0, 5);
 
         console.log(top5);
 
@@ -60,6 +70,7 @@ class BarChart extends Component {
             chartData[i] = {
                 y: (top5[i].total_crime / top5[i].population) * 100,
                 label: top5[i].state,
+                color: color.color,
             }
             chartData[i].y = parseFloat(Number.parseFloat(chartData[i].y).toFixed(2));
         }
@@ -69,9 +80,14 @@ class BarChart extends Component {
     getBottom5Data(data) {
         let chartData = [];
 
+        var color =
+        {
+            color: "#AF9154",
+        }
+
         const top5 = Object.values(data)
             .sort((a, b) => ((a.total_crime / a.population) * 100) - ((b.total_crime / b.population) * 100))
-            .slice(0, 10);
+            .slice(0, 5);
 
         console.log(top5);
 
@@ -79,6 +95,7 @@ class BarChart extends Component {
             chartData[i] = {
                 y: (top5[i].total_crime / top5[i].population) * 100,
                 label: top5[i].state,
+                color: color.color,
             }
             chartData[i].y = parseFloat(Number.parseFloat(chartData[i].y).toFixed(2));
         }
@@ -101,12 +118,33 @@ class BarChart extends Component {
             animationEnabled: true,
             backgroundColor: "transparent",
             toolTip: {
-                fontColor: "red",
+                fontFamily: "primary",
+                fontSize: 21,
+                fontColor: "#876933",
+            },
+            axisX: {
+                title: "States and District of Columbia",
+                titleFontColor: "#F3E6C3",
+                titleFont: "primary",
+                labelFormatter: function () {
+                    return " ";
+                },
+                labelFontFamily: "secondary",
+                gridThickness: 0,
+            },
+            axisY: {
+                title: "Percent By Population",
+                titleFontColor: "#F3E6C3",
+                labelFontColor: "#F3E6C3",
+                labelFontFamily: "secondary",
+                labelFontSize: 16,
+                gridThickness: 0,
             },
             data: [
                 {
                     type: "column",
                     dataPoints: this.chartData1,
+                    toolTipContent: "{label}: {y}%",
                 }
             ]
         }
@@ -116,17 +154,33 @@ class BarChart extends Component {
             colorSet: "crimeShade",
             theme: "light2",
             backgroundColor: "transparent",
+            toolTip: {
+                fontFamily: "primary",
+                fontSize: 21,
+                fontColor: "#876933",
+            },
             axisX: {
-                title: "Social Network",
-                reversed: true,
+                title: "Five Worst States",
+                titleFontColor: "#F3E6C3",
+                titleFont: "primary",
+                labelFormatter: function () {
+                    return " ";
+                },
+                labelFontFamily: "secondary",
+                gridThickness: 0,
             },
             axisY: {
-                title: "Monthly Active Users",
-                labelFormatter: this.addSymbols
+                title: "Percent By Population",
+                titleFontColor: "#F3E6C3",
+                labelFontColor: "#F3E6C3",
+                labelFontFamily: "secondary",
+                labelFontSize: 16,
+                gridThickness: 0,
             },
             data: [{
                 type: "bar",
-                dataPoints: this.chartData2
+                dataPoints: this.chartData2,
+                toolTipContent: "{label}: {y}%",
             }]
         }
 
@@ -135,17 +189,33 @@ class BarChart extends Component {
             colorSet: "crimeShade",
             theme: "light2",
             backgroundColor: "transparent",
+            toolTip: {
+                fontFamily: "primary",
+                fontSize: 21,
+                fontColor: "#876933",
+            },
             axisX: {
-                title: "Social Network",
-                reversed: true,
+                title: "Five Best States",
+                titleFontColor: "#F3E6C3",
+                titleFont: "primary",
+                labelFormatter: function () {
+                    return " ";
+                },
+                labelFontFamily: "secondary",
+                gridThickness: 0,
             },
             axisY: {
-                title: "Monthly Active Users",
-                labelFormatter: this.addSymbols
+                title: "Percent By Population",
+                titleFontColor: "#F3E6C3",
+                labelFontColor: "#F3E6C3",
+                labelFontFamily: "secondary",
+                labelFontSize: 16,
+                gridThickness: 0,
             },
             data: [{
                 type: "bar",
-                dataPoints: this.chartData3
+                dataPoints: this.chartData3,
+                toolTipContent: "{label}: {y}%",
             }]
         }
 
@@ -153,61 +223,63 @@ class BarChart extends Component {
         return (
             <div className="backgroundColor">
                 <div>
-                    <h1>Crime By State</h1>
+                    <h1 className="marPos">Crime By State</h1>
                     <div className="maxWidth">
                         <p>
-                            Lorem ipsum dolor sit amet, stet minimum at pro, est senserit
-                            gubergren in, iusto erroribus mel ad. Legimus deserunt quo et,
-                            cum mnesarchum inciderint philosophia ea. Ex libris possim
-                            officiis sea, ad sit viris legere. Habeo utroque accusam mei
-                            et, ut vis unum munere. At vix appareat sadipscing reformidans,
-                            et pri diam melius, eu sapientem similique maiestatis vim. Te
-                            reque dolor quo.
+                            Although crime is decreasing across the country, there are still some states that are well above
+                            the national average. According to the Crime Solutions website, many communities have come up with
+                            strategies to help reduce crimes. Some of these strategies include neighborhood watch, community policing,
+                            urban or physical design, and comprehensive or multi-disciplinary efforts. Many of these strategies
+                            could be adopted to help communities around the nation to reduce property crime.
                         </p>
                     </div>
                 </div>
 
                 <Tabs defaultActiveKey="profile1" transition={false} id="noanim-tab-example">
                     <Tab eventKey="profile1" title="All States" unmountOnExit="true">
-                        <h2>Property Crime Rate By State</h2>
-                        <CanvasJSChart options={options1} />
+                        <h2>Property Crime Report Rate By State</h2>
+                        <div className="chartPos">
+                            <CanvasJSChart options={options1} />
+                        </div>
                         <div className="maxWidth">
                             <p>
-                                Lorem ipsum dolor sit amet, stet minimum at pro, est senserit
-                                gubergren in, iusto erroribus mel ad. Legimus deserunt quo et,
-                                cum mnesarchum inciderint philosophia ea. Ex libris possim
-                                officiis sea, ad sit viris legere. Habeo utroque accusam mei
-                                et, ut vis unum munere. At vix appareat sadipscing reformidans,
-                                et pri diam melius, eu sapientem similique maiestatis vim. Te
-                                reque dolor quo.
+                                Overall, the amount of property crime to occur in the United States by
+                                population is around {this.percentTotal} percent, calculated from the data produced from
+                                the FBI. This number was determined by taking the total amount of crime
+                                that occurred in every state and divide it by the total population from
+                                every state. Then, this number was multiplied by 100 to get a total percentage
+                                of the population in the United States who reported a property crime.
                             </p>
                         </div>
                     </Tab>
                     <Tab eventKey="profile2" title="Worst States" unmountOnExit="true">
                         <h2>Worst States for Property Crime</h2>
-                        <CanvasJSChart options={options2} />
-                        <p>
-                            Lorem ipsum dolor sit amet, stet minimum at pro, est senserit
-                            gubergren in, iusto erroribus mel ad. Legimus deserunt quo et,
-                            cum mnesarchum inciderint philosophia ea. Ex libris possim
-                            officiis sea, ad sit viris legere. Habeo utroque accusam mei
-                            et, ut vis unum munere. At vix appareat sadipscing reformidans,
-                            et pri diam melius, eu sapientem similique maiestatis vim. Te
-                            reque dolor quo.
-                        </p>
+                        <div className="chartPos">
+                            <CanvasJSChart options={options2} />
+                        </div>
+                        <div className="maxWidth">
+                            <p>
+                                According to the report from the FBI in 2017, The worst place to experience
+                                property crime in the nation is the District of Columbia, with 4.68 percent
+                                of the population reporting a property crime in 2017. The worst state to
+                                experience property crime in the United States is Hawaii. Around 3.8 percent
+                                of the population of Hawaii reported a property crime during 2017.
+                            </p>
+                        </div>
                     </Tab>
                     <Tab eventKey="profile3" title="Best States" unmountOnExit="true">
                         <h2>Best States for Property Crime</h2>
-                        <CanvasJSChart options={options3} />
-                        <p>
-                            Lorem ipsum dolor sit amet, stet minimum at pro, est senserit
-                            gubergren in, iusto erroribus mel ad. Legimus deserunt quo et,
-                            cum mnesarchum inciderint philosophia ea. Ex libris possim
-                            officiis sea, ad sit viris legere. Habeo utroque accusam mei
-                            et, ut vis unum munere. At vix appareat sadipscing reformidans,
-                            et pri diam melius, eu sapientem similique maiestatis vim. Te
-                            reque dolor quo.
-                        </p>
+                        <div className="chartPos">
+                            <CanvasJSChart options={options3} />
+                        </div>
+                        <div className="maxWidth">
+                            <p>
+                                According to the report from the FBI in 2015, The best place to avoid property crime
+                                in the nation is Vermont, with 1.41 percent of the population reporting a property
+                                crime during 2015. Interestingly, the top five states that had the lowest property crime
+                                reporting all fell below two percent.
+                            </p>
+                        </div>
                     </Tab>
                 </Tabs>
 
