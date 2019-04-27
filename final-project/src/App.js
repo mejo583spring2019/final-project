@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import WhiteChart from "./components/WhiteChart/";
 import BlackChart from "./components/BlackChart";
+import AsianChart from "./components/AsianChart";
 
 /** App component builds out main part
  * of website.
@@ -34,6 +35,7 @@ class App extends Component {
           />
           <WhiteChart />
           <BlackChart />
+          <AsianChart />
         </section>
       </div>
     );

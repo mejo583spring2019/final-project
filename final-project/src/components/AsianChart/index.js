@@ -11,10 +11,10 @@ import wake from "../../data/wake-forest";
 import wcu from "../../data/wcu";
 
 /** Creates a column chart showing
- * black completion rates at particular
+ * asian completion rates at particular
  * NC colleges & Universities
  */
-class BlackChart extends BarChart {
+class AsianChart extends BarChart {
   /** Constructor builds out the data set
    * @param {any} props
   */
@@ -42,22 +42,22 @@ class BlackChart extends BarChart {
         this.uncSchoolsData, this.wcuData
     );
 
-    const blackCompletion = [];
+    const asianCompletion = [];
     const schoolName = [];
 
     this.fullData.forEach((s) => {
       if (s !== undefined &&
-        s["latest.completion.completion_rate_4yr_150_black"] !== null) {
+        s["latest.completion.completion_rate_4yr_150_asian"] !== null) {
         schoolName.push(s["school.name"]);
-        blackCompletion.push(
-            s["latest.completion.completion_rate_4yr_150_black"]
+        asianCompletion.push(
+            s["latest.completion.completion_rate_4yr_150_asian"]
         );
       }
     });
 
     this.type = "column";
-    this.chartData = blackCompletion;
-    this.title = "Completion Rates of Black Students";
+    this.chartData = asianCompletion;
+    this.title = "Completion Rates of Asian Students";
     this.xAxis = schoolName;
 
     this.options = {
@@ -75,7 +75,7 @@ class BlackChart extends BarChart {
       },
       series: [
         {
-          name: "Completion rate of black students",
+          name: "Completion rate of Asian students",
           data: this.chartData,
         },
       ],
@@ -83,4 +83,4 @@ class BlackChart extends BarChart {
   }
 }
 
-export default BlackChart;
+export default AsianChart;

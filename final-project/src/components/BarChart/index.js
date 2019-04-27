@@ -5,9 +5,11 @@ import React, { Component } from "react";
 /** bar Chart component builds the highchart
  * and renders it on the page
  */
-
-
 class BarChart extends Component {
+  /** Constructs the data
+   * values to use in Highcharts
+   * @param {any} props
+   */
   constructor(props) {
     super(props);
 
@@ -34,6 +36,9 @@ class BarChart extends Component {
     };
   }
 
+  /** renders high charts using data from above
+   * @return {any} JSX to create a Highchart
+   */
   render() {
     return (
       <div>

@@ -62,6 +62,7 @@ class WhiteChart extends BarChart {
       },
       series: [
         {
+          name: "Completion rate of white students",
           data: this.chartData,
         },
       ],
