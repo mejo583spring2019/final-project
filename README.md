@@ -1,3 +1,9 @@
 # MEJO 583 Spring 2019 Final Project
 
-This seed repo will be updated with configuration changes as needed until the project is due.
+## Data Prep and Cleaning
+
+Data was obtained from the Forbes website as of 4/24/2019.
+
+## Data Prep
+
+Data was created using a Tampermonkey script to be in JSON format with headers and then converted to CSV format.
