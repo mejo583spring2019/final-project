@@ -56,6 +56,9 @@ class BlackChart extends BarChart {
       },
       xAxis: {
         categories: this.xAxis,
+        title: {
+          text: "School",
+        },
       },
       series: [
         {
