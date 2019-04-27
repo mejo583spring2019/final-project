@@ -3,6 +3,7 @@ import "./App.css";
 import WhiteChart from "./components/WhiteChart/";
 import BlackChart from "./components/BlackChart";
 import AsianChart from "./components/AsianChart";
+import HispanicChart from "./components/HispanicChart";
 
 /** App component builds out main part
  * of website.
@@ -36,6 +37,7 @@ class App extends Component {
           <WhiteChart />
           <BlackChart />
           <AsianChart />
+          <HispanicChart />
         </section>
       </div>
     );
