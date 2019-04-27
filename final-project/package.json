@@ -1,5 +1,6 @@
 {
   "name": "final-project",
+  "homepage": "https://brookenf.github.io/race-to-the-finish",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

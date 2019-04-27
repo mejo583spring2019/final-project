@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import Chart from "./components/Chart/";
+import WhiteChart from "./components/WhiteChart/";
+import BlackChart from "./components/BlackChart";
 
 /** App component builds out main part
  * of website.
@@ -15,7 +16,7 @@ class App extends Component {
       <div className="flex-column">
         <header className="App-header flex-column">
           <h1>Race to the Finish</h1>
-          <h3>A look at how race affects college completion</h3>
+          <h3>A look at how race affects college completion rates</h3>
           <h4>By Brooke Fisher</h4>
         </header>
         <section className="main flex">
@@ -31,7 +32,8 @@ class App extends Component {
             src="/img/nc-outline.svg"
             alt="An outline of North Carolina"
           />
-          <Chart />
+          <WhiteChart />
+          <BlackChart />
         </section>
       </div>
     );

@@ -42,7 +42,7 @@ body {
 }
 
 .main p {
-  margin: 7vh auto;
+  margin: 5vh auto;
   min-width: 50vw;
   width: 680px;
   font-size: 1.3rem;
@@ -50,7 +50,11 @@ body {
 }
 
 .main p:first-of-type {
-  margin-top: 30vh;
+  margin-top: 20vh;
+}
+
+.main p:last-of-type {
+  margin-bottom: 20vh;
 }
 
 .main p a {
