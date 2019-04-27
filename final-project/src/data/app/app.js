@@ -1,4 +1,4 @@
-const appalachian = [
+const appState = [
   {
     "latest.student.demographics.race_ethnicity.non_resident_alien": 0,
     "school.name": "Appalachian Beauty School",
@@ -131,4 +131,4 @@ const appalachian = [
   },
 ];
 
-export default appalachian;
+export default appState;

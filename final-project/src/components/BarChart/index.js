@@ -8,6 +8,32 @@ import React, { Component } from "react";
 
 
 class BarChart extends Component {
+  constructor(props) {
+    super(props);
+
+    this.type = "";
+    this.chartData = [];
+    this.title = "";
+    this.xAxis = [];
+
+    this.options = {
+      chart: {
+        type: this.type,
+      },
+      title: {
+        text: this.title,
+      },
+      xAxis: {
+        categories: this.xAxis,
+      },
+      series: [
+        {
+          data: this.chartData,
+        },
+      ],
+    };
+  }
+
   render() {
     return (
       <div>
