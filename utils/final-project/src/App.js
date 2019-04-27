@@ -3,6 +3,7 @@ import Chart from "./components/table/chart";
 import Bubbles from "./components/table/bubble";
 import Wages from "./components/table/bar";
 import Jumbotrons from "./components/story/jumbotron";
+import Nav from "./components/story/navigation";
 
 class App extends Component {
   constructor() {
@@ -20,12 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            I'm alive! for now
-          </p>
-          
-        </header>
+        <Nav />
         <Jumbotrons />
         <Chart chartData={this.state.chartData}/>
         <Bubbles bubbleData={this.state.bubbleData}/> 
