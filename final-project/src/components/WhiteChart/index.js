@@ -10,7 +10,14 @@ import uncSchools from "../../data/unc-schools";
 import wake from "../../data/wake-forest";
 import wcu from "../../data/wcu";
 
+/** Creates a column chart showing
+ * White completion rates at particular
+ * NC colleges & Universities
+ */
 class WhiteChart extends BarChart {
+  /** Constructor builds out the data set
+   * @param {any} props
+  */
   constructor(props) {
     super(props);
     this.appData = appalachian.map((r) => {
@@ -28,19 +35,24 @@ class WhiteChart extends BarChart {
     this.wakeData = wake;
     this.wcuData = wcu;
 
-    this.fullData = this.appData.concat(this.davidsonData, this.dukeData, this.ecuData, this.elizabethCityData, this.elonData, this.ncsuData, this.uncSchoolsData, this.wcuData);
+    this.fullData = this.appData.concat(
+        this.davidsonData, this.dukeData, this.ecuData,
+        this.elizabethCityData, this.elonData, this.ncsuData,
+        this.uncSchoolsData, this.wcuData
+    );
 
     const whiteCompletion = [];
     const schoolName = [];
 
     this.fullData.forEach((s) => {
-      if (s !== undefined && s["latest.completion.completion_rate_4yr_150_white"] !== null) {
+      if (s !== undefined &&
+        s["latest.completion.completion_rate_4yr_150_white"] !== null) {
         schoolName.push(s["school.name"]);
-        whiteCompletion.push(s["latest.completion.completion_rate_4yr_150_white"]);
+        whiteCompletion.push(
+            s["latest.completion.completion_rate_4yr_150_white"]
+        );
       }
     });
-    console.log(whiteCompletion);
-    console.log(schoolName);
 
     this.type = "column";
     this.chartData = whiteCompletion;
