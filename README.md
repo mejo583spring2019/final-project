@@ -2,7 +2,7 @@
 
 ## Data Prep and Cleaning
 
-Data was obtained from the Forbes website as of 4/24/2019.
+Data was obtained from the Forbes website as of 4/27/2019.
 
 ## Data Prep
 
