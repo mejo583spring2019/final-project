@@ -57,12 +57,13 @@
 .CountryOption{
     width: 10%;   
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     color: #1DB954;
     transition: .5s;
     height: 100%;
-    font-size: 2vh;
+    font-size: 1.7vh;
     cursor: pointer;
 }
 

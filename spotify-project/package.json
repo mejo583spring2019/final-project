@@ -1,5 +1,6 @@
 {
   "name": "spotify-project",
+  "homepage" : "https://jprickabaugh.github.io/spotify-project/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
