@@ -1,4 +1,10 @@
 import React from "react";
+import { Controller, Scene } from "react-scrollmagic";
+import ScrollMagic from "scrollmagic";
+import TweenMax from "gsap/TweenMax";
+// import { addIndicators } from "plugins/debug.addIndicators.js";
+
+
 // import { render } from "react-dom";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
@@ -351,6 +357,20 @@ const options = {
       ],
     }],
 };
+
+// init controller
+const controller = new ScrollMagic.Controller({ vertical: false });
+
+// build tween
+const tween = TweenMax
+    .to("#target", 0.5, { backgroundColor: "green", width: "+=400" });
+
+// build scene
+const scene = new ScrollMagic
+    .Scene({ triggerElement: "#trigger", duration: 500 })
+    .setTween(tween)
+// .addIndicators() // add indicators (requires plugin)
+    .addTo(controller);
 /** this is a JSDOC comment*/
 class Chart extends React.Component {
   /** this is a JSDOC comment
@@ -359,6 +379,24 @@ class Chart extends React.Component {
   render() {
     return (
       <div>
+        <div>
+          <h2>Who has voiced the most Simpsons characters?</h2>
+          const App = () => (
+          <div>
+            <Controller>
+              <Scene duration={600} pin>
+                <div class="spacer s2"></div>
+                <div id="trigger" class="spacer s0"></div>
+                <div id="target" class="box2 blue">
+                  <p>Widen the horizon.</p>
+                  <a href="#" class="viewsource">view source</a>
+                </div>
+                <div class="spacer s2"></div>
+              </Scene>
+            </Controller>
+          </div>
+          );
+        </div>
         <HighchartsReact
           highcharts={Highcharts}
           //   constructorType={"packedbubble"}

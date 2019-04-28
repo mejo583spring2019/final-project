@@ -14,3 +14,10 @@ https://www.chartjs.org/docs/latest/charts/bubble.html
 For my data:
 http://api.tvmaze.com/shows/83/cast
 
+For scrollmagic:
+http://scrollmagic.io/examples/basic/going_horizontal.html, 
+https://bitworking.github.io/react-scrollmagic/section-wipes2, 
+https://www.npmjs.com/package/react-scrollmagic, 
+https://greensock.com/docs/NPMUsage, 
+https://scrollmagic.io/docs/debug.addIndicators.html#newScrollMagic.Controlleroptions
+
