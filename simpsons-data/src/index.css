@@ -14,3 +14,10 @@ code {
 }
 
 
+.panel {
+  height: 100%;
+  width: 100%;
+}
+ .panel1{
+  background: silver;
+ }
