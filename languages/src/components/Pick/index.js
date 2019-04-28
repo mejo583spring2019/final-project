@@ -14,7 +14,6 @@ import Tab from "react-bootstrap/Tab";
 import Hour from "../Hour";
 import Week from "../Week";
 import Map from "../Map";
-import Table from "../Table";
 
 // COMPONENT CODE BEGINS
 /**
@@ -33,7 +32,7 @@ class About extends Component {
           <Row>
             <Col id="intro">
               <p> <strong>So you"re ready to begin learning a second language.</strong> But how do you know which is right for you? </p>
-              <p>Use our interactive graphs below to discover which languages might best fit your schedule or travel plans. Then, head over to our resources section to find the tools that will help you master your skills.<em> Keep in mind that the information below is based on averages; the ability of an individual to learn a new language may vary based on background, natural ability, and quality of instruction.</em></p>
+              <p>Use our interactive graphs below to discover which languages might best fit your schedule or travel plans. Then, head over to our resources section to find the tools that will help you master your skills.<em className="blue"> Keep in mind that the information below is based on averages; the ability of an individual to learn a new language may vary based on background, natural ability, and quality of instruction.</em></p>
             </Col>
           </Row>
         </Container>

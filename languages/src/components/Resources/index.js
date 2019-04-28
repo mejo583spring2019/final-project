@@ -2,9 +2,7 @@ import React, { Component } from "react";
 // Bootstrap
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
-import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
-import Tab from "react-bootstrap/Tab";
 
 // Stylesheets
 import "./styles.css";

@@ -4,3 +4,7 @@
 	height: 400px;
 	margin-top: 20px;
 }
+
+.chart {
+	max-width: 80%;
+}

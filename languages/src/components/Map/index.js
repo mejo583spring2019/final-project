@@ -1,9 +1,13 @@
 import React, { Component } from "react";
 import CanvasJSReact from "../../assets/canvasjs.react";
 import data from "../data.js";
+import "./styles.css";
 let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
+
+
 class Map extends Component {
+
   chartdata = this.getData(data);
 
   categoryOne(data) {
@@ -68,7 +72,7 @@ class Map extends Component {
 
     return (
       <div>
-        <CanvasJSChart options={options} id="byHour"
+        <CanvasJSChart options={options} id="byHour" className="chart"
         /* onRef={ref => this.chart = ref} */
         />
       </div>
