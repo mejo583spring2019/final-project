@@ -1,14 +1,16 @@
 {
-  "name": "pollen-data",
+  "name": "rolling-stones",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@shopify/draggable": "^1.0.0-beta.8",
-    "chart.js": "^2.8.0",
-    "ipapi": "^1.0.0",
+    "d3": "^5.9.2",
+    "node-vibrant": "^3.2.0-alpha",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "tabulator-tables": "^4.2.5"
   },
   "scripts": {
     "start": "react-scripts start",
