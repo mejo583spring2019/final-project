@@ -8,7 +8,6 @@ import Tab from 'react-bootstrap/Tab';
 import "./styles.css";
 
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
-var CanvasJS = CanvasJSReact.CanvasJS;
 
 class BarChart extends Component {
     chartData1 = this.getAllData(byState);
@@ -17,6 +16,9 @@ class BarChart extends Component {
 
     percentTotal = this.getTotalPercent(byState);
 
+    /** Gets all the data for every state in the static data.
+     * @return {array} percent chance of reporting crime for each state.
+     */
     getAllData(data) {
         let chartData = [];
 
@@ -37,6 +39,9 @@ class BarChart extends Component {
         return chartData;
     }
 
+    /** Calculates the total percent of reporting a crime in the US.
+     * @return {float} percent chance of reporting crime.
+     */
     getTotalPercent(data) {
         let total = 0;
         let totalPop = 0;
@@ -52,6 +57,9 @@ class BarChart extends Component {
         return totalPercent;
     }
 
+    /** Gets the top 5 states for reporting a crime.
+     * @return {array} percent chance of reporting crime for each state.
+     */
     getTop5Data(data) {
         let chartData = [];
 
@@ -77,6 +85,9 @@ class BarChart extends Component {
         return chartData;
     }
 
+    /** Gets the bottom 5 states for reporting a crime.
+     * @return {array} percent chance of reporting crime.
+     */
     getBottom5Data(data) {
         let chartData = [];
 
@@ -102,17 +113,9 @@ class BarChart extends Component {
         return chartData;
     }
 
-    addSymbols(e) {
-        var suffixes = ["", "K", "M", "B"];
-        var order = Math.max(Math.floor(Math.log(e.value) / Math.log(1000)), 0);
-        if (order > suffixes.length - 1)
-            order = suffixes.length - 1;
-        var suffix = suffixes[order];
-        return CanvasJS.formatNumber(e.value / Math.pow(1000, order)) + suffix;
-    }
-
-
-
+    /** Renders the data for each array to appear in bar charts.
+     * @return {any} JSX content
+     */
     render() {
         const options1 = {
             animationEnabled: true,
@@ -226,11 +229,11 @@ class BarChart extends Component {
                     <h1 className="marPos">Crime By State</h1>
                     <div className="maxWidth">
                         <p>
-                            Although crime is decreasing across the country, there are still some states that are well above
-                            the national average. According to the Crime Solutions website, many communities have come up with
-                            strategies to help reduce crimes. Some of these strategies include neighborhood watch, community policing,
+                            Although crime is decreasing across the country, there are still states well above the national
+                            average. According to the Crime Solutions website, many communities have come up with strategies
+                            to help reduce crimes. Some of these strategies include neighborhood watch, community policing,
                             urban or physical design, and comprehensive or multi-disciplinary efforts. Many of these strategies
-                            could be adopted to help communities around the nation to reduce property crime.
+                            could be adopted to help communities around the nation reduce property crime.
                         </p>
                     </div>
                 </div>
@@ -243,12 +246,12 @@ class BarChart extends Component {
                         </div>
                         <div className="maxWidth">
                             <p>
-                                Overall, the amount of property crime to occur in the United States by
-                                population is around {this.percentTotal} percent, calculated from the data produced from
-                                the FBI. This number was determined by taking the total amount of crime
-                                that occurred in every state and divide it by the total population from
-                                every state. Then, this number was multiplied by 100 to get a total percentage
-                                of the population in the United States who reported a property crime.
+                                Overall, the amount of property crime occurring in the United States by
+                                population is around {this.percentTotal} percent, which was calculated from
+                                the data produced from the FBI. This number was determined by taking the total
+                                amount of crime that occurred in every state and divide that by the total population
+                                in the country. Then, this number was multiplied by 100 to get a total percentage
+                                of the population in the United States who reported a property crime in 2015.
                             </p>
                         </div>
                     </Tab>
@@ -259,11 +262,11 @@ class BarChart extends Component {
                         </div>
                         <div className="maxWidth">
                             <p>
-                                According to the report from the FBI in 2017, The worst place to experience
+                                According to the report from the FBI in 2015, The worst place to experience
                                 property crime in the nation is the District of Columbia, with 4.68 percent
-                                of the population reporting a property crime in 2017. The worst state to
-                                experience property crime in the United States is Hawaii. Around 3.8 percent
-                                of the population of Hawaii reported a property crime during 2017.
+                                of the population reporting a property crime in 2015. The worst state to
+                                experience property crime in the United States was Hawaii in 2015. Around 3.8
+                                percent of the population in Hawaii reported a property crime during this year.
                             </p>
                         </div>
                     </Tab>
@@ -275,9 +278,9 @@ class BarChart extends Component {
                         <div className="maxWidth">
                             <p>
                                 According to the report from the FBI in 2015, The best place to avoid property crime
-                                in the nation is Vermont, with 1.41 percent of the population reporting a property
-                                crime during 2015. Interestingly, the top five states that had the lowest property crime
-                                reporting all fell below two percent.
+                                in the nation was Vermont, with 1.41 percent of the population reporting a property
+                                crime during 2015. Interestingly, the top five states that had the lowest property
+                                crime rate fell below two percent.
                             </p>
                         </div>
                     </Tab>

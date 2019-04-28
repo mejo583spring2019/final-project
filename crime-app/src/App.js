@@ -5,29 +5,33 @@ import "./styles.css";
 import About from "./components/About";
 import LineGraph from "./components/LineGraph";
 import ColumnChart from "./components/ColumnChart";
-import Callophone from "./components/Callophone";
+import Colophon from "./components/Colophon";
 
 class App extends Component {
+
+  /** Renders links that display the crime information onto the page.
+   * @return {any} JSX content
+   */
   render() {
     return (
       <Router>
         <div className="navBG">
           <nav>
             <div>
-              <img id="logo" className="animated bounce" src={require("./images/logo.png")} />
+              <img id="logo" src={require("./images/logo.png")} alt="Website Logo" />
             </div>
             <ul>
               <li>
-                <Link to="/">About Project</Link>
+                <Link id="categoryLink" to="/">About Project</Link>
               </li>
               <li>
-                <Link to="/linegraph/">Crime Over Time</Link>
+                <Link id="categoryLink" to="/linegraph/">Crime Over Time</Link>
               </li>
               <li>
-                <Link to="/columnchart">Crime By State</Link>
+                <Link id="categoryLink" to="/columnchart">Crime By State</Link>
               </li>
               <li>
-                <Link to="/callophone/">Callophone</Link>
+                <Link id="categoryLink" to="/colophon/">Colophon</Link>
               </li>
             </ul>
           </nav>
@@ -38,7 +42,7 @@ class App extends Component {
           <Route path="/" exact component={About} />
           <Route path="/columnchart" exact component={ColumnChart} />
           <Route path="/linegraph/" exact component={LineGraph} />
-          <Route path="/callophone/" exact component={Callophone} />
+          <Route path="/colophon/" exact component={Colophon} />
         </div>
       </Router>
     );

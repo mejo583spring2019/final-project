@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
-// import "./styles.css";
-
-class Callophone extends Component {
+class Colophon extends Component {
+    /** Renders the data onto the page.
+     * @return {any} JSX content
+     */
     render() {
-
-
         return (
             <div>
-                <h1>Callophone</h1>
+                <h1>Colophon</h1>
                 <p>
                     Lorem ipsum dolor sit amet, stet minimum at pro, est senserit
                     gubergren in, iusto erroribus mel ad. Legimus deserunt quo et,
@@ -23,4 +22,4 @@ class Callophone extends Component {
     }
 }
 
-export default Callophone;                           
+export default Colophon;                           

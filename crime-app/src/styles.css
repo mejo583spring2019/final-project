@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
     font-family: primary;
     src: url(fonts/goboldBold.otf);
@@ -28,14 +29,18 @@ p {
     color: #F3E6C3;
 }
 
-.maxWidth {
-    max-width: 1250px;
-    margin: 0 auto;
-}
-
+/* Navigation Bar */
 .navBG {
     background: #876933;
     padding: 5px 0px 5px 0px;
+}
+
+#logo {
+    width: 175px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 25px;
 }
 
 .bar {
@@ -58,6 +63,18 @@ li {
     margin-top: -25px;
 }
 
+/* Body Styling */
+body {
+    background-size: cover;
+    background-image: url("images/thief.jpg");
+}
+
+.maxWidth {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Pseudoclasses */
 a:link {
     text-decoration: none;
     color: #F3E6C3;
@@ -69,7 +86,8 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
+/* Animated Elements */
+#categoryLink:hover {
     color: white;
     -webkit-animation-duration: 2.5s;
     animation-duration: 2.5s;
@@ -97,14 +115,6 @@ a:hover {
   .bounce { 
     -webkit-animation-name: bounce;
     animation-name: bounce;
-  }
-  
-  #logo {
-      width: 175px;
-      height: 100px;
-      position: relative;
-      top: 10px;
-      left: 25px;
   }
     
   @-webkit-keyframes bounce {
