@@ -1,4 +1,8 @@
-import BarChart from "../BarChart";
+import Highcharts from "highcharts";
+// eslint-disable-next-line camelcase
+import HC_more from "highcharts/highcharts-more"; // init module
+import HighchartsReact from "highcharts-react-official";
+import React, { Component } from "react";
 import appalachian from "../../data/app/app";
 import davidson from "../../data/davidson";
 import duke from "../../data/duke";
@@ -8,7 +12,9 @@ import elon from "../../data/elon";
 import ncsu from "../../data/ncsu";
 import uncSchools from "../../data/unc-schools";
 import wake from "../../data/wake-forest";
-import wcu from "../../data/wcu";
+import wcu from "../../data/wcu"; // module
+// eslint-disable-next-line new-cap
+HC_more(Highcharts);
 
 
 // console.log(byRace);
@@ -17,7 +23,7 @@ import wcu from "../../data/wcu";
  * White completion rates at particular
  * NC colleges & Universities
  */
-class PackedChart extends BarChart {
+class PackedChart extends Component {
   /** Constructor builds out the data set
    * @param {any} props
   */
@@ -46,102 +52,111 @@ class PackedChart extends BarChart {
         this.uncSchoolsData, this.wcuData
     );
 
-    const whiteCompletion = [];
-    const schoolName = [];
-
     const byRace = [];
 
-    // [{
-    //   name: "White",
-    //   data: [{
-    //     name: "UNC Chapel Hill",
-    //     value: 0.9,
-    //   }, {
-
-    //   } ]
-    // }]
-
-    const race = [
-      "White", "Black", "Asian",
-      "American Indian/Alaskan Native", "Native Hawaiian/Pacific Islander",
-      "Two or more races", "Unknown",
+    const raceProperties = [
+      {
+        name: "White",
+        shorthand: "white",
+      }, {
+        name: "Black",
+        shorthand: "black",
+      }, {
+        name: "Asian",
+        shorthand: "asian",
+      }, {
+        name: "American Indian/Alaskan Native",
+        shorthand: "aian",
+      }, {
+        name: "Native Hawaiian/Pacific Islander",
+        shorthand: "nhpi",
+      }, {
+        name: "Two or more races",
+        shorthand: "2ormore",
+      }, {
+        name: "Race Unknown",
+        shorthand: "race.unknown",
+      },
     ];
 
-    const raceShorthand = [
-      "white", "black", "asian",
-      "aian", "nhpi", "2ormore", "race.unknown",
-    ];
-
-    race.forEach((r) => {
-      const raceTitle = r;
+    raceProperties.forEach((r) => {
+      const raceTitle = r.name;
       const raceData = byRace[raceTitle] || [];
       this.fullData.forEach((s) => {
         if (s["school.name"] !== "Appalachian Bible College") {
           if (s["latest.completion.completion_rate_4yr_150nt"] !== null) {
             const sName = s["school.name"];
-            let rRate;
-            raceShorthand.forEach((shorthand) => {
-              rRate = s[`latest.completion.completion_rate_4yr_150_${shorthand}`];
-            });
+            const rRate = s[
+                `latest.completion.completion_rate_4yr_150_${r.shorthand}`
+            ];
             raceData.push({
               name: sName,
-              value: rRate,
+              value: rRate * 100,
             });
           }
         }
       });
 
       byRace.push({
-        name: r,
+        name: r.name,
         data: raceData,
       });
     });
 
-    console.log(byRace);
-
-
-    this.fullData.forEach((s) => {
-      if (s !== undefined &&
-        s["latest.completion.completion_rate_4yr_150_white"] !== null) {
-        schoolName.push(s["school.name"]);
-        whiteCompletion.push(
-            (s["latest.completion.completion_rate_4yr_150_white"] * 100)
-        );
-      }
-    });
-
-    this.type = "column";
-    this.chartData = whiteCompletion;
-    this.title = "Completion Rates of white Students";
-    this.xAxis = schoolName;
-
     this.options = {
       chart: {
-        type: this.type,
-        width: 800,
+        type: "packedbubble",
+        height: "100%",
       },
       title: {
-        text: this.title,
+        text: "Completion Rate of Students by Race",
       },
-      yAxis: {
-        title: {
-          text: "Percentage",
-        },
-        max: 100,
+      tooltip: {
+        useHTML: true,
+        pointFormat: "<b>{point.name}:</b> {point.y}%",
       },
-      xAxis: {
-        categories: this.xAxis,
-        title: {
-          text: "School",
+      plotOptions: {
+        packedbubble: {
+          minSize: "35%",
+          maxSize: "150%",
+          zMin: 0,
+          zMax: 1000,
+          layoutAlgorithm: {
+            splitSeries: false,
+            gravitationalConstant: 0.02,
+          },
+          dataLabels: {
+            enabled: true,
+            format: "{point.name}",
+            filter: {
+              property: "y",
+              operator: ">",
+              value: 250,
+            },
+            style: {
+              color: "black",
+              textOutline: "none",
+              fontWeight: "normal",
+            },
+          },
         },
       },
-      series: [
-        {
-          name: "Completion rate of white students",
-          data: this.chartData,
-        },
-      ],
+      series: byRace,
     };
+  }
+
+  /** renders high charts using data from above
+  * @return {any} JSX to create a Highchart
+  */
+  render() {
+    return (
+      <div>
+        <HighchartsReact
+          highcharts={Highcharts}
+          options={this.options}
+        />
+      </div>
+    );
   }
 }
 
