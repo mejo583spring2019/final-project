@@ -10,7 +10,7 @@ class Top100 extends Component {
         <h1 id="Top100Title">
           TOP 100
         </h1>
-        <div className="TitleUnderline"></div>
+        <div id="Top100TitleUnderline"></div>
         <p id="Top100Intro">
           PLACEHOLDER
         </p>

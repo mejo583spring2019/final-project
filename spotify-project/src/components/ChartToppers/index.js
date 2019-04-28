@@ -10,7 +10,7 @@ class ChartToppers extends Component {
         <h1 id="ChartToppersTitle">
             CHART TOPPERS
         </h1>
-        <div id="TitleUnderline"></div>
+        <div id="ChartToppersTitleUnderline"></div>
         <p id="ChartToppersIntro">
           Several artists released multiple songs that made it on
           Spotify's top 100 for the year, here they are:
