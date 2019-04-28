@@ -1,0 +1,11 @@
+.modal-content {
+    font-size: 1rem;
+}
+.modals {
+    padding: 25px 25px;
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 675px;
+}
+}

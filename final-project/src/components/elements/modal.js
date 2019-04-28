@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Chart from "../table/chart";
+import "./modals.css";
 
 
 
@@ -25,7 +27,7 @@ class Modals extends Component {
       return (
         <>
           <Button variant="primary" onClick={this.handleShow}>
-            Custom Width Modal
+            Chart card
           </Button>
   
           <Modal
@@ -40,15 +42,16 @@ class Modals extends Component {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              <p>
-                Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae
-                unde commodi aspernatur enim, consectetur. Cumque deleniti
-                temporibus ipsam atque a dolores quisquam quisquam adipisci
-                possimus laboriosam. Quibusdam facilis doloribus debitis! Sit
-                quasi quod accusamus eos quod. Ab quos consequuntur eaque quo rem!
-                Mollitia reiciendis porro quo magni incidunt dolore amet atque
-                facilis ipsum deleniti rem!
-              </p>
+             
+              <div className="modals">
+              <Chart />
+              </div>
+              <div className="modal-content">
+                <p>
+                  this is just some test text to help see if this looks right
+
+                </p>
+              </div>
             </Modal.Body>
           </Modal>
         </>

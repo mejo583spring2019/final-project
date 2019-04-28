@@ -37,7 +37,7 @@ class Bubbles extends Component {
     bubbleArray.push({
       x: Number.parseFloat(wagesByState[d.state].minimumWage).toFixed(2),
       y: parseInt( d.salary),
-      r: parseInt(gdpByState[d.state].gdp)*.00005,
+      r: parseInt(gdpByState[d.state].gdp)*.000009,
     })
   })
 
