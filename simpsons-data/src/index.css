@@ -7,29 +7,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
 .simpsons{
-  width:50%;
-  border-right:2px black solid;
-  padding-right:5%;
+  width:100px;
+  height:100px;
+  /* border-right:2px black solid; */
+  /* padding-right:5%; */
 }
-section {
+.panel {
   height: 100vh;
   width: 100vw;
 }
- .panel1{
+.panel.intro{
   background: #FFD938;
+  /* margin-bottom:400px; */
  }
- .panel2{
+ .panel.body{
   background:#2B4AD0;
+  /* margin-bottom:400px; */
  }
- .panel3{
+ .panel.chart{
   background:#E87D21;
+  /* margin-bottom:400px; */
  }
  h1{
   font-family: 'Permanent Marker', cursive;
@@ -38,10 +42,14 @@ section {
  h2, p{
   font-family: 'Varela Round', sans-serif; 
 }
+h3{
+  font-family: 'Permanent Marker', cursive;
+
+}
 p{
   font-size: 1.3em;
 }
-text, h2{
+h2{
   font-size:2em;
   color:white;
 }
@@ -54,7 +62,7 @@ text, h2{
   padding-left:10%;
   padding-right:10%;
 } */
-#homer{
+/* #homer{
   grid-template-columns:  homer;
 }
 #bart{
@@ -88,11 +96,9 @@ text, h2{
    "marge" "info2",
    "bart" "info3",
    "lisa" "info4";
-}
+} */
 
-#homer .cls-1{
-  fill: #f3df49;
-}
+#homer .cls-1{fill: #f3df49;}
 #homer .cls-2{fill: "#231f20";}
 #marge .cls-1{fill:#f3df49;}
 #marge .cls-2{fill:#231f20;}
@@ -101,3 +107,29 @@ text, h2{
 #bart .cls-2{fill:#231f20;}
 #lisa .cls-1{fill:#f3df49;}
 #lisa .cls-2{fill:#231f20;}
+#maggie .cls-1{fill:#f4df4a;}
+#maggie .cls-2{fill:#231f20;}
+#maggie .cls-3{fill:#894253;stroke:#231f20;stroke-miterlimit:10;stroke-width:0.5px;}
+
+.flexbox{
+  display:flex;
+  /* align-content: center; */
+  justify-content:space-around;
+  flex-wrap:wrap;
+  overflow-wrap: normal;
+}
+img{
+  width:20vw;
+  height: 34vh;
+  padding-left:15px;
+  padding-right:15px;
+}
+.name-and-image{
+  display: flex;
+  /* align-content: center; */
+  flex-direction: column;
+  justify-content:center;
+}
+h3{
+  text-align: center;
+}

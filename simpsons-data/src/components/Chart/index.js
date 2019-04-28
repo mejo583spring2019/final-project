@@ -15,11 +15,10 @@ const options = {
     height: "50%",
   },
   title: {
-    text: "The Simpsons - by cast and character",
+    text: "The Simpsons - Characters by Appearance and Voice Actor",
   },
   tooltip: {
     useHTML: true,
-    // pointFormat: "<b>{point.name}</b>",
     pointFormat: "<b>{point.name}:</b> {point.y} appearances in the series",
   },
   colors: [
@@ -36,7 +35,7 @@ const options = {
   plotOptions: {
     packedbubble: {
       // useSimulation: true,
-      minSize: "40%",
+      minSize: "60%",
       maxSize: "100%",
       zMin: 0,
       zMax: 700,
@@ -53,10 +52,10 @@ const options = {
         filter: {
           property: "y",
           operator: ">",
-          value: 700,
+          value: 90,
         },
         style: {
-          color: "purple",
+          color: "black",
           textOutline: "none",
           fontWeight: "normal",
         },
