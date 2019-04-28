@@ -1,0 +1,203 @@
+/* styles */
+/* called by your view template */
+
+/* {
+  box-sizing: border-box;
+}*/
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; 
+    overflow-x: hidden;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    color: #222222;
+  }
+  
+  h1 {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  h2 { 
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+    
+  
+  .panel {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+ /* .panel {
+    margin-bottom: 600px;
+  }*/
+  
+  .intro { 
+    background-image: url('../img/hive.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .off-white { 
+    background-color: #FAF2EC;
+  }
+  
+  .green { 
+    background-color: green;
+  }
+  
+  .bordeaux { 
+    background-color: #881D1D;
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  /* flex */ 
+  .flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .center {
+    display: flex; 
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column;
+  }
+  
+  
+  /* panel 1 */
+  
+  
+  .intro-panel { 
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+    background-image: url('../img/background-1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 60px;
+    padding: 20px;
+  }
+  #outline {
+    -webkit-text-fill-color: #881D1D;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+  }
+  #intro-subheading {
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 0px;
+  }
+  
+  /* panel 2 */
+  .grid-2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 350px 100px;
+  }
+  
+  #panel-2-title {
+    text-align: center;
+    vertical-align: bottom!important;
+    margin-top: 30px!important;
+    font-size: 45px;
+  }
+  #panel-2-text {
+    font-size: 17px;
+    padding: 30px;
+    margin-bottom: 0px;
+  }
+  
+  #panel-2-footer { 
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  #panel-3-title {
+    text-align: center;
+    vertical-align: bottom!important;
+    margin-top: 30px!important;
+    font-size: 45px;
+  }
+  
+  /* panel 3 */
+  /* .grid-3 {
+    display:grid;
+    grid-template-columns: 10px 1fr 1fr 1fr 10px;
+    grid-template-rows: 75px 300px 300px;
+  }
+  
+  .panel-3-titles {
+    grid-column: 3/4;
+    background-color: white;
+  } 
+  
+  .iron-man {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: white;
+  }
+  
+  .captain-america {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: white;
+  }
+  
+  .thor {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-color: white;
+  }
+  
+  .black-widow {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: white;
+  }
+  
+  .black-panther {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: white;
+  }
+  
+  .spider-man {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background-color: white;
+  } */
+  
+  .item { 
+    align-self: flex-end;
+  }
+  
+  
+  
+  
