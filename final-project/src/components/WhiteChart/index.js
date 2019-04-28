@@ -24,6 +24,7 @@ class WhiteChart extends BarChart {
       if (r["school.name"] === "Appalachian State University") {
         return r;
       }
+      return r;
     });
     this.davidsonData = davidson;
     this.dukeData = duke;
@@ -49,7 +50,7 @@ class WhiteChart extends BarChart {
         s["latest.completion.completion_rate_4yr_150_white"] !== null) {
         schoolName.push(s["school.name"]);
         whiteCompletion.push(
-            s["latest.completion.completion_rate_4yr_150_white"]
+            (s["latest.completion.completion_rate_4yr_150_white"] * 100)
         );
       }
     });
@@ -62,9 +63,16 @@ class WhiteChart extends BarChart {
     this.options = {
       chart: {
         type: this.type,
+        width: 800,
       },
       title: {
         text: this.title,
+      },
+      yAxis: {
+        title: {
+          text: "Percentage",
+        },
+        max: 100,
       },
       xAxis: {
         categories: this.xAxis,

@@ -64,3 +64,8 @@ body {
 .main p a:hover {
   color: cornflowerblue;
 }
+
+.nc-outline {
+ padding: 7%;
+ position: absolute;
+}

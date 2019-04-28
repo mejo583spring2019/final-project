@@ -10,11 +10,14 @@ import uncSchools from "../../data/unc-schools";
 import wake from "../../data/wake-forest";
 import wcu from "../../data/wcu";
 
+
+// console.log(byRace);
+
 /** Creates a column chart showing
- * black completion rates at particular
+ * White completion rates at particular
  * NC colleges & Universities
  */
-class BlackChart extends BarChart {
+class PackedChart extends BarChart {
   /** Constructor builds out the data set
    * @param {any} props
   */
@@ -43,22 +46,73 @@ class BlackChart extends BarChart {
         this.uncSchoolsData, this.wcuData
     );
 
-    const blackCompletion = [];
+    const whiteCompletion = [];
     const schoolName = [];
+
+    const byRace = [];
+
+    // [{
+    //   name: "White",
+    //   data: [{
+    //     name: "UNC Chapel Hill",
+    //     value: 0.9,
+    //   }, {
+
+    //   } ]
+    // }]
+
+    const race = [
+      "White", "Black", "Asian",
+      "American Indian/Alaskan Native", "Native Hawaiian/Pacific Islander",
+      "Two or more races", "Unknown",
+    ];
+
+    const raceShorthand = [
+      "white", "black", "asian",
+      "aian", "nhpi", "2ormore", "race.unknown",
+    ];
+
+    race.forEach((r) => {
+      const raceTitle = r;
+      const raceData = byRace[raceTitle] || [];
+      this.fullData.forEach((s) => {
+        if (s["school.name"] !== "Appalachian Bible College") {
+          if (s["latest.completion.completion_rate_4yr_150nt"] !== null) {
+            const sName = s["school.name"];
+            let rRate;
+            raceShorthand.forEach((shorthand) => {
+              rRate = s[`latest.completion.completion_rate_4yr_150_${shorthand}`];
+            });
+            raceData.push({
+              name: sName,
+              value: rRate,
+            });
+          }
+        }
+      });
+
+      byRace.push({
+        name: r,
+        data: raceData,
+      });
+    });
+
+    console.log(byRace);
+
 
     this.fullData.forEach((s) => {
       if (s !== undefined &&
-        s["latest.completion.completion_rate_4yr_150_black"] !== null) {
+        s["latest.completion.completion_rate_4yr_150_white"] !== null) {
         schoolName.push(s["school.name"]);
-        blackCompletion.push(
-            (s["latest.completion.completion_rate_4yr_150_black"] * 100)
+        whiteCompletion.push(
+            (s["latest.completion.completion_rate_4yr_150_white"] * 100)
         );
       }
     });
 
     this.type = "column";
-    this.chartData = blackCompletion;
-    this.title = "Completion Rates of Black Students";
+    this.chartData = whiteCompletion;
+    this.title = "Completion Rates of white Students";
     this.xAxis = schoolName;
 
     this.options = {
@@ -83,7 +137,7 @@ class BlackChart extends BarChart {
       },
       series: [
         {
-          name: "Completion rate of black students",
+          name: "Completion rate of white students",
           data: this.chartData,
         },
       ],
@@ -91,4 +145,4 @@ class BlackChart extends BarChart {
   }
 }
 
-export default BlackChart;
+export default PackedChart;

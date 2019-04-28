@@ -4,6 +4,7 @@ import WhiteChart from "./components/WhiteChart/";
 import BlackChart from "./components/BlackChart";
 import AsianChart from "./components/AsianChart";
 import HispanicChart from "./components/HispanicChart";
+import PackedChart from "./components/PackedChart";
 
 /** App component builds out main part
  * of website.
@@ -33,11 +34,13 @@ class App extends Component {
           <img
             src="/img/nc-outline.svg"
             alt="An outline of North Carolina"
+            className="nc-outline"
           />
-          <WhiteChart />
-          <BlackChart />
-          <AsianChart />
-          <HispanicChart />
+          <WhiteChart className="chart" />
+          <BlackChart className="chart" />
+          <AsianChart className="chart" />
+          <HispanicChart className="chart" />
+          <PackedChart />
         </section>
       </div>
     );

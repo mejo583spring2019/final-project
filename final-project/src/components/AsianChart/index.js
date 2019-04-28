@@ -24,6 +24,7 @@ class AsianChart extends BarChart {
       if (r["school.name"] === "Appalachian State University") {
         return r;
       }
+      return r;
     });
 
     this.davidsonData = davidson;
@@ -50,7 +51,7 @@ class AsianChart extends BarChart {
         s["latest.completion.completion_rate_4yr_150_asian"] !== null) {
         schoolName.push(s["school.name"]);
         asianCompletion.push(
-            s["latest.completion.completion_rate_4yr_150_asian"]
+            (s["latest.completion.completion_rate_4yr_150_asian"] * 100)
         );
       }
     });
@@ -63,9 +64,16 @@ class AsianChart extends BarChart {
     this.options = {
       chart: {
         type: this.type,
+        width: 800,
       },
       title: {
         text: this.title,
+      },
+      yAxis: {
+        title: {
+          text: "Percentage",
+        },
+        max: 100,
       },
       xAxis: {
         categories: this.xAxis,
