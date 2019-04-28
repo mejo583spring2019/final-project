@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CanvasJSReact from "../../assets/canvasjs.react";
-import data from "../data.js";
+import data from "../Data/data.js";
 let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 class Hour extends Component {

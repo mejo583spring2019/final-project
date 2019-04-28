@@ -107,7 +107,7 @@ class App extends Component {
     return (
       <div>
         <div id="#myNavbar">
-          <Navbar collapseOnSelect
+          <Navbar
             expand="lg"
             bg="light"
             variant="light"

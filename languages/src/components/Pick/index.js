@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 // Stylesheets
 import "./styles.css";
 
@@ -10,10 +11,15 @@ import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
 
-// Components
+// Components and data
 import Hour from "../Hour";
 import Week from "../Week";
 import Map from "../Map";
+import category1 from "../Data/category1.js";
+import category2 from "../Data/category2.js";
+import category3 from "../Data/category3.js";
+import category4 from "../Data/category4.js";
+
 
 // COMPONENT CODE BEGINS
 /**
@@ -65,8 +71,14 @@ class About extends Component {
                       <Col className="caption"><p>Determines which regions of the world contain the highest concentration of each level of language difficulty.</p></Col>
                     </Row>
                     <Row>
-                      <Col className="chart"><Map /></Col>
-
+                      <Col className="chart">
+                        <Map data={category1} />
+                        <Map data={category2} />
+                      </Col>
+                      <Col>
+                        <Map data={category3} />
+                        <Map data={category4} />
+                        </Col>
                     </Row>
                     <br />
                     <br />

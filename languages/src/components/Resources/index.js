@@ -30,9 +30,9 @@ class Resources extends Component {
             <Col className="links">
               <h2>General</h2>
               <h4>Rosetta Stone</h4>
-              <p><a href="https://www.rosettastone.com" target="_blank" rel="noopener noreferrer">Rosetta Stone</a></p>
+              <p>Named for the ancient stone slab that helped decipher tktk,<a href="https://www.rosettastone.com" target="_blank" rel="noopener noreferrer">Rosetta Stone</a> has helped millions to learn new languages since its debut in 1992. As of April 2019 the software offers lessons in 28 languages, including Mandarin, Dutch, Russian, and more.</p>
               <h4>Duolingo</h4>
-              <p><a href="https://www.duolingo.com/" target="_blank" rel="noopener noreferrer">Duolingo*</a></p>
+              <p>One of the most popular education apps on Apple's App Store,<a href="https://www.duolingo.com/" target="_blank" rel="noopener noreferrer">Duolingo*</a> offers lessons in over 30 languages to students on-the-go. Despite its limitations, the app </p>
               <h4>Babbel</h4>
               <p><a href="https://www.babbel.com/" target="_blank" rel="noopener noreferrer">Babbel*</a></p>
               <h4>Busuu</h4>
