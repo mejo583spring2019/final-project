@@ -3,8 +3,6 @@ import styled from "styled-components";
 import { Controller, Scene } from "react-scrollmagic";
 import Chart from "./highchart.js";
 import background from "./img/background.png";
-// import Map from "./faces.js";
-import Faces from "./facesvg.js";
 import Barchart from "./barchart.js";
 
 
@@ -33,14 +31,21 @@ const SectionWipesStyled = styled.div`
   }
   
   .panel.graphic {
-    background-color: white;
+    background-color: #F2D8A7;
+    margin-bottom: 300px;
   }
   
-  .panel.green {
+  .panel.grey {
     background-color: #343434;
-    margin-bottom: 800px;
+    margin-bottom: 300px;
+
   }
   
+  .panel.blue {
+    background-color: #4B666B;
+    height: 120vh !important;
+  }
+
   .panel.red {
     background-color: rgba(151, 69, 70, 1);
     height: 120vh !important;
@@ -57,7 +62,7 @@ const SectionWipesStyled = styled.div`
 
   #frontTitle{
       font-family: Times New Roman;
-      font-size: 80px;
+      font-size: 70px;
       virtical-align: bottom;
       margin-bottom: 3px;
       padding-bottom: 3px;
@@ -79,7 +84,7 @@ const SectionWipesStyled = styled.div`
 
   #chartText{
     font-family: Times New Roman;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 20px;
     margin-top: 1px;
     padding-left: 10%;
@@ -101,18 +106,22 @@ const SectionWipes = () => (
         </div>
       </Scene>
       <Scene pin>
-        <div className="panel green">
+        <div className="panel grey">
           <p id="heroIntro">All of our Game of Thrones heroes are deadly,
-          but which has been the most dangerous to their fellow characters?</p>
-          <p id="chartText">The following chart demonstrates which heroes
+          but who has been the most dangerous?</p>
+          <p id="chartText">The following charts demonstrate which heroes
            and houses have been the most ruthless in their quest for the
-           Iron Throne. Character murders are tallied according to deaths
-           they have directly inflicted. Deaths characters "ordered" or deaths of
-           people who were not named characters in the TV show script do not count.
-           Click and drag the characters between houses if you disagree with their
-           original placement (for example, perhaps you will want to move Jon Snow
-           out of House Stark...) WARNING: This chart is updated through season 8
-           episode 2 and it does contain spoilers!</p>
+           Iron Throne. <br/> <br/>In the first chart, Deadliest Houses,
+           murders are tallied according to deaths the characters have directly
+           inflicted. Deaths characters "ordered" or deaths of people who
+           were not named characters in the TV show script do not count.
+           Click and drag the characters between houses if you disagree with the
+           original placement (for example, you may want to move Jon Snow
+           out of House Stark...). <br/><br/> In the second chart, Deadliest
+           Characters, murders are tallied according to all on-screen kills
+           as well as prominent off-screen kills that are confirmed or assumed.
+          <br/> <br/><strong> WARNING: </strong> These charts are updated
+           through season 8 episode 2 and they do contain spoilers!</p>
           <img id="characters" src={require("./img/characters.png")} alt="Game of Thrones characters artwork"></img>
         </div>
       </Scene>
@@ -120,7 +129,10 @@ const SectionWipes = () => (
         <div className="panel graphic"> <Chart></Chart> </div>
       </Scene>
       <Scene pin>
-        <div className="panel red"> <Barchart></Barchart></div>
+        <div className="panel blue"> <Barchart></Barchart></div>
+      </Scene>
+      <Scene pin>
+        <div className="panel red"></div>
       </Scene>
     </Controller>
   </SectionWipesStyled>

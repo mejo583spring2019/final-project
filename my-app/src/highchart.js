@@ -25,10 +25,16 @@ const options = {
     verticalAlign: "top",
     floating: true,
     x: 0,
-    y: 30,
+    y: 50,
   },
   title: {
-    text: "Deadiliest Houses in Game of Thrones",
+    text: "Deadiliest Houses in Game of Thrones: Most Character Kills",
+  },
+  subtitle: {
+    text: "Source: <a href=\"https://github.com/jeffreylancaster/game-of-thrones/tree/master/data\" target=\"_blank\">Fan Data by Jeffrey Lancaster</a>",
+    style: {
+      marginBottom: "10px",
+    },
   },
   tooltip: {
     useHTML: true,

@@ -20,3 +20,46 @@ code {
   white-space:normal !important;
 }
 
+text {
+  color: black !important;
+  outline: black;
+  fill: black !important;
+  font-weight: bold;
+  font-size: 13px !important;
+}
+.highcharts-subtitle {
+  color: black !important;
+  outline: none;
+  fill: inherit !important;
+}
+
+tspan {
+  font-weight: bold;
+  stroke: none;
+  font-size: 13px;
+}
+
+.highcharts-title tspan{
+  font-size: 20px;
+  font-family: Times New Roman;
+}
+
+.highcharts-packedbubble-series tspan {
+  font-weight: normal; 
+}
+
+.highcharts-tooltip tspan {
+  font-weight: normal;
+}
+
+.highcharts-grid-line{
+  stroke: pink;
+}
+
+.highcharts-yaxis-grid path {
+  stroke: silver;
+}
+
+.highcharts-xaxis-grid path {
+  stroke: none;
+}
