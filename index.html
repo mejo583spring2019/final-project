@@ -7,6 +7,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
 
     <!-- linking to stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
@@ -15,47 +25,60 @@
     <link rel="stylesheet" href="https://use.typekit.net/kfo5mnj.css">
   </head>
   <body>
-    <header>
-      
-    </header>
-
+    
     <body>
+        <div id="root"></div>
+        <!--
+          This HTML file is a template.
+          If you open it directly in the browser, you will see an empty page.
+    
+          You can add webfonts, meta tags, or analytics to this file.
+          The build step will place the bundled scripts into the <body> tag.
+    
+          To begin the development, run `npm start`.
+          To create a production bundle, use `npm run build`.
+        -->
+    
          <section class="panel intro">
              <div class="center">
                <div class="flex intro-panel">
                    
                </div>
                <div class="flex">
-                  <h2 id="intro-subheading">
-                    (for dummies)
-                  </h2>
+                  
                </div>
            </div> 
         </section>
         <section class="panel off-white">
              <div class="grid-2 flex">
                
-               <div id="panel-2-title">
+               <div id="panel-2-myth">
                   <h1>
-                    Myth
+                    Myth:
                  </h1>
+                 <p> 
+                        Bees are evil creatures out to sting us. </br>Kill all the bees.
+                 </p>
                </div>
-               <div >
+               <div id="panel-2-fact">
                 <h1>
-                    Fact:
+                    Fact: </br>
                 </h1>
+                <p> 
+                    Bees are actually an essential part of our ecosystem. They are essential to the growth of crops all over the world. 
+                </p>
                </div>
                <div id="panel-2-footer">
                  
-                <p>
-                   Look no further
-                 </p>  
+                <h1>
+                   (but O.K., you probably already knew that)
+                </h1>  
                </div>
           </div>
         </section>
         
-        <section class="panel bordeaux">
-              <div class="grid-2 flex">
+        <section class="panel readmore">
+              <div class="grid-3 flex">
                
                <div id="panel-3-title">
                   <h1>
@@ -102,7 +125,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
     <!-- Charts.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-     
+    <script src="js/scripts.js"></script> 
      <script src="/client.js" defer></script>
   </body>
 </html>

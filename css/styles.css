@@ -15,13 +15,21 @@ body {
   }
   
   h1 {
-    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-style: normal;
+    font-style: italic;
+    font-size: 45px;
   }
   
   h2 { 
-    font-family: 'Playfair Display', serif;
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 35px;
+  }
+
+  p { 
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
   }
   
   .bold {
@@ -53,8 +61,8 @@ body {
     background-color: green;
   }
   
-  .bordeaux { 
-    background-color: #881D1D;
+  .readmore { 
+    background-image: url('..img/bee-2.jpg');
   }
   
   .white {
@@ -116,22 +124,34 @@ body {
   .grid-2 {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 350px 100px;
+    grid-template-rows: 500px 100px;
   }
   
-  #panel-2-title {
+  #panel-2-myth {
+    background-color: #f2c641;
+    font-family: 'Playfair Display', serif; 
     text-align: center;
+    margin-top: 20px!important;
     vertical-align: bottom!important;
-    margin-top: 30px!important;
-    font-size: 45px;
+    height: 90vh;
   }
-  #panel-2-text {
-    font-size: 17px;
-    padding: 30px;
+  #panel-2-fact {
+    background-color: #f2e2ce;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 20px!important;
     margin-bottom: 0px;
+    height: 90vh;
   }
   
   #panel-2-footer { 
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #5d3B02;
+    background-image: url('../img/ground_2.jpg');
+    background-position: center;
+    background-size: contain;
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-style: italic;
@@ -139,6 +159,19 @@ body {
     text-align: center;
   }
   
+  
+  
+  /* panel 3 */
+   .grid-3 {
+     background-image: url('../img/bee-2.jpg');
+     background-size: cover;
+     background-position: right;
+     background-repeat: no-repeat;
+    display:grid;
+    grid-template-columns: 10px 1fr 1fr 1fr 10px;
+    grid-template-rows: 75px 300px 300px;
+  }
+
   #panel-3-title {
     text-align: center;
     vertical-align: bottom!important;
@@ -146,57 +179,7 @@ body {
     font-size: 45px;
   }
   
-  /* panel 3 */
-  /* .grid-3 {
-    display:grid;
-    grid-template-columns: 10px 1fr 1fr 1fr 10px;
-    grid-template-rows: 75px 300px 300px;
-  }
-  
-  .panel-3-titles {
-    grid-column: 3/4;
-    background-color: white;
-  } 
-  
-  .iron-man {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    background-color: white;
-  }
-  
-  .captain-america {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    background-color: white;
-  }
-  
-  .thor {
-    grid-column: 4/5;
-    grid-row: 2/3;
-    background-color: white;
-  }
-  
-  .black-widow {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    background-color: white;
-  }
-  
-  .black-panther {
-    grid-column: 3/4;
-    grid-row: 3/4;
-    background-color: white;
-  }
-  
-  .spider-man {
-    grid-column: 4/5;
-    grid-row: 3/4;
-    background-color: white;
-  } */
-  
-  .item { 
-    align-self: flex-end;
-  }
+
   
   
   
