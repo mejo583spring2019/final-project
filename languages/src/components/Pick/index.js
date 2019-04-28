@@ -71,14 +71,22 @@ class About extends Component {
                       <Col className="caption"><p>Determines which regions of the world contain the highest concentration of each level of language difficulty.</p></Col>
                     </Row>
                     <Row>
-                      <Col className="chart">
+                      <Col>
+                        <h4>Category I</h4>
                         <Map data={category1} />
+                        <br />
+                        <h4>Category II</h4>
                         <Map data={category2} />
+                        <br />
                       </Col>
                       <Col>
+                        <h4>Category III</h4>
                         <Map data={category3} />
+                        <br />
+                        <h4>Category IV</h4>
                         <Map data={category4} />
-                        </Col>
+                        <br />
+                      </Col>
                     </Row>
                     <br />
                     <br />

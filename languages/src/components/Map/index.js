@@ -17,13 +17,14 @@ class Map extends Component {
     return {
       datasets: [{
         data: Object.values(result),
+        backgroundColor: ["#ff5959", "#C1EBF9", "#f1f242", "#007BFF"],
       }],
       labels: Object.keys(result),
     };
   }
   render() {
     return (<div>
-      <Pie data={this.getData()} />
+      <Pie data={this.getData()} style={{ width: 400, height: 200 }} />
     </div>)
 
   }
