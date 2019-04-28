@@ -148,7 +148,6 @@ body {
     color: white;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: #5d3B02;
     background-image: url('../img/ground_2.jpg');
     background-position: center;
     background-size: contain;
