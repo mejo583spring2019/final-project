@@ -26,7 +26,6 @@ function makeTree(fullData) {
     }
     // should do r.id? from video
     // makeData[r.character.url] = r.character.image.medium;
-    
     personData[r.character.name] = makeData;
 
     personName[strPerson] = personData;
