@@ -44,40 +44,66 @@ class Scroller extends React.Component {
             <p id="info2">The Simpsons started in 198_. The original cast,
               which was just _____ and _____ when the series began,
               kept largely the same over the last three decades.
-              The main cast of Homer, Marge, Bart, LIsa,Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              The main cast of Homer, Marge, Bart,
+              LIsa,Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit
+              in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
         </section>
         <section className="panel2">
           <div className="css-grid">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.29 97.88" id="bart" className="simpsons"><defs></defs><title>bart</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M.25,55.43l0-53.14A92.13,92.13,0,0,0,6.35,20.58,84.73,84.73,0,0,1,10.63,1.29,128.65,128.65,0,0,0,13.9,18.84a40.24,40.24,0,0,1,5.54-15.1,97.78,97.78,0,0,0,1.72,15.5,26.16,26.16,0,0,1,6.5-13l.39,12.11A49.65,49.65,0,0,1,36.89,2.11c1.41,29-4.14,58.13-1.5,87,.32,3.47.36,7.88-2.22,9.38-1.6.93-3.47.21-5.14-.52L12.72,91.23a19.83,19.83,0,0,0,3.56-5.76c.77-2.24.76-5-.55-6.86a8,8,0,0,0-2.84-2.22L4.61,71.78c-1-.56-2.19-1.5-2-2.83.09-.62.48-1.11.62-1.72a4.54,4.54,0,0,0-.17-2Q1.66,59.43.28,53.64" transform="translate(-0.03 -1.16)" /><path class="cls-2" d="M.47,55.3.5,2.16l-.43.25a96.49,96.49,0,0,0,6.06,18.3s.43-.2.43-.25a88.61,88.61,0,0,1,4.29-19.3l-.43.25A135.69,135.69,0,0,0,13.68,19s.42-.19.43-.25a41.82,41.82,0,0,1,5.55-15.1l-.43.25a103.53,103.53,0,0,0,1.71,15.5c0-.06.42-.18.43-.25a27.13,27.13,0,0,1,6.51-13l-.43.25.38,12.11c0-.08.41-.17.44-.25A51.1,51.1,0,0,1,37.11,2l-.43.25c.78,17.13-.76,34.21-1.66,51.29-.44,8.36-.73,16.74-.48,25.12.12,4,.51,8,.74,11.93.15,2.75.19,6.3-2.33,8.05l.43-.25c-2.65,1.14-5.42-.66-7.83-1.72l-9-4a18.08,18.08,0,0,1-2.7-1.18c-.93-.64-.85-.08-.39-1.06.58-1.23,1.72-2.26,2.36-3.51,1.15-2.28,1.72-5.16.63-7.57s-4.06-3.51-6.23-4.72l-4.14-2.3a7.18,7.18,0,0,1-2.86-2.07c-.68-1.12-.14-1.77.13-2.89a7.84,7.84,0,0,0-.41-3.76L.5,53.51s-.45.2-.44.25l2.2,9.16a15.31,15.31,0,0,1,.81,3.76C3,68,2,69,2.6,70.28c.89,1.91,4.22,3,5.93,3.93,2.23,1.24,5.45,2.37,7,4.52a7.56,7.56,0,0,1,.76,6.18,12.86,12.86,0,0,1-1.76,3.75c-.31.47-.64.93-1,1.38l-1,1.32.9.4c1,.92,3.21,1.41,4.51,2l4.5,2C24.93,96.82,28,98.82,30.78,99c7.62.57,4.52-13.34,4.33-17.27-.6-12.4.09-24.82.84-37.2C36.82,30.39,37.76,16.19,37.11,2c0,.06-.39.2-.43.25A51.32,51.32,0,0,0,27.83,18.5l.44-.25L27.88,6.14c0,.05-.39.19-.43.25a27,27,0,0,0-6.51,13l.43-.25a103.53,103.53,0,0,1-1.71-15.5c0,.06-.39.18-.43.25A41.64,41.64,0,0,0,13.68,19l.43-.25A137.41,137.41,0,0,1,10.85,1.16c0,.07-.41.18-.43.25a88.61,88.61,0,0,0-4.29,19.3l.43-.25A97.2,97.2,0,0,1,.5,2.16c0,.06-.43.19-.43.25L0,55.55c0-.08.44-.16.44-.25Z" transform="translate(-0.03 -1.16)" /></g></g></svg>
-            <p id="info3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            <p id="info3">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in
+             voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia
             deserunt mollit anim id est laborum.
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-               in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-               sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+               sed do eiusmod tempor
+               incididunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam,
+               quis nostrud
+               exercitation ullamco laboris nisi ut aliquip ex ea
+               commodo consequat. Duis aute irure dolor
+               in reprehenderit in voluptate velit esse cillum dolore eu
+               fugiat nulla pariatur.
+               Excepteur sint occaecat cupidatat non proident, s
+               unt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.98 74.28" id="lisa" className="simpsons"><defs></defs><title>lisa</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M71,41.5,92.51,29.73a90.66,90.66,0,0,0-25.2-1.58q4.09-10.45,8.21-20.9a74.61,74.61,0,0,1-24.27,16.3L42.37.9,37.76,25.5,12.12,20.13,22.85,38.44c.6,1,1.22,2.26.7,3.33a3.9,3.9,0,0,1-2,1.57L1,53.38q13.35.88,26.75.49a10,10,0,0,0,.37,3A4.37,4.37,0,0,0,30.88,60c1.45.39,3.08-.28,4.45.36-.11,1.33-1.24,2.29-2.2,3.21s-1.86,2.24-1.4,3.49c.57,1.54,2.63,1.65,4.23,1.49l8.89-.88a3.05,3.05,0,0,1,1.53.12,3.12,3.12,0,0,1,1.11,1l3.81,5a2.67,2.67,0,0,0,.89.85,2.58,2.58,0,0,0,1.14.17l8.24,0a.91.91,0,0,0,.63-.14,1,1,0,0,0,.25-.76q.36-8.72.74-17.43l-5.86-.63C68.18,55.15,79,54.25,89.8,53Z" transform="translate(-0.74 -0.78)" /><path class="cls-2" d="M70.8,41.6,92.32,29.84c.07,0,.33-.25.4-.24A92.15,92.15,0,0,0,69.4,27.9L68,28c-.69.19-.73-.1-.11-.87A18.18,18.18,0,0,1,69,24.39c.71-1.82,1.43-3.63,2.14-5.45Q73.41,13,75.73,7.12c0,.11-.35.17-.43.25a74,74,0,0,1-8.19,7.13,72.53,72.53,0,0,1-7.18,4.69c-1.78,1-3.51,2-5.37,2.86a9.82,9.82,0,0,1-2.32,1.05c-.56.55-.88.51-1-.12l-.54-1.36L49.69,18.9,47.2,12.56Q44.91,6.67,42.59.78s-.42.19-.43.25L37.54,25.62l.44-.25L12.33,20s-.42.26-.43.25q3.18,5.4,6.34,10.81l3.17,5.41c.73,1.25,2.33,3.16,2.11,4.75-.27,1.92-2.94,2.57-4.44,3.3l-6.27,3L1.16,53.26c-.09,0-.32.25-.42.24,4.62.3,9.24.5,13.86.57q3.48.06,6.94,0l3.47,0a10.64,10.64,0,0,1,1.49,0c1.33.2.94-.06,1,1.13a5.65,5.65,0,0,0,2.18,4.48c1.47,1,3.85-.25,5,.71,1.81,1.43-6.67,5.72-2.08,8,1.34.66,3.13.29,4.55.15,2.43-.24,5-.69,7.4-.73,2.26,0,3,1.61,4.27,3.27,1,1.23,2,3.46,3.63,3.84,1.84.42,4.19,0,6.08,0,.94,0,2.61.36,3.46-.19,1.21-.78.68-3.06.74-4.34l.32-7.75c0-1.09.78-5.68.15-6.31-.39-.37-2.55-.27-3.05-.33l-2.68-.29-.43.25c10.84-.68,21.67-1.58,32.47-2.77.08,0,.38-.29.43-.25L71.21,41.37c-.07,0-.37.29-.44.25L89.59,53.17l.43-.25C79.22,54.11,68.39,55,57.55,55.69c-.14,0-.3.26-.43.25l3.17.35a7.8,7.8,0,0,1,1.94.21c.91.35.72-.53.7,1,0,2.9-.25,5.81-.37,8.71l-.21,4.84c-.05,1.13.21,2.67-.37,3.66l.44-.25c-2.06.49-4.48.14-6.59.13-2.67,0-3.49,0-5.13-2.09-1-1.32-2.51-4.26-4.1-4.93-1-.41-2.51,0-3.51.08l-4,.39c-1.78.18-4.31.85-6,0-2.19-1.09-1-3.36.24-4.69.77-.81,3.21-2.8,1.49-3.42-2.17-.8-4,.71-5.72-1.58a5.6,5.6,0,0,1-1-2.36,10,10,0,0,0-.17-1.52c-.47-1.07.86-.43-1-.75-2.44-.41-5.44.1-7.93.09q-7.68,0-15.35-.46c-.49,0-1.42.19-1.75-.21s.18-.26.64-.57a34.8,34.8,0,0,1,3.58-1.74l7.17-3.49c2.94-1.43,6.1-2.67,8.89-4.36,3.48-2.11.44-5.48-1.06-8L12.33,20l-.43.25,25.64,5.36a1.73,1.73,0,0,0,.44-.25L42.59.78,42.16,1l6.39,16.31,1.59,4.07a6.51,6.51,0,0,0,.71,1.82c.08.63.39.67,1,.12l.78-.34c1.81-.81,3.6-1.69,5.34-2.63A76.79,76.79,0,0,0,75.73,7.12l-.43.25L68.7,24.19c-.24.61-1.9,3.58-1.61,4.09.13.23,3.66-.21,4.22-.23q4.45-.14,8.91.16c2.81.19,5.61.51,8.38,1a16.64,16.64,0,0,1,1.85.32,1.16,1.16,0,0,1,1.15.38c.37.2.3.35-.2.45-.59.89-2.89,1.57-3.87,2.11l-16.35,9Z" transform="translate(-0.74 -0.78)" /></g></g></svg>
-            <p id="info4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            <p id="info4">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad
+             minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+             Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt mollit anim id
+             est laborum.
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut
+               labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute
+                 irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur.
+                 Excepteur sint occaecat cupidatat non proident,
                  sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>

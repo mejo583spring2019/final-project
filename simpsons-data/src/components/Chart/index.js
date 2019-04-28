@@ -12,15 +12,15 @@ if (typeof Highcharts === "object") {
 const options = {
   chart: {
     type: "packedbubble",
-    height: "700px",
+    height: "50%",
   },
   title: {
     text: "The Simpsons - by cast and character",
   },
   tooltip: {
     useHTML: true,
-    pointFormat: "<b>{point.name}</b>",
-    // pointFormat: "<b>{point.name}:</b> {point.y}m CO<sub>2</sub>",
+    // pointFormat: "<b>{point.name}</b>",
+    pointFormat: "<b>{point.name}:</b> {point.y} appearances in the series",
   },
   colors: [
     "#E87D21",
@@ -36,12 +36,12 @@ const options = {
   plotOptions: {
     packedbubble: {
       // useSimulation: true,
-      minSize: "50%",
+      minSize: "40%",
       maxSize: "100%",
       zMin: 0,
-      zMax: 1000,
+      zMax: 700,
       layoutAlgorithm: {
-        gravitationalConstant: 0.05,
+        gravitationalConstant: 0.08,
         splitSeries: true,
         seriesInteraction: false,
         dragBetweenSeries: true,
@@ -53,7 +53,7 @@ const options = {
         filter: {
           property: "y",
           operator: ">",
-          value: 250,
+          value: 700,
         },
         style: {
           color: "purple",
@@ -69,59 +69,59 @@ const options = {
       data: [
         {
           name: "Homer Simpson",
-          value: 1,
+          value: 664,
         },
         {
           name: "Abraham Simpson",
-          value: 1,
+          value: 258,
         },
         {
           name: "Krusty the Klown",
-          value: 1,
+          value: 226,
         },
         {
           name: "Barney Gumble",
-          value: 1,
+          value: 179,
         },
         {
           name: "Groundskeeper Willie",
-          value: 1,
+          value: 160,
         },
         {
           name: "Sideshow Mel",
-          value: 1,
+          value: 140,
         },
         {
           name: "Mayor Quimby",
-          value: 1,
+          value: 128,
         },
         {
           name: "Squeaky-Voiced Teen",
-          value: 1,
+          value: 80,
         },
         {
           name: "Hans Moleman",
-          value: 1,
+          value: 61,
         },
         {
           name: "Itchy",
-          value: 1,
+          value: 57,
         },
         {
           name: "Gil Gunderson",
-          value: 1,
+          value: 51,
         },
         {
           name: "Rich Texan",
-          value: 1,
+          value: 34,
         },
         {
           name: "Mr. Teeny",
-          value: 1,
+          value: 19,
         },
         {
           name: "Kodos",
-          value: 1,
+          value: 17,
         },
       ],
     },
@@ -130,19 +130,19 @@ const options = {
       data: [
         {
           name: "Marjorie \"Marge\" Simpson",
-          value: 1,
+          value: 664,
         },
         {
           name: "Selma Bouvier",
-          value: 1,
+          value: 89,
         },
         {
           name: "Patty Bouvier",
-          value: 1,
+          value: 82,
         },
         {
           name: "Jacqueline Ingrid Bouvier",
-          value: 1,
+          value: 12,
         },
       ],
     },
@@ -151,7 +151,7 @@ const options = {
       data: [
         {
           name: "Lisa Simpson",
-          value: 1,
+          value: 663,
         },
       ],
     },
@@ -160,27 +160,27 @@ const options = {
       data: [
         {
           name: "Bart Simpson",
-          value: 1,
+          value: 662,
         },
         {
           name: "Maggie Simpson",
-          value: 1,
+          value: 259,
         },
         {
           name: "Nelson Muntz",
-          value: 1,
+          value: 250,
         },
         {
           name: "Ralph Wiggum",
-          value: 1,
+          value: 181,
         },
         {
           name: "Todd Flanders",
-          value: 1,
+          value: 58,
         },
         {
           name: "Kearney Zzyzwicz Sr.",
-          value: 1,
+          value: 35,
         },
       ],
     },
@@ -189,71 +189,71 @@ const options = {
       data: [
         {
           name: "Charles Montgomery Burns",
-          value: 1,
+          value: 382,
         },
         {
           name: "Lenny Leonard",
-          value: 1,
+          value: 310,
         },
         {
           name: "Seymour Skinner",
-          value: 1,
+          value: 306,
         },
         {
           name: "Ned Flanders",
-          value: 1,
+          value: 265,
         },
         {
           name: "Kent Brockman",
-          value: 1,
+          value: 220,
         },
         {
           name: "Waylon Smithers",
-          value: 1,
+          value: 177,
         },
         {
           name: "Dr. Julius Hibbert",
-          value: 1,
+          value: 174,
         },
         {
           name: "Reverend Timothy Lovejoy",
-          value: 1,
+          value: 129,
         },
         {
           name: "Otto Mann",
-          value: 1,
+          value: 123,
         },
         {
           name: "Jasper Beardly",
-          value: 1,
+          value: 87,
         },
         {
           name: "Scratchy",
-          value: 1,
+          value: 56,
         },
         {
           name: "Officer Eddie",
-          value: 1,
+          value: 56,
         },
         {
           name: "Rainer \"McBain\" Wolfcastle",
-          value: 1,
+          value: 48,
         },
         {
           name: "Dewey Largo",
-          value: 1,
+          value: 33,
         },
         {
           name: "Judge Roy Snyder",
-          value: 1,
+          value: 29,
         },
         {
           name: "Kang",
-          value: 1,
+          value: 18,
         },
         {
           name: "Dr. Marvin Monroe",
-          value: 1,
+          value: 12,
         },
       ],
     },
@@ -262,67 +262,67 @@ const options = {
       data: [
         {
           name: "Moe Szyslak",
-          value: 1,
+          value: 375,
         },
         {
           name: "Apu Nahasapeemapetilon",
-          value: 1,
+          value: 325,
         },
         {
           name: "Chief Clancy Wiggum",
-          value: 1,
+          value: 305,
         },
         {
           name: "Carl Carlson",
-          value: 1,
+          value: 275,
         },
         {
           name: "Officer Lou",
-          value: 1,
+          value: 140,
         },
         {
           name: "Comic Book Guy",
-          value: 1,
+          value: 114,
         },
         {
           name: "Professor John Nerdelbaum Frink, Jr.",
-          value: 1,
+          value: 100,
         },
         {
           name: "Cletus Spuckler",
-          value: 1,
+          value: 89,
         },
         {
           name: "Superintendant Chalmers",
-          value: 1,
+          value: 87,
         },
         {
           name: "Snake",
-          value: 1,
+          value: 80,
         },
         {
           name: "Sea Captain McCallister",
-          value: 1,
+          value: 72,
         },
         {
           name: "Kirk Van Houten",
-          value: 1,
+          value: 56,
         },
         {
           name: "Disco Stu",
-          value: 1,
+          value: 37,
         },
         {
           name: "Luigi",
-          value: 1,
+          value: 36,
         },
         {
           name: "Dr. Nick Riviera",
-          value: 1,
+          value: 34,
         },
         {
           name: "Duffman",
-          value: 1,
+          value: 24,
         },
       ],
     },
@@ -331,11 +331,11 @@ const options = {
       data: [
         {
           name: "Milhouse Van Houten",
-          value: 1,
+          value: 277,
         },
         {
           name: "Rod Flanders",
-          value: 1,
+          value: 83,
         },
       ],
     },
@@ -344,11 +344,11 @@ const options = {
       data: [
         {
           name: "Jimbo Jones",
-          value: 1,
+          value: 63,
         },
         {
           name: "Dolph",
-          value: 1,
+          value: 61,
         },
       ],
     }],
