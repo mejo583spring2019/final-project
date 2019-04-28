@@ -23,9 +23,11 @@ class App extends Component {
       <div className="app">
         <Nav />
         <Jumbotrons />
+      
         <div className="outer">
           <Cards />
         </div>
+       
         
         
 

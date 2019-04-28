@@ -48,7 +48,7 @@ class Modals extends Component {
               </div>
               <div className="modal-content">
                 <p>
-                  this is just some test text to help see if this looks right
+                  As you can see from the chart above, there are some states (like Maryland and Hawaii) there are some states where  
 
                 </p>
               </div>

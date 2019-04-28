@@ -1,6 +1,18 @@
 .j-text{
-    font-size: 1rem;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 30px;
+    color: #5E3791;
+    margin-bottom: 40px;
 }
-.width {
-    width: 877px;
+.headline {
+    color: #FF4A60;
+    margin-bottom: 40px;
+}
+.jumbotron {
+    background-color: #FED163;
+}
+p {
+    font-family: 'Noto Sans', sans-serif;
+
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Bar} from "react-chartjs-2";
-import sal from "../../data/sal";
+import poverty from "../../data/poverty";
 
 
 let salary = [];
@@ -15,9 +15,9 @@ class Chart extends Component {
   }
  /** Creates an array that seperates the data in sal.js into 2 arrays to be used in averageSalData */
  makeDataArray() {
-  for(let i = 0; i < sal.length; i++) {
-    states[i] = sal[i].state;
-    salary[i] = sal[i].salary;
+  for(let i = 0; i < poverty.length; i++) {
+    states[i] = poverty[i].state;
+    salary[i] = poverty[i].povertyRate;
 
   }  
  
@@ -42,7 +42,7 @@ class Chart extends Component {
             {
               label: "Average Salary (in USD)",
               data: salary,
-              backgroundColor: 'rgba(255,0,0.5)'
+              backgroundColor: '#00F1AB'
             }
           ]
         }
@@ -56,22 +56,36 @@ class Chart extends Component {
           options={{
             title: {
               display: this.props.displayTitle,
-              text: "Salary in Each US State",
-              fontSize: 25
+              text: "Average Salary in Each US State",
+              fontSize: 20,
+              fontColor: "rgb(33, 37, 41)"
+             
             },
             legend: {
               display: true,
+              labels: {
+              fontColor: "rgb(33, 37, 41)"                         
+            }
             },
             scales: {
               xAxes: [{
                 gridLines: {
                   display: false
-                }
+                },
+                ticks: {
+              fontColor: "rgb(33, 37, 41)",
+                  stepSize: 1,
+                  beginAtZero: false
+              }
               }],
               yAxes: [{
                 gridLines: {
                   display: false
-                }
+                },
+                ticks: {
+                  fontColor: "rgb(33, 37, 41)",
+                
+              }
               }]
             }
           }}

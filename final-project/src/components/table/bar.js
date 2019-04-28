@@ -40,9 +40,9 @@ averageWageData() {
       labels: states,
       datasets: [
         {
-          label: "Average wage (in USD)",
+          label: "Average Hourly Wage (in USD)",
               data: wages,
-              backgroundColor: 'rgba(255,0,0.5)'
+              backgroundColor: '#00F1AB'
             }
           ]
         }
@@ -55,23 +55,37 @@ averageWageData() {
           data={this.state.wageData}
           options={{
             title: {
-              display: this.props.displayTitle,
-              text: "wage in Each US State",
-              fontSize: 25
+              display: true,
+              text: "Hourly Wage in Each US State",
+              fontSize: 20,
+              fontColor: "rgb(33, 37, 41)"
+             
             },
             legend: {
               display: true,
+              labels: {
+              fontColor: "rgb(33, 37, 41)"                         
+            }
             },
             scales: {
               xAxes: [{
                 gridLines: {
                   display: false
-                }
+                },
+                ticks: {
+              fontColor: "rgb(33, 37, 41)",
+                  stepSize: 1,
+                  beginAtZero: false
+              }
               }],
               yAxes: [{
                 gridLines: {
                   display: false
-                }
+                },
+                ticks: {
+                  fontColor: "rgb(33, 37, 41)",
+                
+              }
               }]
             }
           }}

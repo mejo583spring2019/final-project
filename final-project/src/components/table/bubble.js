@@ -87,9 +87,9 @@ class Bubbles extends Component {
         bubbleData: {
           labels: states,
           datasets: [{
-              label: "Average Salary (in USD)",
+              label: "State GDP in 2015 (in Billions of USD)",
               data:this.makeDataArray(),
-              backgroundColor: 'rgba(75,192,192,0.4)',
+              backgroundColor: '#00F1AB',
               borderColor: 'rgba(75,192,192,1)',
               borderCapStyle: 'butt',
               borderDash: [],
@@ -115,16 +115,38 @@ class Bubbles extends Component {
         <Bubble
           data={this.state.bubbleData}
           options={{
+            title: {
+              display: true,
+              text: "State GDP and Hourly Wage",
+              fontSize: 20,
+              fontColor: "rgb(33, 37, 41)"
+             
+            },
+            legend: {
+              display: true,
+              labels: {
+              fontColor: "rgb(33, 37, 41)"                         
+            }
+            },
             scales: {
               xAxes: [{
                 gridLines: {
                   display: false
-                }
+                },
+                ticks: {
+              fontColor: "rgb(33, 37, 41)",
+                  stepSize: 1,
+                  beginAtZero: false
+              }
               }],
               yAxes: [{
                 gridLines: {
                   display: false
-                }
+                },
+                ticks: {
+                  fontColor: "rgb(33, 37, 41)",
+                
+              }
               }]
             }
           }}

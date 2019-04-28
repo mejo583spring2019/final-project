@@ -19,10 +19,11 @@ class Cards extends Component {
                 
             <Chart/>
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Do Americans Need the Extra Money?</Card.Title>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+               <p>
+               Before deciding whether or not Universal Basic Income is a good idea, let's take a look at how citizens in different states will be effected by an added $1000/month.
+                   </p> 
                 </Card.Text>
                 <Modals />
 
