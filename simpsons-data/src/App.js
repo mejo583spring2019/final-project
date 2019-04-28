@@ -14,7 +14,7 @@ class App extends Component {
       <div>
         <h2>Simpsons Data</h2>
         <Scroller></Scroller>
-        <Chart></Chart>
+        <section className="panel3"><Chart></Chart></section>
       </div>
     );
   }

@@ -13,11 +13,91 @@ code {
     monospace;
 }
 
-
-.panel {
-  height: 100%;
-  width: 100%;
+.simpsons{
+  width:50%;
+  border-right:2px black solid;
+  padding-right:5%;
+}
+section {
+  height: 100vh;
+  width: 100vw;
 }
  .panel1{
-  background: silver;
+  background: #FFD938;
  }
+ .panel2{
+  background:#2B4AD0;
+ }
+ .panel3{
+  background:#E87D21;
+ }
+ h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size:3em;
+ }
+ h2, p{
+  font-family: 'Varela Round', sans-serif; 
+}
+p{
+  font-size: 1.3em;
+}
+text, h2{
+  font-size:2em;
+  color:white;
+}
+
+/* .flexbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left:10%;
+  padding-right:10%;
+} */
+#homer{
+  grid-template-columns:  homer;
+}
+#bart{
+  grid-template-columns:  bart;
+}
+#marge{
+  grid-template-columns:  marge;
+}
+#lisa{
+  grid-template-columns:  lisa;
+}
+#info1{
+  grid-template-columns: info1;
+}
+#info2{
+  grid-template-columns: info2;
+}
+#info3{
+  grid-template-columns: info3;
+}
+#info4{
+  grid-template-columns: info4;
+}
+.css-grid{
+  padding-left: 5%;
+  display: inline-grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+   "homer" "info1" ,
+   "marge" "info2",
+   "bart" "info3",
+   "lisa" "info4";
+}
+
+#homer .cls-1{
+  fill: #f3df49;
+}
+#homer .cls-2{fill: "#231f20";}
+#marge .cls-1{fill:#f3df49;}
+#marge .cls-2{fill:#231f20;}
+#marge .cls-3{fill:#38409a;stroke:#231f20;stroke-miterlimit:10;stroke-width:0.5px;}
+#bart .cls-1{fill:#f4df4a;}
+#bart .cls-2{fill:#231f20;}
+#lisa .cls-1{fill:#f3df49;}
+#lisa .cls-2{fill:#231f20;}

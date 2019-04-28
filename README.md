@@ -19,5 +19,8 @@ http://scrollmagic.io/examples/basic/going_horizontal.html,
 https://bitworking.github.io/react-scrollmagic/section-wipes2, 
 https://www.npmjs.com/package/react-scrollmagic, 
 https://greensock.com/docs/NPMUsage, 
-https://scrollmagic.io/docs/debug.addIndicators.html#newScrollMagic.Controlleroptions
+https://scrollmagic.io/docs/debug.addIndicators.html#newScrollMagic.Controlleroptions, 
+http://scrollmagic.io/examples/basic/section_wipes_natural.html
 
+For a refresher on CSS Grid:
+https://css-tricks.com/snippets/css/complete-guide-grid/

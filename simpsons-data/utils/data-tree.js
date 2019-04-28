@@ -3,8 +3,7 @@ const fs = require("fs");
 // const Chart = require("chart.js");
 const fetch = require("node-fetch");
 // var bubbleChart = new Chart(ctx);
-const dataURL = "http://api.tvmaze.com/shows/83/cast"
-  ;
+const dataURL = "http://api.tvmaze.com/shows/83/cast";
 const personName = {};
 
 /** this is a JSDOC comment

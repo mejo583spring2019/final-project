@@ -15,13 +15,24 @@ const options = {
     height: "700px",
   },
   title: {
-    text: "My chart",
+    text: "The Simpsons - by cast and character",
   },
   tooltip: {
     useHTML: true,
     pointFormat: "<b>{point.name}</b>",
     // pointFormat: "<b>{point.name}:</b> {point.y}m CO<sub>2</sub>",
   },
+  colors: [
+    "#E87D21",
+    "#2B4AD0",
+    "#FFD938",
+    "#048ABF",
+    "#D93030",
+    "#001EA6",
+    "#5FA1F4",
+    "#4BA672",
+    "#353940",
+  ],
   plotOptions: {
     packedbubble: {
       // useSimulation: true,
