@@ -1,10 +1,10 @@
 // this page was modelled after the Week 12 HW 1 videos on YouTube
 const fs = require("fs");
-
+// const Chart = require("chart.js");
 const fetch = require("node-fetch");
-
+// var bubbleChart = new Chart(ctx);
 const dataURL = "http://api.tvmaze.com/shows/83/cast"
-    ;
+  ;
 const personName = {};
 
 /** this is a JSDOC comment
@@ -25,13 +25,15 @@ function makeTree(fullData) {
       makeData = {};
     }
     // should do r.id? from video
-    makeData[r.character.url] = r.character.image.medium;
+    // makeData[r.character.url] = r.character.image.medium;
+    
     personData[r.character.name] = makeData;
 
     personName[strPerson] = personData;
   });
   //   console.log(personName);
   return personName;
+  // "{name:" + personName + "{data[{ name" + personData + "value: 1" + "}]";
 }
 
 /** this is a JSDOC comment
