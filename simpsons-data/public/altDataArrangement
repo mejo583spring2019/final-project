@@ -1,0 +1,218 @@
+{name: "Dan Castellaneta",
+    data: [{
+    { name: "Homer Simpson",
+        value: "http://www.tvmaze.com/characters/16544/the-simpsons-homer-simpson": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2112.jpg"
+        },
+    { name: "Abraham Simpson",
+        value: "http://www.tvmaze.com/characters/16553/the-simpsons-abraham-simpson": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2116.jpg"
+        },
+    { name: "Krusty the Klown",
+        value: "http://www.tvmaze.com/characters/16554/the-simpsons-krusty-the-klown": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2201.jpg"
+        },
+    { name: "Barney Gumble",
+        value: "http://www.tvmaze.com/characters/16555/the-simpsons-barney-gumble": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2108.jpg"
+        },
+    { name: "Groundskeeper Willie",
+        value: "http://www.tvmaze.com/characters/16556/the-simpsons-groundskeeper-willie": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2115.jpg"
+        },
+    { name: "Sideshow Mel",
+        value: "http://www.tvmaze.com/characters/16557/the-simpsons-sideshow-mel": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2196.jpg"
+        },
+    { name: "Mayor Quimby",
+        value: "http://www.tvmaze.com/characters/16558/the-simpsons-mayor-quimby": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2192.jpg"
+        },
+    { name: "Squeaky-Voiced Teen",
+        value: "http://www.tvmaze.com/characters/250193/the-simpsons-squeaky-voiced-teen": "http://static.tvmaze.com/uploads/images/medium_portrait/46/115586.jpg"
+        },
+    { name: "Hans Moleman",
+        value: "http://www.tvmaze.com/characters/16559/the-simpsons-hans-moleman": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2188.jpg"
+        },
+    { name: "Itchy",
+        value: "http://www.tvmaze.com/characters/16561/the-simpsons-itchy": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2117.jpg"
+        },
+    { name: "Gil Gunderson",
+        value: "http://www.tvmaze.com/characters/16560/the-simpsons-gil-gunderson": "http://static.tvmaze.com/uploads/images/medium_portrait/42/107113.jpg"
+        },
+    { name: "Rich Texan",
+        value: "http://www.tvmaze.com/characters/238107/the-simpsons-rich-texan": "http://static.tvmaze.com/uploads/images/medium_portrait/93/234155.jpg"
+        },
+    { name: "Mr. Teeny",
+        value: "http://www.tvmaze.com/characters/250344/the-simpsons-mr-teeny": "http://static.tvmaze.com/uploads/images/medium_portrait/46/115613.jpg"
+        },
+    { name: "Kodos",
+        value: "http://www.tvmaze.com/characters/242965/the-simpsons-kodos": "http://static.tvmaze.com/uploads/images/medium_portrait/43/109830.jpg"
+        }
+    }]
+    },
+
+{name: "Julie Kavner"
+    data: [{
+    { name: "Marjorie 'Marge' Simpson",
+        value: "http://www.tvmaze.com/characters/16545/the-simpsons-marjorie-marge-simpson": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2114.jpg"
+        },
+    { name: "Selma Bouvier",
+        value: "http://www.tvmaze.com/characters/16563/the-simpsons-selma-bouvier": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2109.jpg"
+        },
+    { name: "Patty Bouvier",
+        value: "http://www.tvmaze.com/characters/16562/the-simpsons-patty-bouvier": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2202.jpg"
+        },
+    { name: "Jacqueline Ingrid Bouvier",
+        value: "http://www.tvmaze.com/characters/16564/the-simpsons-jacqueline-ingrid-bouvier": "http://static.tvmaze.com/uploads/images/medium_portrait/40/101693.jpg"
+        }
+     }]
+    },
+{name: "Yeardley Smith",
+    data: [{
+    { name: "Lisa Simpson",
+        value: "http://www.tvmaze.com/characters/16547/the-simpsons-lisa-simpson": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2185.jpg"
+        }
+    }]
+    },
+{name: "Nancy Cartwright",
+    data: [{
+    { name: "Bart Simpson",
+        value: "http://www.tvmaze.com/characters/16546/the-simpsons-bart-simpson": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2193.jpg"
+        },
+    { name: "Maggie Simpson",
+        value: "http://www.tvmaze.com/characters/237204/the-simpsons-maggie-simpson": "http://static.tvmaze.com/uploads/images/medium_portrait/42/107111.jpg"
+        },
+    { name: "Nelson Muntz",
+        value: "http://www.tvmaze.com/characters/16565/the-simpsons-nelson-muntz": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2197.jpg"
+        },
+    { name: "Ralph Wiggum",
+        value: "http://www.tvmaze.com/characters/16566/the-simpsons-ralph-wiggum": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2190.jpg"
+        },
+    { name: "Todd Flanders",
+        value: "http://www.tvmaze.com/characters/16567/the-simpsons-todd-flanders": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2187.jpg"
+        },
+    { name: "Kearney Zzyzwicz Sr.",
+        value: "http://www.tvmaze.com/characters/16568/the-simpsons-kearney-zzyzwicz-sr": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2178.jpg"
+        }
+    }]
+    },
+{name: "Harry Shearer",
+    data: [{
+    { name: "Charles Montgomery Burns",
+        value: "http://www.tvmaze.com/characters/16549/the-simpsons-charles-montgomery-burns": "http://static.tvmaze.com/uploads/images/medium_portrait/42/107112.jpg"
+        },
+    { name: "Lenny Leonard",
+        value: "http://www.tvmaze.com/characters/16586/the-simpsons-lenny-leonard": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2176.jpg"
+        },
+    { name: "Seymour Skinner",
+        value: "http://www.tvmaze.com/characters/16582/the-simpsons-seymour-skinner": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2194.jpg"
+        },
+    { name: "Ned Flanders",
+        value: "http://www.tvmaze.com/characters/16581/the-simpsons-ned-flanders": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2198.jpg"
+        },
+    { name: "Kent Brockman",
+        value: "http://www.tvmaze.com/characters/16584/the-simpsons-kent-brockman": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2183.jpg"
+        },
+    { name: "Waylon Smithers",
+        value: "http://www.tvmaze.com/characters/16579/the-simpsons-waylon-smithers": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2111.jpg"
+        },
+    { name: "Dr. Julius Hibbert",
+        value: "http://www.tvmaze.com/characters/16585/the-simpsons-dr-julius-hibbert": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2177.jpg"
+        },
+    { name: "Reverend Timothy Lovejoy",
+        value: "http://www.tvmaze.com/characters/16587/the-simpsons-reverend-timothy-lovejoy": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2113.jpg"
+        },
+    { name: "Otto Mann",
+        value: "http://www.tvmaze.com/characters/16583/the-simpsons-otto-mann": "http://static.tvmaze.com/uploads/images/medium_portrait/42/107114.jpg"
+        },
+    { name: "Jasper Beardly",
+        value: "http://www.tvmaze.com/characters/250297/the-simpsons-jasper-beardly": "http://static.tvmaze.com/uploads/images/medium_portrait/93/234144.jpg"
+        },
+    { name: "Officer Eddie",
+        value: "http://www.tvmaze.com/characters/243141/the-simpsons-officer-eddie": "http://static.tvmaze.com/uploads/images/medium_portrait/43/109987.jpg"
+        },
+    { name: "Scratchy",
+        value: "http://www.tvmaze.com/characters/234473/the-simpsons-scratchy": "http://static.tvmaze.com/uploads/images/medium_portrait/40/101695.jpg"
+        },
+    { name: "Rainer McBain Wolfcastle",
+        value: "http://www.tvmaze.com/characters/236859/the-simpsons-rainer-mcbain-wolfcastle": "http://static.tvmaze.com/uploads/images/medium_portrait/41/103893.jpg"
+        },
+    { name: "Dewey Largo",
+        value: "http://www.tvmaze.com/characters/247498/the-simpsons-dewey-largo": "http://static.tvmaze.com/uploads/images/medium_portrait/45/112990.jpg"
+        },
+    { name: "Judge Roy Snyder",
+        value: "http://www.tvmaze.com/characters/250191/the-simpsons-judge-roy-snyder": "http://static.tvmaze.com/uploads/images/medium_portrait/46/115588.jpg"
+        },
+    { name: "Kang",
+        value: "http://www.tvmaze.com/characters/242987/the-simpsons-kang": "http://static.tvmaze.com/uploads/images/medium_portrait/43/109831.jpg"
+        },
+    { name: "Dr. Marvin Monroe",
+        value: "http://www.tvmaze.com/characters/16580/the-simpsons-dr-marvin-monroe": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2203.jpg"
+        }
+    }]
+    },
+{name: "Hank Azaria",
+    data: [{
+    { name: "Moe Szyslak",
+        value: "http://www.tvmaze.com/characters/16569/the-simpsons-moe-szyslak": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2118.jpg"
+        },
+    { name: "Apu Nahasapeemapetilon",
+        value: "http://www.tvmaze.com/characters/16548/the-simpsons-apu-nahasapeemapetilon": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2186.jpg"
+        },
+    { name: "Chief Clancy Wiggum",
+        value: "http://www.tvmaze.com/characters/16570/the-simpsons-chief-clancy-wiggum": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2200.jpg"
+        },
+    { name: "Carl Carlson",
+        value: "http://www.tvmaze.com/characters/16571/the-simpsons-carl-carlson": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2110.jpg"
+        },
+    { name: "Officer Lou",
+        value: "http://www.tvmaze.com/characters/250290/the-simpsons-officer-lou": "http://static.tvmaze.com/uploads/images/medium_portrait/46/115590.jpg"
+        },
+    { name: "Comic Book Guy",
+        value: "http://www.tvmaze.com/characters/16572/the-simpsons-comic-book-guy": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2199.jpg"
+        },
+    { name: "Professor John Nerdelbaum Frink, Jr.",
+        value: "http://www.tvmaze.com/characters/16574/the-simpsons-professor-john-nerdelbaum-frink-jr": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2191.jpg"
+        },
+    { name: "Cletus Spuckler",
+        value: "http://www.tvmaze.com/characters/247499/the-simpsons-cletus-spuckler": "http://static.tvmaze.com/uploads/images/medium_portrait/45/112991.jpg"
+        },
+    { name: "Superintendant Chalmers",
+        value: "http://www.tvmaze.com/characters/236280/the-simpsons-superintendant-chalmers": "http://static.tvmaze.com/uploads/images/medium_portrait/41/102865.jpg"
+        },
+    { name: "Snake",
+        value: "http://www.tvmaze.com/characters/234472/the-simpsons-snake": "http://static.tvmaze.com/uploads/images/medium_portrait/40/101692.jpg"
+        },
+    { name: "Sea Captain McCallister",
+        value: "http://www.tvmaze.com/characters/241224/the-simpsons-sea-captain-mccallister": "http://static.tvmaze.com/uploads/images/medium_portrait/43/108543.jpg"
+        },
+    { name: "Kirk Van Houten",
+        value: "http://www.tvmaze.com/characters/16577/the-simpsons-kirk-van-houten": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2175.jpg"
+        },
+    { name: "Disco Stu",
+        value: "http://www.tvmaze.com/characters/239472/the-simpsons-disco-stu": "http://static.tvmaze.com/uploads/images/medium_portrait/42/107110.jpg"
+        },
+    { name: "Luigi",
+        value: "http://www.tvmaze.com/characters/250182/the-simpsons-luigi": "http://static.tvmaze.com/uploads/images/medium_portrait/46/115587.jpg"
+        },
+    { name: "Dr. Nick Riviera",
+        value: "http://www.tvmaze.com/characters/16573/the-simpsons-dr-nick-riviera": "http://static.tvmaze.com/uploads/images/medium_portrait/0/2195.jpg"
+        },
+    { name: "Duffman",
+        value: "http://www.tvmaze.com/characters/239165/the-simpsons-duffman": "http://static.tvmaze.com/uploads/images/medium_portrait/42/106920.jpg"
+        }
+     }]
+    },
+{name: "Pamela Hayden",
+    data: [{
+    { name: "Milhouse Van Houten",
+        value: "http://www.tvmaze.com/characters/53561/the-simpsons-milhouse-van-houten": "http://static.tvmaze.com/uploads/images/medium_portrait/33/82679.jpg"
+        },
+    { name: "Rod Flanders",
+        value: "http://www.tvmaze.com/characters/93584/the-simpsons-rod-flanders": "http://static.tvmaze.com/uploads/images/medium_portrait/40/102371.jpg"
+        }
+    }]
+    },
+{name: "Tress MacNeille",
+    data: [{
+    { name: "Jimbo Jones",
+        value: "http://www.tvmaze.com/characters/93510/the-simpsons-jimbo-jones": "http://static.tvmaze.com/uploads/images/medium_portrait/40/101698.jpg"
+        },
+    { name: "Dolph",
+        value: "http://www.tvmaze.com/characters/93500/the-simpsons-dolph": "http://static.tvmaze.com/uploads/images/medium_portrait/93/234063.jpg"
+        }
+    }]};
