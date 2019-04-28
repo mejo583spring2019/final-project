@@ -15,17 +15,13 @@ class Wages extends Component {
   }
  /** Creates an array that seperates the data in sal.js into 2 arrays to be used in averageSalData */
  makeDataArray() {
-   console.log("test");
    for(let i = 0; i < wage.length; i++) {
      states[i] = wage[i].state;
     wages[i] = wage[i].minimumWage;
-    console.log(wages[i])
     
     if(wages[i] === "0") {
       wages[i] = "7.25";
-      console.log(states)
 }
-      console.log(wages[i] + " test 2")
     }
     
   } 

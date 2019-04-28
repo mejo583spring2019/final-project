@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Chart from "./components/table/chart";
-import Bubbles from "./components/table/bubble";
-import Wages from "./components/table/bar";
-import Jumbotrons from "./components/story/jumbotron";
-import Nav from "./components/story/navigation";
+import Jumbotrons from "./components/layout/jumbotron";
+import Nav from "./components/layout/navigation";
+import Cards from "./components/elements/card";
+import "./app.css";
 
 class App extends Component {
   constructor() {
@@ -12,7 +11,7 @@ class App extends Component {
       chartData: {},
       bubbleData: {},
       barData: {}
-
+ 
 
     }
   }
@@ -20,12 +19,13 @@ class App extends Component {
   /**Renders the application */
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Nav />
         <Jumbotrons />
-        <Chart chartData={this.state.chartData}/>
-        <Bubbles bubbleData={this.state.bubbleData}/> 
-        <Wages barData={this.state.barData}/> 
+        <div className="outer">
+          <Cards />
+        </div>
+        
         
 
 
