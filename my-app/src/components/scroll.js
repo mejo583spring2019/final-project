@@ -227,11 +227,11 @@ const SectionWipes = () => (
             render both of my charts. I implemented
             Highcharts using three npm packages — highcharts, highcharts-more,
             and highcharts-react-official.</p>
-          <p class="colophon"> The front-page artwork is from free wallpaper website
-            <a href="http://epicwallpaperz.com/game-of-thrones-background/game-of-thrones-background-on-wallpaper-hd/" target="blank"
-            > EpicWallpaperz.com </a> and the character artwork is from free png
+          <p class="colophon"> The front-page artwork is from free wallpaper
+             website <a href="http://epicwallpaperz.com/game-of-thrones-background/game-of-thrones-background-on-wallpaper-hd/" target="blank"
+          > EpicWallpaperz.com </a> and the character artwork is from free png
             and logo website <a href="https://toppng.com/game-of-thrones-characters-cartoon-PNG-free-PNG-Images_87467" target="blank"
-            > TopPNG.com. </a></p>
+          > TopPNG.com. </a></p>
           <p class="colophon">I created this website in
             <a href="https://code.visualstudio.com/" target="blank"> Visual Studio Code </a> on
           a 2016 MacBook Pro. </p>
