@@ -10,7 +10,7 @@ const ClassToggleStyled = styled.div`
     width: 70vw;
     text-align: center;
     margin: 15% 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .graph {

@@ -40,7 +40,7 @@ p {
   margin: 5vh auto;
   min-width: 50vw;
   width: 680px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -54,11 +54,11 @@ p {
   margin-top: 20vh;
 }
 
-.main p a {
+a {
   color: inherit;
 }
 
-.main p a:hover {
+a:hover {
   color: cornflowerblue;
 }
 
@@ -131,8 +131,10 @@ p {
   min-width: 50vw;
   width: 680px;
   margin-bottom: 0;
+  font-size: 1.4rem;
 }
 
 #colophon p {
   margin-top: 0;
+  margin-bottom: 2vh;
 }

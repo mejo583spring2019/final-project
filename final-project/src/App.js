@@ -278,18 +278,52 @@ class App extends Component {
             This website was created using <a href="https://reactjs.org/">
               React
             </a> and <a href="https://nodejs.org/en/">
-              Node</a>.
+              Node</a>. This website takes advantage of Create React App.
           </p>
-          <p>It is hosted on <a href="https://pages.github.com/">GitHub pages</a></p>
-          <h4>Colophon Section 2</h4>
+          <p>It is hosted on <a href="https://pages.github.com/">GitHub pages</a>.</p>
+          <h4>Plugins</h4>
           <p>
-            This is the colophon section one where
-            I talk about things blah blah blah blah.
+            This website takes advantage of multiple package libraries,
+            including <a
+              href="https://www.npmjs.com/package/react-scrollmagic"
+              target="blank"
+              rel="noopener noreferrer"
+            >
+              Scrollmagic
+            </a>, <a
+              href="https://www.highcharts.com/blog/post/highcharts-wrapper-for-react-101/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Highcharts
+            </a>, and <a
+              href="https://www.styled-components.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Styled Components
+            </a>.
           </p>
-          <h4>Colophon Section 3</h4>
+          <h4>Data</h4>
           <p>
-            This is the colophon section one where
-            I talk about things blah blah blah blah.
+            Data is from the Department of U.S., through the <a
+              href="https://collegescorecard.ed.gov/data/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              College Scorecard Data API
+            </a>. After obtaining a developer key, I called the data
+            by writing a script <code>getData.js</code> and using <a
+              href="https://www.npmjs.com/package/node-fetch"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Node Fetch
+            </a> to get the data, I wrote it into
+            several different JSON files. I added the JSON data into
+            arrays and then exported the arrays so I could manipulate them
+            to add them to the charts. The data is from the latest data,
+            which was last updated October 30, 2018.
           </p>
         </section>
       </div>
