@@ -3,11 +3,11 @@ import React from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import hcMore from "highcharts/highcharts-more.src"; // module
-
+// highcharts-more code taken from forum advice https://github.com/highcharts/highcharts-react/issues/76
 if (typeof Highcharts === "object") {
   hcMore(Highcharts);
 }
-
+// making the Deadliest Characters Highcharts bar chart
 const options = {
   chart: {
     type: "column",
@@ -119,7 +119,7 @@ const options = {
 };
 
 /**
- * create app
+ * create Deadlist Characters chart
  */
 class Barchart extends React.Component {
   /**

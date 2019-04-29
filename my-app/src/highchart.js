@@ -1,13 +1,12 @@
 import React from "react";
-// import { render } from "react-dom";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import hcMore from "highcharts/highcharts-more.src"; // module
-
+// highcharts-more code taken from forum advice https://github.com/highcharts/highcharts-react/issues/76
 if (typeof Highcharts === "object") {
   hcMore(Highcharts);
 }
-
+// making the Deadliest Houses Highcharts bubble chart
 const options = {
   chart: {
     type: "packedbubble",
@@ -251,7 +250,7 @@ const options = {
 };
 
 /**
- * create app
+ * create Deadlist Houses chart
  */
 class Chart extends React.Component {
   /**

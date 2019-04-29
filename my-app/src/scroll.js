@@ -5,7 +5,7 @@ import Chart from "./highchart.js";
 import background from "./img/background.png";
 import Barchart from "./barchart.js";
 
-
+// for scrollmagic section styles
 const SectionWipesStyled = styled.div`
   overflow: hidden;
   .panel {
@@ -141,9 +141,14 @@ const SectionWipesStyled = styled.div`
       margin-bottom: 5px;
   }
 
+  .colophon a {
+      color: gold;
+      text-decoration: none;
+  } 
+
 
 `;
-
+// create scroll magic scenes
 const SectionWipes = () => (
   <SectionWipesStyled>
     <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
@@ -185,33 +190,44 @@ const SectionWipes = () => (
       <Scene pin>
         <div className="panel red">
           <h2 id="coloTitle">Colophon</h2>
-          <p class="colophon"> This site was created for the purposes of entertainment
-            and information regarding the HBO TV series “Game of Thrones”
-            based on the “Song of Ice and Fire” book series written by
+          <p class="colophon"> This site was created for the purposes
+           of entertainment and information regarding the
+          <a href="https://www.hbo.com/" target="blank" > HBO </a> TV series
+          <a href="https://www.hbo.com/game-of-thrones" target="blank" > Game of Thrones </a>
+            based on the
+          <a href="http://www.georgerrmartin.com/book-category/?cat=song-of-ice-and-fire" target="blank" >
+             “Song of Ice and Fire” </a> book series written by
             George R. R. Martin. None of the data displayed on this site
             was provided by HBO or other official Game of Thrones
             affiliates — it was fan-aggregated and maintained.</p>
-          <p class="colophon"> The data used in the first chart, Deadliest Houses, came
-            from Jeffery Lancaster’s Game of Thrones database. I manually
-            copied over the data to my charts by looking at his
-            characters.json file. </p>
-          <p class="colophon"> The data from the second chart, Deadliest Characters,
-            came from a Washington Post article that discussed the deaths
+          <p class="colophon"> The data used in the first chart,
+             Deadliest Houses, came from
+          <a href="https://github.com/jeffreylancaster/game-of-thrones/blob/master/data/characters.json" target="blank"
+          > Jeffery Lancaster’s Game of Thrones database. </a>
+            I manually copied over the data to my charts by
+            looking at his characters.json file. </p>
+          <p class="colophon"> The data from the second chart,
+           Deadliest Characters, came from an article by
+          <a href="https://www.washingtonpost.com/graphics/entertainment/game-of-thrones/?utm_term=.10f0bf1c2669" target="blank"
+          > The Washington Post </a> that discussed the deaths
             of Game of Thrones characters. I manually copied the information
             from the article into my chart.</p>
-          <p class="colophon">This website was built using HTML, CSS, JavaScript, Node.js
-            and React. </p>
-          <p class="colophon">I am using ScrollMagic to create this page’s section wipes.
-            I used the npm package react-scrollmagic to implement
-            ScrollMagic. </p>
-          <p class="colophon">I am using Highcharts to render both of my charts. I implemented
+          <p class="colophon">This website was built using HTML5, CSS,
+            JavaScript, Node.js and React. </p> <p class="colophon">I am using
+            <a href="https://scrollmagic.io/" target="blank" > ScrollMagic </a>
+            to create this page’s section wipes. I used the npm package
+            react-scrollmagic to implement ScrollMagic. </p>
+          <p class="colophon">I am using
+            <a href="https://www.highcharts.com/" target="blank"> Highcharts </a> to
+            render both of my charts. I implemented
             Highcharts using three npm packages — highcharts, highcharts-more,
             and highcharts-react-official.</p>
-          <p class="colophon">I created this website in Visual Studio Code on a 2016
-            MacBook Pro. </p>
-          <p class="colophon">While this website and its charts were intended to be viewed
-            on all screen-sizes, viewing it on a desktop using a modern browser
-            will deliver the best experience. </p>
+          <p class="colophon">I created this website in
+            <a href="https://code.visualstudio.com/" target="blank"> Visual Studio Code </a> on
+          a 2016 MacBook Pro. </p>
+          <p class="colophon">While this website and its charts were intended
+          to be viewed on all screen-sizes, viewing it on a desktop using a
+          modern browser will deliver the best experience. </p>
 
         </div>
       </Scene>

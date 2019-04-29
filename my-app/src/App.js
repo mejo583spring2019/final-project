@@ -1,15 +1,13 @@
 import React, { Component } from "react";
-import "./App.css";
-// import Chart from "./highchart.js";
 import SectionWipes from "./scroll.js";
 
 /**
- * create app
+ * create Scrollmagic wipes in web app
  */
 class App extends Component {
   /**
- * render app
- * @return {app}
+ * render Scrollmagic wipes
+ * @return {wipes}
  */
   render() {
     return (
