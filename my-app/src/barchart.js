@@ -11,11 +11,12 @@ if (typeof Highcharts === "object") {
 const options = {
   chart: {
     type: "column",
-    height: "600px",
-    backgroundColor: "#4B666B",
+    height: "650px",
+    backgroundColor: "#6D90A3",
     style: {
       color: "#000 !important",
       textOutline: "none",
+      paddingTop: "1%",
     },
   },
 
@@ -64,6 +65,9 @@ const options = {
   },
 
   tooltip: {
+    // I could not simply create a new line for the
+    // point format without breaking the code
+    // eslint-disable-next-line max-len
     pointFormat: "<b>Total Kills: </b>{point.y}<br/> <b>Deadliest Weapon: </b>{point.weapon} <br/><b>Largest Massacre: </b>{point.massacre}",
   },
 
@@ -84,6 +88,7 @@ const options = {
           color: "rgba(85,107,47,.7)",
           y: 171,
           weapon: "Dragonfire",
+          // eslint-disable-next-line max-len
           massacre: "Battle on the frozen lake during the Wight Hunt (170 kills)",
         },
         {
@@ -98,6 +103,7 @@ const options = {
           color: "rgba(105,105,105, .7)",
           y: 86,
           weapon: "Sword (Longclaw)",
+          // eslint-disable-next-line max-len
           massacre: "Battle on the frozen lake during the Wight Hunt (42 kills)",
         },
         {

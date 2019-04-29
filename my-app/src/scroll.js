@@ -29,20 +29,21 @@ const SectionWipesStyled = styled.div`
     background-size: cover;
     background-attachment: fixed;
   }
-  
-  .panel.graphic {
-    background-color: #F2D8A7;
-    margin-bottom: 300px;
-  }
-  
+
   .panel.grey {
     background-color: #343434;
     margin-bottom: 300px;
-
+    height: 120vh;
+  }
+  
+  .panel.graphic {
+    background-color: #FCDFAF;
+    margin-bottom: 300px;
+    padding-top: 40px;
   }
   
   .panel.blue {
-    background-color: #4B666B;
+    background-color: #6D90A3;
     height: 120vh !important;
   }
 
@@ -57,7 +58,9 @@ const SectionWipesStyled = styled.div`
   }
 
   #characters{
-
+    width: 70%;
+    height: auto;
+    max-width: 800px;
   }
 
   #frontTitle{
@@ -73,14 +76,33 @@ const SectionWipesStyled = styled.div`
 
   #heroIntro{
     font-family: Times New Roman;
-    font-size: 45px;
-    padding-top: 30px;
+    font-size: 3vmax;
+    padding-top: 25px;
     padding-left: 13%;
     padding-right: 13%;
     padding-bottom: 1px;
     margin-bottom: 1px;
     color: #fffaf0;
   }
+
+  @media only screen and (max-width: 520px) {
+    #chartText{
+        font-size: 16px !important;
+      }
+      #frontTitle{
+        font-size: 60px;
+        margin-bottom: 3px;
+        padding-bottom: 3px;
+        padding-top: 70%;
+        margin-top: 19%;
+        color: black;
+    }
+    #got{
+        padding-top: 25%;
+        max-width: 90%;
+    }
+  }
+
 
   #chartText{
     font-family: Times New Roman;
@@ -93,6 +115,10 @@ const SectionWipesStyled = styled.div`
     text-align: left;
   }
 
+  #bubble {
+      padding-top: 5%;
+  }
+
 
 `;
 
@@ -101,18 +127,19 @@ const SectionWipes = () => (
     <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
       <Scene pin>
         <div className="panel first">
-          <img id="got" src={require("./img/got.png")} alt="Game of Thrones Logo"></img>
+          <img id="got" src={require("./img/got.png")}
+            alt="Game of Thrones logo"></img>
           <p id="frontTitle">Data visualization</p>
         </div>
       </Scene>
       <Scene pin>
         <div className="panel grey">
           <p id="heroIntro">All of our Game of Thrones heroes are deadly,
-          but who has been the most dangerous?</p>
+          but who is the most dangerous?</p>
           <p id="chartText">The following charts demonstrate which heroes
            and houses have been the most ruthless in their quest for the
            Iron Throne. <br/> <br/>In the first chart, Deadliest Houses,
-           murders are tallied according to deaths the characters have directly
+           murders are tallied according to deaths the characters directly
            inflicted. Deaths characters "ordered" or deaths of people who
            were not named characters in the TV show script do not count.
            Click and drag the characters between houses if you disagree with the
@@ -122,7 +149,9 @@ const SectionWipes = () => (
            as well as prominent off-screen kills that are confirmed or assumed.
           <br/> <br/><strong> WARNING: </strong> These charts are updated
            through season 8 episode 2 and they do contain spoilers!</p>
-          <img id="characters" src={require("./img/characters.png")} alt="Game of Thrones characters artwork"></img>
+          <img id="characters"
+            src={require("./img/characters.png")}
+            alt="Game of Thrones characters artwork"></img>
         </div>
       </Scene>
       <Scene pin>

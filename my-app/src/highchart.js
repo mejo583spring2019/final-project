@@ -13,7 +13,7 @@ const options = {
     type: "packedbubble",
     height: "700px",
     // plotBackgroundImage: "https://atgbcentral.com/data/out/71/4541111-game-of-thrones-season-5-wallpaper.jpg",
-    backgroundColor: "#F2D8A7",
+    backgroundColor: "#FCDFAF",
     events: {
       click: function() {
         this.tooltip.hide();
@@ -44,7 +44,7 @@ const options = {
   plotOptions: {
     packedbubble: {
       minSize: "5%",
-      maxSize: "600%",
+      maxSize: "700%",
       zMin: 0,
       zMax: 1000,
       layoutAlgorithm: {
