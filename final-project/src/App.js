@@ -6,6 +6,7 @@ import AsianChart from "./components/AsianChart";
 import HispanicChart from "./components/HispanicChart";
 import AIANChart from "./components/AIANChart";
 import PackedChart from "./components/PackedChart";
+import ClassToggle from "./components/ClassToggle";
 
 /** App component builds out main part
  * of website.
@@ -206,6 +207,7 @@ class App extends Component {
           <h4>By Brooke Fisher</h4>
         </header>
         <section className="main flex">
+          <a href="#colophon">Colophon</a>
           <p>
             Race plays an important factor in undestanding how someone's college
             completion rate can be affected by his or her own's identity.
@@ -215,7 +217,7 @@ class App extends Component {
             North Carolina's 6-year completion rates vary dramatically throughout the state. Among several public and private four-year universities, the latest data from the U.S. Department of Education's <a href="https://collegescorecard.ed.gov/" target="_blank" rel="noopener noreferrer">College Scorecard Data</a> has shown vastly different completion rates. Among public four-year universities, <a href="https://unc.edu" target="_blank" rel="noopener noreferrer">UNC-Chapel Hill</a>, the flagship school of the UNC System, had the higest 6-year completion rate at 91.1 percent. Private universities <a href="https://duke.edu" target="_blank" rel="noopener noreferrer">Duke University</a> and <a href="https://davidson.edu" target="_blank" rel="noopener noreferrer">Davidson College</a>, with 6-year completion rates at 94.6 percent and 94.8 percent, respectively.
           </p>
           <img
-            src="/img/nc-outline.svg"
+            src="./img/nc-outline.svg"
             alt="An outline of North Carolina"
             className="nc-outline"
           />
@@ -232,14 +234,49 @@ class App extends Component {
           </div>
           <div className="chart-container flex">
             <div className="chart__column" id="chart-white"><WhiteChart /></div>
-            <div className="chart__column hide" id="chart-black"><BlackChart /></div>
-            <div className="chart__column hide" id="chart-asian"><AsianChart /></div>
-            <div className="chart__column hide" id="chart-hispanic"><HispanicChart /></div>
-            <div className="chart__column hide" id="chart-aian"><AIANChart /></div>
+            <div
+              className="chart__column hide" id="chart-black"
+            >
+              <BlackChart />
+            </div>
+            <div
+              className="chart__column hide" id="chart-asian"
+            >
+              <AsianChart />
+            </div>
+            <div
+              className="chart__column hide" id="chart-hispanic"
+            >
+              <HispanicChart />
+            </div>
+            <div
+              className="chart__column hide" id="chart-aian"
+            >
+              <AIANChart />
+            </div>
           </div>
-        </section>
-        <section className="colophon">
-          <h2>The Colophon section will go here</h2>
+          <p>
+            Results:
+          </p>
+          <div id="colophon" class="flex-column">
+            <h2>Colophon</h2>
+            <h4>Colophon Section 1</h4>
+            <p>
+              This is the colophon section one where
+              I talk about things blah blah blah blah.
+            </p>
+            <h4>Colophon Section 2</h4>
+            <p>
+              This is the colophon section one where
+              I talk about things blah blah blah blah.
+            </p>
+            <h4>Colophon Section 3</h4>
+            <p>
+              This is the colophon section one where
+              I talk about things blah blah blah blah.
+            </p>
+          </div>
+          <ClassToggle />
         </section>
       </div>
     );

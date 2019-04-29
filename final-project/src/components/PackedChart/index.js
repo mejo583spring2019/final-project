@@ -118,9 +118,9 @@ class PackedChart extends Component {
       plotOptions: {
         packedbubble: {
           minSize: "35%",
-          maxSize: "150%",
+          maxSize: "200%",
           zMin: 0,
-          zMax: 1000,
+          zMax: 2000,
           layoutAlgorithm: {
             splitSeries: false,
             gravitationalConstant: 0.02,

@@ -38,7 +38,6 @@ body {
 
 .main {
   width: 100%;
-  height: auto;
   flex-direction: column;
 }
 
@@ -111,7 +110,7 @@ body {
   margin: 5vh auto;
   position: relative;
   width: 75%;
-  height: auto;
+  height: 70vh;
 }
 
 .chart__column {
@@ -121,4 +120,20 @@ body {
 
 .hide {
   display: none;
+}
+
+#colophon {
+  height: 100vh;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+#colophon p {
+  margin: 0 auto 2% auto;
+}
+
+#colophon h4 {
+  min-width: 50vw;
+  width: 680px;
+  margin-bottom: 0;
 }
