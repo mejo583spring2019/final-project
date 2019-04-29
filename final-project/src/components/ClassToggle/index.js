@@ -68,13 +68,19 @@ const ClassToggleStyled = styled.div`
   .img__box {
     width: 80vw;
     padding-top: 0px;
-    padding-bottom: 42vh;
+    margin-bottom: 30vh;
 
     &img {
       width: 100%;
       margin: 0 auto;
     }
+  }
 
+  .text__box {
+    min-width: 50vw;
+    width: 680px;
+    padding: 2%;
+    margin-bottom: 20vh;
   }
 
   .graph__prose>div {
@@ -107,7 +113,7 @@ class ClassToggle extends Component {
                 <div className="trigger img__box">
                   <img src="./img/site_logo.png" alt="UNC Systems Logo" />
                 </div>
-                <div className="trigger">
+                <div className="trigger text__box">
                   <p>
                     The UNC System
                   </p>

@@ -219,7 +219,7 @@ class App extends Component {
           </p>
         </section>
         <ClassToggle />
-        <section class="main flex">
+        <section class="results flex">
           <div className="sort">
             <h2>View completion rate by Race</h2>
             <div className="sort__btns flex">
@@ -253,17 +253,34 @@ class App extends Component {
               <AIANChart />
             </div>
           </div>
+          <h2>Results</h2>
           <p>
-            Results:
+            Looking at the data from the College Scorecard,
+            race does not seem to affect graduation rates significantly
+            if students attend the same school. Instead, graduation
+            rates seem to vary significantly <em>between</em> schools,
+            with schools considered more elite having higher graduation rates
+            overall. Thus, race does not seem to be statistically significant
+            in determining graduation rates intraschool but interschool.
+          </p>
+          <p>
+            It should also be noted that historically black colleges and
+            universities (HBCUs) do not seem to dramatically increase graduation
+            rates among minorities. In the data, North Carolina A & T
+            had a much lower graduation compared to predominately-white
+            institutions.
           </p>
         </section>
         <section id="colophon" class="flex-column">
           <h2>Colophon</h2>
-          <h4>Colophon Section 1</h4>
+          <h4>Website Creation and Hosting</h4>
           <p>
-            This is the colophon section one where
-            I talk about things blah blah blah blah.
+            This website was created using <a href="https://reactjs.org/">
+              React
+            </a> and <a href="https://nodejs.org/en/">
+              Node</a>.
           </p>
+          <p>It is hosted on <a href="https://pages.github.com/">GitHub pages</a></p>
           <h4>Colophon Section 2</h4>
           <p>
             This is the colophon section one where
@@ -275,7 +292,6 @@ class App extends Component {
             I talk about things blah blah blah blah.
           </p>
         </section>
-
       </div>
     );
   }
