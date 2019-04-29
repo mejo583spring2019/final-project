@@ -11,11 +11,6 @@ const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 /** Class for the BarChart component for the App */
 class AreaChart extends Component {
-  chartData1 = this.getAllData(property);
-  chartData2 = this.getAllLarceny(property);
-  chartData3 = this.getAllBurglary(property);
-  chartData4 = this.getAllVehTheft(property);
-
   /** Gets all the data for every year in the static data.
    * @return {array} number of reports in the US.
    * @param {array} data
@@ -151,7 +146,7 @@ class AreaChart extends Component {
           markerSize: 20,
           lineColor: "#AF9154",
           color: "#AF9154",
-          dataPoints: this.chartData1,
+          dataPoints: this.getAllData(property),
         },
       ],
     };
@@ -199,7 +194,7 @@ class AreaChart extends Component {
           markerSize: 20,
           lineColor: "#AF9154",
           color: "#AF9154",
-          dataPoints: this.chartData2,
+          dataPoints: this.getAllLarceny(property),
         },
       ],
     };
@@ -247,7 +242,7 @@ class AreaChart extends Component {
           markerSize: 20,
           lineColor: "#AF9154",
           color: "#AF9154",
-          dataPoints: this.chartData3,
+          dataPoints: this.getAllBurglary(property),
         },
       ],
     };
@@ -295,7 +290,7 @@ class AreaChart extends Component {
           markerSize: 20,
           lineColor: "#AF9154",
           color: "#AF9154",
-          dataPoints: this.chartData4,
+          dataPoints: this.getAllVehTheft(property),
         },
       ],
     };

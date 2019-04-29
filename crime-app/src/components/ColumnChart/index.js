@@ -11,12 +11,6 @@ const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 /** Class for the BarChart component for the App */
 class BarChart extends Component {
-  chartData1 = this.getAllData(byState);
-  chartData2 = this.getTop5Data(byState);
-  chartData3 = this.getBottom5Data(byState);
-
-  percentTotal = this.getTotalPercent(byState);
-
   /** Gets all the data for every state in the static data.
    * @return {array} percent chance of reporting crime for each state.
    * @param {Object} data
@@ -155,7 +149,7 @@ class BarChart extends Component {
       data: [
         {
           type: "column",
-          dataPoints: this.chartData1,
+          dataPoints: this.getAllData(byState),
           toolTipContent: "{label}: {y}%",
         },
       ],
@@ -191,7 +185,7 @@ class BarChart extends Component {
       },
       data: [{
         type: "bar",
-        dataPoints: this.chartData2,
+        dataPoints: this.getTop5Data(byState),
         toolTipContent: "{label}: {y}%",
       }],
     };
@@ -226,7 +220,7 @@ class BarChart extends Component {
       },
       data: [{
         type: "bar",
-        dataPoints: this.chartData3,
+        dataPoints: this.getBottom5Data(byState),
         toolTipContent: "{label}: {y}%",
       }],
     };
@@ -262,17 +256,15 @@ class BarChart extends Component {
             </div>
             <div className="maxWidth">
               <p>
-                Overall, the amount of property crime occurring
-                in the United States by population is around
-                {this.percentTotal}
-                percent, which was calculated from the data
-                produced from the FBI. This number was
-                determined by taking the total amount of crime
-                that occurred in every state and divide that by
-                the total population in the country. Then, this
-                number was multiplied by 100 to get a total
-                percentage of the population in the United
-                States who reported a property crime in 2015.
+                Overall, the amount of property crime occurring in the United
+                States by population is
+                around {this.getTotalPercent(byState)} percent, which was
+                calculated from the data produced from the FBI. This number was
+                determined by taking the total amount of crime that occurred in
+                every state and divide that by the total population in the
+                country. Then, this number was multiplied by 100 to get a total
+                percentage of the population in the United States who reported a
+                property crime in 2015.
               </p>
             </div>
           </Tab>
@@ -283,14 +275,12 @@ class BarChart extends Component {
             </div>
             <div className="maxWidth">
               <p>
-                According to the report from the FBI in 2015,
-                The worst place to experience property crime in
-                the nation is the District of Columbia, with
-                4.68 percent of the population reporting a
-                property crime in 2015. The worst state to
-                experience property crime in the United States
-                was Hawaii in 2015. Around 3.8 percent of the
-                population in Hawaii reported a property crime
+                According to the report from the FBI in 2015, The worst place to
+                experience property crime in the nation is the District of
+                Columbia, with 4.68 percent of the population reporting a
+                property crime in 2015. The worst state to experience property
+                crime in the United States was Hawaii in 2015. Around 3.8
+                percent of the population in Hawaii reported a property crime
                 during this year.
               </p>
             </div>
@@ -302,13 +292,11 @@ class BarChart extends Component {
             </div>
             <div className="maxWidth">
               <p>
-                According to the report from the FBI in 2015,
-                The best place to avoid property crime in the
-                nation was Vermont, with 1.41 percent of the
-                population reporting a property crime during
-                2015. Interestingly, the top five states that
-                had the lowest property crime rate fell below
-                two percent.
+                According to the report from the FBI in 2015, The best place to
+                avoid property crime in the nation was Vermont, with 1.41
+                percent of the population reporting a property crime during
+                2015. Interestingly, the top five states that had the lowest
+                property crime rate fell below two percent.
               </p>
             </div>
           </Tab>
