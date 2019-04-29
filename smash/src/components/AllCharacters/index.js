@@ -18,6 +18,7 @@ class AllCharacters extends Component {
   chartRef = React.createRef();
 
   componentDidMount() {
+
     fetch("http://beta-api-kuroganehammer.azurewebsites.net/api/characters/")
       .then(res => res.json())
       .then(
@@ -29,13 +30,14 @@ class AllCharacters extends Component {
               labels: result.map(item => (item.DisplayName)),
               datasets: [
                 {
-                  label: "coolness",
+                  label: "number",
+                  data: result.map(item => (item.OwnerId)),
                   backgroundColor: result.map(item => (item.ColorTheme))
                 }
               ]
             }
           });
-          //console.log(result[0].Links[2].Href);
+          // console.log(result[0].Links[2].Href);
         },
         // Note: it's important to handle errors here
         // instead of a catch() block so that we don't swallow
@@ -61,13 +63,6 @@ class AllCharacters extends Component {
     } else {
       return (
         <div>
-          <ul>
-            {items.map(item => (
-              <li key={item.InstanceId}>
-                {item.InstanceId} {item.DisplayName}
-              </li>
-            ))}
-          </ul>
           <div className="chart">
             <Bar
               data={this.state.chartData}

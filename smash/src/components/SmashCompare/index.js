@@ -112,8 +112,51 @@ class SmashCompare extends Component {
           counter++;
         }
       }
-      let imgURL = "http://kuroganehammer.com/images/smash4/logo2/" + charInfo.Name + ".png"
-      console.log(items);
+
+      let imgURL;
+
+      /* In case the usual way of generating the URL doesn't work */
+      if (charInfo.Name === "DonkeyKong") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/DK.png";
+      } else if (charInfo.Name === "BowserJr") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Bowser%20Jr.png";
+      } else if (charInfo.Name === "CaptainFalcon") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Captain%20Falcon.png";
+      } else if (charInfo.Name === "DiddyKong") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Diddy%20Kong.png";
+      } else if (charInfo.Name === "DrMario") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Dr.%20Mario.png";
+      } else if (charInfo.Name === "DuckHunt") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Duck%20Hunt.png";
+      } else if (charInfo.Name === "KingDedede") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Perfect%20Dedede.png";
+      } else if (charInfo.Name === "LittleMac") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Little%20Mac.png";
+      } else if (charInfo.Name === "MetaKnight") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Meta%20Knight.png";
+      } else if (charInfo.Name === "MegaMan") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Mega%20Man.png";
+      } else if (charInfo.Name === "MiiBrawler") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Mii%20Brawler.png";
+      } else if (charInfo.Name === "MiiGunner") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Mii%20Gunner.png";
+      } else if (charInfo.Name === "MiiSwordfighter") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Mii%20Swordfighter.png";
+      } else if (charInfo.Name === "MrGameWatch") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/GameWatch.png";
+      } else if (charInfo.Name === "RosalinaLuma") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Rosalina.png";
+      } else if (charInfo.Name === "ToonLink") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Toon%20Link.png";
+      } else if (charInfo.Name === "WiiFitTrainer") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Wii%20Fit%20Trainer.png";
+      } else if (charInfo.Name === "ZeroSuitSamus") {
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/Zero%20Suit%20Samus.png";
+      } else { /* the usual way of generating the url */
+        imgURL = "http://kuroganehammer.com/images/smash4/logo2/" + charInfo.Name + ".png"
+      }
+
+      console.log(imgURL);
       return (
         <div>
           <div id="charPicker">
@@ -147,12 +190,12 @@ class SmashCompare extends Component {
               <option value="luigi" >Luigi</option>
               <option value="mario">Mario</option>
               <option value="marth" >Marth</option>
-              <option value="megaman">Megaman</option>
-              <option value="metaknight">MetaKnight</option>
+              <option value="megaman">Mega Man</option>
+              <option value="metaknight">Meta Knight</option>
               <option value="mewtwo" >Mewtwo</option>
               <option value="miibrawler" >Mii Brawler</option>
               <option value="miigunner">Mii Gunner</option>
-              <option value="miiswordfighter">Mii Sword Fighter</option>
+              <option value="miiswordfighter">Mii Swordfighter</option>
               <option value="mrgamewatch" >Mr. Game and Watch</option>
               <option value="ness">Ness</option>
               <option value="olimar" >Olimar</option>
