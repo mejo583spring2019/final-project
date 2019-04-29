@@ -9,12 +9,13 @@ const ClassToggleStyled = styled.div`
     margin-bottom: 1rem;
     width: 70vw;
     text-align: center;
-    margin: 50% 0;
+    margin: 15% 0;
+    font-size: 1.5rem;
   }
 
   .graph {
     position: absolute;
-    padding-top: 2%;
+    padding-top: 8%;
     top: 0;
     left: 0;
     bottom: auto;
@@ -27,12 +28,6 @@ const ClassToggleStyled = styled.div`
     width: 70vw;
     left: 0;
     right: 0;
-  }
-
-  .graph-scroll-below .graph {
-    position: absolute;
-    bottom: 0px;
-    top: auto;
   }
 
   #nc-map-container {
@@ -54,11 +49,9 @@ const ClassToggleStyled = styled.div`
 
   .graph__prose {
     z-index: 3;
-    max-width: 100%;
-    width: 640px;
+    max-width: 70%;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 
     p {
       margin: 0;
@@ -72,9 +65,16 @@ const ClassToggleStyled = styled.div`
     padding-bottom: 25vh;
   }
 
-  .text-box {
+  .img__box {
+    width: 80vw;
     padding-top: 0px;
-    padding-bottom: 50vh;
+    padding-bottom: 42vh;
+
+    &img {
+      width: 100%;
+      margin: 0 auto;
+    }
+
   }
 
   .graph__prose>div {
@@ -94,7 +94,7 @@ class ClassToggle extends Component {
           <Scene
             classToggle={[".contained", "graph-scroll-fixed"]}
             triggerElement=".trigger"
-            duration={"100%"}
+            duration={"150%"}
           >
             <div className="contained">
               <div className="graph" id="nc-map-container">
@@ -102,14 +102,19 @@ class ClassToggle extends Component {
                   <img src="./img/nc-outline.svg" alt="a map of NC" />
                 </div>
               </div>
-              <div className="graph__prose">
+              <div className="graph__prose flex-column">
                 <div className="trigger"></div>
-                <div className="trigger text-box">
+                <div className="trigger img__box">
+                  <img src="./img/site_logo.png" alt="UNC Systems Logo" />
+                </div>
+                <div className="trigger">
                   <p>
-                    This is a paragraph with some information in it!
+                    The UNC System
                   </p>
                 </div>
-                <PackedChart />
+                <div className="trigger">
+                  <PackedChart />
+                </div>
               </div>
             </div>
           </Scene>

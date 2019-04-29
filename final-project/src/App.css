@@ -24,7 +24,7 @@ body {
   color: white;
   text-shadow: 2px 2px 7px #333;
   background-color: lightgoldenrodyellow;
-  background-image: url("/img/grad-bg.png");
+  background-image: url("https://brookenf.github.io/race-to-the-finish/img/grad-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -52,10 +52,6 @@ body {
 
 .main p:first-of-type {
   margin-top: 20vh;
-}
-
-.main p:last-of-type {
-  margin-bottom: 20vh;
 }
 
 .main p a {
