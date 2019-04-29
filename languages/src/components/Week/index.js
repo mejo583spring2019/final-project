@@ -53,7 +53,7 @@ class Week extends Component {
     return (
       <div>
         <CanvasJSChart options={options} id="byWeek"
-        /* onRef={ref => this.chart = ref} */
+          style={{ width: 200, height: 100 }}
         />
       </div>
     );

@@ -61,29 +61,28 @@ class About extends Component {
                 </Nav>
               </Col>
 
-              {/* CHART ONE */}
+              {/* CHART ONE - MAP*/}
               <Col sm={9}>
                 <Tab.Content>
-                  {/* CHART THREE - MAP*/}
                   <Tab.Pane eventKey="first">
                     <h1 className="section-header">By region</h1>
                     <Row>
-                      <Col className="caption"><p>Determines which regions of the world contain the highest concentration of each level of language difficulty.</p></Col>
+                      <Col className="caption"><p>Determines which regions of the world contain the highest concentration of each level of language difficulty. For example, Europe contains the highest concentration of World (or Category I) languages.</p></Col>
                     </Row>
                     <Row>
-                      <Col>
-                        <h4>Category I</h4>
+                      <Col sm={6}>
+                        <h4>I. World languages</h4>
                         <Map data={category1} />
                         <br />
-                        <h4>Category II</h4>
+                        <h4>II. Moderate languages</h4>
                         <Map data={category2} />
                         <br />
                       </Col>
-                      <Col>
-                        <h4>Category III</h4>
+                      <Col sm={6}>
+                        <h4>III. Difficult languages</h4>
                         <Map data={category3} />
                         <br />
-                        <h4>Category IV</h4>
+                        <h4>IV. Advanced languages</h4>
                         <Map data={category4} />
                         <br />
                       </Col>
@@ -112,6 +111,7 @@ class About extends Component {
                     <br />
                   </Tab.Pane>
 
+                  {/* CHART THREE*/}
                   <Tab.Pane eventKey="third">
                     <h1 className="section-header">By hour</h1>
                     <Row>

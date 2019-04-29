@@ -39,7 +39,7 @@ class About extends Component {
                     category may vary in individual difficulty. </p>
               <p><em className="blue">Students should note
                that this list is not exhaustive.</em> This website
-                  provides information and resources on the 70
+                    provides information and resources on the 70
                  most studied languages around the world.</p>
             </Col>
           </Row>

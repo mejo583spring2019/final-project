@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Pie } from 'react-chartjs-2';
-import "./styles.css";
-
 
 class Map extends Component {
 
@@ -20,11 +18,15 @@ class Map extends Component {
         backgroundColor: ["#ff5959", "#C1EBF9", "#f1f242", "#007BFF"],
       }],
       labels: Object.keys(result),
+      options: {
+        responsive: true,
+        maintainAspectRation: false,
+      },
     };
   }
   render() {
     return (<div>
-      <Pie data={this.getData()} style={{ width: 400, height: 200 }} />
+      <Pie data={this.getData()} style={{ width: 200, height: 100 }} />
     </div>)
 
   }
