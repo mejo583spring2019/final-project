@@ -5,7 +5,6 @@ import BlackChart from "./components/BlackChart";
 import AsianChart from "./components/AsianChart";
 import HispanicChart from "./components/HispanicChart";
 import AIANChart from "./components/AIANChart";
-import PackedChart from "./components/PackedChart";
 import ClassToggle from "./components/ClassToggle";
 
 /** App component builds out main part
@@ -221,7 +220,6 @@ class App extends Component {
             alt="An outline of North Carolina"
             className="nc-outline"
           />
-          <PackedChart />
           <div className="sort">
             <h2>View completion rate by Race</h2>
             <div className="sort__btns flex">
@@ -258,26 +256,27 @@ class App extends Component {
           <p>
             Results:
           </p>
-          <div id="colophon" class="flex-column">
-            <h2>Colophon</h2>
-            <h4>Colophon Section 1</h4>
-            <p>
-              This is the colophon section one where
-              I talk about things blah blah blah blah.
-            </p>
-            <h4>Colophon Section 2</h4>
-            <p>
-              This is the colophon section one where
-              I talk about things blah blah blah blah.
-            </p>
-            <h4>Colophon Section 3</h4>
-            <p>
-              This is the colophon section one where
-              I talk about things blah blah blah blah.
-            </p>
-          </div>
-          <ClassToggle />
         </section>
+        <ClassToggle />
+        <section id="colophon" class="flex-column">
+          <h2>Colophon</h2>
+          <h4>Colophon Section 1</h4>
+          <p>
+            This is the colophon section one where
+            I talk about things blah blah blah blah.
+          </p>
+          <h4>Colophon Section 2</h4>
+          <p>
+            This is the colophon section one where
+            I talk about things blah blah blah blah.
+          </p>
+          <h4>Colophon Section 3</h4>
+          <p>
+            This is the colophon section one where
+            I talk about things blah blah blah blah.
+          </p>
+        </section>
+
       </div>
     );
   }
