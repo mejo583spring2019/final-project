@@ -101,6 +101,11 @@ const SectionWipesStyled = styled.div`
         padding-top: 25%;
         max-width: 90%;
     }
+    .colophon{
+        font-size: 14px !important;
+        padding-left: 2% !important;
+        padding-right: 2%!important;
+    }
   }
 
 
@@ -117,6 +122,23 @@ const SectionWipesStyled = styled.div`
 
   #bubble {
       padding-top: 5%;
+  }
+
+  .colophon{
+      color: white;
+      font-size: 20px;
+      text-align: left;
+      padding-left: 6%;
+      padding-right: 6%;
+      font-family: Times New Roman;
+  }
+
+  #coloTitle {
+      color: white;
+      padding-top: 1%;
+      font-family: Times New Roman;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
   }
 
 
@@ -161,7 +183,37 @@ const SectionWipes = () => (
         <div className="panel blue"> <Barchart></Barchart></div>
       </Scene>
       <Scene pin>
-        <div className="panel red"></div>
+        <div className="panel red">
+          <h2 id="coloTitle">Colophon</h2>
+          <p class="colophon"> This site was created for the purposes of entertainment
+            and information regarding the HBO TV series “Game of Thrones”
+            based on the “Song of Ice and Fire” book series written by
+            George R. R. Martin. None of the data displayed on this site
+            was provided by HBO or other official Game of Thrones
+            affiliates — it was fan-aggregated and maintained.</p>
+          <p class="colophon"> The data used in the first chart, Deadliest Houses, came
+            from Jeffery Lancaster’s Game of Thrones database. I manually
+            copied over the data to my charts by looking at his
+            characters.json file. </p>
+          <p class="colophon"> The data from the second chart, Deadliest Characters,
+            came from a Washington Post article that discussed the deaths
+            of Game of Thrones characters. I manually copied the information
+            from the article into my chart.</p>
+          <p class="colophon">This website was built using HTML, CSS, JavaScript, Node.js
+            and React. </p>
+          <p class="colophon">I am using ScrollMagic to create this page’s section wipes.
+            I used the npm package react-scrollmagic to implement
+            ScrollMagic. </p>
+          <p class="colophon">I am using Highcharts to render both of my charts. I implemented
+            Highcharts using three npm packages — highcharts, highcharts-more,
+            and highcharts-react-official.</p>
+          <p class="colophon">I created this website in Visual Studio Code on a 2016
+            MacBook Pro. </p>
+          <p class="colophon">While this website and its charts were intended to be viewed
+            on all screen-sizes, viewing it on a desktop using a modern browser
+            will deliver the best experience. </p>
+
+        </div>
       </Scene>
     </Controller>
   </SectionWipesStyled>

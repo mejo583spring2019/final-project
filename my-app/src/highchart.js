@@ -25,13 +25,15 @@ const options = {
     verticalAlign: "top",
     floating: true,
     x: 0,
-    y: 50,
+    y: 60,
   },
   title: {
     text: "Deadiliest Houses in Game of Thrones: Most Character Kills",
   },
   subtitle: {
     text: "Source: <a href=\"https://github.com/jeffreylancaster/game-of-thrones/tree/master/data\" target=\"_blank\">Fan Data by Jeffrey Lancaster</a>",
+    x: 0,
+    y: 55,
     style: {
       marginBottom: "10px",
     },
@@ -44,7 +46,7 @@ const options = {
   plotOptions: {
     packedbubble: {
       minSize: "5%",
-      maxSize: "700%",
+      maxSize: "650%",
       zMin: 0,
       zMax: 1000,
       layoutAlgorithm: {
@@ -57,11 +59,6 @@ const options = {
       dataLabels: {
         enabled: true,
         format: "{point.name}",
-        // filter: {
-        //   property: "y",
-        //   operator: ">",
-        //  value: 1,
-        //  },
         style: {
           color: "black",
           textOutline: "none",
