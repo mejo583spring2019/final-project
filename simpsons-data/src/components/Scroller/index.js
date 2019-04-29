@@ -1,37 +1,13 @@
 import React from "react";
-// import { Controller, Scene } from "react-scrollmagic";
-// import ScrollMagic from "scrollmagic";
-// import ReactScrollMagic from "react-scrollmagic";
 import { Controller, Scene } from "react-scrollmagic";
 
 import styled from "styled-components";
+import Responsive from "../ImageCarousel";
 
-// import TweenMax from "gsap/TweenMax";
-// import gsap from "gsap";
-// import addIndicators from "debug.addIndicators";
-// init
-// const controller = new Controller({
-//   // vertical: true,
-//   globalSceneOptions: {
-//     triggerHook: "onLeave",
-//   },
-// });
-
-// // get all slides
-// const slides = document.querySelectorAll("div.panel");
-
-// // create scene for every slide
-// for (let i = 0; i < slides.length; i++) {
-//   new Scene({
-//     triggerElement: slides[i],
-//   })
-//     .setPin(slides[i])
-//     .addIndicators() // add indicators (requires plugin)
-//     .addTo(controller);
-// }
 const SectionWipesStyled = styled.div`
   overflow: hidden;
 `;
+
 /** JS Doc comment */
 class Scroller extends React.Component {
   /** JS Doc comment
@@ -56,44 +32,7 @@ class Scroller extends React.Component {
           </Scene>
           <Scene pin>
             <div className="panel body">
-              <h2>These are the faces that voiced the main
-                  characters of the show.</h2>
-              <div className="flexbox">
-                <div className="name-and-image">
-                  <img src="http://static.tvmaze.com/uploads/images/medium_portrait/0/963.jpg" alt="HTML5 Icon" />
-                  <h3>Dan Castellaneta</h3>
-                </div>
-                <div className="name-and-image">
-                  <img src="http://static.tvmaze.com/uploads/images/medium_portrait/0/967.jpg" alt="HTML5 Icon" />
-                  <h3>Julie Kavner</h3>
-                </div>
-                <div className="name-and-image">
-                  <img src="http://static.tvmaze.com/uploads/images/medium_portrait/2/7324.jpg" alt="HTML5 Icon" />
-                  <h3>Yeardley Smith</h3>
-                </div>
-                <div className="name-and-image">
-                  <img src="http://static.tvmaze.com/uploads/images/medium_portrait/0/968.jpg" alt="HTML5 Icon" />
-                  <h3>Nancy Cartwright</h3>
-                </div>
-              </div>
-              <div className="flexbox">
-                <div className="name-and-image">
-                  <img src="http://static.tvmaze.com/uploads/images/medium_portrait/0/966.jpg" alt="HTML5 Icon" />
-                  <h3>Harry Shearer</h3>
-                </div>
-                <div className="name-and-image">
-                  <img src="http://static.tvmaze.com/uploads/images/medium_portrait/0/964.jpg" alt="HTML5 Icon" />
-                  <h3>Hank Azaria</h3>
-                </div>
-                <div className="name-and-image">
-                  <img src="http://static.tvmaze.com/uploads/images/medium_portrait/41/102553.jpg" alt="HTML5 Icon" />
-                  <h3>Pamela Hayden</h3>
-                </div>
-                <div className="name-and-image">
-                  <img src="http://static.tvmaze.com/uploads/images/medium_portrait/123/307705.jpg" alt="HTML5 Icon" />
-                  <h3>Tress MacNeille</h3>
-                </div>
-              </div>
+              <Responsive />
             </div>
           </Scene>
         </Controller>
@@ -101,16 +40,4 @@ class Scroller extends React.Component {
     );
   }
 }
-// /** this is a JSDOC comment*/
-// class Scroller extends React.Component {
-//   /** this is a JSDOC comment
-//      * @return {div}
-//     */
-//   render() {
-//     return (
-//       <SectionWipesStyled></SectionWipesStyled>
-//     );
-//   }
-// }
-
 export default Scroller;

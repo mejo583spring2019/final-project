@@ -7,7 +7,6 @@ import HighchartsReact from "highcharts-react-official";
 // to install/work.
 import hcMore from "highcharts/highcharts-more.src";
 import { Controller, Scene } from "react-scrollmagic";
-
 import styled from "styled-components";
 
 if (typeof Highcharts === "object") {
@@ -16,7 +15,7 @@ if (typeof Highcharts === "object") {
 const options = {
   chart: {
     type: "packedbubble",
-    height: "50%",
+    height: "600px",
     backgroundColor: "#FFD938",
   },
   title: {
@@ -360,7 +359,7 @@ const options = {
       ],
     }],
 };
-const StyledChart = styled.div`
+const SectionWipesStyled = styled.div`
   overflow: hidden;
 `;
 
@@ -372,68 +371,26 @@ class Chart extends React.Component {
   */
   render() {
     return (
-      <div>
-        <StyledChart>
-          <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
-            <Scene pin>
-              <div className="panel chart">
-                <HighchartsReact
-                  highcharts={Highcharts}
-                  //   construtorType={"packedbubble"}
-                  options={options} />
-              </div>
-            </Scene>
-            <Scene pin>
-              <div className="panel colophon">
-                <h2>Colophon</h2>
-                <h3>This is how the app was made</h3>
-                <p>
-                  # MEJO 583 Spring 2019 Final Project
-
-  This seed repo will be updated with
-  configuration changes as needed until
-   the project is due.
-
-                  <br/>
-  #Colophon
-  So far, I've used these resources:
-  for Node Fetch: https://www.npmjs.com/package/node-fetch
-  For Writing JSON to File: https://nodejs.org/api/fs.html
-                  <br/>
-  For High Chart
-  https://github.com/highcharts/highcharts-react/issues/76 (KacperMadej and classmate)
-                  <br/>
-  For my data:
-  http://api.tvmaze.com/shows/83/cast
-                  <br/>
-  For scrollmagic:
-  http://scrollmagic.io/examples/basic/going_horizontal.html,
-  https://bitworking.github.io/react-scrollmagic/section-wipes2,
-  https://www.npmjs.com/package/react-scrollmagic,
-  https://greensock.com/docs/NPMUsage,
-  https://scrollmagic.io/docs/debug.addIndicators.html#newScrollMagic.Controlleroptions,
-  http://scrollmagic.io/examples/basic/section_wipes_natural.html
-                  <br/>
-  For a refresher on CSS Grid:
-  https://css-tricks.com/snippets/css/complete-guide-grid/
-                  <br/>
-  For some color inspiration:
-  https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.imdb.com%252Ftitle%252Ftt0096697%252F%26psig%3DAOvVaw1HpWTHyl5onkh2eQiPiKmy%26ust%3D1556545654540310&psig=AOvVaw1HpWTHyl5onkh2eQiPiKmy&ust=1556545654540310
-
-                </p>
-              </div>
-            </Scene>
-          </Controller>
-        </StyledChart >
-
-      </div>
+      <SectionWipesStyled>
+        <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
+          <Scene pin>
+            <div className="panel chart">
+              <HighchartsReact
+                highcharts={Highcharts}
+                options={options} />
+            </div>
+          </Scene>
+          <Scene pin>
+            <div className="panel colophon">
+              <h2>Colophon</h2>
+              <h3>This is how the app was made</h3>
+              <p>
+              </p>
+            </div>
+          </Scene>
+        </Controller>
+      </SectionWipesStyled>
     );
   }
 }
 export default Chart;
-
-// const App = () => (
-//     <div>
-//       <HighchartsReact highcharts={Highcharts} options={options} />
-//     </div>
-//   );

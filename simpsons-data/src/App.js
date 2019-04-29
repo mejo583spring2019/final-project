@@ -3,7 +3,6 @@ import "./App.css";
 import Chart from "./components/Chart";
 import Scroller from "./components/Scroller";
 
-
 /** this is a JSDOC comment*/
 class App extends Component {
   /** this is a JSDOC comment
