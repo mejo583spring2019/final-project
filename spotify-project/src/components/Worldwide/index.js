@@ -3,6 +3,7 @@
 import React, { Component } from "react";
 import USTable from "../USTable";
 import JPTable from "../JPTable";
+import DETable from "../DETable";
 
 import "./styles.css";
 
@@ -39,7 +40,7 @@ class Worldwide extends Component {
           <div id="CountryDisplay">
           </div>
           <div id="CountryData">
-            <USTable></USTable>
+            <DETable></DETable>
           </div>
           <div id="PadDiv"></div>
         </div>
