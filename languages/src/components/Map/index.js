@@ -1,16 +1,23 @@
 import React, { Component } from "react";
-import { Pie } from 'react-chartjs-2';
+import { Pie } from "react-chartjs-2";
 
+/**
+     * Creates Week component.
+     * @return {any} Hour
+     */
 class Map extends Component {
-
   chartdata = this.getData();
 
+  /**
+ * Gets chart data
+ * @return {any} data
+ */
   getData() {
-
-    const result = {}
-    this.props.data.forEach(val => {
-      result[val.region] = 1 + (result[val.region] || 0)
+    const result = {};
+    this.props.data.forEach((val) => {
+      result[val.region] = 1 + (result[val.region] || 0);
     });
+
 
     return {
       datasets: [{
@@ -24,11 +31,15 @@ class Map extends Component {
       },
     };
   }
+
+  /**
+   * Renders component.
+   * @return {any} JSX
+   */
   render() {
     return (<div>
       <Pie data={this.getData()} style={{ width: 200, height: 100 }} />
-    </div>)
-
+    </div>);
   }
 }
 

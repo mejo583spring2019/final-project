@@ -79,7 +79,7 @@ const category1 = [
     "region": "Europe",
     "title": "World",
     "description": "Languages closely cognate with English",
-  }
+  },
 ];
 
 export default category1;

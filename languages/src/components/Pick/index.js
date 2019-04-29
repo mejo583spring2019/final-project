@@ -28,6 +28,10 @@ import category4 from "../Data/category4.js";
  *  @return {any} JSX content
  */
 class About extends Component {
+  /**
+ * Renders Pick page.
+ * @return {any} JSX
+ */
   render() {
     return (
       <div>
@@ -37,8 +41,22 @@ class About extends Component {
         <Container>
           <Row>
             <Col id="intro">
-              <p> <strong>So you"re ready to begin learning a second language.</strong> But how do you know which is right for you? </p>
-              <p>Use our interactive graphs below to discover which languages might best fit your schedule or travel plans. Then, head over to our resources section to find the tools that will help you master your skills.<em className="blue"> Keep in mind that the information below is based on averages; the ability of an individual to learn a new language may vary based on background, natural ability, and quality of instruction.</em></p>
+              <p> <strong>So you"re ready to begin
+                 learning a second language.</strong> But
+                  how do you know which is right for you? </p>
+              <p>Use our interactive graphs below to
+                 discover which languages might best
+                  fit your schedule or travel plans.
+                   Then, head over to our resources
+                    section to find the tools that will
+                     help you master your skills.
+              <em className="blue"> Keep in mind
+                         that the information below is based
+                          on averages; the ability of an
+                           individual to learn a new language
+                            may vary based on background,
+                             natural ability, and quality of
+                           instruction.</em></p>
             </Col>
           </Row>
         </Container>
@@ -67,7 +85,12 @@ class About extends Component {
                   <Tab.Pane eventKey="first">
                     <h1 className="section-header">By region</h1>
                     <Row>
-                      <Col className="caption"><p>Determines which regions of the world contain the highest concentration of each level of language difficulty. For example, Europe contains the highest concentration of World (or Category I) languages.</p></Col>
+                      <Col className="caption"><p>Determines
+                         which regions of the world contain the
+                          highest concentration of each level of
+                           language difficulty. For example, Europe
+                            contains the highest concentration of
+                             World (or Category I) languages.</p></Col>
                     </Row>
                     <Row>
                       <Col sm={6}>
@@ -98,7 +121,9 @@ class About extends Component {
                   <Tab.Pane eventKey="second">
                     <h1 className="section-header">By week</h1>
                     <Row>
-                      <Col className="caption"><p>Estimates the number of weeks it takes to learn a particular language.</p></Col>
+                      <Col className="caption"><p>Estimates
+                         the number of weeks it takes to
+                          learn a particular language.</p></Col>
                     </Row>
                     <Row>
                       <Col className="chart"><Week /></Col>
@@ -115,7 +140,9 @@ class About extends Component {
                   <Tab.Pane eventKey="third">
                     <h1 className="section-header">By hour</h1>
                     <Row>
-                      <Col className="caption"><p>Estimates the number of hours it takes to learn a particular language.</p></Col>
+                      <Col className="caption"><p>Estimates
+                         the number of hours it takes to
+                          learn a particular language.</p></Col>
                     </Row>
                     <Row>
                       <Col><Hour /></Col>

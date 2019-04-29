@@ -56,17 +56,18 @@ function Index() {
                  for multilingualism will only continue to grow as
                   people learn to operate in an international context.
                    But when the majority of the population cannot
-                    communicate, <strong>how can English-speakers keep up? </strong></Col>
+                    communicate, <strong>how can English-speakers
+                       keep up?</strong></Col>
             <Col><br />Research has shown correlation between
              bilingualism and higher intelligence, memory skills,
               academic performance, networking skills, and marketability.
                When knowing a second language reaps nothing but benefits,
-                <strong>why not take the leap to learn?</strong> We're
-here to guide the everyday English speaker on their
-journey to becoming a polyglot, whether that journey
-begins with something as simple as Spanish or as
-challenging as Chinese. Explore our site and
-discover which language will be your next
+            <strong>why not take the leap to learn?</strong> We're
+                  here to guide the everyday English speaker on their
+                  journey to becoming a polyglot, whether that journey
+                  begins with something as simple as Spanish or as
+                  challenging as Chinese. Explore our site and
+                  discover which language will be your next
                       best friend.</Col>
           </Row>
         </Container>
@@ -80,6 +81,10 @@ discover which language will be your next
    * @return {any} Tooltip JSX
    */
 class App extends Component {
+  /**
+   * @param {any} props
+   * @param {any} context
+   */
   constructor(props, context) {
     super(props, context);
 
@@ -90,11 +95,15 @@ class App extends Component {
       show: false,
     };
   }
-
+  /**
+ * Sets up handle Close method
+ */
   handleClose() {
     this.setState({ show: false });
   }
-
+  /**
+ * Sets up handle Show method
+ */
   handleShow() {
     this.setState({ show: true });
   }
@@ -133,16 +142,19 @@ class App extends Component {
               <Nav>
                 <Nav.Link><Button variant="primary" onClick={this.handleShow}>
                   Colophon
-        </Button>
+                </Button>
                 </Nav.Link>
                 <Nav.Link eventKey={2} href="https://www.github.com/tianasama" target="_blank" rel="noopener noreferrer">
-                  <img src={require("./media/tianasama-link.png")} alt="tianasama bart simpson link" />
+                  <img src={require("./media/tianasama-link.png")}
+                    alt="tianasama bart simpson link" />
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
-          <Modal size="lg" show={this.state.show} onHide={this.handleClose} aria-labelledby="contained-modal-title-vcenter"
+          <Modal size="lg" show={this.state.show}
+            onHide={this.handleClose}
+            aria-labelledby="contained-modal-title-vcenter"
             centered>
             <Modal.Header closeButton>
               <Modal.Title>Colophon</Modal.Title>
@@ -152,7 +164,7 @@ class App extends Component {
             <Modal.Footer>
               <Button variant="primary" onClick={this.handleClose}>
                 Close
-            </Button>
+              </Button>
             </Modal.Footer>
           </Modal>
         </div>

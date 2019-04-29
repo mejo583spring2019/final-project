@@ -6,7 +6,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -15,7 +15,7 @@ const category3 = [
     "hours": "1100",
     "region": "Africa",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -24,7 +24,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -33,7 +33,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -42,7 +42,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -51,7 +51,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -60,7 +60,7 @@ const category3 = [
     "hours": "1100",
     "title": "Hard",
     "region": "Asia",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -69,7 +69,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -78,7 +78,7 @@ const category3 = [
     "hours": "1100",
     "region": "Middle East",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -87,7 +87,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -96,7 +96,7 @@ const category3 = [
     "hours": "1100",
     "region": "Middle East",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -105,7 +105,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -114,7 +114,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -123,7 +123,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -132,7 +132,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -141,7 +141,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -150,7 +150,7 @@ const category3 = [
     "hours": "1100",
     "region": "Middle East",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -159,7 +159,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -168,7 +168,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -177,7 +177,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -186,7 +186,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -195,7 +195,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -204,7 +204,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -213,7 +213,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -222,7 +222,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -231,7 +231,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -240,7 +240,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -249,7 +249,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -258,7 +258,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -267,7 +267,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -276,7 +276,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -285,7 +285,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -294,7 +294,7 @@ const category3 = [
     "hours": "1100",
     "region": ["Europe"],
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -303,7 +303,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -312,7 +312,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -321,7 +321,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -330,7 +330,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -339,7 +339,7 @@ const category3 = [
     "hours": "1100",
     "region": "Africa",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -348,7 +348,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -357,7 +357,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -366,7 +366,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -375,7 +375,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -384,7 +384,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -393,7 +393,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -402,7 +402,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -411,7 +411,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -420,7 +420,7 @@ const category3 = [
     "hours": "1100",
     "region": "Europe",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -429,7 +429,7 @@ const category3 = [
     "hours": "1100",
     "region": "Middle East",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -438,7 +438,7 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
+    "description": "Significant linguistic and/or cultural differences",
   },
   {
     "category": "3",
@@ -447,8 +447,8 @@ const category3 = [
     "hours": "1100",
     "region": "Asia",
     "title": "Hard",
-    "description": "Languages with significant linguistic and/or cultural differences from English",
-  }
+    "description": "Significant linguistic and/or cultural differences",
+  },
 ];
 
 export default category3;

@@ -6,7 +6,7 @@ const category4 = [
     "hours": "2200",
     "region": "Middle East",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers",
+    "description": "Exceptionally difficult for native English speakers",
   },
   {
     "category": "4",
@@ -15,7 +15,7 @@ const category4 = [
     "hours": "2200",
     "region": "Asia",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers",
+    "description": "Exceptionally difficult for native English speakers",
   },
   {
     "category": "4",
@@ -24,7 +24,7 @@ const category4 = [
     "hours": "2200",
     "region": "Asia",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers",
+    "description": "Exceptionally difficult for native English speakers",
   },
   {
     "category": "4",
@@ -33,7 +33,7 @@ const category4 = [
     "hours": "2200",
     "region": "Asia",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers",
+    "description": "Exceptionally difficult for native English speakers",
   },
   {
     "category": "4",
@@ -42,8 +42,8 @@ const category4 = [
     "hours": "2200",
     "region": "Asia",
     "title": "Advanced",
-    "description": "Languages which are exceptionally difficult for native English speakers",
-  }
+    "description": "Exceptionally difficult for native English speakers",
+  },
 ];
 
 export default category4;

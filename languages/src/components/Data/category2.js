@@ -6,7 +6,7 @@ const category2 = [
     "hours": "900",
     "region": "Europe",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages",
+    "description": "Slightly ore difficult than Category I languages",
   },
   {
     "category": "2",
@@ -15,7 +15,7 @@ const category2 = [
     "hours": "900",
     "region": "Caribbean",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages",
+    "description": "Slightly ore difficult than Category I languages",
   },
   {
     "category": "2",
@@ -24,7 +24,7 @@ const category2 = [
     "hours": "900",
     "region": "Asia",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages",
+    "description": "Slightly ore difficult than Category I languages",
   },
   {
     "category": "2",
@@ -33,7 +33,7 @@ const category2 = [
     "hours": "900",
     "region": "Asia",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages",
+    "description": "Slightly ore difficult than Category I languages",
   },
   {
     "category": "2",
@@ -42,8 +42,8 @@ const category2 = [
     "region": "Africa",
     "hours": "900",
     "title": "Moderate",
-    "description": "Languages that take a little longer than Category I languages",
-  }
+    "description": "Slightly ore difficult than Category I languages",
+  },
 ];
 
 export default category2;

@@ -16,6 +16,10 @@ import "./styles.css";
  *  @return {any} JSX content
  */
 class About extends Component {
+  /**
+   * Renders component.
+   * @return {any} JSX
+   */
   render() {
     return (
       <div>
@@ -39,7 +43,7 @@ class About extends Component {
                     category may vary in individual difficulty. </p>
               <p><em className="blue">Students should note
                that this list is not exhaustive.</em> This website
-                    provides information and resources on the 70
+                               provides information and resources on the 70
                  most studied languages around the world.</p>
             </Col>
           </Row>
@@ -74,11 +78,17 @@ class About extends Component {
                       src={require("../../media/world.png")} />
                     <h1 className="section-header">World languages</h1>
                     <Row>
-                      <Col className="caption"><p>Also known as Category I languages, world languages denotes those languages that are easiest for English speakers to learn and which closely cognate with English.</p></Col>
+                      <Col className="caption"><p>Also known as
+                         Category I languages, world languages
+                          denotes those languages that are
+                           easiest for English speakers to
+                            learn and which closely cognate
+                             with English.</p></Col>
                     </Row>
                     <Row>
                       <Col>
-                        <h3 className="small-header">World languages include:</h3>
+                        <h3 className="small-header">
+                          World languages include:</h3>
                       </Col>
                     </Row>
                     <Row>
@@ -103,11 +113,16 @@ class About extends Component {
                       src={require("../../media/moderate.png")} />
                     <h1 className="section-header">Moderate languages</h1>
                     <Row>
-                      <Col className="caption"><p>Also known as Category II languages, moderate languages denotes those languages which take slightly longer for native English speakers to master.</p></Col>
+                      <Col className="caption"><p>Also known
+                         as Category II languages, moderate
+                          languages denotes those languages
+                           which take slightly longer for
+                            native English speakers to master.</p></Col>
                     </Row>
                     <Row>
                       <Col>
-                        <h3 className="small-header">Moderate languages include:</h3>
+                        <h3 className="small-header">Moderate
+                         languages include:</h3>
                       </Col>
                     </Row>
                     <Row>
@@ -132,19 +147,46 @@ class About extends Component {
                       src={require("../../media/difficult.png")} />
                     <h1 className="section-header">Hard languages</h1>
                     <Row>
-                      <Col className="caption"><p>Also known as Category III languages, hard languages denotes those languages that are relatively difficult for English speakers to learn. Languages in this category, the largest of the four, have significant linguistic and/or cultural differences from English.</p></Col>
+                      <Col className="caption"><p>Also known
+                         as Category III languages, hard
+                          languages denotes those languages
+                           that are relatively difficult
+                            for English speakers to learn.
+                             Languages in this category,
+                              the largest of the four, have
+                               significant linguistic and/or
+                                cultural differences from English.</p></Col>
                     </Row>
                     <Row>
                       <Col>
-                        <h3 className="small-header">Hard languages include:</h3>
+                        <h3 className="small-header">Hard
+                         languages include:</h3>
                       </Col>
                     </Row>
                     <Row>
-                      <Col>Albanian<br />Amharic<br />Armenian<br />Azerbaijani<br />Bengali<br />Bulgarian<br />Burmese<br />Czech<br />Dari<br />Estonian<br />Farsi<br />Finnish<br />Georgian<br />Greek<br />Gujarati<br />Hausa<br />Hebrew</Col>
+                      <Col>Albanian<br />Amharic<br />Armenian
+                        <br />Azerbaijani<br />Bengali<br />
+                        Bulgarian<br />Burmese<br />
+                        Czech<br />Dari<br />Estonian<br />
+                        Farsi<br />Finnish<br />Georgian
+                        <br />Greek<br />Gujarati<br />
+                        Hausa<br />Hebrew</Col>
 
-                      <Col>Hindi<br />Hungarian<br />Icelandic<br />Kazakh<br />Khmer<br />Kurdishh<br />Kyrgyz<br />Lao<br />Latvian<br />Lithuanian<br />Macedonian<br />Mongolian<br />Nepali<br />Pashto<br />Polish<br />Russian<br />Serbo-Croatian</Col>
+                      <Col>Hindi<br />Hungarian<br />
+                        Icelandic<br />Kazakh<br />Khmer
+                        <br />Kurdishh<br />Kyrgyz<br />Lao
+                        <br />Latvian<br />Lithuanian
+                        <br />Macedonian<br />Mongolian
+                        <br />Nepali<br />Pashto<br />
+                        Polish<br />Russian<br />
+                        Serbo-Croatian</Col>
 
-                      <Col>Sinhala<br />Slovak<br />Slovenian<br />Somali<br />Tagalog<br />Tajiki<br />Tamil<br />Telugu<br />Thai<br />Tibetan<br />Turkish<br />Turkmen<br />Ukrainian<br />Urdu<br />Uzbek<br />Vietnamese</Col>
+                      <Col>Sinhala<br />Slovak<br />Slovenian
+                        <br />Somali<br />Tagalog<br />
+                        Tajiki<br />Tamil<br />Telugu
+                        <br />Thai<br />Tibetan<br />
+                        Turkish<br />Turkmen<br />Ukrainian
+                        <br />Urdu<br />Uzbek<br />Vietnamese</Col>
                     </Row>
                     <br />
                     <br />
@@ -162,11 +204,19 @@ class About extends Component {
                       src={require("../../media/advanced.png")} />
                     <h1 className="section-header">Advanced languages</h1>
                     <Row>
-                      <Col className="caption"><p>Also known as Category IV languages, advanced languages denotes those languages which are exceptionally difficult for native English speakers to learn. Languages in this category are likely to require over a year and a half to master.</p></Col>
+                      <Col className="caption"><p>Also known
+                         as Category IV languages, advanced
+                          languages denotes those languages
+                           which are exceptionally difficult
+                            for native English speakers to
+                             learn. Languages in this category
+                              are likely to require over a year
+                               and a half to master.</p></Col>
                     </Row>
                     <Row>
                       <Col>
-                        <h3 className="small-header">Advanced languages include:</h3>
+                        <h3 className="small-header">Advanced
+                         languages include:</h3>
                       </Col>
                     </Row>
                     <Row>

@@ -14,6 +14,10 @@ import "./styles.css";
  *  @return {any} JSX content
  */
 class Resources extends Component {
+  /**
+     * Renders component.
+     * @return {any} JSX
+     */
   render() {
     return (
       <div>
@@ -23,7 +27,10 @@ class Resources extends Component {
         <Container>
           <Row>
             <Col id="intro">
-              <p><strong>Strong language skills begin with a strong education.</strong> Check out the resources below to get started on your journey to learning a new language.</p>
+              <p><strong>Strong language skills begin with a
+                 strong education.</strong>
+                Check out the resources below to get started
+                 on your journey to learning a new language.</p>
             </Col>
           </Row>
           <Row>

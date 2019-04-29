@@ -1,10 +1,19 @@
 import React, { Component } from "react";
 import CanvasJSReact from "../../assets/canvasjs.react";
 import data from "../Data/data.js";
-let CanvasJSChart = CanvasJSReact.CanvasJSChart;
+const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
+/**
+     * Creates Hour component.
+     * @return {any} Hour Chart
+     */
 class Hour extends Component {
   chartdata = this.getData(data);
+
+  /**
+ * @param {any} data
+ * @return {any}
+ */
   getData(data) {
     const chartdata = [];
     for (let i = 0; i < data.length; i++) {
@@ -16,6 +25,10 @@ class Hour extends Component {
     return chartdata;
   }
 
+  /**
+     * Renders component.
+     * @return {any} JSX
+     */
   render() {
     const options = {
       width: 1000,
