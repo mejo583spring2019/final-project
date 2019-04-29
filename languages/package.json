@@ -1,5 +1,6 @@
 {
   "name": "languages",
+  "homepage": "https://tianasama.github.io/polyglot",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
