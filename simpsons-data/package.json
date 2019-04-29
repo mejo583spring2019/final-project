@@ -1,5 +1,6 @@
 {
   "name": "simpsons-data",
+  "homepage": "https://sivonne.github.io/simpsons-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
