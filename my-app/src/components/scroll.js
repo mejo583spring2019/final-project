@@ -4,6 +4,7 @@ import { Controller, Scene } from "react-scrollmagic";
 import Chart from "./highchart.js";
 import background from "../img/background.png";
 import Barchart from "./barchart.js";
+import Crop from "../img/crop.png";
 
 // for scrollmagic section styles
 const SectionWipesStyled = styled.div`
@@ -102,9 +103,13 @@ const SectionWipesStyled = styled.div`
         max-width: 90%;
     }
     .colophon{
-        font-size: 14px !important;
+        font-size: 12px !important;
         padding-left: 2% !important;
         padding-right: 2%!important;
+    }
+    .panel.first {
+      background-image: url(${Crop});
+
     }
   }
 
@@ -156,7 +161,7 @@ const SectionWipes = () => (
         <div className="panel first">
           <img id="got" src={require("../img/got.png")}
             alt="Game of Thrones logo"></img>
-          <p id="frontTitle">Data visualization</p>
+          <p id="frontTitle">Data Visualization</p>
         </div>
       </Scene>
       <Scene pin>
@@ -195,8 +200,8 @@ const SectionWipes = () => (
           <a href="https://www.hbo.com/" target="blank" > HBO </a> TV series
           <a href="https://www.hbo.com/game-of-thrones" target="blank" > Game of Thrones </a>
             based on the
-          <a href="http://www.georgerrmartin.com/book-category/?cat=song-of-ice-and-fire" target="blank" >
-             “Song of Ice and Fire” </a> book series written by
+          <a href="http://www.georgerrmartin.com/book-category/?cat=song-of-ice-and-fire" target="blank"
+          > “Song of Ice and Fire” </a> book series written by
             George R. R. Martin. None of the data displayed on this site
             was provided by HBO or other official Game of Thrones
             affiliates — it was fan-aggregated and maintained.</p>
@@ -222,6 +227,11 @@ const SectionWipes = () => (
             render both of my charts. I implemented
             Highcharts using three npm packages — highcharts, highcharts-more,
             and highcharts-react-official.</p>
+          <p class="colophon"> The front-page artwork is from free wallpaper website
+            <a href="http://epicwallpaperz.com/game-of-thrones-background/game-of-thrones-background-on-wallpaper-hd/" target="blank"
+            > EpicWallpaperz.com </a> and the character artwork is from free png
+            and logo website <a href="https://toppng.com/game-of-thrones-characters-cartoon-PNG-free-PNG-Images_87467" target="blank"
+            > TopPNG.com. </a></p>
           <p class="colophon">I created this website in
             <a href="https://code.visualstudio.com/" target="blank"> Visual Studio Code </a> on
           a 2016 MacBook Pro. </p>

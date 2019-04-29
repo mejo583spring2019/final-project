@@ -111,7 +111,7 @@ const options = {
           color: "rgba(85,107,47,.7)",
           y: 64,
           weapon: "Poison",
-          massacre: "Assassinations ar the Twins (48 kills)",
+          massacre: "Assassinations at the Twins (48 kills)",
         },
       ],
     },

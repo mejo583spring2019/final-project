@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage" : "https://andybrucculeri.github.io/game-of-thrones",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

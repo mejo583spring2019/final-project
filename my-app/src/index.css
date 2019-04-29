@@ -16,7 +16,7 @@ code {
 
 .highcharts-tooltip span {
   height:auto;
-  width:140px;
+  width:130px;
   overflow:auto;
   white-space:normal !important;
 }
