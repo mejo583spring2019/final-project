@@ -6,7 +6,7 @@
   }
 
   .panel-2 { 
-    background-color: #7692A6; 
+    background-color: #f2c641; 
   }
   
   #panel-2-myth {
@@ -18,15 +18,15 @@
     width: 100vw;
     height: 50vh;
   }
-  
-  #panel-2-fact {
-    background-color: #f2e2ce;
+
+  #panel-2-readmore {
+    padding-bottom: 30px;
+    background-color: #f2c641;
     font-family: 'Playfair Display', serif;
     text-align: center;
     margin-top: 20px!important;
     margin-bottom: 0px;
     width: 100vw;
-    height: 50vh;
   }
   
   #panel-2-footer { 

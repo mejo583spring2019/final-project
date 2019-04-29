@@ -9,24 +9,14 @@ class Section1 extends React.Component {
                
                <div id="panel-2-myth">
                   <h1>
-                    Myth:
+                  It’s a widely known fact that pollinators<br /> all over the U.S. are rapidly going extinct.
                  </h1>
                  <p> 
-                        Bees are evil creatures out to sting us.  <br /> Kill all the bees.
+                    <strong> But what exactly is happening to them?</strong> <br />More than $15 billion dollars in crops a year need bees for pollination. <br />Contrary to popular opinion it’s not necessarily directly the cause of pollution or pesticides — <br />the culprit is actually a vaguely mysterious condition called <strong>Colony Collapse Disorder. </strong>
                  </p>
                </div>
-               <div id="panel-2-fact">
-                <h1>
-                    Fact:
-                </h1>
-                <p> 
-                    Bees are actually an essential part of our ecosystem. <br />They are essential to the growth of crops all over the world. 
-                </p>
-               </div>
-               <div id="panel-2-footer">
-                <h1>
-                   (but you probably already knew that)
-                </h1>  
+               <div id="panel-2-readmore">
+                <p>read more</p>
                </div>
             </div>
         </section>
