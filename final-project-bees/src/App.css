@@ -1,0 +1,117 @@
+/* styles */
+/* called by your view template */
+
+/* {
+  box-sizing: border-box;
+}*/
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; 
+    overflow-x: hidden;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    color: #222222;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 45px;
+  }
+  
+  h2 { 
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 35px;
+  }
+
+  p { 
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+    
+  
+  .panel {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+ /* .panel {
+    margin-bottom: 600px;
+  }*/
+  
+  .intro { 
+    /*background-image: url('../img/hive.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .off-white { 
+    background-color: #FAF2EC;
+  }
+  
+  .green { 
+    background-color: green;
+  }
+  
+  .readmore { 
+    /*: url('..img/bee-2.jpg');*/
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  /* flex */ 
+  .flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .center {
+    display: flex; 
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column;
+  }
+  
+  
+  /* panel 3 */
+   .grid-3 {
+    /* background-image: url('../img/bee-2.jpg');*/
+     background-size: cover;
+     background-position: right;
+     background-repeat: no-repeat;
+    display:grid;
+    grid-template-columns: 10px 1fr 1fr 1fr 10px;
+    grid-template-rows: 75px 300px 300px;
+  }
+
+  #panel-3-title {
+    text-align: center;
+    vertical-align: bottom!important;
+    margin-top: 30px!important;
+    font-size: 45px;
+  }
+  
+
+  
+  
+  
+  

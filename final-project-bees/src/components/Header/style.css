@@ -1,0 +1,25 @@
+/* panel 1 */
+  
+.panel {
+  background-image: url('./hive.jpg');
+}
+.intro-panel { 
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+    background-image: url('./background-1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 60px;
+    padding: 20px;
+  }
+  
+  #intro-subheading {
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 0px;
+  }
