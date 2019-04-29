@@ -138,3 +138,54 @@ a:hover {
   margin-top: 0;
   margin-bottom: 2vh;
 }
+
+@media screen and (max-width: 900px) {
+  .App-header {
+    background-attachment: unset;
+    text-align: center;
+  }
+
+  .main, .results{
+    max-width: 95%;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  .sort {
+    width: 95%;
+  }
+
+  .sort__btns {
+    flex-wrap: wrap;
+  }
+
+  .chart-container {
+    height: 55vh;
+  }
+
+  div.highcharts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  svg.highcharts-root {
+    width: 100vw !important;
+    height: auto !important;
+    margin: 0 auto;
+  }
+
+  #colophon {
+    width: 100%;
+    height: auto;
+  }
+  
+  #colophon h4, #colophon p {
+    width: 95%;
+  }
+
+}

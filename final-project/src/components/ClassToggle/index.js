@@ -11,6 +11,11 @@ const ClassToggleStyled = styled.div`
     text-align: center;
     margin: 15% 0;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 900px) {
+      width: 95%;
+      margin: 3% 0;
+    }
   }
 
   .graph {
@@ -20,6 +25,10 @@ const ClassToggleStyled = styled.div`
     left: 0;
     bottom: auto;
     width: 100%;
+
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
   }
   
   .graph-scroll-fixed .graph {
@@ -41,7 +50,7 @@ const ClassToggleStyled = styled.div`
     width: 100%;
     margin: auto;
 
-    &img {
+    img {
       height: 100%;
       width: 100%;
     }
@@ -49,7 +58,7 @@ const ClassToggleStyled = styled.div`
 
   .graph__prose {
     z-index: 3;
-    max-width: 70%;
+    width: 100%;
     position: relative;
     margin: 0 auto;
 
@@ -58,11 +67,20 @@ const ClassToggleStyled = styled.div`
       background-color: rgba(255,255,255,0.8);
       padding: 1%
     }
+
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      align-items: center;
+    }
   }
 
   .trigger:first-of-type {
     padding-top: 0px; 
     padding-bottom: 25vh;
+    
+    @media screen and (max-width) {
+      display: none;
+    }
   }
 
   .img__box {
@@ -70,9 +88,17 @@ const ClassToggleStyled = styled.div`
     padding-top: 0px;
     margin-bottom: 30vh;
 
-    &img {
+    @media screen and (max-width: 900px) {
+      margin: 0 auto;
+    }
+
+    img {
       width: 100%;
       margin: 0 auto;
+
+      @media screen and (max-width: 900px) {
+        width: 100%;
+      }
     }
   }
 
@@ -81,10 +107,21 @@ const ClassToggleStyled = styled.div`
     width: 680px;
     padding: 2%;
     margin-bottom: 20vh;
+
+    @media screen and (max-width: 900px) {
+      margin-bottom: 1vh;
+    }
   }
 
-  .graph__prose>div {
-    line-height: 1.6;
+  @media screen and (max-width: 900px) {
+    div.highcharts-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100% !important;
+      height: auto !important;
+      margin: 0 auto;
+    }
   }
 `;
 
@@ -118,9 +155,7 @@ class ClassToggle extends Component {
                     The UNC System
                   </p>
                 </div>
-                <div className="trigger">
-                  <PackedChart />
-                </div>
+                <PackedChart />
               </div>
             </div>
           </Scene>
