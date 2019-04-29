@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Controller, Scene } from "react-scrollmagic";
 import Chart from "./highchart.js";
-import background from "./img/background.png";
+import background from "../img/background.png";
 import Barchart from "./barchart.js";
 
 // for scrollmagic section styles
@@ -77,7 +77,7 @@ const SectionWipesStyled = styled.div`
   #heroIntro{
     font-family: Times New Roman;
     font-size: 3vmax;
-    padding-top: 25px;
+    margin-top: 25px;
     padding-left: 13%;
     padding-right: 13%;
     padding-bottom: 1px;
@@ -154,7 +154,7 @@ const SectionWipes = () => (
     <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
       <Scene pin>
         <div className="panel first">
-          <img id="got" src={require("./img/got.png")}
+          <img id="got" src={require("../img/got.png")}
             alt="Game of Thrones logo"></img>
           <p id="frontTitle">Data visualization</p>
         </div>
@@ -177,7 +177,7 @@ const SectionWipes = () => (
           <br/> <br/><strong> WARNING: </strong> These charts are updated
            through season 8 episode 2 and they do contain spoilers!</p>
           <img id="characters"
-            src={require("./img/characters.png")}
+            src={require("../img/characters.png")}
             alt="Game of Thrones characters artwork"></img>
         </div>
       </Scene>
