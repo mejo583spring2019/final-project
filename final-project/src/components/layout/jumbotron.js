@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import "./jumbo.css";
-import Youtube from "..n/elements/youtube";
+import Youtube from "../elements/youtube";
 
 /** creates Jumbotron class */
 class Jumbotrons extends Component {

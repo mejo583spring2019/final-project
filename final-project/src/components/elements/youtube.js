@@ -6,8 +6,7 @@ import YouTube from "react-youtube";
  */
 class Youtube extends Component {
   /** when the window is ready accesses player
-   * @event Youtube#_onReady
-   * @type {object}
+   *  @param {any} event
    */
   _onReady(event) {
     // access to player in all event handlers via event.target
