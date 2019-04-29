@@ -1,28 +1,31 @@
 import React, { Component } from 'react';
 import {Bar} from "react-chartjs-2";
-import wage from "../../data/wage";
+import poverty from "../../data/poverty";
 
 
-let wages = [];
-let states= [];
 
-class Wages extends Component {
+class Poverty extends Component {
   constructor(props) {
+    
     super(props);
       this.state = {
-      barData: props.barData
+      barData: []
     }
+    
+this.povertys = [];
+this.states= [];
   }
  /** Creates an array that seperates the data in sal.js into 2 arrays to be used in averageSalData */
  makeDataArray() {
-   for(let i = 0; i < wage.length; i++) {
-     states[i] = wage[i].state;
-    wages[i] = wage[i].minimumWage;
-    
-    if(wages[i] === "0") {
-      wages[i] = "7.25";
-}
+       
+    this.povertys = [];
+    this.states= [];
+   for(let i = 0; i < poverty.length; i++) {
+     this.states.push(poverty[i].state);
+   this.povertys.push(poverty[i].povertyRate);
     }
+    // console.log(povertys);
+  
     
   } 
   
@@ -32,16 +35,21 @@ class Wages extends Component {
 componentWillMount() {
   this.makeDataArray();
   this.averageWageData();
+  console.log("mounted");
+
 }
-/** Builds wage wage */
+componentWillUnmount() {
+  console.log("unmount");
+}
+/** Builds poverty poverty */
 averageWageData() {
   this.setState({
     wageData: {
-      labels: states,
+      labels: this.states,
       datasets: [
         {
-          label: "Average Hourly Wage (in USD)",
-              data: wages,
+          label: "State Poverty Rate",
+              data: this.povertys,
               backgroundColor: '#00F1AB'
             }
           ]
@@ -50,13 +58,13 @@ averageWageData() {
     }
   render() {
     return (
-      <div className="wage">
+      <div className="poverty">
         <Bar
           data={this.state.wageData}
           options={{
             title: {
               display: true,
-              text: "Hourly Wage in Each US State",
+              text: "Poverty Rate in Each US State",
               fontSize: 20,
               fontColor: "rgb(33, 37, 41)"
              
@@ -95,4 +103,4 @@ averageWageData() {
   }
 }
 
-export default Wages;
+export default Poverty;

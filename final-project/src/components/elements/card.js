@@ -21,9 +21,9 @@ class Cards extends Component {
             <Card.Body>
                 <Card.Title>Do Americans Need the Extra Money?</Card.Title>
                 <Card.Text>
-               <p>
-               Before deciding whether or not Universal Basic Income is a good idea, let's take a look at how citizens in different states will be effected by an added $1000/month.
-                   </p> 
+                <div className="card-txt">           
+               Before deciding whether or not Universal Basic Income is a good idea, let's take a look at how citizens in different states will be effected by an added $12,000/year.
+   </div>
                 </Card.Text>
                 <Modals />
 
@@ -34,10 +34,12 @@ class Cards extends Component {
  <Card>
             <Wages/>
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>How Widespread is Poverty?</Card.Title>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                <div className="card-txt spacer">
+
+                  Another important question to ask is how widespread poverty currently is. Click the button below to learn more.
+                </div>
                 </Card.Text>
                 <Modal2 />
             </Card.Body>
@@ -46,10 +48,11 @@ class Cards extends Component {
  <Card>
             <Bubbles/>
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>How Will This Effect the Economy?</Card.Title>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                  <div className="card-txt">
+                  Regardless of the benefits that millions of Americans might recieve through Universal Basic Income, it is prudent to also examine the potential long-term effects, especially to the economy.
+                  </div>                  
                 </Card.Text>
                 <Modal3 />
 

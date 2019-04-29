@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import Wages from "../table/bar";
+import Poverty from "../table/bar";
 import "./modals.css";
 
 
@@ -44,7 +44,7 @@ class Modals extends Component {
             <Modal.Body>
              
               <div className="modals">
-              <Wages />
+              <Poverty />
               </div>
               <div className="modal-content">
                 <p>

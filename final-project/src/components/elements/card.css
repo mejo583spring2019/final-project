@@ -8,3 +8,9 @@
     background-color: #4A238F;
     border-color: #4A238F;
 }
+.card-txt {
+    height: 125px;
+}
+.spacer {
+    margin-bottom: 40px;
+}
