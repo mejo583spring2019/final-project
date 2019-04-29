@@ -1,0 +1,125 @@
+body {
+  font-family: "VT323", monospace;
+  font-size: 1.2rem;
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #797A7A;
+}
+
+nav a {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+nav {
+  height: 80px;
+}
+
+.myNavbar{
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+}
+
+#mainBody{
+  background-image: url("./media/sparkle-2.gif");
+  background-color: #cccccc;
+  height: 1000px;
+  color:black;
+  font-size: 1.1rem;
+}
+
+#title {
+  font-size: 2.6rem;
+  margin-top: 50px;
+  text-align: center;
+  color:white;
+}
+
+#title-text {
+  color:black;
+  background-color:rgba(255, 255, 255, 0.6);
+  height: 240px;
+  overflow: scroll;
+}
+
+#earth-title {
+ margin-left: 260px;
+}
+
+#page-title a {
+  color: black;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  #mainBody{
+    background-image: url("./media/sparkle-2.gif");
+    background-color: #cccccc;
+    height: 1150px;
+  }
+  #title-text {
+    color:black;
+    background-color:rgba(255, 255, 255, 0.6);
+    height: 250px;
+  }
+  #earth-title {
+    margin-left: 180px;
+   }
+}
+
+@media only screen and (max-width: 1000px) {
+  #mainBody{
+    background-image: url("./media/sparkle-2.gif");
+    background-color: #cccccc;
+    height: 1150px;
+  }
+  #title-text {
+    color:black;
+    background-color:rgba(255, 255, 255, 0.6);
+    height: 300px;
+  }
+  #earth-title {
+    margin-left: 50px;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+  #mainBody{
+    background-image: url("./media/sparkle-2.gif");
+    background-color: #cccccc;
+    height: 1250px;
+  }
+  #title-text {
+    color:black;
+    background-color:rgba(255, 255, 255, 0.6);
+    height: 430px;
+  }
+  #earth-title {
+    margin-left: -30px;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+  #mainBody{
+    background-image: url("./media/sparkle-2.gif");
+    background-color: #cccccc;
+    height: 1350px;
+  }
+  #title-text {
+    color:black;
+    background-color:rgba(255, 255, 255, 0.6);
+    height: 500px;
+  }
+}
