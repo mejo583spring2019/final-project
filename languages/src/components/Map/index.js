@@ -6,8 +6,6 @@ import { Pie } from "react-chartjs-2";
      * @return {any} Hour
      */
 class Map extends Component {
-  chartdata = this.getData();
-
   /**
  * Gets chart data
  * @return {any} data

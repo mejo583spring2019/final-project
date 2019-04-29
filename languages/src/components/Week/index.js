@@ -8,8 +8,6 @@ const CanvasJSChart = CanvasJSReact.CanvasJSChart;
      * @return {any} Hour
      */
 class Week extends Component {
-  chartdata = this.getData(data);
-
   /**
  * @param {any} data
  * @return {any}
@@ -58,7 +56,7 @@ class Week extends Component {
         {
           // Change type to "doughnut", "line", "splineArea", etc.
           type: "bar",
-          dataPoints: this.chartdata,
+          dataPoints: this.getData(data),
         },
       ],
     };
