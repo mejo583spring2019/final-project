@@ -33,6 +33,7 @@ code {
   height: 100vh;
   width:100vw;
   /* padding: 5%; */
+  padding-bottom: 400px;
 }
 .panel.intro{
   background: #6DD7F0;
@@ -45,7 +46,10 @@ code {
  }
  .panel.body{
   background:#6492D0;
-  /* margin-bottom:400px; */
+  display:flex;
+  flex-direction:column;
+  align-content: center;
+  /* justify-content: center; */
  }
  .panel.chart{
   background:#FFD938;
@@ -53,12 +57,15 @@ code {
  }
 .panel.colophon {
   background: #64D09E;
+  /* margin:5%; */
 }
 
  h1{
   font-family: 'Permanent Marker', cursive;
-  font-size:3em;
+  font-size:4em;
   text-align: center;
+  color:white;
+
  }
  h2, p{
   font-family: 'Varela Round', sans-serif; 
@@ -70,14 +77,41 @@ h2{
   text-align: center;
 }
 h3{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
 
 }
 p{
-  font-size: 1.3em;
+  font-size: 1em;
+  font-family: 'Varela Round', cursive;
+  margin:5%;
 }
+a{
+  text-decoration: none;
+  color:black;
+}
+h3{
+  text-align: center;
+  padding:10px;
+  margin-left:2%;
+  margin-right:2%; 
+  background:#FFD938;
+  color:white;
 
+}
+h3:hover{
+  background:white;
+  color:#FFD938;
+}
+h4{
+  margin-left:2%;
+  margin-right:2%; 
+  background:#FFD938;
+  color:white;
+  font-size: 1.5em;
+  text-align: center;
+  padding:10px;
 
+}
 
 #homer .cls-1{fill: #f3df49;}
 #homer .cls-2{fill: "#231f20";}
@@ -103,27 +137,36 @@ p{
   height: 50%;
   border:white 1px solid;
   /* height: 50%; 
-} 
-*/
-/* h3{
-  text-align: center;
-  color:#FFD938;
-  padding:10px;
-  /* margin-left:9px;
-  margin-right:9px; 
-  background:white;
-  opacity:.9;
 } */
-h3:hover{
-  background:#FFD938;
-  color:white;
+img{
+  width:100%;
+}
+.slider{
+  padding-left:5%;
+  padding-right:5%;
+ 
 }
 @media only screen and (max-width: 600px) {
-  .panel {
+  
+/* .panel {
+    height:100vh;
+  } */
+  .panel.intro {
     /* height: 100vh; */
-    height: 100vh;
+    height: auto;
     /* width:100vw; */
     /* padding: 5%; */
   }
-
+  img{
+   width:auto;
+  }
+  .simpsons-images{
+    width:100px;
+    display:flex;
+    /* align-content: center; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    
+  }
+  
 }

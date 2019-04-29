@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import Chart from "./components/Chart";
 import Scroller from "./components/Scroller";
+import Colophon from "./components/Colophon";
+
 
 /** this is a JSDOC comment*/
 class App extends Component {
@@ -11,10 +13,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Scroller>
-        </Scroller>
+        <Scroller></Scroller>
 
         <Chart></Chart>
+        <Colophon></Colophon>
       </div>
     );
   }

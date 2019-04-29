@@ -40,8 +40,8 @@ const options = {
   plotOptions: {
     packedbubble: {
       // useSimulation: true,
-      minSize: "50%",
-      maxSize: "80%",
+      minSize: "40%",
+      maxSize: "70%",
       zMin: 0,
       zMax: 700,
       layoutAlgorithm: {
@@ -63,7 +63,8 @@ const options = {
           color: "black",
           textOutline: "none",
           fontWeight: "normal",
-          fontFamily: "Varela Round",
+          fontFamily: "Gloria Hallelujah",
+
 
         },
       },
@@ -371,25 +372,21 @@ class Chart extends React.Component {
   */
   render() {
     return (
-      <SectionWipesStyled>
-        <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
-          <Scene pin>
-            <div className="panel chart">
-              <HighchartsReact
-                highcharts={Highcharts}
-                options={options} />
-            </div>
-          </Scene>
-          <Scene pin>
-            <div className="panel colophon">
-              <h2>Colophon</h2>
-              <h3>This is how the app was made</h3>
-              <p>
-              </p>
-            </div>
-          </Scene>
-        </Controller>
-      </SectionWipesStyled>
+      <div>
+        <SectionWipesStyled>
+          <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
+            <Scene pin>
+              <div className="panel chart">
+                <HighchartsReact
+                  highcharts={Highcharts}
+                  //   construtorType={"packedbubble"}
+                  options={options} />
+              </div>
+            </Scene>
+
+          </Controller>
+        </SectionWipesStyled>
+      </div >
     );
   }
 }
