@@ -47,12 +47,14 @@ class AsianChart extends BarChart {
     const schoolName = [];
 
     this.fullData.forEach((s) => {
-      if (s !== undefined &&
-        s["latest.completion.completion_rate_4yr_150_asian"] !== null) {
-        schoolName.push(s["school.name"]);
-        asianCompletion.push(
-            (s["latest.completion.completion_rate_4yr_150_asian"] * 100)
-        );
+      if (s["school.name"] !== "Appalachian Bible College") {
+        if (s !== undefined &&
+          s["latest.completion.completion_rate_4yr_150_asian"] !== null) {
+          schoolName.push(s["school.name"]);
+          asianCompletion.push(
+              (s["latest.completion.completion_rate_4yr_150_asian"] * 100)
+          );
+        }
       }
     });
 
@@ -64,7 +66,7 @@ class AsianChart extends BarChart {
     this.options = {
       chart: {
         type: this.type,
-        width: 800,
+        height: 600,
       },
       title: {
         text: this.title,

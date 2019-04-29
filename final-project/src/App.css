@@ -2,6 +2,7 @@
 
 body {
   font-size: 16px;
+  font-family: "Poppins", sans-serif;
 }
 
 .flex-column {
@@ -66,6 +67,58 @@ body {
 }
 
 .nc-outline {
- padding: 7%;
- position: absolute;
+ padding-bottom: 7%;
+ max-width: 75%;
+}
+
+.sort {
+  width: 75%;
+  text-align: center;
+}
+
+.sort__btns {
+  margin: 4%;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.sort__btns div{
+  display: inline-block;
+  color: inherit;
+  transition: all ease-in-out 0.1s;
+}
+
+
+.sort__btns div:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #447BBE;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out; 
+  transform-origin:  0% 50%;
+}
+
+.sort__btns div:hover:after {
+  transform: scaleX(1); 
+}
+
+.active {
+  border-bottom: solid 3px #447BBE;
+}
+
+.chart-container {
+  padding: 3%;
+  margin: 5vh auto;
+  position: relative;
+  width: 75%;
+  height: auto;
+}
+
+.chart__column {
+  position: absolute;
+  top: 0;
+}
+
+.hide {
+  display: none;
 }

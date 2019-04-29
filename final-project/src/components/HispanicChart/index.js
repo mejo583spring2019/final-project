@@ -47,12 +47,14 @@ class HispanicChart extends BarChart {
     const schoolName = [];
 
     this.fullData.forEach((s) => {
-      if (s !== undefined &&
-        s["latest.completion.completion_rate_4yr_150_hispanic"] !== null) {
-        schoolName.push(s["school.name"]);
-        hispanicCompletion.push(
-            (s["latest.completion.completion_rate_4yr_150_hispanic"] * 100)
-        );
+      if (s["school.name"] !== "Appalachian Bible College") {
+        if (s !== undefined &&
+          s["latest.completion.completion_rate_4yr_150_hispanic"] !== null) {
+          schoolName.push(s["school.name"]);
+          hispanicCompletion.push(
+              (s["latest.completion.completion_rate_4yr_150_hispanic"] * 100)
+          );
+        }
       }
     });
 
@@ -64,7 +66,7 @@ class HispanicChart extends BarChart {
     this.options = {
       chart: {
         type: this.type,
-        width: 800,
+        height: 600,
       },
       title: {
         text: this.title,

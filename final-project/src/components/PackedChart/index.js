@@ -19,8 +19,8 @@ HC_more(Highcharts);
 
 // console.log(byRace);
 
-/** Creates a column chart showing
- * White completion rates at particular
+/** Creates a packedbubble chart showing
+ * different racial completion rates at particular
  * NC colleges & Universities
  */
 class PackedChart extends Component {

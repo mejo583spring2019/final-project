@@ -11,10 +11,10 @@ import wake from "../../data/wake-forest";
 import wcu from "../../data/wcu";
 
 /** Creates a column chart showing
- * black completion rates at particular
+ * AIAN completion rates at particular
  * NC colleges & Universities
  */
-class BlackChart extends BarChart {
+class AIANChart extends BarChart {
   /** Constructor builds out the data set
    * @param {any} props
   */
@@ -43,24 +43,24 @@ class BlackChart extends BarChart {
         this.uncSchoolsData, this.wcuData
     );
 
-    const blackCompletion = [];
+    const aianCompletion = [];
     const schoolName = [];
 
     this.fullData.forEach((s) => {
       if (s["school.name"] !== "Appalachian Bible College") {
         if (s !== undefined &&
-          s["latest.completion.completion_rate_4yr_150_black"] !== null) {
+          s["latest.completion.completion_rate_4yr_150_aian"] !== null) {
           schoolName.push(s["school.name"]);
-          blackCompletion.push(
-              (s["latest.completion.completion_rate_4yr_150_black"] * 100)
+          aianCompletion.push(
+              (s["latest.completion.completion_rate_4yr_150_aian"] * 100)
           );
         }
       }
     });
 
     this.type = "column";
-    this.chartData = blackCompletion;
-    this.title = "Completion Rates of Black Students";
+    this.chartData = aianCompletion;
+    this.title = "Completion Rates of American Indian/Alaskan Native Students";
     this.xAxis = schoolName;
 
     this.options = {
@@ -85,7 +85,7 @@ class BlackChart extends BarChart {
       },
       series: [
         {
-          name: "Completion rate of black students",
+          name: "Completion rate of American Indian/Alaskan Native students",
           data: this.chartData,
         },
       ],
@@ -93,4 +93,4 @@ class BlackChart extends BarChart {
   }
 }
 
-export default BlackChart;
+export default AIANChart;

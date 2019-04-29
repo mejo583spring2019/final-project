@@ -4,16 +4,199 @@ import WhiteChart from "./components/WhiteChart/";
 import BlackChart from "./components/BlackChart";
 import AsianChart from "./components/AsianChart";
 import HispanicChart from "./components/HispanicChart";
+import AIANChart from "./components/AIANChart";
 import PackedChart from "./components/PackedChart";
 
 /** App component builds out main part
  * of website.
  */
 class App extends Component {
+  /** Constructor binds showChart to component
+   * @param {any} props
+   */
+  constructor(props) {
+    super(props);
+
+    this.showChart = this.showChart.bind(this);
+  }
+
+  /** Takes care of state changes for buttons for charts */
+  showChart() {
+    const whiteChart = document.getElementById("chart-white");
+    const blackChart = document.getElementById("chart-black");
+    const asianChart = document.getElementById("chart-asian");
+    const hispanicChart = document.getElementById("chart-hispanic");
+    const aianChart = document.getElementById("chart-aian");
+    const whiteBtn = document.getElementById("sort-white");
+    const blackBtn = document.getElementById("sort-black");
+    const asianBtn = document.getElementById("sort-asian");
+    const hispanicBtn = document.getElementById("sort-hispanic");
+    const aianBtn = document.getElementById("sort-aian");
+
+    whiteBtn.onclick = function() {
+      whiteChart.classList.toggle("hide");
+      if (!whiteBtn.classList.contains("active")) {
+        whiteBtn.classList.toggle("active");
+      }
+      if (blackBtn.classList.contains("active")) {
+        blackBtn.classList.toggle("active");
+      }
+      if (asianBtn.classList.contains("active")) {
+        asianBtn.classList.toggle("active");
+      }
+      if (hispanicBtn.classList.contains("active")) {
+        hispanicBtn.classList.toggle("active");
+      }
+      if (aianBtn.classList.contains("active")) {
+        aianBtn.classList.toggle("active");
+      }
+      if (!blackChart.classList.contains("hide")) {
+        blackChart.classList.add("hide");
+      }
+      if (!asianChart.classList.contains("hide")) {
+        asianChart.classList.add("hide");
+      }
+      if (!hispanicChart.classList.contains("hide")) {
+        hispanicChart.classList.add("hide");
+      }
+      if (!aianChart.classList.contains("hide")) {
+        aianChart.classList.add("hide");
+      }
+    };
+
+    blackBtn.onclick = function() {
+      blackChart.classList.toggle("hide");
+      if (!blackBtn.classList.contains("active")) {
+        blackBtn.classList.toggle("active");
+      }
+      if (whiteBtn.classList.contains("active")) {
+        whiteBtn.classList.toggle("active");
+      }
+      if (asianBtn.classList.contains("active")) {
+        asianBtn.classList.toggle("active");
+      }
+      if (hispanicBtn.classList.contains("active")) {
+        hispanicBtn.classList.toggle("active");
+      }
+      if (aianBtn.classList.contains("active")) {
+        aianBtn.classList.toggle("active");
+      }
+      if (!aianChart.classList.contains("hide")) {
+        aianChart.classList.add("hide");
+      }
+      if (!whiteChart.classList.contains("hide")) {
+        whiteChart.classList.add("hide");
+      }
+      if (!asianChart.classList.contains("hide")) {
+        asianChart.classList.add("hide");
+      }
+      if (!hispanicChart.classList.contains("hide")) {
+        hispanicChart.classList.add("hide");
+      }
+    };
+
+    asianBtn.onclick = function() {
+      asianChart.classList.toggle("hide");
+      if (!asianBtn.classList.contains("active")) {
+        asianBtn.classList.toggle("active");
+      }
+      if (aianBtn.classList.contains("active")) {
+        aianBtn.classList.toggle("active");
+      }
+      if (whiteBtn.classList.contains("active")) {
+        whiteBtn.classList.toggle("active");
+      }
+      if (blackBtn.classList.contains("active")) {
+        blackBtn.classList.toggle("active");
+      }
+      if (hispanicBtn.classList.contains("active")) {
+        hispanicBtn.classList.toggle("active");
+      }
+      if (!whiteChart.classList.contains("hide")) {
+        whiteChart.classList.add("hide");
+      }
+      if (!blackChart.classList.contains("hide")) {
+        blackChart.classList.add("hide");
+      }
+      if (!hispanicChart.classList.contains("hide")) {
+        hispanicChart.classList.add("hide");
+      }
+      if (!aianChart.classList.contains("hide")) {
+        aianChart.classList.add("hide");
+      }
+    };
+
+    hispanicBtn.onclick = function() {
+      hispanicChart.classList.toggle("hide");
+      if (!hispanicBtn.classList.contains("active")) {
+        hispanicBtn.classList.toggle("active");
+      }
+      if (whiteBtn.classList.contains("active")) {
+        whiteBtn.classList.toggle("active");
+      }
+      if (blackBtn.classList.contains("active")) {
+        blackBtn.classList.toggle("active");
+      }
+      if (asianBtn.classList.contains("active")) {
+        asianBtn.classList.toggle("active");
+      }
+      if (aianBtn.classList.contains("active")) {
+        aianBtn.classList.toggle("active");
+      }
+      if (!whiteChart.classList.contains("hide")) {
+        whiteChart.classList.add("hide");
+      }
+      if (!blackChart.classList.contains("hide")) {
+        blackChart.classList.add("hide");
+      }
+      if (!asianChart.classList.contains("hide")) {
+        asianChart.classList.add("hide");
+      }
+      if (!aianChart.classList.contains("hide")) {
+        aianChart.classList.add("hide");
+      }
+    };
+
+    aianBtn.onclick = function() {
+      aianChart.classList.toggle("hide");
+      if (!aianBtn.classList.contains("active")) {
+        aianBtn.classList.toggle("active");
+      }
+      if (whiteBtn.classList.contains("active")) {
+        whiteBtn.classList.toggle("active");
+      }
+      if (blackBtn.classList.contains("active")) {
+        blackBtn.classList.toggle("active");
+      }
+      if (asianBtn.classList.contains("active")) {
+        asianBtn.classList.toggle("active");
+      }
+      if (hispanicBtn.classList.contains("active")) {
+        hispanicBtn.classList.toggle("active");
+      }
+      if (!whiteChart.classList.contains("hide")) {
+        whiteChart.classList.add("hide");
+      }
+      if (!blackChart.classList.contains("hide")) {
+        blackChart.classList.add("hide");
+      }
+      if (!asianChart.classList.contains("hide")) {
+        asianChart.classList.add("hide");
+      }
+      if (!hispanicChart.classList.contains("hide")) {
+        hispanicChart.classList.add("hide");
+      }
+    };
+  }
+
+  /** Calls showChart when the component is mounted */
+  componentDidMount() {
+    this.showChart();
+  }
   /**
- * Render the main page.
- * @return {any} JSX element
- */
+  * Render the main page.
+  * @return {any} JSX element
+  */
   render() {
     return (
       <div className="flex-column">
@@ -36,11 +219,27 @@ class App extends Component {
             alt="An outline of North Carolina"
             className="nc-outline"
           />
-          <WhiteChart className="chart" />
-          <BlackChart className="chart" />
-          <AsianChart className="chart" />
-          <HispanicChart className="chart" />
           <PackedChart />
+          <div className="sort">
+            <h2>View completion rate by Race</h2>
+            <div className="sort__btns flex">
+              <div id="sort-white" class="active">White</div>
+              <div id="sort-black">Black</div>
+              <div id="sort-asian">Asian</div>
+              <div id="sort-hispanic">Latinx</div>
+              <div id="sort-aian">American Indian/Alaskan Native</div>
+            </div>
+          </div>
+          <div className="chart-container flex">
+            <div className="chart__column" id="chart-white"><WhiteChart /></div>
+            <div className="chart__column hide" id="chart-black"><BlackChart /></div>
+            <div className="chart__column hide" id="chart-asian"><AsianChart /></div>
+            <div className="chart__column hide" id="chart-hispanic"><HispanicChart /></div>
+            <div className="chart__column hide" id="chart-aian"><AIANChart /></div>
+          </div>
+        </section>
+        <section className="colophon">
+          <h2>The Colophon section will go here</h2>
         </section>
       </div>
     );

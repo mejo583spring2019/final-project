@@ -46,24 +46,26 @@ class WhiteChart extends BarChart {
     const schoolName = [];
 
     this.fullData.forEach((s) => {
-      if (s !== undefined &&
-        s["latest.completion.completion_rate_4yr_150_white"] !== null) {
-        schoolName.push(s["school.name"]);
-        whiteCompletion.push(
-            (s["latest.completion.completion_rate_4yr_150_white"] * 100)
-        );
+      if (s["school.name"] !== "Appalachian Bible College") {
+        if (s !== undefined &&
+          s["latest.completion.completion_rate_4yr_150_white"] !== null) {
+          schoolName.push(s["school.name"]);
+          whiteCompletion.push(
+              (s["latest.completion.completion_rate_4yr_150_white"] * 100)
+          );
+        }
       }
     });
 
     this.type = "column";
     this.chartData = whiteCompletion;
-    this.title = "Completion Rates of white Students";
+    this.title = "Completion Rates of White Students";
     this.xAxis = schoolName;
 
     this.options = {
       chart: {
         type: this.type,
-        width: 800,
+        height: 600,
       },
       title: {
         text: this.title,
