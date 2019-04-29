@@ -12,8 +12,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Scroller></Scroller>
-        <section className="panel chart"><Chart></Chart></section>
+        <Scroller>
+        </Scroller>
+
+        <Chart></Chart>
       </div>
     );
   }

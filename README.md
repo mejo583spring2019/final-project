@@ -24,3 +24,6 @@ http://scrollmagic.io/examples/basic/section_wipes_natural.html
 
 For a refresher on CSS Grid:
 https://css-tricks.com/snippets/css/complete-guide-grid/
+
+For some color inspiration:
+https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.imdb.com%252Ftitle%252Ftt0096697%252F%26psig%3DAOvVaw1HpWTHyl5onkh2eQiPiKmy%26ust%3D1556545654540310&psig=AOvVaw1HpWTHyl5onkh2eQiPiKmy&ust=1556545654540310
