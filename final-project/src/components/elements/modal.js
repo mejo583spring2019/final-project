@@ -1,35 +1,40 @@
-import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import React, { Component } from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 import Chart from "../table/chart";
 import "./modals.css";
 
-
-
+/** creates class Modal */
 class Modals extends Component {
-    constructor(props, context) {
-      super(props, context);
-  
-      this.state = {
-        show: false,
-      };
-  
-      this.handleShow = () => {
-        this.setState({ show: true });
-      };
-  
-      this.handleHide = () => {
-        this.setState({ show: false });
-      };
-    }
-  
-    render() {
-      return (
+  /** constructor takes in props to set state
+ * @param {object} props
+ * @param {any} context
+ */
+  constructor(props, context) {
+    super(props, context);
+
+    this.state = {
+      show: false,
+    };
+
+    this.handleShow = () => {
+      this.setState({ show: true });
+    };
+
+    this.handleHide = () => {
+      this.setState({ show: false });
+    };
+  }
+  /** renders modal
+ * @return {any}
+ */
+  render() {
+    return (
         <>
           <Button variant="primary" onClick={this.handleShow}>
             Chart card
           </Button>
-  
+
           <Modal
             show={this.state.show}
             onHide={this.handleHide}
@@ -42,21 +47,23 @@ class Modals extends Component {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-             
+
               <div className="modals">
-              <Chart />
+                <Chart />
               </div>
               <div className="modal-content">
                 <p>
-                  As you can see from the chart above, there are some states (like Maryland and Hawaii) there are some states where  
+                  As you can see from the chart above,
+                  there are some states (like Maryland
+                  and Hawaii) there are some states where
 
                 </p>
               </div>
             </Modal.Body>
           </Modal>
         </>
-      );
-    }
+    );
   }
-  
+}
+
 export default Modals;
