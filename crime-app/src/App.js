@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import "./styles.css";
 
@@ -7,8 +7,8 @@ import LineGraph from "./components/LineGraph";
 import ColumnChart from "./components/ColumnChart";
 import Colophon from "./components/Colophon";
 
+/** Class for my App Component */
 class App extends Component {
-
   /** Renders links that display the crime information onto the page.
    * @return {any} JSX content
    */
@@ -18,7 +18,9 @@ class App extends Component {
         <div className="navBG">
           <nav>
             <div>
-              <img id="logo" src={require("./images/logo.png")} alt="Website Logo" />
+              <img id="logo"
+                src={require("./images/logo.png")}
+                alt="Website Logo" />
             </div>
             <ul>
               <li>
