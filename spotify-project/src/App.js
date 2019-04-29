@@ -6,7 +6,6 @@ import ChartToppers from "./components/ChartToppers";
 import Top100 from "./components/Top100";
 import Worldwide from "./components/Worldwide";
 
-
 function App() {
   return (
     <div className="App">

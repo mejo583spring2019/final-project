@@ -1,0 +1,96 @@
+.tabulator {
+    border: 2px solid #1DB954;
+    border-radius: 5px;
+    background-color: #1DB954;
+}
+
+.tabulator-row.tabulator-row-even{
+    background-color: rgba(29, 185, 84, .5);
+    transition: .5s;
+}
+
+.tabulator-row.tabulator-row-odd{
+    transition: .5s;
+}
+
+.tabulator-row.tabulator-row-even:hover{
+    background-color: #1DB954;
+    color: white;
+    transition: .5s;
+}
+
+.tabulator-row.tabulator-row-odd:hover{
+    background-color: #1DB954;
+    color: white;
+    transition: .5s;
+}
+
+.tabulator-col.tabulator-sortable:hover{
+    background-color: #1DB954;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable:hover {
+    cursor: pointer;
+    background-color: #1DB954;
+}
+
+.tabulator .tabulator-header .tabulator-col {
+    border-width: 0px 2px 0px 0px;
+    border-color: #1DB954;
+}
+
+.tabulator .tabulator-header {
+    border-bottom-color:#1DB954;
+    border-bottom-width: 2px;
+}
+
+.tabulator-row .tabulator-cell {
+    border-right-color: #1DB954;
+    border-right-width: 2px;
+}
+
+.tabulator .tabulator-header{
+    background-color: #1DB954;
+    color: white;   
+}
+
+div.tabulator-col.tabulator-sortable:hover{
+    background-color: #1DB954;
+}
+
+.tabulator .tabulator-header .tabulator-col{
+    background-color: #1DB954;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=none] .tabulator-col-content .tabulator-arrow {
+    border-bottom-color: white;
+    border-top-color: white;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=asc] .tabulator-col-content .tabulator-arrow {
+    border-bottom-color: white;
+    border-top-color: white;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=desc] .tabulator-col-content .tabulator-arrow {
+    border-bottom-color: white;
+    border-top-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: white; 
+}  
+
+::-webkit-scrollbar-thumb {
+    background: rgba(29, 185, 84, .5); 
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1DB954; 
+}

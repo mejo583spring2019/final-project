@@ -17,26 +17,26 @@ class ChartToppers extends Component {
         </p>
         <div id="ChartToppersGrid1">
           <div className="ChartToppersSpot Middle2" id="drk">
-            <div class="ChartTopperTitleS">Drake</div>
-            <div class="Records3"></div>
-            <div class="ChartTopperArtistS" id="drkimg"></div>
+            <div className="ChartTopperTitleS">Drake</div>
+            <div className="Records3"></div>
+            <div className="ChartTopperArtistS" id="drkimg"></div>
           </div>
           <div className="ChartToppersSpot Top2" id="eds">
             <div className="ChartTopperTitleL" id="edsttl">Ed Sheeran</div>
             <div className="Records4" id="edsrec"></div>
-            <div class="ChartTopperArtistL" id="edsimg"></div>
+            <div className="ChartTopperArtistL" id="edsimg"></div>
           </div>
           <div className="ChartToppersSpot Top2" id="chn">
             <div className="ChartTopperTitleL" id="chnttl">
                 The Chainsmokers
             </div>
             <div className="Records4" id="chnrec"></div>
-            <div class="ChartTopperArtistL" id="chnimg"></div>
+            <div className="ChartTopperArtistL" id="chnimg"></div>
           </div>
           <div className="ChartToppersSpot Middle2" id="mgx">
-            <div class="ChartTopperTitleS">Martin Garrix</div>
-            <div class="Records3"></div>
-            <div class="ChartTopperArtistS" id="mgximg"></div>
+            <div className="ChartTopperTitleS">Martin Garrix</div>
+            <div className="Records3"></div>
+            <div className="ChartTopperArtistS" id="mgximg"></div>
           </div>
           <div className="ChartToppersSpot Bottom12" id="bms">
             <div className="Bottom12Title">Bruno Mars</div>

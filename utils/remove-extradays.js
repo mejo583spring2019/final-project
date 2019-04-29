@@ -2,7 +2,7 @@ const fs = require("fs");
 
 /** rewrite file so only the dates at the start of every month are present */
 function main() {
-  const rawJSON = fs.readFileSync("../base-data/data.csv.json");
+  const rawJSON = fs.readFileSync("../ternary-data/data.csv.json");
   const data = JSON.parse(rawJSON);
 
   const jan = data.filter((r) => r.Date === "2017-01-01");
@@ -22,7 +22,7 @@ function main() {
   // eslint-disable-next-line max-len
   const allMonths = jan.concat(feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec, jan2);
 
-  fs.writeFileSync("../base-data/data.csv.json", JSON.stringify(allMonths));
+  fs.writeFileSync("../ternary-data/data.csv.json", JSON.stringify(allMonths));
 }
 
 main();

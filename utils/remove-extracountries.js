@@ -2,7 +2,7 @@ const fs = require("fs");
 
 /** rewrite file so only selected countries are present */
 function main() {
-  const rawJSON = fs.readFileSync("../base-data/data.csv.json");
+  const rawJSON = fs.readFileSync("../ternary-data/data.csv.json");
   const data = JSON.parse(rawJSON);
 
   const us = data.filter((r) => r.Region === "us");
@@ -18,7 +18,7 @@ function main() {
 
   const allMonths = us.concat(fr, it, tr, de, jp, br, au, mx, id);
 
-  fs.writeFileSync("../base-data/data.csv.json", JSON.stringify(allMonths));
+  fs.writeFileSync("../ternary-data/data.csv.json", JSON.stringify(allMonths));
 }
 
 main();
