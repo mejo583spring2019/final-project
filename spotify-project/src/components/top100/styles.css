@@ -40,3 +40,27 @@
     width: auto;
     padding: 10px 10px 10px 10px;
 }
+
+#Top100Legend{
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    border: 1.5px solid #1DB954;
+    border-radius: 5px;
+}
+
+.LegendItem{
+    font-weight: 300;
+}
+
+.LegendSpan{
+    font-weight: 500;
+    color: #1DB954;
+}
+
+#LIS{
+    margin-top: 0px;
+}
+
+#LIF{
+    margin-bottom: 0px;
+}
