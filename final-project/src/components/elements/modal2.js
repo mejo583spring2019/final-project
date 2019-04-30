@@ -32,7 +32,7 @@ class Modals extends Component {
     return (
         <>
           <Button variant="primary" onClick={this.handleShow}>
-            Chart card
+          Learn More
           </Button>
 
           <Modal
@@ -42,8 +42,8 @@ class Modals extends Component {
             aria-labelledby="example-custom-modal-styling-title"
           >
             <Modal.Header closeButton>
-              <Modal.Title id="example-custom-modal-styling-title">
-                Custom Modal Styling
+              <Modal.Title id="example-custom-modal-styling-title centers">
+                Poverty in America
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -53,8 +53,19 @@ class Modals extends Component {
               </div>
               <div className="modal-content">
                 <p>
-                  this is just some test text to help see if this looks right
-
+                  As the chart above illustrates, poverty is anything
+                  but extinct in America. Currently, 15% of Americans
+                  live below the poverty line and when you include
+                  areas like Puerto Rico and the American Somoan Islands
+                  that number increases significantly.
+                  <br /><br />
+                  One other important thing to note from this chart is
+                  that the District of Columbia has one of the
+                  highest poverty rates despite also having the
+                  highest average salary for a state/territory
+                  besides Maryland. This validates the assumption
+                  made on the first card regarding class disparity in
+                  America.
                 </p>
               </div>
             </Modal.Body>

@@ -31,8 +31,8 @@ class Modals extends Component {
   render() {
     return (
         <>
-          <Button variant="primary" onClick={this.handleShow}>
-            Chart card
+          <Button variant="primary" className="btn" onClick={this.handleShow}>
+          Learn More
           </Button>
 
           <Modal
@@ -43,7 +43,7 @@ class Modals extends Component {
           >
             <Modal.Header closeButton>
               <Modal.Title id="example-custom-modal-styling-title">
-                Custom Modal Styling
+                The Economy
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -53,7 +53,25 @@ class Modals extends Component {
               </div>
               <div className="modal-content">
                 <p>
-                  this is just some test text to help see if this looks right
+                  At the end of the day, the bottom line will likely
+                  be what decides whether Universal Basic Income is a
+                  viable solution to the poverty problem in America, so
+                  let's look at the economic effects it could have.
+                  <br /> <br />
+                  The graph above shows the gdp of each US state in relation
+                  to the state's minimum wage and average salary. These values
+                  were used to see if there was a clear connection between the
+                  state's minimum wage/average salary and the gdp. After
+                  reviewing the data, it is clear that states that ensure all
+                  workers earn a livable wage have higher GDPs.
+                  <br /> <br />
+                  The video also speaks on this when it talks about how
+                  working-class citizens who are given additional funds
+                  through a Universal
+                  Basic Income boost the economy more than if that same money
+                  were to go to members of  the wealthy upper class. Which means
+                  that establishing a Universal Income could potentially boost
+                  the economy.
 
                 </p>
               </div>
