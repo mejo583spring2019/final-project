@@ -9,8 +9,8 @@ import "./style.css";
    */
 class Map extends Component {
   /** constructor sets up map data
-                                  * @param {object} props
-                                  */
+                                    * @param {object} props
+                                    */
   constructor(props) {
     super();
     this.state = {
@@ -28,8 +28,8 @@ class Map extends Component {
   }
 
   /** projection sets up map projection using d3 geoMrrcator
-                         * @return {any} projection
-                            */
+                           * @return {any} projection
+                              */
   projection() {
     return d3.geoMercator()
         .scale(100)
@@ -37,9 +37,9 @@ class Map extends Component {
   }
 
   /** loads data from static file and barring any error,
-                       * combines data into a singular json and sets
-                       * the state to that
-                              */
+                         * combines data into a singular json and sets
+                         * the state to that
+                                */
   loadData() {
     fetch(countriesGeoDataSource)
         .then((response) => {
@@ -69,8 +69,8 @@ class Map extends Component {
   }
 
   /** handles click event on a country
-                         * @return {any} div with specific country's data
-                            */
+                           * @return {any} div with specific country's data
+                              */
   handleCountryClick() {
     return <div id="tooltip">
       <div>{`Country: ${this.state.countryProp.name}`}</div>
@@ -81,19 +81,19 @@ class Map extends Component {
   }
 
   /** loads data once page is loaded
-                           */
+                             */
   componentDidMount() {
     this.loadData();
   }
 
   /** render the Map component
-               * in a container with a heading, a
-               * legend and markers showing city locations
-               * @return {any} one div including the map
-                */
+                 * in a container with a heading, a
+                 * legend and markers showing city locations
+                 * @return {any} one div including the map
+                  */
   render() {
     return (
-      <div>
+      <div id="map-wrapper">
         <h2>2016 Global PM2.5 Levels</h2>
         <svg width={this.width} height={this.height} viewBox="0 0 800 450">
           <defs>
