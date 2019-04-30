@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
-import { Bar } from 'react-chartjs-2';
-import "./style.css"
+import React, { Component } from "react";
+import { Bar } from "react-chartjs-2";
+import "./style.css";
 
+/** this class shows a graph that uses
+ *  data from every character at once */
 class AllCharacters extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -22,6 +23,7 @@ class AllCharacters extends Component {
 
   chartRef = React.createRef();
 
+  /** makes sure everything is loaded before rendering */
   checkCount() {
     if (Object.keys(this.attrs).length < this.expectedCount) {
       setTimeout(this.checkCount.bind(this), 100);
@@ -49,6 +51,8 @@ class AllCharacters extends Component {
       });
     }
   }
+
+  /** when the page is ready, fetch is used to get data */
   componentDidMount() {
     fetch("http://beta-api-kuroganehammer.azurewebsites.net/api/characters/")
       .then(res => res.json())
@@ -81,8 +85,9 @@ class AllCharacters extends Component {
 
     // Chart.js stuff
 
-  }
+  };
 
+  /** renders page */
   render() {
     const { error, isLoaded } = this.state;
     if (error) {

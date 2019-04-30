@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
-import SmashCompare from "./components/SmashCompare"
-import AllCharacters from "./components/AllCharacters"
+import SmashCompare from "./components/SmashCompare";
+import AllCharacters from "./components/AllCharacters";
 
+/** Renders home page **/
 function Index() {
   return (
     <div className="App">
       <h1>Super Smash Bros. 4 Roster Comparison</h1>
       <p>
         Use this app to look through data for various Smash 4 characters.
-    </p>
+      </p>
       <p>
         This site was made using React as a framework.
         Chart.js was used for the jump height graph.
@@ -17,7 +18,7 @@ function Index() {
         based off of Chart.js. All images and data used are
         from <a href="http://kuroganehammer.com">
           http://kuroganehammer.com</a>. Information
-      was gathered from kuroganehammer using it's API,
+    was gathered from kuroganehammer using it's API,
         developed by <a href="https://github.com/Frannsoft">
           Jordan Polaniec</a> of Frannsoft.
     </p>
@@ -25,7 +26,10 @@ function Index() {
   );
 }
 
+/** Homepage class */
 class App extends Component {
+
+  /** renders homepage */
   render() {
     return (
       <Router>

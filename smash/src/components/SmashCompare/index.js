@@ -1,6 +1,9 @@
-import React, { Component } from 'react';
-import "./style.css"
+import React, { Component } from "react";
+import "./style.css";
 
+/** this class displays a character
+ * and some stats
+ */
 class SmashCompare extends Component {
 
   constructor(props) {
@@ -14,6 +17,7 @@ class SmashCompare extends Component {
     };
   }
 
+  /** gets data from website to display */
   fetchInfo() {
     fetch("http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/" + this.state.usrInput)
       .then(res => res.json())
@@ -49,6 +53,9 @@ class SmashCompare extends Component {
       )
   }
 
+  /** makes a new fetch request when
+   * input is changed
+   */
   fetchInfoNew(newInput) {
     fetch("http://beta-api-kuroganehammer.azurewebsites.net/api/characters/name/" + newInput)
       .then(res => res.json())
@@ -84,15 +91,18 @@ class SmashCompare extends Component {
       )
   }
 
+  /** initiates fetch */
   componentDidMount() {
     this.fetchInfo();
   }
 
+  /** recognizes changes in input */
   handleChange(event) {
     this.setState({ isLoaded: false, items: [], charInfo: [], usrInput: event.target.value });
     this.fetchInfoNew(event.target.value);
   }
 
+  /** renders page */
   render() {
     const { error, isLoaded, items, charInfo } = this.state;
     if (error) {
