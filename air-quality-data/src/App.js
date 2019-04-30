@@ -1,8 +1,8 @@
-import React from 'react';
-import Map from "././components/Map"
-import LineChart from './components/LineChart';
+import React from "react";
+import Map from "././components/Map";
+import LineChart from "./components/LineChart";
 import "./index.css";
-import Colophon from './components/Colophon';
+import Colophon from "./components/Colophon";
 
 
 function App() {
