@@ -1,5 +1,6 @@
 {
   "name": "rolling-stones",
+  "homepage": "https://ttay921.github.io/rollingstones",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
