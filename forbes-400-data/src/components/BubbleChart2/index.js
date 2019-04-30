@@ -31,6 +31,9 @@ class BubbleChart2 extends BubbleChart1 {
     };
   }
 
+  /** drawChart uses the chart data
+   * to draw bubblechart with Chart.js
+   */
   drawChart() {
     const myChartRef = this.chartRef.current.getContext("2d");
     const datasets = this.state.data.map((r) => {
@@ -60,90 +63,97 @@ class BubbleChart2 extends BubbleChart1 {
         label: r.name,
         backgroundColor: backgroundColor,
         borderColor: borderColor,
-        data: [data]
-      }
+        data: [data],
+      };
       return dataset;
     });
 
-    console.log(datasets);
 
     this.chart = new Chart(myChartRef, {
       type: "bubble",
       data: {
         // labels: "Africa",
-        datasets: datasets
+        datasets: datasets,
       },
       options: {
         maintainAspectRatio: false,
         legend: {
-          display: false
+          display: false,
         },
         title: {
           display: true,
-          text: ""
+          text: "",
         },
         tooltips: {
           mode: "nearest",
-          titleFontFamily: "'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+          titleFontFamily: "'Work Sans', sans-serif",
           titleFontSize: 18,
           displayColors: false,
-          bodyFontFamily: "'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+          bodyFontFamily: "'Work Sans', sans-serif",
           bodyFontSize: 16,
           callbacks: {
-            title: function (tooltipItem, data) {
+            title: function(tooltipItem, data) {
               const title = [];
               for (let i = 0; i < tooltipItem.length; i++) {
-                title[i] = data.datasets[tooltipItem[i].datasetIndex].label
+                title[i] = data.datasets[tooltipItem[i].datasetIndex].label;
               }
               return title;
             },
-            label: function (tooltipItem, data) {
-              const score = (data.datasets[tooltipItem.datasetIndex].data[0].r - 5) / 2;
-              const age = data.datasets[tooltipItem.datasetIndex].data[0].y;
-              const netWorth = data.datasets[tooltipItem.datasetIndex].data[0].x;
-              const label = "Score: " + score + ", Age: " + age + ", Total Net Worth: $" + netWorth + " B";
-              console.log(label);
+            label: function(tooltipItem, data) {
+              const score =
+                (data.datasets[tooltipItem.datasetIndex].data[0].r - 5) / 2;
+              const age =
+                data.datasets[tooltipItem.datasetIndex].data[0].y;
+              const netWorth =
+                data.datasets[tooltipItem.datasetIndex].data[0].x;
+              const label =
+                "Score: " + score +
+                ", Age: " + age + ", Total Net Worth: $" + netWorth + " B";
+
               return label;
-            }
-          }
+            },
+          },
         },
         scales: {
           yAxes: [{
             gridLines: {
-              display: false
+              display: false,
             },
             ticks: {
               min: 30,
-              max: 90
+              max: 90,
             },
             scaleLabel: {
               display: true,
               labelString: "Age",
-              padding: -2
-            }
+              padding: -2,
+            },
           }],
           xAxes: [{
             gridLines: {
-              display: false
+              display: false,
             },
             ticks: {
-              callback: function (value, index, values) {
+              callback: function(value, index, values) {
                 return "$" + value + " B";
               },
               min: 0,
-              suggestedMax: 100
+              suggestedMax: 100,
             },
             scaleLabel: {
               display: true,
               labelString: "Total Net Worth",
-              padding: 0
-            }
-          }]
-        }
-      }
+              padding: 0,
+            },
+          }],
+        },
+      },
     });
   }
 
+  /** Presents bubble chart 2
+   * @return {html} Bubble chart 2 HTML
+   */
   render() {
     return (
       <div className="bubble-chart2">

@@ -15,7 +15,7 @@ const forbesData = [
     fact2: "He owns 16% of e-commerce colossus Amazon, which he founded in a garage in Seattle in 1994.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 1,
@@ -32,7 +32,7 @@ const forbesData = [
     fact2: "The foundation works to save lives and improve global health, and is working with Rotary International to eliminate polio.",
     charityData: true,
     lifetimeGiving: 35.8,
-    lifetimeGivingPct: "27%"
+    lifetimeGivingPct: "27%",
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const forbesData = [
     fact2: "Buffett runs Berkshire Hathaway, which owns more than 60 companies, including insurer Geico, battery maker Duracell and restaurant chain Dairy Queen.",
     charityData: true,
     lifetimeGiving: 35.1,
-    lifetimeGivingPct: "28%"
+    lifetimeGivingPct: "28%",
   },
   {
     id: 3,
@@ -66,7 +66,7 @@ const forbesData = [
     fact2: "In April 2018, he testified before Congress after it was revealed that Facebook shared users' data with political consulting firm Cambridge Analytica.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 4,
@@ -83,7 +83,7 @@ const forbesData = [
     fact2: "He gave up the Oracle CEO role in 2014 but still serves as chairman of the board and chief technology officer.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 5,
@@ -100,7 +100,7 @@ const forbesData = [
     fact2: "He cofounded Google in 1998 with fellow Stanford Ph.D. student Sergey Brin.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 6,
@@ -117,7 +117,7 @@ const forbesData = [
     fact2: "The conglomerate has some $100 billion in revenues from businesses including pipelines, chemicals, Dixie cups, and Stainmaster carpets.",
     charityData: true,
     lifetimeGiving: 1.07,
-    lifetimeGivingPct: "2%"
+    lifetimeGivingPct: "2%",
   },
   {
     id: 7,
@@ -134,7 +134,7 @@ const forbesData = [
     fact2: "Koch stepped down from his role as executive vice president in July 2018, citing health concerns; he was named director emeritus.",
     charityData: true,
     lifetimeGiving: 1.2,
-    lifetimeGivingPct: "2%"
+    lifetimeGivingPct: "2%",
   },
   {
     id: 8,
@@ -151,7 +151,7 @@ const forbesData = [
     fact2: "He previously ran the secretive Google X division, which made the ill-fated Google glasses.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 9,
@@ -168,7 +168,7 @@ const forbesData = [
     fact2: "After putting down the company's seed funding, he has retained an 88% stake in the business, which has revenue north of $9 billion.",
     charityData: true,
     lifetimeGiving: 6,
-    lifetimeGivingPct: "10%"
+    lifetimeGivingPct: "10%",
   },
   {
     id: 10,
@@ -185,7 +185,7 @@ const forbesData = [
     fact2: "He runs the family's Arvest Bank, which boasts assets of more than $16 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 11,
@@ -202,7 +202,7 @@ const forbesData = [
     fact2: "She has focused on curating art, rather than working for Walmart like her siblings, Rob and Jim.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 12,
@@ -219,7 +219,7 @@ const forbesData = [
     fact2: "He ran the retailer for nearly 25 years; he first took over as chairman upon his father's death in 1992.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 13,
@@ -236,7 +236,7 @@ const forbesData = [
     fact2: "He joined Microsoft in 1980 as employee No. 30 after dropping out of Stanford's MBA program.",
     charityData: true,
     lifetimeGiving: 2,
-    lifetimeGivingPct: "5%"
+    lifetimeGivingPct: "5%",
   },
   {
     id: 14,
@@ -253,7 +253,7 @@ const forbesData = [
     fact2: "Today he owns more than half of the $13 billion (sales) gambling empire.",
     charityData: true,
     lifetimeGiving: 1.1,
-    lifetimeGivingPct: "3%"
+    lifetimeGivingPct: "3%",
   },
   {
     id: 15,
@@ -270,7 +270,7 @@ const forbesData = [
     fact2: "Knight ran track at the University of Oregon and created Nike with his former track coach Bill Bowerman.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 16,
@@ -287,7 +287,7 @@ const forbesData = [
     fact2: "The estimated $60 billion Dell-EMC merger, which was finalized in 2016, was the largest technology acquisition ever.",
     charityData: true,
     lifetimeGiving: 1.563,
-    lifetimeGivingPct: "5%"
+    lifetimeGivingPct: "5%",
   },
   {
     id: 17,
@@ -304,7 +304,7 @@ const forbesData = [
     fact2: "Mars was founded by Jacqueline's grandfather, Frank, in 1911.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 18,
@@ -321,7 +321,7 @@ const forbesData = [
     fact2: "He and Jacqueline each own one third of the company, which is being run by some of their children.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 19,
@@ -338,7 +338,7 @@ const forbesData = [
     fact2: "She founded and chairs the Emerson Collective, an organization that uses entrepreneurship to advance social reform and to assist needy students.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 20,
@@ -355,7 +355,7 @@ const forbesData = [
     fact2: "Allen left Microsoft 8 years after cofounding the company in 1975 when he was diagnosed with Hodgkin's disease.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 21,
@@ -372,7 +372,7 @@ const forbesData = [
     fact2: "He founded Interactive Brokers in 1993 after originally starting in market-making.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 22,
@@ -389,7 +389,7 @@ const forbesData = [
     fact2: "He founded Renaissance Technologies in 1982 and retired in 2010, but he still plays a role at Renaissance and benefits from its funds.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 23,
@@ -406,7 +406,7 @@ const forbesData = [
     fact2: "His automaker, Tesla Motors, which was founded in 2003, is bringing fully-electric vehicles to the mass market.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 24,
@@ -423,7 +423,7 @@ const forbesData = [
     fact2: "Working to make sure Bridgewater survives him, Dalio moved in 2018 to turn Bridgewater into a partnership and give employees more of a stake in the firm.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 25,
@@ -440,7 +440,7 @@ const forbesData = [
     fact2: "Murdoch, a native of Australia, inherited a newspaper at age 22 after his father, a former war correspondent, passed away.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 26,
@@ -457,7 +457,7 @@ const forbesData = [
     fact2: "He is a dual citizen of the U.S. and the U.K.",
     charityData: true,
     lifetimeGiving: 0.5,
-    lifetimeGivingPct: "3%"
+    lifetimeGivingPct: "3%",
   },
   {
     id: 27,
@@ -474,7 +474,7 @@ const forbesData = [
     fact2: "She has served as CEO since 2014, when she took over for her father Edward \"Ned\" Johnson III, and as chairman since 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 28,
@@ -491,7 +491,7 @@ const forbesData = [
     fact2: "The 13th child of Oklahoma sharecroppers, he picked cotton barefoot as a child and started working at a gas station at age 16 to support his family.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 29,
@@ -508,7 +508,7 @@ const forbesData = [
     fact2: "His Irvine Co. owns over 115 million square feet of real estate, mostly in Southern California.",
     charityData: true,
     lifetimeGiving: 1.04,
-    lifetimeGivingPct: "6%"
+    lifetimeGivingPct: "6%",
   },
   {
     id: 30,
@@ -525,7 +525,7 @@ const forbesData = [
     fact2: "Icahn is chairman of publicly-traded Icahn Enterprises, which had $8 billion of its assets in investments as of August 2018.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 31,
@@ -542,7 +542,7 @@ const forbesData = [
     fact2: "He inherited his fortune when his father, John Walton, died in a 2005 plane crash.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 32,
@@ -559,7 +559,7 @@ const forbesData = [
     fact2: "Shortly after stepping down, the Massachusetts Institute of Technology announced that Schmidt would be joining as a visiting innovation fellow.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 33,
@@ -576,7 +576,7 @@ const forbesData = [
     fact2: "Initially a boutique merger-and-acquisition advisory business, Blackstone grew into the world's largest buyout firm, with $439 billion in assets.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 34,
@@ -593,7 +593,7 @@ const forbesData = [
     fact2: "The eldest son of the eponymous makeup maven, Lauder joined his mother's company in 1958.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 35,
@@ -610,7 +610,7 @@ const forbesData = [
     fact2: "For years Cohen ran SAC Capital, one of the most successful hedge funds ever.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 36,
@@ -627,7 +627,7 @@ const forbesData = [
     fact2: "He took it public for the third time in 2011 after two management buyouts.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 37,
@@ -644,7 +644,7 @@ const forbesData = [
     fact2: "Omidyar has slowly been whittling down his stakes in both eBay and its former subsidiary PayPal; he still owns about 7% of eBay.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 38,
@@ -661,7 +661,7 @@ const forbesData = [
     fact2: "Tepper's Appaloosa Management hedge fund firm now manages $15 billion and is based in Miami Beach, Florida.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 39,
@@ -678,7 +678,7 @@ const forbesData = [
     fact2: "He owns the NHL's Kings and a third of the Lakers, plus the building they play in, the Staples Center.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 40,
@@ -695,7 +695,7 @@ const forbesData = [
     fact2: "His stores, which compete with Home Depot and Lowe's, are concentrated in the middle of the U.S., spanning from Wyoming to Ohio.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 41,
@@ -712,7 +712,7 @@ const forbesData = [
     fact2: "Donald is president of Advance Publications and oversees the newspaper business that his father Sam built up from the daily The Staten Island Advance.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 42,
@@ -729,7 +729,7 @@ const forbesData = [
     fact2: "After leaving the social network in 2008, he cofounded Asana, a workflow software company; most of his net worth is from his 3% stake in Facebook.",
     charityData: true,
     lifetimeGiving: 1.44,
-    lifetimeGivingPct: "12%"
+    lifetimeGivingPct: "12%",
   },
   {
     id: 43,
@@ -746,7 +746,7 @@ const forbesData = [
     fact2: "Ergen first began selling satellite dishes out of the back of a truck in Colorado in 1980.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 44,
@@ -763,7 +763,7 @@ const forbesData = [
     fact2: "He founded Citadel in 1990 but first began trading from his Harvard dorm in 1987. He put a satellite dish on the roof to get real-time stock quotes.",
     charityData: true,
     lifetimeGiving: 0.7,
-    lifetimeGivingPct: "7%"
+    lifetimeGivingPct: "7%",
   },
   {
     id: 45,
@@ -780,7 +780,7 @@ const forbesData = [
     fact2: "The Texas banker is known for gobbling up distressed assets, including mortgages, bonds backed by commercial planes and IOUs to power plants.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 46,
@@ -797,7 +797,7 @@ const forbesData = [
     fact2: "He started PeopleSoft at 47 and sold it to Oracle for $10.7 billion in cash in 2005.",
     charityData: true,
     lifetimeGiving: 0.546,
-    lifetimeGivingPct: "5%"
+    lifetimeGivingPct: "5%",
   },
   {
     id: 47,
@@ -814,7 +814,7 @@ const forbesData = [
     fact2: "Facebook bought the startup for $22 billion in cash and stock in 2014.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 48,
@@ -831,7 +831,7 @@ const forbesData = [
     fact2: "He spent 34 years as CEO of Carnival, helping grow its fleet from two ships to more than 100, before stepping down in June 2013.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 49,
@@ -848,7 +848,7 @@ const forbesData = [
     fact2: "Moore is famous for his prediction that computer processing power would double every year, an insight known as \"Moore's Law.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 50,
@@ -865,7 +865,7 @@ const forbesData = [
     fact2: "He earned a reputation in the 1980s as one of the era's fiercest corporate raiders.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 51,
@@ -882,7 +882,7 @@ const forbesData = [
     fact2: "He served as CEO from 1988 to 2008; under his leadership revenues rose from $1.8 billion to $15.4 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 52,
@@ -899,7 +899,7 @@ const forbesData = [
     fact2: "Cox Enterprises is a $20.1 billion (sales) automotive and media company based in Atlanta; it owns cable TV firm Cox Communications.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 53,
@@ -916,7 +916,7 @@ const forbesData = [
     fact2: "He was CEO of the company until 2008, and remains the largest shareholder with a 11% stake.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 54,
@@ -933,7 +933,7 @@ const forbesData = [
     fact2: "Goodnight has been at the helm since the company's inception, when its software was developed to analyze agricultural data.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 55,
@@ -950,7 +950,7 @@ const forbesData = [
     fact2: "Born to Jewish immigrants in Brooklyn, Geffen started his career in the mailroom of talent agency William Morris, where he rose to become an agent.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 56,
@@ -967,7 +967,7 @@ const forbesData = [
     fact2: "Ned led Fidelity as CEO for 37 years; his daughter Abigail replaced him in 2014.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 57,
@@ -984,7 +984,7 @@ const forbesData = [
     fact2: "He is married to Walmart heiress Ann Walton-Kroenke, niece of the retailer's founder Sam Walton.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 58,
@@ -1001,7 +1001,7 @@ const forbesData = [
     fact2: "The $2 billion (sales) company sold one of its subsidiaries Cook Pharmica to drug delivery technology company Catalent for $950 million in 2017.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 59,
@@ -1018,7 +1018,7 @@ const forbesData = [
     fact2: "He stepped down as CEO in 2015 after running the company for 43 years but remains chairman. His son David is the CEO.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 60,
@@ -1035,7 +1035,7 @@ const forbesData = [
     fact2: "In 1992, Soros shorted the British pound and reportedly made a profit of $1 billion. He became known as the man who broke the Bank of England.",
     charityData: true,
     lifetimeGiving: 32,
-    lifetimeGivingPct: "79%"
+    lifetimeGivingPct: "79%",
   },
   {
     id: 61,
@@ -1052,7 +1052,7 @@ const forbesData = [
     fact2: "George took over Kaiser-Francis Oil Company in the 1960s.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 62,
@@ -1069,7 +1069,7 @@ const forbesData = [
     fact2: "The 66-year-old joined the investment firm in 1980 after working at Intel and cofounding two companies.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 63,
@@ -1086,7 +1086,7 @@ const forbesData = [
     fact2: "Her brother Whitney MacMillan was the last member of the family to serve as CEO of the business, but he retired in 1995.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 64,
@@ -1103,7 +1103,7 @@ const forbesData = [
     fact2: "His design for a one-piece truck bumper was the basis for his success; the company now has 64 plants worldwide and over 24,000 employees.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 65,
@@ -1120,7 +1120,7 @@ const forbesData = [
     fact2: "His $25 billion mega-development, Hudson Yards, opened its first building in 2016. Five more will open in 2018 and 2019. It will be completed by 2024.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 66,
@@ -1137,7 +1137,7 @@ const forbesData = [
     fact2: "From the 1970s to the 1990s, Malone built up cable TV firm TCI as right hand man to founder Bob Magness (d. 1996).",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 67,
@@ -1154,7 +1154,7 @@ const forbesData = [
     fact2: "The brothers took over the family-owned company from their father, Frederik, in 1990.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 68,
@@ -1171,7 +1171,7 @@ const forbesData = [
     fact2: "He sold drug companies Abraxis and American Pharmaceutical Partners for a combined $9.1 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 69,
@@ -1188,7 +1188,7 @@ const forbesData = [
     fact2: "She inherited her fortune when her husband, John Walton, died in a 2005 plane crash.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 70,
@@ -1205,7 +1205,7 @@ const forbesData = [
     fact2: "He sold it to Intuit for $532 million in 1999, but bought it back 3 years later for $64 million.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 71,
@@ -1222,7 +1222,7 @@ const forbesData = [
     fact2: "Lauren started the business in 1967 in a tiny office at the Empire State building. His first breakthrough came when Neiman Marcus ordered 1,200 ties.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 72,
@@ -1239,7 +1239,7 @@ const forbesData = [
     fact2: "His empire has grown from a single 300-square-foot store in Oklahoma City to over 800 locations in 47 states, with more than $4 billion in sales.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 73,
@@ -1256,7 +1256,7 @@ const forbesData = [
     fact2: "They started their company in 1964 when they leased a gas station in Watonga, Oklahoma for $5,000.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 74,
@@ -1273,7 +1273,7 @@ const forbesData = [
     fact2: "Jones made a name for himself as an oil wildcatter and still invests in drilling opportunities, retail and residential real estate projects in Dallas.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 75,
@@ -1290,7 +1290,7 @@ const forbesData = [
     fact2: "He spent much of his early career at investment bank Drexel Burnham Lambert, where he eventually headed the mergers and acquisitions group.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 76,
@@ -1307,7 +1307,7 @@ const forbesData = [
     fact2: "Hendricks cofounded the business with her late husband, Ken, in Beloit, Wisconsin, 36 years ago. She has run it since his death in 2007.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 77,
@@ -1324,7 +1324,7 @@ const forbesData = [
     fact2: "KB Homes became one of the nation's biggest home builders, supplying parents of baby boomers with affordable housing.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 78,
@@ -1341,7 +1341,7 @@ const forbesData = [
     fact2: "Born in Taiwan, Huang moved to Thailand as a child, but his family sent him and his brother to the U.S as civil unrest mounted in the Asian nation.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 79,
@@ -1358,7 +1358,7 @@ const forbesData = [
     fact2: "He cofounded Kinder Morgan in 1997 after stepping down as president of energy and commodities firm Enron Corp.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 80,
@@ -1375,7 +1375,7 @@ const forbesData = [
     fact2: "His fortune stems from a paper-manufacturing conglomerate, which includes the Rand-Whitney Group.",
     charityData: true,
     lifetimeGiving: 0.6,
-    lifetimeGivingPct: "8%"
+    lifetimeGivingPct: "8%",
   },
   {
     id: 81,
@@ -1392,7 +1392,7 @@ const forbesData = [
     fact2: "He later worked with his mother to develop industrial properties, and founded his own real estate company in 1979.",
     charityData: true,
     lifetimeGiving: 0.47,
-    lifetimeGivingPct: "7%"
+    lifetimeGivingPct: "7%",
   },
   {
     id: 82,
@@ -1409,7 +1409,7 @@ const forbesData = [
     fact2: "She inherited part of Bud's stake in the retailer when he died in 1995.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 83,
@@ -1426,7 +1426,7 @@ const forbesData = [
     fact2: "Before Salesforce, he spent 13 years at database software giant Oracle as a protege of Larry Ellison.",
     charityData: true,
     lifetimeGiving: 0.4506,
-    lifetimeGivingPct: "7%"
+    lifetimeGivingPct: "7%",
   },
   {
     id: 84,
@@ -1443,7 +1443,7 @@ const forbesData = [
     fact2: "Dorsey cofounded Twitter in 2006 with Ev Williams, Biz Stone and Noah Glass, and was CEO until 2008. He returned in 2015.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 85,
@@ -1460,7 +1460,7 @@ const forbesData = [
     fact2: "His great-grandfather, W.W. Cargill, founded the business as a single grain warehouse on the end of an Iowa railroad line in 1865.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 86,
@@ -1477,7 +1477,7 @@ const forbesData = [
     fact2: "Known for its use of sophisticated mathematical modeling and algorithms, the quantitative hedge fund firm was founded in 1988.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 87,
@@ -1494,7 +1494,7 @@ const forbesData = [
     fact2: "Formerly the richest person in Houston, Duncan died in 2010 at age 77 of a brain hemorrhage.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 88,
@@ -1511,7 +1511,7 @@ const forbesData = [
     fact2: "His grandfather, James M. Cox, founded what became Cox Enterprises in 1898.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 89,
@@ -1528,7 +1528,7 @@ const forbesData = [
     fact2: "Founded in 1968, the company owns natural gas processing plants, oil and gas storage facilities and about 50,000 miles of oil and gas pipelines.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 90,
@@ -1545,7 +1545,7 @@ const forbesData = [
     fact2: "Frantz and her three siblings inherited a stake in the company after their dad died in 2010; only Randa Duncan Williams is involved in the business.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 91,
@@ -1562,7 +1562,7 @@ const forbesData = [
     fact2: "His hedge fund firm, Paulson & Co., was started in 1994 and enjoyed success as a niche fund until Paulson put on his \"big short.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 92,
@@ -1579,7 +1579,7 @@ const forbesData = [
     fact2: "Focused on tax avoidance and cash flow, they acquired more than three dozen companies and turned Danaher into a firm with $20 billion in revenue.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 93,
@@ -1596,7 +1596,7 @@ const forbesData = [
     fact2: "Cox Enterprises, a private company started by Rayner's grandfather, has some $20 billion in revenues; it has a cable TV arm, TV stations and more.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 94,
@@ -1613,7 +1613,7 @@ const forbesData = [
     fact2: "Her grandfather, James M. Cox, founded what has become Cox Enterprises in 1898.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 95,
@@ -1630,7 +1630,7 @@ const forbesData = [
     fact2: "Washington bought Dominion Diamond for $1.2 billion in November 2017. He already owns a copper mine and regional railroads.",
     charityData: true,
     lifetimeGiving: 0.84,
-    lifetimeGivingPct: "12%"
+    lifetimeGivingPct: "12%",
   },
   {
     id: 96,
@@ -1647,7 +1647,7 @@ const forbesData = [
     fact2: "Williams is the only one of four siblings involved in running the family business; all four inherited equal stakes in the company.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 97,
@@ -1664,7 +1664,7 @@ const forbesData = [
     fact2: "Israel Englander, or Izzy, is the son of Polish immigrants.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 98,
@@ -1681,7 +1681,7 @@ const forbesData = [
     fact2: "The father-son team transformed the business, which started in France in 1883, into one of the largest real estate developers in the New York area.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 99,
@@ -1698,7 +1698,7 @@ const forbesData = [
     fact2: "She inherited her estimated 8% stake in the company when her father, Forrest Mars Jr., died in 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 100,
@@ -1715,7 +1715,7 @@ const forbesData = [
     fact2: "She and her three sisters each inherited an estimated 8% stake in Mars Inc. when their father, Forrest Mars Jr., died in 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 101,
@@ -1732,7 +1732,7 @@ const forbesData = [
     fact2: "Her great-grandfather Frank Mars founded the company in 1911.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 102,
@@ -1749,7 +1749,7 @@ const forbesData = [
     fact2: "She inherited her estimated 8% stake in the company when her father Forrest Mars Jr. died in 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 103,
@@ -1766,7 +1766,7 @@ const forbesData = [
     fact2: "Davis and his family own an estimated 95% of the company, which is private.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 104,
@@ -1783,7 +1783,7 @@ const forbesData = [
     fact2: "In March 2018, Kalanick announced a new venture fund, 10100, which combines his nonprofit and for-profit investments.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 105,
@@ -1800,7 +1800,7 @@ const forbesData = [
     fact2: "Arthrex is now headquartered in Naples, Florida and has developed over 12,500 products used in shoulder, hip and other joint surgeries.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 106,
@@ -1817,7 +1817,7 @@ const forbesData = [
     fact2: "In 1989, KKR orchestrated the $25 billion buyout of RJR Nabisco; the deal became the basis of the bestselling book \"Barbarians at the Gate.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 107,
@@ -1834,7 +1834,7 @@ const forbesData = [
     fact2: "The Omni chain has 60 locations and 21,000 rooms nationwide with big new hotels in Dallas, Atlanta and Boston.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 108,
@@ -1851,7 +1851,7 @@ const forbesData = [
     fact2: "Dolan sold Cablevision, the cable giant he launched in 1973 with 1,500 customers, to billionaire Patrick Drahi's Altice for $17.7 billion in 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 109,
@@ -1868,7 +1868,7 @@ const forbesData = [
     fact2: "When Bud died in 1995, Walton-Laurie and her sister, Ann Walton-Kroenke, received enough Walmart stock to make them both billionaires.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 110,
@@ -1885,7 +1885,7 @@ const forbesData = [
     fact2: "In 1981, Marcus, Blank and early investor Kenneth Langone took Home Depot public. All three men are now billionaires.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 111,
@@ -1902,7 +1902,7 @@ const forbesData = [
     fact2: "Morris started the company in 1972 by selling fish tackle from the back of his father's liquor store in Springfield, Missouri.",
     charityData: true,
     lifetimeGiving: 0.4,
-    lifetimeGivingPct: "7%"
+    lifetimeGivingPct: "7%",
   },
   {
     id: 112,
@@ -1919,7 +1919,7 @@ const forbesData = [
     fact2: "Along with his cousin Henry Kravis and their mentor Jerome Kohlberg, the three led KKR through debt-financed hostile takeovers starting in the 1970s.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 113,
@@ -1936,7 +1936,7 @@ const forbesData = [
     fact2: "Nearly half of all Americans purchase one of their products, including Halos mandarin oranges, POM Wonderful and Fiji Water.",
     charityData: true,
     lifetimeGiving: 0.55,
-    lifetimeGivingPct: "9%"
+    lifetimeGivingPct: "9%",
   },
   {
     id: 114,
@@ -1953,7 +1953,7 @@ const forbesData = [
     fact2: "Majestic Realty is developing a 441-acre business park on the site of Pennsylvania's former Bethlehem Steel plant.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 115,
@@ -1970,7 +1970,7 @@ const forbesData = [
     fact2: "She inherited a stake in Stryker Corp. from her parents and is the only one of her siblings to serve on the board.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 116,
@@ -1987,7 +1987,7 @@ const forbesData = [
     fact2: "Zell's Equity International has invested in 15 emerging markets including Argentina, where it's co-investing $300 million with Goldman Sachs.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 117,
@@ -2004,7 +2004,7 @@ const forbesData = [
     fact2: "He grew up in the business, rising from construction apprentice to senior vice president in 1995.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 118,
@@ -2021,7 +2021,7 @@ const forbesData = [
     fact2: "He grew up doing odd jobs in his father's restaurants, including scraping chewing gum from table bottoms with a butter knife.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 119,
@@ -2038,7 +2038,7 @@ const forbesData = [
     fact2: "Ingram took over the business after her husband Bronson Ingram died in 1995.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 120,
@@ -2055,7 +2055,7 @@ const forbesData = [
     fact2: "Two Sigma is a data-driven hedge fund that absorbs large amounts of information to predict the prices of securities.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 121,
@@ -2072,7 +2072,7 @@ const forbesData = [
     fact2: "Two Sigma is a data-driven hedge fund that absorbs large amounts of information to predict the prices of securities.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 122,
@@ -2089,7 +2089,7 @@ const forbesData = [
     fact2: "Lucas is now focused on philanthropy: his charitable family foundation is already endowed with more than $1 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 123,
@@ -2106,7 +2106,7 @@ const forbesData = [
     fact2: "After graduation, Smith served in Vietnam with the Marines. He returned home and launched FedEx in 1971.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 124,
@@ -2123,7 +2123,7 @@ const forbesData = [
     fact2: "With longtime partner John Tu, Sun launched a computer memory business out of a garage and sold it to now defunct PC maker AST a few years later.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 125,
@@ -2140,7 +2140,7 @@ const forbesData = [
     fact2: "With longtime partner David Sun, Tu launched a computer memory business out of a garage and sold it to now defunct PC maker AST a few years later.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 126,
@@ -2157,7 +2157,7 @@ const forbesData = [
     fact2: "Garcia also owns and runs DriveTime Automotive, the nation's fourth-biggest used car retailer.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 127,
@@ -2174,7 +2174,7 @@ const forbesData = [
     fact2: "He chairs Hunt Consolidated, an oil and gas, electric power, real estate and investing conglomerate.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 128,
@@ -2191,7 +2191,7 @@ const forbesData = [
     fact2: "Ubiquiti, which had $865 million in fiscal 2017 revenues, sells wireless broadband systems with a focus on emerging markets.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 129,
@@ -2208,7 +2208,7 @@ const forbesData = [
     fact2: "In 1984 he started Chief Oil & Gas and became a pioneer of the shale fracking boom.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 130,
@@ -2225,7 +2225,7 @@ const forbesData = [
     fact2: "Kovner is the founder and chairman of Caxton Associates, a global macro hedge fund.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 131,
@@ -2242,7 +2242,7 @@ const forbesData = [
     fact2: "Its current tenants include KKR, Apollo Global Management, Tiger Global Management and Chanel.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 132,
@@ -2259,7 +2259,7 @@ const forbesData = [
     fact2: "She has invested in public companies like Apple as well as hundreds of private biotech and medical device firms.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 133,
@@ -2276,7 +2276,7 @@ const forbesData = [
     fact2: "Robert has helped launch a half dozen investment shops including his Oak Hill Advisors.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 134,
@@ -2293,7 +2293,7 @@ const forbesData = [
     fact2: "Johnson became CEO at age 24 in 1957, a decade after his father, Rupert Johnson Sr., founded the company.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 135,
@@ -2310,7 +2310,7 @@ const forbesData = [
     fact2: "Blank stepped down as co-chairman of Home Depot in 2001 and the next year bought the NFL's Atlanta Falcons for $545 million (now worth $2.1 billion).",
     charityData: true,
     lifetimeGiving: 0.34,
-    lifetimeGivingPct: "6%"
+    lifetimeGivingPct: "6%",
   },
   {
     id: 136,
@@ -2327,7 +2327,7 @@ const forbesData = [
     fact2: "He sold some 22,000, then decided to become a builder. Now he owns 20 million square feet of commercial and retail space, plus hotels and apartments.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 137,
@@ -2344,7 +2344,7 @@ const forbesData = [
     fact2: "The heiress spends most of her time on a farm in Rancho Santa Fe, Calif., training horses that compete in show jumping.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 138,
@@ -2361,7 +2361,7 @@ const forbesData = [
     fact2: "The company started by their father with a small Schlitz beer distributor in South Carolina purchased for $740,000 in 1974.",
     charityData: true,
     lifetimeGiving: 0.1,
-    lifetimeGivingPct: "2%"
+    lifetimeGivingPct: "2%",
   },
   {
     id: 139,
@@ -2378,7 +2378,7 @@ const forbesData = [
     fact2: "Their father started the company with a small Schlitz beer distributor in South Carolina purchased for $740,000 in 1974.",
     charityData: true,
     lifetimeGiving: 0.1,
-    lifetimeGivingPct: "2%"
+    lifetimeGivingPct: "2%",
   },
   {
     id: 140,
@@ -2395,7 +2395,7 @@ const forbesData = [
     fact2: "The company made its mark with the first non-dairy whipped cream and expanded into non-dairy frozen foods.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 141,
@@ -2412,7 +2412,7 @@ const forbesData = [
     fact2: "Warren's fortune stems from stakes in three publicly traded companies; Energy Transfer Equity LP, Energy Transfer Partners LP and Sunoco LP.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 142,
@@ -2429,7 +2429,7 @@ const forbesData = [
     fact2: "Until 2000, he worked for George Soros. The duo famously bet against the British pound in 1992 and made massive profits.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 143,
@@ -2446,7 +2446,7 @@ const forbesData = [
     fact2: "Redstone's father founded the cinema chain now known as National Amusements in 1936; Redstone took over in 1954.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 144,
@@ -2463,7 +2463,7 @@ const forbesData = [
     fact2: "His Hartz Mountain firm owns over 42 million square feet of real estate, mostly in the New Jersey area.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 145,
@@ -2480,7 +2480,7 @@ const forbesData = [
     fact2: "Daniel's late father, William Jr., built up Ziff Davis, published PC Magazine and Car and Driver, and sold the company for $1.4 billion in 1994.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 146,
@@ -2497,7 +2497,7 @@ const forbesData = [
     fact2: "The brothers' late father built up Ziff Davis, publisher of PC Magazine and Car and Driver, and sold the company for $1.4 billion in 1994.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 147,
@@ -2514,7 +2514,7 @@ const forbesData = [
     fact2: "The brothers' late father, William Jr., built up Ziff Davis, published PC Magazine and Car and Driver, and sold the company for $1.4 billion in 1994.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 148,
@@ -2531,7 +2531,7 @@ const forbesData = [
     fact2: "One of America's longest-serving CEOs, he has served as the company's CEO since founding the business more than five decades ago.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 149,
@@ -2548,7 +2548,7 @@ const forbesData = [
     fact2: "The most valuable part of Yahoo - its 15% stake in Alibaba and its 35% stake in Yahoo Japan - morphed into a listed company called Altaba.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 150,
@@ -2565,7 +2565,7 @@ const forbesData = [
     fact2: "She joined the firm in 1983 and rose to vice president before leaving in 2003 to raise her children. She returned four years later as a board member.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 151,
@@ -2582,7 +2582,7 @@ const forbesData = [
     fact2: "Skoll divides his time between his Skoll Foundation, which funds social entrepreneurs, and film production firm Participant Media.",
     charityData: true,
     lifetimeGiving: 1.259,
-    lifetimeGivingPct: "21%"
+    lifetimeGivingPct: "21%",
   },
   {
     id: 152,
@@ -2599,7 +2599,7 @@ const forbesData = [
     fact2: "His great-grandfather, W.W. Cargill, founded the business as a single grain warehouse on the end of an Iowa railroad line in 1865.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 153,
@@ -2616,7 +2616,7 @@ const forbesData = [
     fact2: "His great-grandfather, W.W. Cargill, founded the business as a single grain warehouse on the end of an Iowa railroad line in 1865.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 154,
@@ -2633,7 +2633,7 @@ const forbesData = [
     fact2: "The company pioneered surround sound technologies used in thousands of films and products, and most recently, in video games and mobile devices.",
     charityData: true,
     lifetimeGiving: 0.475,
-    lifetimeGivingPct: "10%"
+    lifetimeGivingPct: "10%",
   },
   {
     id: 155,
@@ -2650,7 +2650,7 @@ const forbesData = [
     fact2: "Fertitta also owns the Golden Nugget Casinos and Landry's, a Texas-based restaurant and entertainment company.",
     charityData: true,
     lifetimeGiving: 0.1,
-    lifetimeGivingPct: "2%"
+    lifetimeGivingPct: "2%",
   },
   {
     id: 156,
@@ -2667,7 +2667,7 @@ const forbesData = [
     fact2: "In 1980, he founded Tudor Investment Corporation, which had a long record of double-digit annualized returns.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 157,
@@ -2684,7 +2684,7 @@ const forbesData = [
     fact2: "Her great-grandfather, W.W. Cargill, founded the business as a single grain warehouse on the end of an Iowa railroad line in 1865.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 158,
@@ -2701,7 +2701,7 @@ const forbesData = [
     fact2: "His oil and gas outfit, East Resources, sold the bulk of its assets to Royal Dutch Shell for $4.7 billion in 2010.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 159,
@@ -2718,7 +2718,7 @@ const forbesData = [
     fact2: "The bug-killing business is booming: in April 2017, the company reported its 44th consecutive quarter of sales and earnings growth.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 160,
@@ -2735,7 +2735,7 @@ const forbesData = [
     fact2: "In 2000, Scott and Buffett partnered to buy utility MidAmerican Energy, later renamed Berkshire Hathaway Energy, for $2 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 161,
@@ -2752,7 +2752,7 @@ const forbesData = [
     fact2: "Weiner started Yachak Organic in late 2017 as a natural alternative to Rockstar. Profits will go to protect endangered species and the environment.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 162,
@@ -2769,7 +2769,7 @@ const forbesData = [
     fact2: "Then the CEO of telecom and cable company Burnup & Sims, Caporella started the soft drinks firm to fend off famed corporate raider Victor Posner.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 163,
@@ -2786,7 +2786,7 @@ const forbesData = [
     fact2: "Of the 19 subsidiaries under the Atlanta-headquartered Rollins Inc. umbrella, exterminator Orkin is the best known.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 164,
@@ -2803,7 +2803,7 @@ const forbesData = [
     fact2: "The two partners met at NC State, where Sall was studying graduate-level statistics and Goodnight was pursuing his Ph.D.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 165,
@@ -2820,7 +2820,7 @@ const forbesData = [
     fact2: "Schulze served as the company's CEO from 1983 to 2002 and stepped down as chairman in 2012, when a scandal erupted around his hand-picked CEO.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 166,
@@ -2837,7 +2837,7 @@ const forbesData = [
     fact2: "With over $30 billion in assets, Vista is one of the best-performing private equity firms, posting annualized returns of 22% since inception.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 167,
@@ -2854,7 +2854,7 @@ const forbesData = [
     fact2: "He started the business with his cousin, and fellow billionaire, Jim Davis. Allegis now brings in $12.3 billion in annual revenue.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 168,
@@ -2871,7 +2871,7 @@ const forbesData = [
     fact2: "He revived the company's stock by producing action-hero movies like Spiderman, Daredevil, Hulk and Iron Man.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 169,
@@ -2888,7 +2888,7 @@ const forbesData = [
     fact2: "Since closing his fund in 2000, Robertson has been managing his own book and has seeded several funds started by his disciples, dubbed Tiger Cubs.",
     charityData: true,
     lifetimeGiving: 1.1,
-    lifetimeGivingPct: "20%"
+    lifetimeGivingPct: "20%",
   },
   {
     id: 170,
@@ -2905,7 +2905,7 @@ const forbesData = [
     fact2: "In spring 2018, his Wharton Properties and partner SL Green signed Puma to open a new, 24,000 square feet flagship store at 609 Fifth Avenue.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 171,
@@ -2922,7 +2922,7 @@ const forbesData = [
     fact2: "The business was founded in 1915 by his father, who began by selling popcorn and peanuts. The company now has annual revenue of about $3 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 172,
@@ -2939,7 +2939,7 @@ const forbesData = [
     fact2: "He is the second largest shareholder in the firm with 19.2%, after his half brother Charles who chaired the company until 2013.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 173,
@@ -2956,7 +2956,7 @@ const forbesData = [
     fact2: "He ran for president in 1992 and 1996, while treating Americans to half-hour long primetime infomercials on how he intended to fix the economy.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 174,
@@ -2973,7 +2973,7 @@ const forbesData = [
     fact2: "Hyatt Hotels dates back 1957 when Tom's father, Jay Pritzker (d. 1999), purchased the first Hyatt House motel near Los Angeles International Airport.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 175,
@@ -2990,7 +2990,7 @@ const forbesData = [
     fact2: "Melaleuca sells them direct from the factory to more than one million consumers every month through its online store.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 176,
@@ -3007,7 +3007,7 @@ const forbesData = [
     fact2: "He founded the company in 1969 with $1,100 in personal savings.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 177,
@@ -3024,7 +3024,7 @@ const forbesData = [
     fact2: "His Olen Properties owns 8 million square feet of office space and 12,000 residential units in California and four other U.S. states.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 178,
@@ -3041,7 +3041,7 @@ const forbesData = [
     fact2: "Then a recent high school grad, Ashkenazy realized the lease offered was below market value and decided to find a lender and buy the property instead.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 179,
@@ -3058,7 +3058,7 @@ const forbesData = [
     fact2: "Tito's, one of the fastest growing spirits brands in America, sold an estimated 63 million bottles of vodka in 2017, up from 44 million in 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 180,
@@ -3075,7 +3075,7 @@ const forbesData = [
     fact2: "Bluhm also owns a number of the largest casinos in the Midwest, like the Rivers Casinos and SugarHouse Casino.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 181,
@@ -3092,7 +3092,7 @@ const forbesData = [
     fact2: "One of those centers, The Grove, gets an average of 49,000 daily visitors -- more than Disneyland.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 182,
@@ -3109,7 +3109,7 @@ const forbesData = [
     fact2: "His Sierra Pacific Industries is the largest private lumber production firm in the nation with 15 sawmills across California and Washington.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 183,
@@ -3126,7 +3126,7 @@ const forbesData = [
     fact2: "The company, based in Houston, has exclusive rights to distribute Toyota vehicles in Texas, Arkansas, Louisiana, Mississippi and Oklahoma.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 184,
@@ -3143,7 +3143,7 @@ const forbesData = [
     fact2: "Former Exxon geologist has specialized in reinvigorating old oil and gas fields like in the Gulf of Mexico and Alaska.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 185,
@@ -3160,7 +3160,7 @@ const forbesData = [
     fact2: "Mrs. I, as she's known, now owns the pizza chain, which hauls in more than $4 billion in annual systemwide sales.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 186,
@@ -3177,7 +3177,7 @@ const forbesData = [
     fact2: "His Leprino Foods exclusively sells to cheese to Domino's, Papa John's and Pizza Hut.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 187,
@@ -3194,7 +3194,7 @@ const forbesData = [
     fact2: "Jerry is the chairman of Tishman Speyer and his son Rob is CEO. Until 2015, they held co-CEO titles.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 188,
@@ -3211,7 +3211,7 @@ const forbesData = [
     fact2: "He started his own airline in his 20s, but realized there was easier money to be made in buying planes and leasing them to airlines.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 189,
@@ -3228,7 +3228,7 @@ const forbesData = [
     fact2: "Today he owns the NBA's Dallas Mavericks and has stakes in Landmark Theaters, Magnolia Pictures and AXS TV.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 190,
@@ -3245,7 +3245,7 @@ const forbesData = [
     fact2: "The Gores family moved from Israel to Michigan when Tom was four. In his youth, he stocked shelves at his father's small grocery store in Flint.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 191,
@@ -3262,7 +3262,7 @@ const forbesData = [
     fact2: "He is the brother of current Fidelity CEO and Chairman Abigail Johnson.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 192,
@@ -3279,7 +3279,7 @@ const forbesData = [
     fact2: "She is the sister of current Fidelity CEO and Chairman Abigail Johnson.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 193,
@@ -3296,7 +3296,7 @@ const forbesData = [
     fact2: "He became the chairman of Clinique Laboratories in 1994 and still occupies that position today.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 194,
@@ -3313,7 +3313,7 @@ const forbesData = [
     fact2: "The company found initial success with games like Half-Life and Portal.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 195,
@@ -3330,7 +3330,7 @@ const forbesData = [
     fact2: "Samueli cofounded Broadcom with Henry Nicholas in 1991. It was acquired by Avago Technology in 2016 for $37 billion and renamed itself Broadcom Ltd.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 196,
@@ -3347,7 +3347,7 @@ const forbesData = [
     fact2: "Santo Domingo was a key negotiator in the deals that led to the 2016 merger between Anheuser-Busch and SABMiller.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 197,
@@ -3364,7 +3364,7 @@ const forbesData = [
     fact2: "The bulk of his fortune is now in Anheuser-Busch InBev, following its $100 billion merger with SABMiller in 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 198,
@@ -3381,7 +3381,7 @@ const forbesData = [
     fact2: "Stine founded and runs Stine Seed; his current obsession is tinkering with seed genetics that allow for better yields or pesticide resistance.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 199,
@@ -3398,7 +3398,7 @@ const forbesData = [
     fact2: "He previously worked as CFO at Cablevision Industries, which was acquired by Time Warner in 1995.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 200,
@@ -3415,7 +3415,7 @@ const forbesData = [
     fact2: "The firm had assets under management of approximately  $96 billion in 2017, up from $72 billion a year earlier.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 201,
@@ -3432,7 +3432,7 @@ const forbesData = [
     fact2: "Kellogg joined the firm, where his father was a partner, in 1973 and took over several years later.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 202,
@@ -3449,7 +3449,7 @@ const forbesData = [
     fact2: "Leone guided Sequoia into tech investments including Medallia, Rackspace, RingCentral and ServiceNow.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 203,
@@ -3466,7 +3466,7 @@ const forbesData = [
     fact2: "McNair is survived by his wife, 4 children, 15 grandchildren and 2 great grandchildren. <br>",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 204,
@@ -3483,7 +3483,7 @@ const forbesData = [
     fact2: "Renco's holdings include a stake in military truckmaker AM General, lead and zinc producer Doe Run Company, and U.S. Magnesium Corp., among others.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 205,
@@ -3500,7 +3500,7 @@ const forbesData = [
     fact2: "B.F. Saul Company owns 9.2 million square feet of retail and office space across the country along with 21 hotels.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 206,
@@ -3517,7 +3517,7 @@ const forbesData = [
     fact2: "Blecharczyk, who is chief strategy officer, was the company's first engineer.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 207,
@@ -3534,7 +3534,7 @@ const forbesData = [
     fact2: "Chesky is CEO of Airbnb, which has been used by more than 300 million people in 81,000 cities in 191 countries.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 208,
@@ -3551,7 +3551,7 @@ const forbesData = [
     fact2: "Gebbia and Chesky met in college at Rhode Island School of Design.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 209,
@@ -3568,7 +3568,7 @@ const forbesData = [
     fact2: "The trio met at investment bank Drexel Burnham Lambert, and struck out on their own after the troubled firm filed for bankruptcy.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 210,
@@ -3585,7 +3585,7 @@ const forbesData = [
     fact2: "The grandson of Italian immigrants, Langone dug ditches for the Long Island Expressway before he went to Bucknell University to study economics.",
     charityData: true,
     lifetimeGiving: 0.5,
-    lifetimeGivingPct: "12%"
+    lifetimeGivingPct: "12%",
   },
   {
     id: 211,
@@ -3602,7 +3602,7 @@ const forbesData = [
     fact2: "He was banned from the securities industry for life after pleading guilty to a securities fraud charge in 1990.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 212,
@@ -3619,7 +3619,7 @@ const forbesData = [
     fact2: "Over the years they acquired more than three dozen companies and turned Danaher into an industrial firm with $20 billion in revenues.",
     charityData: true,
     lifetimeGiving: 1,
-    lifetimeGivingPct: "21%"
+    lifetimeGivingPct: "21%",
   },
   {
     id: 213,
@@ -3636,7 +3636,7 @@ const forbesData = [
     fact2: "His Amblin Partners (formerly DreamWorks Studios) notched a production credit on the hit and has a spate of new projects on the way.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 214,
@@ -3653,7 +3653,7 @@ const forbesData = [
     fact2: "The pair sold WhatsApp to Facebook for $22 billion in cash and stock in 2014.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 215,
@@ -3670,7 +3670,7 @@ const forbesData = [
     fact2: "AQR stands for Applied Quantitative Research. It focuses on factor-based investing, offering products ranging from hedge funds to mutual funds.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 216,
@@ -3687,7 +3687,7 @@ const forbesData = [
     fact2: "Stryker's revenues climbed from $17 million to $6.7 billion under Brown's leadership. He led the IPO of Stryker in 1979.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 217,
@@ -3704,7 +3704,7 @@ const forbesData = [
     fact2: "Diller is also chairman of travel tech company Expedia which spun off from IAC in 2005. He has a 3.4% stake in Expedia.",
     charityData: true,
     lifetimeGiving: 0.295,
-    lifetimeGivingPct: "8%"
+    lifetimeGivingPct: "8%",
   },
   {
     id: 218,
@@ -3721,7 +3721,7 @@ const forbesData = [
     fact2: "Hastings founded Netflix in 1995, the same year he sold his first company, Pure Software, to Rational Software.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 219,
@@ -3738,7 +3738,7 @@ const forbesData = [
     fact2: "Min Kao cofounded GPS maker Garmin with Gary Burrell in 1989, after the duo led development of the first GPS navigator at Allied Signal.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 220,
@@ -3755,7 +3755,7 @@ const forbesData = [
     fact2: "In January 2017 Mansueto stepped down as CEO after more than 30 years at the helm.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 221,
@@ -3772,7 +3772,7 @@ const forbesData = [
     fact2: "Donald Sterling bought the Clippers in 1981 for $12.5 million when the team was based in San Diego. Three years later he moved it to Los Angeles.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 222,
@@ -3789,7 +3789,7 @@ const forbesData = [
     fact2: "The Harvard Business School grad worked for Procter & Gamble and Bain before launching Intuit in 1983.",
     charityData: true,
     lifetimeGiving: 0.64,
-    lifetimeGivingPct: "15%"
+    lifetimeGivingPct: "15%",
   },
   {
     id: 223,
@@ -3806,7 +3806,7 @@ const forbesData = [
     fact2: "Faulkner, a computer programmer, is still CEO of the $2.7 billion (2017 sales) company.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 224,
@@ -3823,7 +3823,7 @@ const forbesData = [
     fact2: "He served as CEO until 2004 and remains chairman of the publicly-traded company.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 225,
@@ -3840,7 +3840,7 @@ const forbesData = [
     fact2: "He is the fifth generation of the Johnson family to lead the company.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 226,
@@ -3857,7 +3857,7 @@ const forbesData = [
     fact2: "In 2014, he was sentenced to four months in jail and fined $6,000 after pleading guilty to misdemeanor sexual assault of his stepdaughter.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 227,
@@ -3874,7 +3874,7 @@ const forbesData = [
     fact2: "Helen is the chairman and CEO of Johnson Outdoors, a publicly-traded company that sells outdoor gear.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 228,
@@ -3891,7 +3891,7 @@ const forbesData = [
     fact2: "The Johnson Family Foundation focuses on the environment and community issues such as early education and infant mortality.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 229,
@@ -3908,7 +3908,7 @@ const forbesData = [
     fact2: "Riney, who has served as CEO, expanded the firm; it has 3 million client accounts with a total $170 billion in assets under management.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 230,
@@ -3925,7 +3925,7 @@ const forbesData = [
     fact2: "Walter helped found the firm in the late 1990s after he folded his Chicago-based company, Liberty Hampshire, into the Guggenheim family office.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 231,
@@ -3942,7 +3942,7 @@ const forbesData = [
     fact2: "Bass has nurtured the careers of famed investors like Richard Rainwater.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 232,
@@ -3959,7 +3959,7 @@ const forbesData = [
     fact2: "Most of his fortune is in high end office buildings in New York City and design centers in several cities.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 233,
@@ -3976,7 +3976,7 @@ const forbesData = [
     fact2: "Most of his fortune is now held in equities and other investments plus real estate in Los Angeles and Palm Beach.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 234,
@@ -3993,7 +3993,7 @@ const forbesData = [
     fact2: "He set out with an MBA and $1,500 in the 1960s to invest in a cable TV company that eventually became Continental Cablevision.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 235,
@@ -4010,7 +4010,7 @@ const forbesData = [
     fact2: "Moritz wrote an early biography of Steve Jobs and Apple, \"The Little Kingdom,\" while Time's San Francisco bureau chief.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 236,
@@ -4027,7 +4027,7 @@ const forbesData = [
     fact2: "In February 2016 Broadcom was acquired by Singapore-based chip firm Avago for $37 billion in cash and stock and renamed Broadcom Ltd.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 237,
@@ -4044,7 +4044,7 @@ const forbesData = [
     fact2: "In 1990, he put up $250,000 he earned from two previous auditing ventures to start the St. Louis-based business.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 238,
@@ -4061,7 +4061,7 @@ const forbesData = [
     fact2: "A hugely successful energy trader, Arnold once worked at Enron, earning the disgraced company a reported $750 million the year it went bankrupt.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 239,
@@ -4078,7 +4078,7 @@ const forbesData = [
     fact2: "Bondo\" met his longtime business partner Jim Coulter while working for billionaire Robert Bass. The pair left in 1992 to found TPG.",
     charityData: true,
     lifetimeGiving: 0.085,
-    lifetimeGivingPct: "3%"
+    lifetimeGivingPct: "3%",
   },
   {
     id: 240,
@@ -4095,7 +4095,7 @@ const forbesData = [
     fact2: "Cooperman founded Omega Advisors in 1991, a hedge fund known for strong performance; he is shutting down the fund at the end of 2018.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 241,
@@ -4112,7 +4112,7 @@ const forbesData = [
     fact2: "The two took over the business' leadership when their father Sol, a legendary real estate investor, died in 1987.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 242,
@@ -4129,7 +4129,7 @@ const forbesData = [
     fact2: "The youngest daughter of Sol Goldman (d. 1987), once New York's biggest landlord, she oversees a portfolio that includes at least 400 properties.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 243,
@@ -4146,7 +4146,7 @@ const forbesData = [
     fact2: "Amy is the second-youngest daughter of late patriarch Sol Goldman. His trademark was all-cash deals whenever possible.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 244,
@@ -4163,7 +4163,7 @@ const forbesData = [
     fact2: "Trophies include retail and office space along Madison Avenue in midtown and high-end coops on the Upper East Side.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 245,
@@ -4180,7 +4180,7 @@ const forbesData = [
     fact2: "A third generation wrestling promoter, McMahon grew up in a trailer park in North Carolina and joined his father's small wrestling company in 1972.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 246,
@@ -4197,7 +4197,7 @@ const forbesData = [
     fact2: "His privately held Jay Paul Co. developed some 11 million square feet of office space and has 6 million more in the pipeline, mostly in Sunnyvale, Ca.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 247,
@@ -4214,7 +4214,7 @@ const forbesData = [
     fact2: "The Pritzker Group owns and runs industrial firms, particularly in the packaging sector. It also has a stake in Elon Musk's rocket firm SpaceX.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 248,
@@ -4231,7 +4231,7 @@ const forbesData = [
     fact2: "She sold the company to a KKR-led group for $7.2 billion in 2011.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 249,
@@ -4248,7 +4248,7 @@ const forbesData = [
     fact2: "She was CEO of Hewlett-Packard from 2011 to 2015, when she oversaw its split into HP Inc. and Hewlett Packard Enterprise.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 250,
@@ -4265,7 +4265,7 @@ const forbesData = [
     fact2: "The original business, John Middleton Inc., was founded as a small retail tobacco shop in Philadelphia in 1856 by his great-great-grandfather.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 251,
@@ -4282,7 +4282,7 @@ const forbesData = [
     fact2: "The Pritzker Group owns and runs industrial firms, particularly in the packaging sector. It also has a stake in Elon Musk's rocket firm SpaceX.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 252,
@@ -4299,7 +4299,7 @@ const forbesData = [
     fact2: "In 2015 she founded Madison Wells Media, a diversified media &amp; entertainment company that includes a virtual reality division.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 253,
@@ -4316,7 +4316,7 @@ const forbesData = [
     fact2: "A UPenn alum, Rowan met Apollo cofounders Leon Black and Joshua Harris while working at investment bank Drexel Burnham Lambert's M&amp;A division.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 254,
@@ -4333,7 +4333,7 @@ const forbesData = [
     fact2: "Mark is also owner of one of the largest private self-storage operations in the U.S., which does business with U-Haul.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 255,
@@ -4350,7 +4350,7 @@ const forbesData = [
     fact2: "Simon Property is now one of the world's largest REITs, with 179 shopping malls covering 153 million square feet across America, Europe and Asia.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 256,
@@ -4367,7 +4367,7 @@ const forbesData = [
     fact2: "He founded his hedge fund firm, Elliott Management, in 1977 with $1.3 million. The firm now has some $35 billion in assets under management.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 257,
@@ -4384,7 +4384,7 @@ const forbesData = [
     fact2: "He is president and founder of the Arcus Foundation, which supports the advancement of LGBT human rights and the conservation of great apes.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 258,
@@ -4401,7 +4401,7 @@ const forbesData = [
     fact2: "He stepped down as CEO in 2014 after being diagnosed with Parkinson's disease.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 259,
@@ -4418,7 +4418,7 @@ const forbesData = [
     fact2: "Today his grandson, Brendan Bechtel, is CEO and chairman of the $32.9 billion (sales) company.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 260,
@@ -4435,7 +4435,7 @@ const forbesData = [
     fact2: "He also owns oil refinery United Refining in Pennsylvania, which he bought out of bankruptcy, and real estate in New York and beyond.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 261,
@@ -4452,7 +4452,7 @@ const forbesData = [
     fact2: "His Westlake Financial Services works with more than 25,000 car dealerships in all 50 states to provide car loans to people with bad, or no, credit.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 262,
@@ -4469,7 +4469,7 @@ const forbesData = [
     fact2: "Eight years later, the couple bought five trucks and seven trailers to launch J.B. Hunt Transport Services.",
     charityData: true,
     lifetimeGiving: 0.05,
-    lifetimeGivingPct: "2%"
+    lifetimeGivingPct: "2%",
   },
   {
     id: 263,
@@ -4486,7 +4486,7 @@ const forbesData = [
     fact2: "Loeb is known for launching activist campaigns against corporate boards, shaking up companies in various industries and countries.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 264,
@@ -4503,7 +4503,7 @@ const forbesData = [
     fact2: "She sits on Campbell's board alongside her billionaire brother, Bennett Dorrance.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 265,
@@ -4520,7 +4520,7 @@ const forbesData = [
     fact2: "In 2018, Och relinquished the chief executive position at Och-Ziff, which named former banker Robert Shafir as CEO.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 266,
@@ -4537,7 +4537,7 @@ const forbesData = [
     fact2: "That small operation has ballooned into a publicly traded behemoth now called Constellation Brands, which generates over $7 billion in annual revenue.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 267,
@@ -4554,7 +4554,7 @@ const forbesData = [
     fact2: "That small operation has ballooned into a publicly traded behemoth now called Constellation Brands, which generates over $7 billion in annual revenue.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 268,
@@ -4571,7 +4571,7 @@ const forbesData = [
     fact2: "The core of his fortune is tied up in a half-dozen buildings in and around midtown Manhattan in New York City, where luxury real estate values have fallen recently.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 269,
@@ -4588,7 +4588,7 @@ const forbesData = [
     fact2: "He got his start in the 1970s selling beer and soda from the back of an old van in Brooklyn's toughest neighborhoods, where others refused to go.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 270,
@@ -4605,7 +4605,7 @@ const forbesData = [
     fact2: "It went public in 1995 and sold to Luxottica for $2.1 billion in 2007.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 271,
@@ -4622,7 +4622,7 @@ const forbesData = [
     fact2: "He achieved his first entrepreneurial success with an injectable drug and vaccine distributor, which eventually sold for $145 million.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 272,
@@ -4639,7 +4639,7 @@ const forbesData = [
     fact2: "Liemandt is known for founding Trilogy Software, a product and sales configuration software company that was prominent in the 1990s.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 273,
@@ -4656,7 +4656,7 @@ const forbesData = [
     fact2: "Moreno's initial fortune came from billboard advertising company Outdoor Systems, which he sold to Infinity Broadcasting for $8.7 billion in 1999.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 274,
@@ -4673,7 +4673,7 @@ const forbesData = [
     fact2: "His flash-sales site, Rue La La, acquired longtime rival Gilt Groupe for an undisclosed price in June 2018.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 275,
@@ -4690,7 +4690,7 @@ const forbesData = [
     fact2: "In the beginning, Harbor Freight was a mail-order business that sold tools out of a small shop in North Hollywood.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 276,
@@ -4707,7 +4707,7 @@ const forbesData = [
     fact2: "She became a billionaire in 2017 on her 35th birthday, when she received the final portion of her inheritance.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 277,
@@ -4724,7 +4724,7 @@ const forbesData = [
     fact2: "He combined 9 of his companies that were AI-focused into a new group called SymphonyAI in 2017.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 278,
@@ -4741,7 +4741,7 @@ const forbesData = [
     fact2: "He resigned as Wynn Resorts' chairman and CEO in February 2018 after dozens of women accused him of sexual misconduct.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 279,
@@ -4758,7 +4758,7 @@ const forbesData = [
     fact2: "Breyer is brother-in-law of Senate Majority Leader Mitch McConnell and his wife, U. S. Secretary of Transportation Secretary Elaine Chao.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 280,
@@ -4775,7 +4775,7 @@ const forbesData = [
     fact2: "Conway stepped down as co-CEO in January 2018 and now serves as co-executive chairman with cofounder and billionaire David Rubenstein.",
     charityData: true,
     lifetimeGiving: 0.3,
-    lifetimeGivingPct: "9%"
+    lifetimeGivingPct: "9%",
   },
   {
     id: 281,
@@ -4792,7 +4792,7 @@ const forbesData = [
     fact2: "He stepped down as chairman in January 2018 and now serves as chairman emeritus of Carlyle, which has $210 billion in assets under management.",
     charityData: true,
     lifetimeGiving: 0.42,
-    lifetimeGivingPct: "13%"
+    lifetimeGivingPct: "13%",
   },
   {
     id: 282,
@@ -4809,7 +4809,7 @@ const forbesData = [
     fact2: "He founded Allegis (then called Aerotek) in 1983 with his cousin Steve Bisciotti, who is also a billionaire.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 283,
@@ -4826,7 +4826,7 @@ const forbesData = [
     fact2: "Under Debartolo's ownership, the San Francisco 49ers won five championships during the 1980's and 1990's.",
     charityData: true,
     lifetimeGiving: 0.1,
-    lifetimeGivingPct: "3%"
+    lifetimeGivingPct: "3%",
   },
   {
     id: 284,
@@ -4843,7 +4843,7 @@ const forbesData = [
     fact2: "His first big success was in 2002, when he and his billionaire friend Ronald Perelman sold Golden State Bancorp to Citigroup for $6 billion in stock.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 285,
@@ -4860,7 +4860,7 @@ const forbesData = [
     fact2: "Under Gray, Blackstone's real estate investments became one of its most valuable portfolios, with $120 billion in assets.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 286,
@@ -4877,7 +4877,7 @@ const forbesData = [
     fact2: "The $2.6 billion (sales) company is the world's largest self-storage business, with more than 2,300 locations throughout the U.S. and Europe.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 287,
@@ -4894,7 +4894,7 @@ const forbesData = [
     fact2: "Lauder joined Estee Lauder in 1996, a year after graduating from Stanford. Before Clinique, she managed Origins, maker of all-natural makeup.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 288,
@@ -4911,7 +4911,7 @@ const forbesData = [
     fact2: "Rubenstein got his start as a Carter Administration official and later became an attorney.",
     charityData: true,
     lifetimeGiving: 0.675,
-    lifetimeGivingPct: "19%"
+    lifetimeGivingPct: "19%",
   },
   {
     id: 289,
@@ -4928,7 +4928,7 @@ const forbesData = [
     fact2: "His first brokerage, Ryan Insurance Co., merged with Combined Insurance Co. in 1982 to form AON, one of the largest insurance firms today.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 290,
@@ -4945,7 +4945,7 @@ const forbesData = [
     fact2: "Saban, who bought the franchise back in 2010, sold Power Rangers for a second time in 2017, this time to Hasbro in a $522 million deal.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 291,
@@ -4962,7 +4962,7 @@ const forbesData = [
     fact2: "Schultz expanded Starbucks from 11 stores to more than 28,000 worldwide and made it a social hub for many Americans.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 292,
@@ -4979,7 +4979,7 @@ const forbesData = [
     fact2: "The company, which was initially started as a clean energy firm, is chasing the lucrative Internet of Things market, adding IoT to its name in 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 293,
@@ -4996,7 +4996,7 @@ const forbesData = [
     fact2: "The developer has a Ph.D. in computer science from Stanford, and worked on one of the first personal computers at Xerox.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 294,
@@ -5013,7 +5013,7 @@ const forbesData = [
     fact2: "Taylor, who worked at the wedding business throughout college, stepped down as CEO of Taylor Corp. in 2015; he remains chairman.",
     charityData: true,
     lifetimeGiving: 0.041,
-    lifetimeGivingPct: "1%"
+    lifetimeGivingPct: "1%",
   },
   {
     id: 295,
@@ -5030,7 +5030,7 @@ const forbesData = [
     fact2: "Wrigley Jr., who was CEO, expanded the company in 2005 by purchasing Altoids and Life Savers from Kraft Foods for $1.46 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 296,
@@ -5047,7 +5047,7 @@ const forbesData = [
     fact2: "Zuckerman became a U.S. citizen in 1977, and took Boston Properties public two decades later, in June 1997.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 297,
@@ -5064,7 +5064,7 @@ const forbesData = [
     fact2: "She is now the owner of both teams, despite a multi-year dispute with Tom's daughter and grandchildren over control of family assets.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 298,
@@ -5081,7 +5081,7 @@ const forbesData = [
     fact2: "He was appointed to Gap's board of directors in October 2018. His brothers Robert and William also sit on the board.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 299,
@@ -5098,7 +5098,7 @@ const forbesData = [
     fact2: "Peery, who dropped out of the Stanford MBA program, had gained early experience managing his father's small property portfolio.",
     charityData: true,
     lifetimeGiving: 0.5,
-    lifetimeGivingPct: "15%"
+    lifetimeGivingPct: "15%",
   },
   {
     id: 300,
@@ -5115,7 +5115,7 @@ const forbesData = [
     fact2: "Winfrey parlayed her role as a news anchor into a 25-year talk show gig. Reinvested, the profits from her show add up to nearly $2 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 301,
@@ -5132,7 +5132,7 @@ const forbesData = [
     fact2: "Coleman's Tiger Global hedge fund has a long record of delivering fantastic returns.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 302,
@@ -5149,7 +5149,7 @@ const forbesData = [
     fact2: "The couple raised $63,000 to open their first store, which sold jeans and music, in San Francisco.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 303,
@@ -5166,7 +5166,7 @@ const forbesData = [
     fact2: "GLG went public in 2007 and was sold to Man Group for $1.6 billion in 2010. Gottesman stepped down as CEO at the time of the sale.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 304,
@@ -5183,7 +5183,7 @@ const forbesData = [
     fact2: "In October 2017, Warren Buffett's Berkshire Hathaway announced it would acquire 39% of Pilot for a reported $2.7 billion and then another 41% by 2023.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 305,
@@ -5200,7 +5200,7 @@ const forbesData = [
     fact2: "Houston cofounded the company in 2007, when he was 24, with MIT classmate Arash Ferdowsi.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 306,
@@ -5217,7 +5217,7 @@ const forbesData = [
     fact2: "He grew up with the Colts, living with the team during summer camp and traveling on the team bus.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 307,
@@ -5234,7 +5234,7 @@ const forbesData = [
     fact2: "Jacobs created XPO Logistics in 2011 and has expanded it with some $8 billion in deals; he owns just under 14% of the NYSE-listed company.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 308,
@@ -5251,7 +5251,7 @@ const forbesData = [
     fact2: "Parker is now a venture capital investor and philanthropist.",
     charityData: true,
     lifetimeGiving: 0.66,
-    lifetimeGivingPct: "20%"
+    lifetimeGivingPct: "20%",
   },
   {
     id: 309,
@@ -5268,7 +5268,7 @@ const forbesData = [
     fact2: "A key fundraiser for President Obama ahead of his election, Pritzker was the U.S. Secretary of Commerce from 2013 to 2017.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 310,
@@ -5285,7 +5285,7 @@ const forbesData = [
     fact2: "Son of a grocer, Ruffin dropped out of college to sell hamburgers with his buddies, then used the profits to buy convenience stores.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 311,
@@ -5302,7 +5302,7 @@ const forbesData = [
     fact2: "He built the company's financial products, most notably its lucrative terminal business.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 312,
@@ -5319,7 +5319,7 @@ const forbesData = [
     fact2: "His parents L.S. and Anna Mary Shoen cofounded the truck and trailer rental company back in 1945.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 313,
@@ -5336,7 +5336,7 @@ const forbesData = [
     fact2: "The outfit underwrote Wal-Mart's public offering in 1970.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 314,
@@ -5353,7 +5353,7 @@ const forbesData = [
     fact2: "Now he is investing in startups through his firm S-Cubed Capital.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 315,
@@ -5370,7 +5370,7 @@ const forbesData = [
     fact2: "Argyros, a real estate mogul, founded property firm Arnel & Affiliates in southern California in 1968 and currently serves as the CEO.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 316,
@@ -5387,7 +5387,7 @@ const forbesData = [
     fact2: "Davis stepped down as co-CEO in 2007 but still owns 6% of the listed company.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 317,
@@ -5404,7 +5404,7 @@ const forbesData = [
     fact2: "He slept in his car and sold shampoo door-to-door before he teamed up with Paul Mitchell in 1980 and turned $700 into John Paul Mitchell Systems.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 318,
@@ -5421,7 +5421,7 @@ const forbesData = [
     fact2: "Dorrance is a founding partner of DMB Associates, a real estate development firm with projects in Arizona, Utah, California and Hawaii.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 319,
@@ -5438,7 +5438,7 @@ const forbesData = [
     fact2: "In September 2018 the SEC accused him of participating in a \"pump-and-dump\" scheme that generated over $27 million from unlawful stock sales.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 320,
@@ -5455,7 +5455,7 @@ const forbesData = [
     fact2: "Henry and his partner Tom Werner bought the Boston Red Sox in 2002 for $380 million and delivered the Sox' first World Series win in 86 years in 2004.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 321,
@@ -5472,7 +5472,7 @@ const forbesData = [
     fact2: "As of January 2019, Mandel will no longer manage investments for his Lone Pine Capital but will remain a managing director.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 322,
@@ -5489,7 +5489,7 @@ const forbesData = [
     fact2: "As a young urban planner, Perez met developer Stephen Ross, which led to a partnership. Today Ross' affiliate Related Companies owns a 25% stake.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 323,
@@ -5506,7 +5506,7 @@ const forbesData = [
     fact2: "After five years as the VP, Rothschild took on an advisory role, and left Facebook in June 2015.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 324,
@@ -5523,7 +5523,7 @@ const forbesData = [
     fact2: "The Sioux Falls-based bank has just 12 branches, but is one of the largest issuers of Visa and Mastercards -- many with steep rates and low limits.",
     charityData: true,
     lifetimeGiving: 1.6,
-    lifetimeGivingPct: "38%"
+    lifetimeGivingPct: "38%",
   },
   {
     id: 325,
@@ -5540,7 +5540,7 @@ const forbesData = [
     fact2: "Warner now gets a chunk of his fortune from his high-end-hotel portfolio, which includes the Four Seasons in New York.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 326,
@@ -5557,7 +5557,7 @@ const forbesData = [
     fact2: "InterTech was founded in 1982 by Zucker's late husband, Jerry, who died of a brain tumor in 2008 at age 58.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 327,
@@ -5574,7 +5574,7 @@ const forbesData = [
     fact2: "Arrillaga partnered with Richard \"Dick\" Peery, buying farmland in Silicon Valley in the 1960s and turning it into office parks.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 328,
@@ -5591,7 +5591,7 @@ const forbesData = [
     fact2: "He bought, a hearing aid parts shop, which was then called Starkey Labs, for $13,000 in 1970.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 329,
@@ -5608,7 +5608,7 @@ const forbesData = [
     fact2: "The brothers parlayed their inheritance into multi-billion dollar fortunes with the help of bets on oil that paid off big.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 330,
@@ -5625,7 +5625,7 @@ const forbesData = [
     fact2: "In one of the biggest scores of the oil boom, GeoSouthern sold its south Texas fields to Devon Energy for $6 billion in 2013.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 331,
@@ -5642,7 +5642,7 @@ const forbesData = [
     fact2: "The family business started as Columbia Hat Company in Portland, founded in 1938 by Boyle's grandparents, who had fled Nazi Germany for the U.S.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 332,
@@ -5659,7 +5659,7 @@ const forbesData = [
     fact2: "The $3.2 billion (estimated revenues) business makes buffalo wings and chicken strips for Walmart and nuggets for Burger King.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 333,
@@ -5676,7 +5676,7 @@ const forbesData = [
     fact2: "With brother Nelson Bunker Hunt (d. 2014), he tried to corner the world silver market until the price of the metal collapsed 80% in 1980.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 334,
@@ -5693,7 +5693,7 @@ const forbesData = [
     fact2: "Lefkofsky remains Groupon chairman, but spends the bulk of his time running healthcare startup Tempus, which uses data to improve cancer treatment.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 335,
@@ -5710,7 +5710,7 @@ const forbesData = [
     fact2: "Metropoulos and private equity firm Apollo bought the shuttered company in 2013 and later took it public.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 336,
@@ -5727,7 +5727,7 @@ const forbesData = [
     fact2: "Parsons first sold a majority stake of GoDaddy in 2011 to private equity investors KKR, Silver Lake and TCV. The firm went public in 2015.",
     charityData: true,
     lifetimeGiving: 0.1615,
-    lifetimeGivingPct: "6%"
+    lifetimeGivingPct: "6%",
   },
   {
     id: 337,
@@ -5744,7 +5744,7 @@ const forbesData = [
     fact2: "Pritzker went on to build Commune Hotels and Resorts, a boutique hotel management company, which after a merger in 2016 became Two Roads Hospitality.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 338,
@@ -5761,7 +5761,7 @@ const forbesData = [
     fact2: "He also cofounded CIA-backed big data startup Palantir, recently valued at $20 billion; his estimated 10% stake makes up two-thirds of his wealth.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 339,
@@ -5778,7 +5778,7 @@ const forbesData = [
     fact2: "In 1983, at age 27, he started Pegasystems, a software company that focuses on streamlining business and enhancing customer engagement.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 340,
@@ -5795,7 +5795,7 @@ const forbesData = [
     fact2: "Yang served as Yahoo's CEO but stepped down in 2009 after turning down an acquisition offer from Microsoft. He left Yahoo's board in 2012.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 341,
@@ -5812,7 +5812,7 @@ const forbesData = [
     fact2: "The value of the team, estimated at $3 billion, increased following the 2014 opening of a new $1.2 billion stadium 40 miles south of San Francisco.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 342,
@@ -5829,7 +5829,7 @@ const forbesData = [
     fact2: "The Atlanta-based company has facilitated $13 billion in loans for home improvement projects via a network of banks and 13,000 contractors.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 343,
@@ -5846,7 +5846,7 @@ const forbesData = [
     fact2: "The brothers parlayed their inheritance into multi-billion dollar fortunes with the help of bets on oil and pipelines that paid off big.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 344,
@@ -5863,7 +5863,7 @@ const forbesData = [
     fact2: "Braman made his first fortune retailing vitamins and drugs, but now sells BMWs, Porsches, Rolls-Royces, Hondas and Hyundais in Florida and Colorado.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 345,
@@ -5880,7 +5880,7 @@ const forbesData = [
     fact2: "Today the $2.6 billion (est. sales) harvests, processes and markets frozen and fresh seafood and has operations in China, Japan and Germany.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 346,
@@ -5897,7 +5897,7 @@ const forbesData = [
     fact2: "Feld Entertainment grew out of Ringling Bros. circus, which was shut down in May 2017 due to falling ticket sales.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 347,
@@ -5914,7 +5914,7 @@ const forbesData = [
     fact2: "A Harvard Business School graduate, Gottesman co-founded the investment firm First Manhattan Co., which was an early investor in Berkshire Hathaway.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 348,
@@ -5931,7 +5931,7 @@ const forbesData = [
     fact2: "He built Commonwealth Brands, maker of USA Gold and Malibu cigarettes, and sold it for $1 billion in 2001.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 349,
@@ -5948,7 +5948,7 @@ const forbesData = [
     fact2: "Pritzker has been working on a film, Bolden!, a biographical drama about New Orleans trumpeter Buddy Bolden, on and off for a decade.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 350,
@@ -5965,7 +5965,7 @@ const forbesData = [
     fact2: "Spanos bought his controlling stake in the Chargers in 1984. His grandchildren John and A.G. run the team, worth $1.9 billion net of debt.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 351,
@@ -5982,7 +5982,7 @@ const forbesData = [
     fact2: "Virtu bought one of its speed-trading rivals, KCG Holdings Inc, for $1.4 billion and completed the merger in June 2017.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 352,
@@ -5999,7 +5999,7 @@ const forbesData = [
     fact2: "Walentas owns 20 residential and commercial properties across Dumbo, Brooklyn Heights, Williamsburg and Manhattan.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 353,
@@ -6016,7 +6016,7 @@ const forbesData = [
     fact2: "The buy-and-hold investor defended his bet on Tesla in September, predicting he'll make 20 times his money by 2030.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 354,
@@ -6033,7 +6033,7 @@ const forbesData = [
     fact2: "Gangwal started his airline career with United Airlines in 1984 and went on to run US Airways Group as its chief executive and chairman.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 355,
@@ -6050,7 +6050,7 @@ const forbesData = [
     fact2: "The publicly-traded insurance company was cofounded by his late wife Susan's father, H. O. Hirt, and his friend O. G. Crawford.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 356,
@@ -6067,7 +6067,7 @@ const forbesData = [
     fact2: "Samumed said it raised $438 million in August 2018 to further its work developing drugs to reverse aging, claiming a valuation of $12.4 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 357,
@@ -6084,7 +6084,7 @@ const forbesData = [
     fact2: "Born in Bangkok, Lee grew up in South Korea and moved to the U.S. for high school.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 358,
@@ -6101,7 +6101,7 @@ const forbesData = [
     fact2: "McLane became president and CEO of the company and ran it for almost 30 years, averaging a yearly sales growth of 30%.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 359,
@@ -6118,7 +6118,7 @@ const forbesData = [
     fact2: "Snapchat lets users share disappearing messages or photos and videos with captions, masks and filters.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 360,
@@ -6135,7 +6135,7 @@ const forbesData = [
     fact2: "On 18,000 acres of pasture outside Fort Worth, Perot's Hillwood built AllianceTexas, an \"inland port\" and logistics center.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 361,
@@ -6152,7 +6152,7 @@ const forbesData = [
     fact2: "Rahr is known for his extravagant lifestyle, which he funds through conservative investments in private equity, hedge funds and natural resources.",
     charityData: true,
     lifetimeGiving: 0.16,
-    lifetimeGivingPct: "7%"
+    lifetimeGivingPct: "7%",
   },
   {
     id: 362,
@@ -6169,7 +6169,7 @@ const forbesData = [
     fact2: "His company acquired TD Waterhouse for $2.9 billion in stock and cash in 2006 and renamed itself TD Ameritrade.",
     charityData: true,
     lifetimeGiving: 0.27,
-    lifetimeGivingPct: "11%"
+    lifetimeGivingPct: "11%",
   },
   {
     id: 363,
@@ -6186,7 +6186,7 @@ const forbesData = [
     fact2: "Robbins is known for his hot and cold streaks. He posted double-digit returns in 2017 after losing money the previous two years.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 364,
@@ -6203,7 +6203,7 @@ const forbesData = [
     fact2: "Each day some 191 million people use Snapchat to send disappearing messages;  the app faces growing competition from Facebook-owned Instagram.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 365,
@@ -6220,7 +6220,7 @@ const forbesData = [
     fact2: "The healthcare heir has given $185 million to charity over her lifetime, primarily\nthrough her Bohemian Foundation.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 366,
@@ -6237,7 +6237,7 @@ const forbesData = [
     fact2: "Young and his father founded Plastipak in 1967, shortly after Bill graduated from the University of Detroit Mercy with an engineering degree.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 367,
@@ -6254,7 +6254,7 @@ const forbesData = [
     fact2: "Christopher sold a 49% stake to the Carlyle Group in 2014 and 51% to Johnson & Johnson for $3.3 billion in cash in June 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 368,
@@ -6271,7 +6271,7 @@ const forbesData = [
     fact2: "The former Stanford professor got in early on Apple, Facebook, Twitter, and Palantir.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 369,
@@ -6288,7 +6288,7 @@ const forbesData = [
     fact2: "He started the business in 2002 with Niraj Shah, a fellow billionaire. The two met as high school students at a summer program at Cornell University.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 370,
@@ -6305,7 +6305,7 @@ const forbesData = [
     fact2: "Coulter met his longtime business partner David Bonderman while working for billionaire Robert Bass. The pair left in 1992 to found TPG.",
     charityData: true,
     lifetimeGiving: 0.06,
-    lifetimeGivingPct: "3%"
+    lifetimeGivingPct: "3%",
   },
   {
     id: 371,
@@ -6322,7 +6322,7 @@ const forbesData = [
     fact2: "In 2014 Dinan purchased a minority stake in the NBA's Milwaukee Bucks, partnering with fellow financial investors Marc Lasry and Wes Edens.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 372,
@@ -6339,7 +6339,7 @@ const forbesData = [
     fact2: "Gores and his younger brother Tom, also a billionaire, immigrated to America from Israel with their parents and four other siblings in 1968.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 373,
@@ -6356,7 +6356,7 @@ const forbesData = [
     fact2: "His firm, Khosla Ventures, invests in experimental technologies such as biomedicine and robotics.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 374,
@@ -6373,7 +6373,7 @@ const forbesData = [
     fact2: "Lauder has worked for Estee Lauder, founded by her grandmother, since 1992. She served as a board member from 2004 to 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 375,
@@ -6390,7 +6390,7 @@ const forbesData = [
     fact2: "Mathile bought the whole business in 1982, when it had $13 million in sales. The big payday came in 1999, when P&G acquired it for $2.3 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 376,
@@ -6407,7 +6407,7 @@ const forbesData = [
     fact2: "He started the business in 2002 with Steve Conine, a fellow billionaire. The two met as high school students at a program at Cornell University.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 377,
@@ -6424,7 +6424,7 @@ const forbesData = [
     fact2: "Born in India, Shriram studied math at the University of Madras. After moving to the U.S. he joined Netscape in 1994 as an executive.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 378,
@@ -6441,7 +6441,7 @@ const forbesData = [
     fact2: "After taking the company public in 1996, Snyder sold it to French company Havas for $2.5 billion in 2000.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 379,
@@ -6458,7 +6458,7 @@ const forbesData = [
     fact2: "He sold Turner to Time Warner for $7.3 billion in stock in 1996 and, after Time Warner bought AOL in 2001, saw his fortune tumble as shares dropped.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 380,
@@ -6475,7 +6475,7 @@ const forbesData = [
     fact2: "Her ex-husband and cofounder Steve Wynn cashed out entirely and stepped down as CEO amid sexual harassment allegations, which he has denied.",
     charityData: true,
     lifetimeGiving: 0.125,
-    lifetimeGivingPct: "5%"
+    lifetimeGivingPct: "5%",
   },
   {
     id: 381,
@@ -6492,7 +6492,7 @@ const forbesData = [
     fact2: "Business grew due to the proliferation of tribal casinos; Yarbrough says he's worked with around 35 tribes in more than 100 locations over the years.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 382,
@@ -6509,7 +6509,7 @@ const forbesData = [
     fact2: "Abraham sold the weight loss and meal substitute company to Unilever for $2.3 billion in cash in 2000.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 383,
@@ -6526,7 +6526,7 @@ const forbesData = [
     fact2: "Alexander paid $85 million for the Rockets in 1993, just before Hakeem Olajuwon led the team to NBA titles in the next two seasons.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 384,
@@ -6543,7 +6543,7 @@ const forbesData = [
     fact2: "Mailchimp's email marketing software for small businesses garnered enough customers that in 2007 they committed to it full time.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 385,
@@ -6560,7 +6560,7 @@ const forbesData = [
     fact2: "She's one of four billionaire sisters who inherited stakes in the company from their father W. Duncan MacMillan, who died in 2006.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 386,
@@ -6577,7 +6577,7 @@ const forbesData = [
     fact2: "Dubin's fortune comes from Highbridge Capital, which he cofounded in 1992 and then sold to JP Morgan Chase in 2004.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 387,
@@ -6594,7 +6594,7 @@ const forbesData = [
     fact2: "In May 2018, Frutarom was sold to International Flavors & Fragrances for $7.1 billion.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 388,
@@ -6611,7 +6611,7 @@ const forbesData = [
     fact2: "The brothers bought UFC for $2 million in 2001; it sold to an investment group led by WME/IMG for $4 billion in 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 389,
@@ -6628,7 +6628,7 @@ const forbesData = [
     fact2: "They bought UFC for $2 million in 2001; an investment group led by WME/IMG bought it for $4 billion in 2016.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 390,
@@ -6645,7 +6645,7 @@ const forbesData = [
     fact2: "Once the sole trustee of the family trust, Getty orchestrated the breakup into six separate trusts in 1985.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 391,
@@ -6662,7 +6662,7 @@ const forbesData = [
     fact2: "Mailchimp's email marketing software for small businesses garnered enough customers that in 2007 they committed to it full time.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 392,
@@ -6679,7 +6679,7 @@ const forbesData = [
     fact2: "Prior to that he cofounded online mortgage lender e-Loan in 1997 and in 2005 cofounded Prosper, a peer-to-peer lender.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 393,
@@ -6696,7 +6696,7 @@ const forbesData = [
     fact2: "In 1983, Lurie took an executive role at General Cinema Corporation, the film company founded by his grandfather.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 394,
@@ -6713,7 +6713,7 @@ const forbesData = [
     fact2: "She is one of four billionaire sisters who inherited stakes in the company from their father W. Duncan MacMillan, who died in 2006.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 395,
@@ -6730,7 +6730,7 @@ const forbesData = [
     fact2: "Ragon retains full ownership of the company, which had $644 million in 2017 sales.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 396,
@@ -6747,7 +6747,7 @@ const forbesData = [
     fact2: "Like Black, he had previously worked at Wall Street firm Drexel Burnham Lambert, where he was known for his role in the bond department.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 397,
@@ -6764,7 +6764,7 @@ const forbesData = [
     fact2: "Stitzer owns an estimated 3% stake in Cargill, the largest food company in the world.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 398,
@@ -6781,7 +6781,7 @@ const forbesData = [
     fact2: "She's one of four billionaire sisters who inherited stakes in the company from their father W. Duncan MacMillan, who died in 2006.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
+    lifetimeGivingPct: "",
   },
   {
     id: 399,
@@ -6798,8 +6798,8 @@ const forbesData = [
     fact2: "He started his first furniture manufacturing business, Arcadia Furniture, in 1970 with a loan from his father and money he got from selling his home.",
     charityData: false,
     lifetimeGiving: "",
-    lifetimeGivingPct: ""
-  }
-]
+    lifetimeGivingPct: "",
+  },
+];
 
 export default forbesData;
