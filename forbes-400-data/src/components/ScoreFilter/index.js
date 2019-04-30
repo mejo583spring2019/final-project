@@ -176,7 +176,7 @@ class ScoreFilter extends Component {
         </div>
         <BubbleChart2 showAll={this.state.showAll} showNA={this.state.showNA} showS1={this.state.showS1} showS2={this.state.showS2} showS3={this.state.showS3} showS4={this.state.showS4} showS5={this.state.showS5} />
         <div className="text-container">
-          <span class="details">*Two Forbes 400 members not represented due to missing age data</span>
+          <span className="details">*Two Forbes 400 members not represented due to missing age data</span>
           <span className="subheading">Filter by philanthropy score:</span>
           <div className="switch-field">
             <input type="checkbox" id="all-cb2" name="switch-score" value="all" checked={this.state.showAll} onChange={this.toggleAll.bind(this)} />

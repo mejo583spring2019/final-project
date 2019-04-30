@@ -79,11 +79,33 @@ class BubbleChart2 extends BubbleChart1 {
           display: false
         },
         title: {
-          text: ["Forbes 400 2018 Members:", "Age vs. Total Net Worth > $10B"],
-          fontFamily: "'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
-          fontSize: 18,
-          fontColor: "#333",
-          lineHeight: 1.4
+          display: true,
+          text: ""
+        },
+        tooltips: {
+          mode: "nearest",
+          titleFontFamily: "'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+          titleFontSize: 18,
+          displayColors: false,
+          bodyFontFamily: "'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+          bodyFontSize: 16,
+          callbacks: {
+            title: function (tooltipItem, data) {
+              const title = [];
+              for (let i = 0; i < tooltipItem.length; i++) {
+                title[i] = data.datasets[tooltipItem[i].datasetIndex].label
+              }
+              return title;
+            },
+            label: function (tooltipItem, data) {
+              const score = (data.datasets[tooltipItem.datasetIndex].data[0].r - 5) / 2;
+              const age = data.datasets[tooltipItem.datasetIndex].data[0].y;
+              const netWorth = data.datasets[tooltipItem.datasetIndex].data[0].x;
+              const label = "Score: " + score + ", Age: " + age + ", Total Net Worth: $" + netWorth + " B";
+              console.log(label);
+              return label;
+            }
+          }
         },
         scales: {
           yAxes: [{
