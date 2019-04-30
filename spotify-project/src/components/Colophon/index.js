@@ -41,7 +41,7 @@ export default class Colophon extends Component {
           in the case of the larger dataset. Most data from
           the larger dataset ended up being hardcoded due to
           issues with the tree structure and some changes
-          in plans. The smaller data set was fet straight
+          in plans. The smaller data set was fed straight
           into tabulator from its JSON file, which sorted it
           into a reactive table. Both datasets were retrieved
           from Kaggle.com, click the following links to
