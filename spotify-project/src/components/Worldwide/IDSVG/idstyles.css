@@ -1,0 +1,36 @@
+#IDFrame path {
+    stroke: #fff;
+    fill: rgb(255, 255, 255, .5);
+    stroke-dasharray: 1000;
+    opacity: 10;
+    animation: IDanimate 3s cubic-bezier(.42,0,.58,1);
+}
+
+
+#IDSVG {
+    margin-top: 12vh;
+    width: 91.5vw;
+}
+
+@keyframes IDanimate {
+    0%{
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 0;
+    }
+    25% {
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 1000;
+    }
+    50% {
+        opacity: 10;
+        fill: none;
+    }
+    90% {
+        fill: rgba(255,255,255,0);
+    }
+    100%{
+        fill: rgb(255, 255, 255, .5);
+    }
+}

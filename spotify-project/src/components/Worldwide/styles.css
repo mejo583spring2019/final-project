@@ -64,7 +64,7 @@
     font-family: 'Montserrat', sans-serif;
     border: 0px;
     background-color: white;
-    width: 25%;   
+    width: 20%;   
     display: flex;
     text-align: center;
     justify-content: center;
@@ -77,11 +77,11 @@
 }
 
 #FCO {
-    border-radius: 2px 0px 0px 2px;
+    border-radius: 2.2px 0px 0px 2.2px;
 }
 
 #LCO{
-    border-radius: 0px 2px 2px 0px;
+    border-radius: 0px 2.2px 2.2px 0px;
 }
 
 .CountryOption:hover{
@@ -133,7 +133,7 @@
     font-weight: 500; 
 }
 
-#USTable, #JPTable, #DETable, #BRTable{
+#USTable, #JPTable, #DETable, #BRTable, #IDTable{
     margin-top: 0;
     margin-bottom: 0;
     background-color: white;

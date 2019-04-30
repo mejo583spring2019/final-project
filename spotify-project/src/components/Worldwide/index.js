@@ -4,10 +4,12 @@ import USSVG from "./USSVG/svg";
 import DESVG from "./DESVG/svg";
 import BRSVG from "./BRSVG/svg";
 import JPSVG from "./JPSVG/svg";
+import IDSVG from "./IDSVG/svg";
 import USTable from "../USTable";
 import JPTable from "../JPTable";
 import DETable from "../DETable";
 import BRTable from "../BRTable";
+import IDTable from "../IDTable";
 
 import "./styles.css";
 
@@ -30,12 +32,14 @@ class Worldwide extends Component {
       showDE: false,
       showJP: false,
       showBR: false,
+      showID: false,
     };
 
     this.toggleUS = this.toggleUS.bind(this);
     this.toggleDE = this.toggleDE.bind(this);
     this.toggleJP = this.toggleJP.bind(this);
     this.toggleBR = this.toggleBR.bind(this);
+    this.toggleID = this.toggleID.bind(this);
   }
 
   /**
@@ -47,6 +51,7 @@ class Worldwide extends Component {
     this.setState({ showDE: false });
     this.setState({ showJP: false });
     this.setState({ showBR: false });
+    this.setState({ showID: false });
     this.setState({ showDefaultSVG: false });
     const { showUS } = this.state;
     this.setState({ showUS: !showUS });
@@ -61,6 +66,7 @@ class Worldwide extends Component {
     this.setState({ showUS: false });
     this.setState({ showJP: false });
     this.setState({ showBR: false });
+    this.setState({ showID: false });
     this.setState({ showDefaultSVG: false });
     const { showDE } = this.state;
     this.setState({ showDE: !showDE });
@@ -75,6 +81,7 @@ class Worldwide extends Component {
     this.setState({ showUS: false });
     this.setState({ showDE: false });
     this.setState({ showBR: false });
+    this.setState({ showID: false });
     this.setState({ showDefaultSVG: false });
     const { showJP } = this.state;
     this.setState({ showJP: !showJP });
@@ -89,9 +96,25 @@ class Worldwide extends Component {
     this.setState({ showUS: false });
     this.setState({ showDE: false });
     this.setState({ showJP: false });
+    this.setState({ showID: false });
     this.setState({ showDefaultSVG: false });
     const { showBR } = this.state;
     this.setState({ showBR: !showBR });
+  }
+
+  /**
+   * Toggle iD turns all other countries off and removes
+   * the default SVG before toggling showID
+   *
+   */
+  toggleID() {
+    this.setState({ showUS: false });
+    this.setState({ showDE: false });
+    this.setState({ showJP: false });
+    this.setState({ showBR: false });
+    this.setState({ showDefaultSVG: false });
+    const { showID } = this.state;
+    this.setState({ showID: !showID });
   }
 
   /**
@@ -110,7 +133,7 @@ class Worldwide extends Component {
           <p id="WorldwideIntro"> Spotify is used by more
           than <span className="bold">207,000,000 </span>
           music lovers in <span className="bold">60 different countries </span>
-          around the world. Here's how 4 of those countries listened
+          around the world. Here's how 5 of those countries listened
           throughout 2017.
           </p>
         </div>
@@ -122,8 +145,10 @@ class Worldwide extends Component {
               onClick={ this.toggleDE }>Germany</button>
             <button className="CountryOption"
               onClick={ this.toggleJP }>Japan</button>
-            <button id="LCO" className="CountryOption"
+            <button className="CountryOption"
               onClick={ this.toggleBR }>Brazil</button>
+            <button id="LCO" className="CountryOption"
+              onClick={ this.toggleID }>Indonesia</button>
           </div>
           <div id="CountryDisplay">
             <div className="SVGPad"></div>
@@ -133,6 +158,7 @@ class Worldwide extends Component {
               { this.state.showDE && <DESVG></DESVG> }
               { this.state.showJP && <JPSVG></JPSVG> }
               { this.state.showBR && <BRSVG></BRSVG> }
+              { this.state.showID && <IDSVG></IDSVG> }
             </div>
             <div className="SVGPad"></div>
           </div>
@@ -141,6 +167,7 @@ class Worldwide extends Component {
             { this.state.showDE && <DETable></DETable> }
             { this.state.showJP && <JPTable></JPTable> }
             { this.state.showBR && <BRTable></BRTable> }
+            { this.state.showID && <IDTable></IDTable> }
           </div>
         </div>
       </div>
