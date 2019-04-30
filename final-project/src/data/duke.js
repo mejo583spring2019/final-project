@@ -1,0 +1,30 @@
+const duke = [
+  {
+    "latest.completion.completion_rate_4yr_150_black": 0.9506,
+    "latest.completion.completion_rate_4yr_150nt": 0.9457,
+    "latest.completion.completion_rate_4yr_150_hispanic": 0.9669,
+    "latest.student.demographics.race_ethnicity.non_resident_alien": 0.1025,
+    "latest.completion.completion_rate_4yr_150_white": 0.9498,
+    "latest.completion.completion_rate_4yr_150_race.unknown": 0.9565,
+    "school.name": "Duke University",
+    "latest.completion.completion_rate_4yr_150_nhpi": 1,
+    "latest.student.demographics.race_ethnicity.two_or_more": 0.0167,
+    "latest.student.size": 6467,
+    "latest.student.demographics.race_ethnicity.black": 0.0983,
+    "latest.student.demographics.race_ethnicity.aian": 0.0059,
+    "latest.student.demographics.race_ethnicity.nhpi": 0.0008,
+    "latest.completion.completion_rate_4yr_150_asian": 0.9469,
+    "latest.completion.completion_rate_4yr_150_aian": 0.9167,
+    "latest.student.demographics.race_ethnicity.black_non_hispanic": 0.0983,
+    "latest.student.demographics.race_ethnicity.hispanic": 0.0816,
+    "latest.completion.completion_rate_4yr_150_2ormore": 0.8947,
+    "latest.student.demographics.race_ethnicity.asian": 0.2165,
+    "latest.student.demographics.race_ethnicity.unknown": 0.022,
+    "latest.student.demographics.race_ethnicity.asian_pacific_islander": 0.2156,
+    "id": 198419,
+    "latest.student.demographics.race_ethnicity.white": 0.4557,
+    "latest.student.demographics.race_ethnicity.white_non_hispanic": 0.4659,
+  },
+];
+
+export default duke;

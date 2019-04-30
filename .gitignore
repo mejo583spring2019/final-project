@@ -1,6 +1,9 @@
 # Don't include VS Code workspace settings
 .vscode
 
+# Don't include Raw data 
+CollegeScorecard_Raw_Data.zip
+
 # Don't include .env files
 .env
 
