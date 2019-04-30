@@ -1,0 +1,19 @@
+svg{
+    fill:#dbd9d9;
+}
+
+svg text{
+    fill: black;
+}
+
+#tooltip{
+    display: flex;
+    flex-direction: column;
+    border: 1pt #dbd9d9 solid;
+    width: 300px;
+   align-items: center;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 5px;
+}
+

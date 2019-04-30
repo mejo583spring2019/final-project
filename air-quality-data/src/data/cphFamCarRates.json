@@ -1,0 +1,68 @@
+{
+   "2007": {
+      "Location": "Copenhagen",
+      "Families, total": 316243,
+      "Families with cars, total": 90187,
+      "FamCarOwnershipRates": 28.51825969
+   },
+   "2008": {
+      "Location": "Copenhagen",
+      "Families, total": 320198,
+      "Families with cars, total": 92952,
+      "FamCarOwnershipRates": 29.02953797
+   },
+   "2009": {
+      "Location": "Copenhagen",
+      "Families, total": 325064,
+      "Families with cars, total": 93922,
+      "FamCarOwnershipRates": 28.89338715
+   },
+   "2010": {
+      "Location": "Copenhagen",
+      "Families, total": 330298,
+      "Families with cars, total": 92857,
+      "FamCarOwnershipRates": 28.11309787
+   },
+   "2011": {
+      "Location": "Copenhagen",
+      "Families, total": 336390,
+      "Families with cars, total": 94032,
+      "FamCarOwnershipRates": 27.95326853
+   },
+   "2012": {
+      "Location": "Copenhagen",
+      "Families, total": 340380,
+      "Families with cars, total": 95257,
+      "FamCarOwnershipRates": 27.98548681
+   },
+   "2013": {
+      "Location": "Copenhagen",
+      "Families, total": 345778,
+      "Families with cars, total": 95330,
+      "FamCarOwnershipRates": 27.56971236
+   },
+   "2014": {
+      "Location": "Copenhagen",
+      "Families, total": 350862,
+      "Families with cars, total": 99711,
+      "FamCarOwnershipRates": 28.41886554
+   },
+   "2015": {
+      "Location": "Copenhagen",
+      "Families, total": 356351,
+      "Families with cars, total": 102526,
+      "FamCarOwnershipRates": 28.77107122
+   },
+   "2016": {
+      "Location": "Copenhagen",
+      "Families, total": 363002,
+      "Families with cars, total": 105149,
+      "FamCarOwnershipRates": 28.96650707
+   },
+   "2017": {
+      "Location": "Copenhagen",
+      "Families, total": 368499,
+      "Families with cars, total": 107727,
+      "FamCarOwnershipRates": 29.23400064
+   }
+}
