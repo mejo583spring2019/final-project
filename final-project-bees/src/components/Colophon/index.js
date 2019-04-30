@@ -34,6 +34,16 @@ class Colophon extends React.Component {
                 as well as JavaScript to create a React App.
                 All work has been done on a Macbook Pro 2018.
 
+              <br />
+              <div class="sources">
+              Sources:
+                <a href="https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en"> The USDA</a> /
+                <a href="https://www.nrdc.org/sites/default/files/bees.pdf"> the NRDC </a> /
+                <a href="https://www.epa.gov/pollinator-protection/colony-collapse-disorder"> the EPA</a> /
+                <a href="https://unsplash.com/photos/LSEKIHE6low">Bee Photo by Annie Spratt from Unsplash</a> /
+                <a href="https://reneblooms.wixsite.com/reneblooms"> Tileable floral pattern by Rene Blooms</a>
+              </div>
+
             </p>
           </div>
 

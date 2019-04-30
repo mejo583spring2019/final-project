@@ -18,4 +18,4 @@ Manually entered data into highcharts component
 Installed flippy via npm and worked with it to create a "flip-card" effect
 
 # CREATED A COLOPHON 
-Created a colophon footer for reference 
+Created a colophon footer for reference and sources
