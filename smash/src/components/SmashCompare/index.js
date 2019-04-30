@@ -95,7 +95,6 @@ class SmashCompare extends Component {
 
   render() {
     const { error, isLoaded, items, charInfo } = this.state;
-    let color = ""
     if (error) {
       return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {

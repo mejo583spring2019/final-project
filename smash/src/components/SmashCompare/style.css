@@ -15,3 +15,15 @@
   height: 81vh;
 }
 
+#movement-info{
+  margin-right: 120px;
+}
+
+@media screen and (max-width: 600px) {
+  #flex, #charpicker {
+    flex-direction: column;
+  }
+  #movement-info{
+    margin-right: 0;
+  }
+}
