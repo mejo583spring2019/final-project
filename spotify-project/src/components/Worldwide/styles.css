@@ -101,9 +101,19 @@
     border: solid white;
     border-width: 0px 0px 0px 0px;
     border-radius: 0px 0px 5px 5px;
-    height: 40vh;
+    height: auto;
     margin: 0px 11.5px 0px 11.5px;
     background-color: #1DB954;
+}
+
+.SVGPad{
+    height: 25px;
+}
+
+#SVGHolder{
+    min-height: 60vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 #CountryData{

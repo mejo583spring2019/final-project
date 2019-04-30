@@ -13,8 +13,14 @@ class Top100 extends Component {
         </h1>
         <div id="Top100TitleUnderline"></div>
         <p id="Top100Intro">
-          PLACEHOLDER
+          The chart below lists Spotify's <span id="IntroSpan">top 100 </span>songs of 2017,
+          as well as ratings for various audio features.
         </p>
+        <p id="Top100Intro">
+          For clarification on the meaning of certain audio features, refer to the legend below.
+        </p>
+        <div id="Top100Legend">
+        </div>
         <div id="Top100TableContainer">
           <Top100Table></Top100Table>
         </div>

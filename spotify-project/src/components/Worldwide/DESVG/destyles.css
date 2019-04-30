@@ -1,0 +1,37 @@
+#DEFrame path {
+    stroke: #fff;
+    fill: rgb(255, 255, 255, .5);
+    stroke-dasharray: 2320;
+    opacity: 10;
+    animation: DEanimate 3s cubic-bezier(.42,0,.58,1);
+}
+
+#DESVG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+}
+
+@keyframes DEanimate {
+    0%{
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 0;
+    }
+    25% {
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 2320;
+    }
+    50% {
+        opacity: 10;
+        fill: none;
+    }
+    90% {
+        fill: rgba(255,255,255,0);
+    }
+    100%{
+        fill: rgb(255, 255, 255, .5);
+    }
+}
