@@ -24,7 +24,7 @@ function Index() {
         <h3>Story and Viusalizations: Bridget Williams</h3>
         <p>
           It’s no secret that the air we breathe probably isn’t good for us.
-          Air quality is a common news subject, especially Carbon Dioxide
+          Air quality is a common news subject, especially carbon dioxide
           and its impact on climate change.
           But, there’s a lot more to the air in our lungs than just air.
           <br />
