@@ -2,6 +2,10 @@ svg{
     fill:#dbd9d9;
 }
 
+svg:hover{
+    cursor: pointer;
+}
+
 svg text{
     fill: black;
 }

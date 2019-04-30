@@ -51,11 +51,11 @@ h3{
 
 
 a:visited{
-  color: rgba(115, 115, 214, 1);
+  color:rgb(77, 77, 182);
 }
 
 a{
-  color: rgba(115, 115, 214, 1);
+  color: rgb(77, 77, 182);
   text-decoration: none;
 }
 

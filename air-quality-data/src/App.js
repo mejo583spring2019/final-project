@@ -60,6 +60,7 @@ the baseline for healthy living.
           <br />
           The map below shows the average levels of
            PM2.5 in µg/m3 in 2016 across the globe.
+           Click a country to see its average PM2.5 for 2016.
         </p>
       </div>
       <Map />
@@ -84,9 +85,9 @@ the baseline for healthy living.
           world and in 2016, <a href="https://www.theguardian.com/cities/2016/nov/30/cycling-revolution-bikes-outnumber-cars-first-time-copenhagen-denmark"
             target="_blank"
             rel="noopener noreferrer">the number of bikes out-numbered
-          the number of cars on the road</a>. However, despite
-          rising bike ownership rate, car ownership rates
-          in the Danish capital rose about 1 percent between
+          the number of cars on the road</a>. However, regardless of
+          rising bike ownership rates, car ownership rates
+          in the Danish capital rose by about 1 percent between
            2007 and 2017. Despite this, maximum PM2.5 levels
             have dropped by about half. This suggests a
              reduction in car usage.
