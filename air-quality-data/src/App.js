@@ -15,13 +15,13 @@ import raleighImg from "./data/raleigh.jpg";
 function Index() {
   return (
     <div id="main-container">
-      <menu></menu>
-      <h1>Air Quality and Car Ownership</h1>
+      <h1>Can air quality be improved by reducing car ownership rates?</h1>
       <div className="image-wrapper">
         <img src={cphImg} alt="Copenhagen" />
         <img src={raleighImg} alt="Raleigh" />
       </div>
       <div className="body-copy">
+        <h3>Story and Viusalizations: Bridget Williams</h3>
         <p>
           It’s no secret that the air we breathe probably isn’t good for us.
           Air quality is a common news subject, especially Carbon Dioxide
@@ -50,13 +50,13 @@ or dirt and doesn’t pose a significant threat to
 according to the <a href="https://apps.who.int/iris/bitstream/handle/10665/69477/WHO_SDE_PHE_OEH_06.02_eng.pdf?sequence=1"
             target="_blank"
             rel="noopener noreferrer">WHO</a>, it can get deep
-  into your lungs and even your bloodstream.
-  This can cause serious health problems
-  such as asthma, irregular heartbeat and
-  premature death in those with prior conditions.
-  While no level of these compounds is safe, the
-  WHO suggests a yearly average below 10 µg/m3 as
-  the baseline for healthy living.
+into your lungs and even your bloodstream.
+This can cause serious health problems
+such as asthma, irregular heartbeat and
+premature death in those with prior conditions.
+While no level of these compounds is safe, the
+WHO suggests a yearly average below 10 µg/m3 as
+the baseline for healthy living.
           <br />
           The map below shows the average levels of
            PM2.5 in µg/m3 in 2016 across the globe.
