@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 import Header from "./components/Header";
 import Section1 from "./components/Section1";
@@ -8,20 +8,22 @@ import Chart from "./components/Chart";
 
 import "./App.css";
 
+/**
+ * afdda;fkdja
+ */
 class App extends Component {
-render() {
-  return (
-  <div>
-    
-    <Header />
-    <Section1 />
-    <Section2 />
-    <Table />
-    <Chart />
-  </div>
-  );
-}
-
+  // eslint-disable-next-line require-jsdoc
+  render() {
+    return (
+      <div>
+        <Header />
+        <Section1 />
+        <Section2 />
+        <Table />
+        <Chart />
+      </div>
+    );
+  }
 }
 
 export default App;
