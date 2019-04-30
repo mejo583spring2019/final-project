@@ -1,5 +1,6 @@
 {
   "name": "final-project",
+  "homepage" : "https://torinedwards.github.io/basic-income",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
