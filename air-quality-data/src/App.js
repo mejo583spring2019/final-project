@@ -39,20 +39,24 @@ function Index() {
            in the air created mostly by industry and
            transportation. Most of these particles fall
            into the category of particulate matter.
-           According to the EPA, particulate matter
-           comes in two official sizes, PM10 and PM2.5.
-           PM10 is larger dust particles over 10 micrometers
-           thick, and comes from things like construction
-           or dirt and doesn’t pose a significant threat to
+           According to the <a href="https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+            target="_blank"
+            rel="noopener noreferrer">EPA</a>, particulate matter
+comes in two official sizes, PM10 and PM2.5.
+PM10 is larger dust particles over 10 micrometers
+thick, and comes from things like construction
+or dirt and doesn’t pose a significant threat to
            health. <br />PM2.5 however, is small enough that,
-according to the WHO, it can get deep
-into your lungs and even your bloodstream.
-This can cause serious health problems
-such as asthma, irregular heartbeat and
-premature death in those with prior conditions.
-While no level of these compounds is safe, the
-WHO suggests a yearly average below 10 µg/m3 as
-the baseline for healthy living.
+according to the <a href="https://apps.who.int/iris/bitstream/handle/10665/69477/WHO_SDE_PHE_OEH_06.02_eng.pdf?sequence=1"
+            target="_blank"
+            rel="noopener noreferrer">WHO</a>, it can get deep
+  into your lungs and even your bloodstream.
+  This can cause serious health problems
+  such as asthma, irregular heartbeat and
+  premature death in those with prior conditions.
+  While no level of these compounds is safe, the
+  WHO suggests a yearly average below 10 µg/m3 as
+  the baseline for healthy living.
           <br />
           The map below shows the average levels of
            PM2.5 in µg/m3 in 2016 across the globe.
@@ -77,8 +81,10 @@ the baseline for healthy living.
       <div className="body-copy">
         <p>
           Denmark has been deemed the bike capital of the
-          world and in 2016, the number of bikes out-numbered
-          the number of cars on the road. However, despite
+          world and in 2016, <a href="https://www.theguardian.com/cities/2016/nov/30/cycling-revolution-bikes-outnumber-cars-first-time-copenhagen-denmark"
+            target="_blank"
+            rel="noopener noreferrer">the number of bikes out-numbered
+          the number of cars on the road</a>. However, despite
           rising bike ownership rate, car ownership rates
           in the Danish capital rose about 1 percent between
            2007 and 2017. Despite this, maximum PM2.5 levels
@@ -93,7 +99,7 @@ the baseline for healthy living.
                increase in car ownership rates, suggesting
                 the PM2.5 that was removed came from sources
                  other than transportation or was the result
-                  of better vehicle emission standards.
+                  of <a rel="noopener noreferrer" target="_blank" href="https://deq.nc.gov/news/press-releases/2018/09/28/emissions-inspections-end-26-counties-december-1">better vehicle emission standards</a>.
           <br />
           The transition from a heavy reliance on fossil
            fuels to green energy will not be an easy one,
