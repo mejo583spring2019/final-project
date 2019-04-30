@@ -5,10 +5,9 @@ import "./style.css";
  * @param {any} event
  */
 class Header extends React.Component {
-  // eslint-disable-next-line valid-jsdoc
-  /**
-    * @param {return} component
-*/
+  /** this is a jsdoc comment
+ * @return {any}
+ */
   render() {
     return (
       <section class="panel intro">

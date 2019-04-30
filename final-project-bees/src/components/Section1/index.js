@@ -2,6 +2,9 @@
 import React from "react";
 import "./style.css";
 
+/** this is a jsdoc comment
+ * @return {any}
+ */
 class Section1 extends React.Component {
   render() {
     return (
