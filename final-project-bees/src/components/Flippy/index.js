@@ -8,6 +8,7 @@ import "./style.css";
 class Flip extends React.Component {
   render() {
     return (
+
       <Flippy
         flipOnHover={false} // default false
         flipOnClick={true} // default false
@@ -16,16 +17,32 @@ class Flip extends React.Component {
         // to use toggle method like this.flippy.toggle()
         // if you pass isFlipped prop component will be controlled component.
         // and other props, which will go to div
-        style={{ width: "200px", height: "200px" }}
+        style={{ width: "400px", height: "400px" }}
         // these are optional style, it is not necessary
       >
         <FrontSide class="pest">
           <div id="pesticide"></div>
+
         </FrontSide>
         <BackSide
-          style={{ backgroundColor: "#175852"}}>
-             ROCKS
+          style={{ backgroundColor: "#BF7575",
+          }}>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+             Studies show that <strong>pesticides</strong> and fungicides,
+              such as neonicotinoids,
+              could be a leading cause in Colony Collapse Disorder.
+          <br />
+          <br />
+          <br />
+          <strong>TO DO: Stop using pesticides in your garden
+              and purchase organically grown vegetables</strong>
         </BackSide>
+
       </Flippy>
     );
   }
