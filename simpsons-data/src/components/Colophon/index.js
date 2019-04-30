@@ -2,11 +2,9 @@ import React from "react";
 import { Controller, Scene } from "react-scrollmagic";
 import styled from "styled-components";
 
-
 const SectionWipesStyled = styled.div`
 overflow: visible;
 `;
-
 
 /** this is a JSDOC comment*/
 class Colophon extends React.Component {
@@ -28,10 +26,10 @@ class Colophon extends React.Component {
                  This project demonstrates some understanding
                 of the basics of data visualization,
                 using the tool <a href="https://www.highcharts.com/docs/chart-and-series-types/packed-bubble-charts
-">High Charts,</a> as well as
+                ">High Charts,</a> as well as
                  some structuring tools such as <a href="https://bitworking.github.io/react-scrollmagic/section-wipes
-">Scroll Magic</a> and <a href="https://reactjs.org/">React</a> to format everything. To lint my code, I used <a href="https://eslint.org/">ESLint</a>
- and <a href="https://github.com/google/eslint-config-google">Eslint Config Google</a>. To check my code was linted correctly to fit the class standards, I ran it through <a href="https://circleci.com/">Circle CI</a>
+                ">Scroll Magic</a> and <a href="https://reactjs.org/">React</a> to format everything. To lint my code, I used <a href="https://eslint.org/">ESLint</a>
+                  and <a href="https://github.com/google/eslint-config-google">Eslint Config Google</a>. To check my code was linted correctly to fit the class standards, I ran it through <a href="https://circleci.com/">Circle CI</a>
                 <br/><br/>
                 I found all of my Simpsons data from TVMaze.com,
                      from their API, which gave me a data file
@@ -75,12 +73,8 @@ class Colophon extends React.Component {
                 ScrollMagic (for natural slide wipes)</a>.
                 <br/>
                 <br/>
-                {/* <h4>What type of computer/editing
-                 software are you using?</h4> */}
                I’m using a 2015 MacBook, with VSCode
                      for all code editing.
-                {/* <h4>Where'd you get the images on the site?</h4> */}
-
                 For the Simpsons svgs, I actually made them
                      myself using Adobe Illustrator,
                    looking at some Simpsons photos for reference.

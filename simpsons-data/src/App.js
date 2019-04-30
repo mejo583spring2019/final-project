@@ -14,7 +14,6 @@ class App extends Component {
     return (
       <div>
         <Scroller></Scroller>
-
         <Chart></Chart>
         <Colophon></Colophon>
       </div>

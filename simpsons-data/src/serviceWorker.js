@@ -1,6 +1,5 @@
 // replaced this file with the linted one made at https://gist.github.com/leetrout/36b276e179c41ce69d0f020a85d592aa
 
-
 // This optional code is used to register a service worker.
 // register() is not called by default.
 

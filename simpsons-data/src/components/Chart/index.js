@@ -1,10 +1,8 @@
 import React from "react";
-// import { addIndicators } from "plugins/debug.addIndicators.js";
-// import { render } from "react-dom";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-// used Andrea's help to figure out how to get the highcharts-more package
-// to install/work.
+// used a classmate's help to figure out how to get the highcharts-more package
+// to install/work. Their source was https://github.com/highcharts/highcharts-react/issues/76 (KacperMadej's comment)
 import hcMore from "highcharts/highcharts-more.src";
 import { Controller, Scene } from "react-scrollmagic";
 import styled from "styled-components";
@@ -12,10 +10,20 @@ import styled from "styled-components";
 if (typeof Highcharts === "object") {
   hcMore(Highcharts);
 }
+
+// for chart reference, I used these resources:
+// https://www.highcharts.com/docs/chart-and-series-types/packed-bubble-charts,
+// https://jsfiddle.net/gvaartjes/0yrdsv2a/,
+// https://www.highcharts.com/demo/packed-bubble-split
+
 const options = {
   chart: {
     type: "packedbubble",
     height: "600px",
+    // To figure out how to alter the background color,
+    // I used these for reference:
+    // https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/chart/plotbackgroundcolor-color/,
+    // https://api.highcharts.com/highcharts/chart.plotBackgroundColor?_ga=2.198567974.88012680.1556406587-1893010738.1556126262
     backgroundColor: "#FFD938",
   },
   title: {
@@ -25,6 +33,8 @@ const options = {
     useHTML: true,
     pointFormat: "<b>{point.name}:</b> {point.y} appearances in the series",
   },
+  // To alter colors on High Charts, I used this for reference:
+  // https://stackoverflow.com/questions/7414287/how-do-you-change-the-colour-of-each-category-within-a-highcharts-column-chart (answered by Ricardo Alvaro Lohmann)
   colors: [
     "#E87D21",
     "#2B4AD0",
@@ -39,7 +49,6 @@ const options = {
 
   plotOptions: {
     packedbubble: {
-      // useSimulation: true,
       minSize: "40%",
       maxSize: "70%",
       zMin: 0,
@@ -68,6 +77,8 @@ const options = {
       },
     },
   },
+  // For my data, I sourced the names and characters from: http://api.tvmaze.com/shows/83/cast
+  // And the value, or number of appearances, from: http://www.tvmaze.com/shows/83/the-simpsons/characters
   series:
     [{
       name: "Dan Castellaneta",

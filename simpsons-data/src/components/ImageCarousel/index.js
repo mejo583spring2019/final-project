@@ -46,6 +46,8 @@ class Responsive extends Component {
 
         <Slider {...settings}>
           <div>
+            {/*  For a refresher on img format, I used: https://www.w3schools.com/html/html_images.asp */}
+            {/* For a refresher on a href, I used: https://www.sitepoint.com/community/t/how-to-make-h1-h2-etc-as-links/3004 */}
             <img src="http://static.tvmaze.com/uploads/images/medium_portrait/0/963.jpg" alt="Dan Castellaneta" />
             <h3><a href="http://www.tvmaze.com/people/14854/dan-castellaneta" className="imgs-a">Dan Castellaneta</a></h3>
           </div>

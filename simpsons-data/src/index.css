@@ -7,17 +7,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 .simpsons{
   width:200px;
   height:200px;
-  /* border-right:2px black solid; */
-  /* padding-right:5%; */
 }
 .simpsons-images{
   display:flex;
@@ -26,6 +22,9 @@ code {
   flex-wrap: wrap;
 }
 
+/* For a refresher on vh and vw, I used: https://web-design-weekly.com/2014/11/18/viewport-units-vw-vh-vmin-vmax/ */
+/* For some color inspiration, I referenced this image: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.imdb.com%252Ftitle%252Ftt0096697%252F%26psig%3DAOvVaw1HpWTHyl5onkh2eQiPiKmy%26ust%3D1556545654540310&psig=AOvVaw1HpWTHyl5onkh2eQiPiKmy&ust=1556545654540310
+And used Adobe Color to pick out shades: https://color.adobe.com/create */
 .panel {
   height: 100vh;
   width:100vw;
@@ -111,17 +110,12 @@ h4{
 
 }
 h5{
-  /* margin-left:1%;
-  margin-right:1%;  */
   background:#FFD938;
   color:white;
   font-size: 1.5em;
   text-align: center;
   padding:10px;
 }
-/* #scroll{
-margin-bottom:1;
-} */
 #homer .cls-1{fill: #f3df49;}
 #homer .cls-2{fill: "#231f20";}
 #marge .cls-1{fill:#f3df49;}
@@ -135,6 +129,11 @@ margin-bottom:1;
 #maggie .cls-2{fill:#231f20;}
 #maggie .cls-3{fill:#894253;stroke:#231f20;stroke-miterlimit:10;stroke-width:0.5px;}
 
+
+/* For some reference for css grid and flexbox, I used these resources:
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://envato.com/blog/css3-flexbox/
+https://www.google.com/search?q=how+to+get+flex+to+go+to+next+line&oq=how+to+get+flex+to+go+to+next+line&aqs=chrome..69i57.6857j0j7&sourceid=chrome&ie=UTF-8 */
 .flexbox{
   display:flex;
   align-content: center;
@@ -143,11 +142,6 @@ margin-bottom:1;
   flex-wrap: wrap;
 }
 
-/* img{
-  height: 50%;
-  border:white 1px solid;
-  /* height: 50%; 
-} */
 img{
   width:100%;
 }
@@ -156,16 +150,14 @@ img{
   padding-right:10%;
  
 }
+/* For a refresher for media queries, I used the following resource:
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 @media only screen and (max-width: 600px) {
-  
 .panel {
   overflow: scroll;
 }
   .panel.intro {
-    /* height: 100vh; */
     height: auto;
-    /* width:100vw; */
-    /* padding: 5%; */
   }
   img{
    width:auto;
@@ -173,10 +165,6 @@ img{
   .simpsons-images{
     width: 100px;
     display:inline-flex;
-    /* align-content: center; */
-    /* justify-content: space-evenly; */
-    /* flex-wrap: wrap; */
-    
   }
   
 }

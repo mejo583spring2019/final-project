@@ -1,8 +1,7 @@
-// this page was modelled after the Week 12 HW 1 videos on YouTube
+// This page was modelled after the Week 12 HW 1 videos on YouTube
+// For help writing json to a file, I used https://nodejs.org/api/fs.html for reference
 const fs = require("fs");
-// const Chart = require("chart.js");
 const fetch = require("node-fetch");
-// var bubbleChart = new Chart(ctx);
 const dataURL = "http://api.tvmaze.com/shows/83/cast";
 const personName = {};
 
@@ -13,8 +12,6 @@ const personName = {};
 function makeTree(fullData) {
   fullData.forEach((r) => {
     const strPerson = String(r.person.name);
-    // const strCharacter = String(r.character.name);
-
     let personData = personName[r.person.name];
     if (personData === undefined) {
       personData = {};
@@ -23,15 +20,10 @@ function makeTree(fullData) {
     if (makeData === undefined) {
       makeData = {};
     }
-    // should do r.id? from video
-    // makeData[r.character.url] = r.character.image.medium;
     personData[r.character.name] = makeData;
-
     personName[strPerson] = personData;
   });
-  //   console.log(personName);
   return personName;
-  // "{name:" + personName + "{data[{ name" + personData + "value: 1" + "}]";
 }
 
 /** this is a JSDOC comment
