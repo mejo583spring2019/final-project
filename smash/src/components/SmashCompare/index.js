@@ -97,7 +97,7 @@ class SmashCompare extends Component {
     if (error) {
       return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
-      return <div>Loading...</div>;
+      return <div id="loading">Loading...</div>;
     } else {
       let charAttrbs = [];
       let counter = 0;
