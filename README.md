@@ -3,8 +3,26 @@
 This seed repo will be updated with configuration changes as needed until the project is due.
 
 
-#Colophon 
-So far, I've used these resources (also mentioned in comments throughout the code):
+#Colophon
+
+As a senior multimedia major, I created this final project as a demonstration of some of the skills we have been learning in our advanced multimedia class. I always like to choose fun and personal topics for my projects, and like to play around with a very cartoon-y style. This project demonstrates some understanding of the basics of data visualization, using the tool High Charts, as well as some structuring tools such as Scroll Magic and React to format everything. To lint my code, I used ESLint and Eslint Config Google. To check my code was linted correctly to fit the class standards, I ran it through Circle CI.
+
+I found all of my Simpsons data from TVMaze.com, from their API, which gave me a data file with cast information and the corresponding characters they play. Additionally, to find the number of appearances per character in the series, I took a look at their website show page for Simpsons characters, and then manually entered the appearances into my chart data (since it was not included in the API file I used earlier).
+
+To get the data into the application, I did a series of programmatic data cleanup, pulling from the url into a data file, which I then manually cleaned up and pasted into my HighChart split packed bubble map. For the number of appearances for each character, I manually migrated each appearance count to my High Charts data (because it wasn't included in the API).
+
+To structure the assignment, I used the extremely helpful React library. Alongside the React base, I used various components, such as HighchartsReact, a carousel called Responsive Slider from react-slick, and the React version of Scroll Magic. For styling, I mainly used flexbox and ScrollMagic (for natural slide wipes).
+
+I’m using a 2015 MacBook, with VSCode for all code editing.
+
+For the Simpsons svgs, I actually made them myself using Adobe Illustrator, looking at some Simpsons photos for reference. The photos that I used for the cast members were also retrieved from TVMaze.com's API. Additionally, I used font-awesome for an svg arrow for scrolling.
+
+This app was deployed using Github Pages. It looks best viewed in full screen on a computer.
+
+
+
+
+For additional resources I looked at:
 
 For Node Fetch: https://www.npmjs.com/package/node-fetch
 For Writing JSON to File: https://nodejs.org/api/fs.html
