@@ -1,4 +1,3 @@
-/* eslint-disable require-jsdoc */ /* REMOVE LATER */
 import React from "react";
 import "./App.css";
 import Top10 from "./components/Top10";
@@ -6,6 +5,10 @@ import ChartToppers from "./components/ChartToppers";
 import Top100 from "./components/Top100";
 import Worldwide from "./components/Worldwide";
 
+/**
+ * renders main app w components
+ * @return {object} App
+ */
 function App() {
   return (
     <div className="App">

@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import "./usstyles.css";
 
+/**
+ * creates and exports USSVG component
+ */
 export default class USSVG extends Component {
+  /**
+   * renders aforementioned svg in a div
+   * @return {object} svg in div
+   */
   render() {
     return (
       <div id="USFrame">

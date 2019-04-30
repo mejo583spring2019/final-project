@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import "./jpstyles.css";
 
+/**
+ * creates and exports JPSVG component
+ */
 export default class JPSVG extends Component {
+  /**
+   * renders aforementioned svg in a div
+   * @return {object} svg in div
+   */
   render() {
     return (
       <div id="JPFrame">

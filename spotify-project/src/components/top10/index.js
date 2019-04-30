@@ -1,9 +1,15 @@
-/* eslint-disable require-jsdoc */ /* REMOVE LATER */
 import React, { Component } from "react";
 
 import "./styles.css";
 
+/**
+ * Creates Top10 Component
+ */
 class Top10 extends Component {
+  /**
+   * renders Top10 Component
+   * @return {object} Top10
+   */
   render() {
     return (
       <div id="Top10Container">

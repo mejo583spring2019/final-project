@@ -1,9 +1,14 @@
-/* eslint-disable require-jsdoc */ /* REMOVE LATER */
 import React, { Component } from "react";
 
 import "./styles.css";
 
+/**
+ * creates ChartToppers component
+ */
 class ChartToppers extends Component {
+  /**
+   * renders ChartToppers component
+   * @return {object} ChartToppers*/
   render() {
     return (
       <div id="ChartToppersContainer">

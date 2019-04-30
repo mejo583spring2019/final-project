@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import "./destyles.css";
 
+/**
+ * creates and exports DESVG component
+ */
 export default class DESVG extends Component {
+  /**
+   * renders aforementioned svg in a div
+   * @return {object} svg in div
+   */
   render() {
     return (
       <div id="DEFrame">

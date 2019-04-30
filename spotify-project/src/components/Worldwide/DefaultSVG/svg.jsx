@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import "./defaultstyles.css";
 
+/**
+ * creates and exports DefaultSVG component
+ */
 export default class DefaultSVG extends Component {
+  /**
+   * renders aforementioned svg in a div
+   * @return {object} svg in div
+   */
   render() {
     return (
       <div id="DefaultFrame">

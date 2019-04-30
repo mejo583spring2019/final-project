@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import "./brstyles.css";
 
+/**
+ * creates and exports BRSVG component
+ */
 export default class BRSVG extends Component {
+  /**
+   * renders aforementioned svg in a div
+   * @return {object} svg in div
+   */
   render() {
     return (
       <div id="BRFrame">

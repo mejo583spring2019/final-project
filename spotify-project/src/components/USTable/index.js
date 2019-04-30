@@ -1,7 +1,13 @@
-/* eslint-disable require-jsdoc */
 import React, { Component } from "react";
 
+/**
+ * Creates USTable component
+ */
 class USTable extends Component {
+  /**
+   * renders respective hardcoded datatable
+   * @return {object} respective data table
+   */
   render() {
     return (
       <table id="USTable">

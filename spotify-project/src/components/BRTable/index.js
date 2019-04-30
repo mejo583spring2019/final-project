@@ -1,7 +1,13 @@
-/* eslint-disable require-jsdoc */
 import React, { Component } from "react";
 
+/**
+ * Creates BRTable component
+ */
 class BRTable extends Component {
+  /**
+   * renders respective hardcoded datatable
+   * @return {object} respective data table
+   */
   render() {
     return (
       <table id="BRTable">
@@ -59,7 +65,8 @@ class BRTable extends Component {
               <p className="DatumStreams">432233 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Sua Cara (feat. Anitta &#38; Pabllo Vittar)</p>
+              <p className="DatumTitle">Sua Cara
+              (feat. Anitta &#38; Pabllo Vittar)</p>
               <p className="DatumArtist">Major Lazer</p>
               <p className="DatumStreams">632890 Streams</p>
             </td>
@@ -69,7 +76,8 @@ class BRTable extends Component {
               <p className="DatumStreams">425132 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Sua Cara (feat. Anitta &#38; Pabllo Vittar)</p>
+              <p className="DatumTitle">Sua Cara
+              (feat. Anitta &#38; Pabllo Vittar)</p>
               <p className="DatumArtist">Major Lazer</p>
               <p className="DatumStreams">270127 Streams</p>
             </td>
@@ -127,7 +135,8 @@ class BRTable extends Component {
               <p className="DatumStreams">385962 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Sua Cara (feat. Anitta &#38; Pabllo Vittar)</p>
+              <p className="DatumTitle">Sua Cara
+              (feat. Anitta &#38; Pabllo Vittar)</p>
               <p className="DatumArtist">Major Lazer</p>
               <p className="DatumStreams">417206 Streams</p>
             </td>
@@ -238,12 +247,14 @@ class BRTable extends Component {
               <p className="DatumStreams">256969 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Sua Cara (feat. Anitta &#38; Pabllo Vittar)</p>
+              <p className="DatumTitle">Sua Cara
+              (feat. Anitta &#38; Pabllo Vittar)</p>
               <p className="DatumArtist">Major Lazer</p>
               <p className="DatumStreams">270818 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Sua Cara (feat. Anitta &#38; Pabllo Vittar)</p>
+              <p className="DatumTitle">Sua Cara
+              (feat. Anitta &#38; Pabllo Vittar)</p>
               <p className="DatumArtist">Major Lazer</p>
               <p className="DatumStreams">332972 Streams</p>
             </td>
@@ -394,7 +405,8 @@ class BRTable extends Component {
               <p className="DatumStreams">280632 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Perfect Duet (Ed Sheeran &#38; Beyoncé)</p>
+              <p className="DatumTitle">Perfect Duet
+              (Ed Sheeran &#38; Beyoncé)</p>
               <p className="DatumArtist">Ed Sheeran</p>
               <p className="DatumStreams">361648 Streams</p>
             </td>
@@ -402,7 +414,8 @@ class BRTable extends Component {
           <tr className="CDRow">
             <td className="PositionCol">7</td>
             <td className="CDDatum">
-              <p className="DatumTitle">Sim ou não (Participação especial Maluma)</p>
+              <p className="DatumTitle">Sim ou não
+              (Participação especial Maluma)</p>
               <p className="DatumArtist">Anitta</p>
               <p className="DatumStreams">192220 Streams</p>
             </td>
@@ -578,7 +591,8 @@ class BRTable extends Component {
               <p className="DatumStreams">224303 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Sua Cara (feat. Anitta &#38; Pabllo Vittar)</p>
+              <p className="DatumTitle">Sua Cara
+              (feat. Anitta &#38; Pabllo Vittar)</p>
               <p className="DatumArtist">Major Lazer</p>
               <p className="DatumStreams">265678 Streams</p>
             </td>

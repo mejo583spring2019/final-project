@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-/* eslint-disable require-jsdoc */ /* REMOVE LATER */
 import React, { Component } from "react";
 import DefaultSVG from "./DefaultSVG/svg";
 import USSVG from "./USSVG/svg";
@@ -13,7 +11,17 @@ import BRTable from "../BRTable";
 
 import "./styles.css";
 
+/**
+ * WorldWide displays data and graphics regarding
+ * The top 10 most popular songs over 2017 in various countries
+ */
 class Worldwide extends Component {
+  /**
+   * constructor sets up all the states in their default position,
+   * with the default SVG showing and others hidden.
+   * Toggle commands change the state of countries
+   * @param {object} props
+   */
   constructor(props) {
     super(props);
     this.state = {
@@ -30,6 +38,11 @@ class Worldwide extends Component {
     this.toggleBR = this.toggleBR.bind(this);
   }
 
+  /**
+   * Toggle US turns all other countries off and removes
+   * the default SVG before toggling showUS
+   *
+   */
   toggleUS() {
     this.setState({ showDE: false });
     this.setState({ showJP: false });
@@ -39,6 +52,11 @@ class Worldwide extends Component {
     this.setState({ showUS: !showUS });
   }
 
+  /**
+   * Toggle DE turns all other countries off and removes
+   * the default SVG before toggling showDE
+   *
+   */
   toggleDE() {
     this.setState({ showUS: false });
     this.setState({ showJP: false });
@@ -48,6 +66,11 @@ class Worldwide extends Component {
     this.setState({ showDE: !showDE });
   }
 
+  /**
+   * Toggle JP turns all other countries off and removes
+   * the default SVG before toggling showJP
+   *
+   */
   toggleJP() {
     this.setState({ showUS: false });
     this.setState({ showDE: false });
@@ -57,6 +80,11 @@ class Worldwide extends Component {
     this.setState({ showJP: !showJP });
   }
 
+  /**
+   * Toggle BR turns all other countries off and removes
+   * the default SVG before toggling showBR
+   *
+   */
   toggleBR() {
     this.setState({ showUS: false });
     this.setState({ showDE: false });
@@ -66,7 +94,10 @@ class Worldwide extends Component {
     this.setState({ showBR: !showBR });
   }
 
-
+  /**
+   * renders worldwide component
+   * @return {object} worldwide component
+   */
   render() {
     return (
       <div id="WorldwideContainer">
@@ -85,10 +116,14 @@ class Worldwide extends Component {
         </div>
         <div id="WorldwideContentContainer">
           <div id="CountryPicker">
-            <button id="FCO" className="CountryOption" onClick={ this.toggleUS }>United States</button>
-            <button className="CountryOption" onClick={ this.toggleDE }>Germany</button>
-            <button className="CountryOption" onClick={ this.toggleJP }>Japan</button>
-            <button id="LCO" className="CountryOption" onClick={ this.toggleBR }>Brazil</button>
+            <button id="FCO" className="CountryOption"
+              onClick={ this.toggleUS }>United States</button>
+            <button className="CountryOption"
+              onClick={ this.toggleDE }>Germany</button>
+            <button className="CountryOption"
+              onClick={ this.toggleJP }>Japan</button>
+            <button id="LCO" className="CountryOption"
+              onClick={ this.toggleBR }>Brazil</button>
           </div>
           <div id="CountryDisplay">
             <div className="SVGPad"></div>

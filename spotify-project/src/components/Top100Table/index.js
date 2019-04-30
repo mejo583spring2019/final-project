@@ -1,8 +1,11 @@
-/* eslint-disable require-jsdoc */ /* DELETE LATER */
 import Table from "../Table";
 import top100Data from "../../data/Top100data";
 import "./styles.css";
 
+/**
+ * defines basic tabulator columns and data
+ * for Top100Table
+ */
 class Top100Table extends Table {
     tableData = top100Data;
     height: "100px";

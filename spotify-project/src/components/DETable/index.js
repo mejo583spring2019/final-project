@@ -1,7 +1,13 @@
-/* eslint-disable require-jsdoc */
 import React, { Component } from "react";
 
+/**
+ * Creates DETable component
+ */
 class DETable extends Component {
+  /**
+   * renders respective hardcoded datatable
+   * @return {object} respective data table
+   */
   render() {
     return (
       <table id="DETable">
@@ -24,7 +30,8 @@ class DETable extends Component {
           <tr className="CDRow">
             <td className="PositionCol">1</td>
             <td className="CDDatum">
-              <p className="DatumTitle">Rockabye (feat. Sean Paul &#38; Anne-Marie)</p>
+              <p className="DatumTitle">Rockabye
+              (feat. Sean Paul &#38; Anne-Marie)</p>
               <p className="DatumArtist">Clean Bandit</p>
               <p className="DatumStreams">229398 Streams</p>
             </td>
@@ -155,12 +162,14 @@ class DETable extends Component {
               <p className="DatumStreams">181869 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">I Don’t Wanna Live Forever (Feat. Taylor Swift)</p>
+              <p className="DatumTitle">I Don’t Wanna Live Forever
+              (Feat. Taylor Swift)</p>
               <p className="DatumArtist">ZAYN</p>
               <p className="DatumStreams">246269 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">I Don’t Wanna Live Forever (Feat. Taylor Swift)</p>
+              <p className="DatumTitle">I Don’t Wanna Live Forever
+              (Feat. Taylor Swift)</p>
               <p className="DatumArtist">ZAYN</p>
               <p className="DatumStreams">265366 Streams</p>
             </td>
@@ -170,7 +179,8 @@ class DETable extends Component {
               <p className="DatumStreams">357987 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Swalla (feat. Nicki Minaj &#38; Ty Dolla $ign)</p>
+              <p className="DatumTitle">Swalla
+              (feat. Nicki Minaj &#38; Ty Dolla $ign)</p>
               <p className="DatumArtist">Jason Derulo</p>
               <p className="DatumStreams">288314 Streams</p>
             </td>
@@ -291,7 +301,8 @@ class DETable extends Component {
               <p className="DatumStreams">251044 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Swalla (feat. Nicki Minaj &#38; Ty Dolla $ign)</p>
+              <p className="DatumTitle">Swalla
+              (feat. Nicki Minaj &#38; Ty Dolla $ign)</p>
               <p className="DatumArtist">Jason Derulo</p>
               <p className="DatumStreams">334758 Streams</p>
             </td>
@@ -339,12 +350,14 @@ class DETable extends Component {
           <tr className="CDRow">
             <td className="PositionCol">6</td>
             <td className="CDDatum">
-              <p className="DatumTitle">Call On Me - Ryan Riback Extended Remix</p>
+              <p className="DatumTitle">Call On Me -
+              Ryan Riback Extended Remix</p>
               <p className="DatumArtist">Starley</p>
               <p className="DatumStreams">168678 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Rockabye (feat. Sean Paul &#38; Anne-Marie)</p>
+              <p className="DatumTitle">Rockabye
+              (feat. Sean Paul &#38; Anne-Marie)</p>
               <p className="DatumArtist">Clean Bandit</p>
               <p className="DatumStreams">223237 Streams</p>
             </td>
@@ -364,7 +377,8 @@ class DETable extends Component {
               <p className="DatumStreams">231566 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Swalla (feat. Nicki Minaj &#38; Ty Dolla $ign)</p>
+              <p className="DatumTitle">Swalla
+              (feat. Nicki Minaj &#38; Ty Dolla $ign)</p>
               <p className="DatumArtist">Jason Derulo</p>
               <p className="DatumStreams">275505 Streams</p>
             </td>
@@ -470,7 +484,8 @@ class DETable extends Component {
               <p className="DatumStreams">164441 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Call On Me - Ryan Riback Extended Remix</p>
+              <p className="DatumTitle">Call On Me -
+              Ryan Riback Extended Remix</p>
               <p className="DatumArtist">Starley</p>
               <p className="DatumStreams">203580 Streams</p>
             </td>
@@ -528,7 +543,8 @@ class DETable extends Component {
           <tr className="CDRow">
             <td className="PositionCol">9</td>
             <td className="CDDatum">
-              <p className="DatumTitle">I Don’t Wanna Live Forever (Feat. Taylor Swift)</p>
+              <p className="DatumTitle">I Don’t Wanna Live Forever
+              (Feat. Taylor Swift)</p>
               <p className="DatumArtist">ZAYN</p>
               <p className="DatumStreams">163405 Streams</p>
             </td>

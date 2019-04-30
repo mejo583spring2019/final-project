@@ -1,7 +1,13 @@
-/* eslint-disable require-jsdoc */
 import React, { Component } from "react";
 
+/**
+ * Creates JPTable component
+ */
 class JPTable extends Component {
+  /**
+   * renders respective hardcoded datatable
+   * @return {object} respective data table
+   */
   render() {
     return (
       <table id="JPTable">
@@ -364,7 +370,8 @@ class JPTable extends Component {
               <p className="DatumStreams">9223 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Good Life (with G-Eazy &#38; Kehlani)</p>
+              <p className="DatumTitle">Good Life
+              (with G-Eazy &#38; Kehlani)</p>
               <p className="DatumArtist">G-Eazy</p>
               <p className="DatumStreams">10816 Streams</p>
             </td>
@@ -424,7 +431,8 @@ class JPTable extends Component {
               <p className="DatumStreams">9179 Streams</p>
             </td>
             <td className="CDDatum">
-              <p className="DatumTitle">Good Life (with G-Eazy &#38; Kehlani)</p>
+              <p className="DatumTitle">Good Life
+              (with G-Eazy &#38; Kehlani)</p>
               <p className="DatumArtist">G-Eazy</p>
               <p className="DatumStreams">9005 Streams</p>
             </td>
