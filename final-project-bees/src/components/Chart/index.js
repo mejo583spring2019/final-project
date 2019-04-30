@@ -21,6 +21,8 @@ const options = {
   },
   xAxis: {
     categories: [
+      "April-September-2014",
+      "October-December-2014",
       "January-March-2015",
       "April-June-2015",
       "July-September-2015",
@@ -37,6 +39,8 @@ const options = {
   series: [
     {
       data: [
+        19,
+        24,
         31,
         13,
         13,

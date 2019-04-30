@@ -12,6 +12,7 @@ class Section1 extends React.Component {
                   It’s a widely known fact that pollinators<br />
                   all over the U.S. are rapidly going extinct.
             </h1>
+
             <p>
               <strong> But what exactly is happening to them?</strong> <br />
               More than $15 billion dollars in
@@ -21,9 +22,10 @@ class Section1 extends React.Component {
               the culprit is actually a vaguely mysterious condition
               called <strong>Colony Collapse Disorder. </strong>
             </p>
+
           </div>
           <div id="panel-2-readmore">
-            <p>read more</p>
+
           </div>
         </div>
       </section>

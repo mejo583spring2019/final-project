@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
-import Table from "./components/Table";
+// import Table from "./components/Table";
 import Chart from "./components/Chart";
 import Colophon from "./components/Colophon";
 import Flip from "./components/Flippy";
@@ -23,11 +23,9 @@ class App extends Component {
         <Header />
         <Section1 />
         <Section2 />
-        <Table />
+        <Flip />
         <Chart />
         <Colophon />
-        <Flip />
-
       </div>
     );
   }

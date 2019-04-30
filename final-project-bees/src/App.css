@@ -23,7 +23,8 @@ body {
   
   h2 { 
     font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-    font-size: 35px;
+    font-size: 30px;
+    text-align: center;
   }
 
   p { 
@@ -101,7 +102,7 @@ body {
      background-repeat: no-repeat;
     display:grid;
     grid-template-columns: 70px 1fr 70px;
-    grid-template-rows: 200px 100px 300px;
+    grid-template-rows: 150px 75px 500px;
     
   }
 
@@ -114,13 +115,27 @@ body {
 
   /* for responsive design */
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 900px) {
     /*enlarge margins on widescreen*/
     .grid-3 {
       grid-template-columns: 15px 1fr 15px;
+      
     }
-}
   
+      h1 {
+         font-size: 30px;
+       }
+       p { 
+         font-size: 15px;
+       }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-3 {
+    grid-template-rows: 150px 75px 700px;
+}
+}
+
 
   
   

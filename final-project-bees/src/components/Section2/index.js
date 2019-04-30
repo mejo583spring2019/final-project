@@ -11,28 +11,33 @@ class Section2 extends React.Component {
       <section class="panel-3">
         <div class="grid-3 flex">
           <div class="panel3-header">
-            <h1> Here's the deal </h1>
+            <h1> Bees and Colony Collapse Disorder </h1>
           </div>
+
           <div class="panel3-body">
-            <p> this and this and this </p>
+            <p>Everything you need to know <br />and how you can help</p>
           </div>
           <div class="panel3-image">
             <p>Pollinators transfer pollen and seeds from one flower to another,
                 fertilizing the plant so it can grow and produce food.
-                Cross-pollination helps at least 30 percent of the world’s
-                 crops and 90 percent of our wild plants to thrive.
-                https://www.nrdc.org/sites/default/files/bees.pdf</p> <br />
-            <p>
-                Honeybees are a vital part of our world --
-                they influence our food, our economy and our environment.
-                However, hives around the world are
-                losing on average 20% a year due to Colony Collapse Disorder.
-                https://www.epa.gov/pollinator-protection/colony-collapse-disorder<br />
-                Colony Collapse Disorder occurs when the worker bees
-                completely abandon a hive and leave the queen bee on her own,
-                causing the hive to die out. It’s become a world-wide issue
-                in the last 10 years
+            <strong>At least 30 percent of the world’s
+                 crops and 90 percent of
+                 our wild plants</strong> grow because of cross pollination.
             </p>
+            <p>
+                Honeybees are a vital part of our world -
+                they influence our food, our economy and our environment.
+                However, according to the USDA, hives around the world are
+                losing on average 20% a year due to Colony Collapse Disorder.
+              <br /> <br />
+              <strong>Colony Collapse Disorder</strong>
+                occurs when the worker bees
+                completely abandon a hive and leave the queen bee on her own,
+                causing the hive to die out.
+                It’s become a <strong>world-wide issue </strong>
+               in the last 10 years
+            </p>
+            <h2> So what can we do?</h2>
 
           </div>
 
