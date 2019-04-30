@@ -3,9 +3,13 @@ import React from "react";
 import "./style.css";
 
 // Create React component for section 2 (aka "panel 3")
-
+/** this is a jsdoc comment
+ * @return {any}
+ */
 class Section2 extends React.Component {
-  // eslint-disable-next-line require-jsdoc
+  /** this is a jsdoc comment
+ * @return {any}
+ */
   render() {
     return (
       <section class="panel-3">
@@ -30,7 +34,7 @@ class Section2 extends React.Component {
                 However, according to the USDA, hives around the world are
                 losing on average 20% a year due to Colony Collapse Disorder.
               <br /> <br />
-              <strong>Colony Collapse Disorder</strong>
+              <strong>Colony Collapse Disorder </strong>
                 occurs when the worker bees
                 completely abandon a hive and leave the queen bee on her own,
                 causing the hive to die out.

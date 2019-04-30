@@ -44,6 +44,8 @@ class Flip extends React.Component {
         </BackSide>
 
       </Flippy>
+
+
     );
   }
 }
