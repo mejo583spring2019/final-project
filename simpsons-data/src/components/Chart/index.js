@@ -21,7 +21,7 @@ if (typeof Highcharts === "object") {
 const options = {
   chart: {
     type: "packedbubble",
-    height: "600px",
+    height: "500px",
     // To figure out how to alter the background color,
     // I used these for reference:
     // https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/chart/plotbackgroundcolor-color/,

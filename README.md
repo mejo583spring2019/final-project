@@ -4,8 +4,9 @@ This seed repo will be updated with configuration changes as needed until the pr
 
 
 #Colophon 
-So far, I've used these resources:
-for Node Fetch: https://www.npmjs.com/package/node-fetch
+So far, I've used these resources (also mentioned in comments throughout the code):
+
+For Node Fetch: https://www.npmjs.com/package/node-fetch
 For Writing JSON to File: https://nodejs.org/api/fs.html
 
 For High Chart 
@@ -40,8 +41,6 @@ https://www.npmjs.com/package/gsap
 https://www.npmjs.com/package/react-scrollmagic
 https://github.com/bitworking/react-scrollmagic/blob/master/example/src/components/ScrollMagicExamples/SectionWipes.js
 https://www.styled-components.com/
-
-
 
 For a refresher on CSS Grid and flexbox:
 https://css-tricks.com/snippets/css/complete-guide-grid/

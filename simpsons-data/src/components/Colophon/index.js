@@ -93,6 +93,7 @@ class Colophon extends React.Component {
                 <br/>
                 <br/>
                    This app was deployed using <a href="https://github.com/sivonne/simpsons-app">Github Pages.</a>
+                   It looks best viewed in full screen on a computer.
                 </p>
               </div>
             </Scene>
