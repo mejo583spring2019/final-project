@@ -7,7 +7,7 @@ import Worldwide from "./components/Worldwide";
 import Colophon from "./components/Colophon";
 
 /**
- * renders main app w components
+ * renders main app with components
  * @return {object} App
  */
 function App() {
