@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+import { HashRouter as Router, Route, NavLink } from "react-router-dom";
+
+import Charts from "./components/Charts";
+import Colophon from "./components/Colophon";
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="container">
+        <nav className="navbar">
+          <ul className="flex navbar-items">
+            <li>
+              <NavLink className="navbar-item" activeClassName="active" exact to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink className="navbar-item" activeClassName="active" exact to="/colophon/">Colophon</NavLink>
+            </li>
+          </ul>
+        </nav>
+
+        <Route path="/" exact component={Charts} />
+        <Route path="/colophon/" exact component={Colophon} />
+        <footer className="footer">
+          MEJO 583 Final Project<br /><span className="footer-highlight">Amy Townsend</span>
+        </footer>
+      </div>
+    </Router>
   );
 }
 

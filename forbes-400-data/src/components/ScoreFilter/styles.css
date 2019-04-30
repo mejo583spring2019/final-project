@@ -1,0 +1,163 @@
+/* CSS below modified from https://thestizmedia.com/radio-buttons-as-toggle-buttons-with-css/ */
+
+.switch-field {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+  overflow: hidden;
+}
+
+.switch-field input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.switch-field label {
+  color: #fff;
+  font-size: .875rem;
+  text-align: center;
+  padding: .375rem 0;
+  height: 2rem;
+  width: 2rem;
+  margin: 0 .15rem;
+  background-color: rgba(51, 51, 51, 1);
+  border: 1px solid rgba(51, 51, 51, 1);
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+  cursor: pointer;
+}
+
+.switch-field label:first-of-type {
+  margin-left: 0;
+}
+
+.switch-field label:last-of-type {
+  margin-right: 0;
+}
+
+.switch-field input + label:nth-of-type(2) {
+  background-color: rgba(126,116,103,1);
+  border-color: rgba(126,116,103,1);
+}
+
+.switch-field input + label:nth-of-type(3) {
+  background-color: rgba(89,129,65,1);
+  border-color: rgba(89,129,65,1);
+}
+
+.switch-field input + label:nth-of-type(4) {
+  background-color: rgba(0,128,138,1);
+  border-color: rgba(0,128,138,1);
+}
+
+.switch-field input + label:nth-of-type(5) {
+  background-color: rgba(0,102,178,1);
+  border-color: rgba(0,102,178,1);
+}
+
+.switch-field input + label:nth-of-type(6) {
+  background-color: rgba(189,91,0,1);
+  border-color: rgba(189,91,0,1);
+}
+
+.switch-field input + label:nth-of-type(7) {
+  background-color: rgba(102,4,52,1);
+  border-color: rgba(102,4,52,1);
+}
+
+.switch-field input:checked + label:nth-of-type(2) {
+  color: rgba(126,116,103,1);
+  background-color: rgba(126,116,103,0.2);
+}
+
+.switch-field input:checked + label:nth-of-type(3) {
+  color: rgba(89,129,65,1);
+  background-color: rgba(89,129,65,0.2);
+}
+
+.switch-field input:checked + label:nth-of-type(4) {
+  color: rgba(0,128,138,1);
+  background-color: rgba(0,128,138,0.2);
+}
+
+.switch-field input:checked + label:nth-of-type(5) {
+  color: rgba(0,102,178,1);
+  background-color: rgba(0,102,178,0.2);
+}
+
+.switch-field input:checked + label:nth-of-type(6) {
+  color: rgba(189,91,0,1);
+  background-color: rgba(189,91,0,0.2);
+}
+
+.switch-field input:checked + label:nth-of-type(7) {
+  color: rgba(102,4,52,1);
+  background-color: rgba(102,4,52,0.2);
+}
+
+.switch-field input:checked + label {
+  font-weight: 700;
+  background-color: rgba(51, 51, 51, 0.2);
+  color: #333;
+}
+
+/* CSS above modified from https://thestizmedia.com/radio-buttons-as-toggle-buttons-with-css/ */
+
+.text-container {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 50rem;
+  min-width: 50vw;
+  max-width: 80vw;
+}
+
+.subheading, .details {
+  display: block;
+  text-align: center;
+  margin-bottom: .875rem;
+  color: #666;
+}
+
+.details {
+  font-size: .875rem;
+  font-style: italic;
+  margin: 0 auto 2rem;
+}
+
+.chart-heading {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1rem;
+  max-width: 40rem;
+}
+
+.heading.chart-heading {
+  background-color: rgb(88,255,191);
+  padding: 1.25rem 1rem;
+}
+
+.chart-subheading {
+  font-weight: 400;
+  font-size: 1.375rem;
+}
+
+.bubble-chart-container {
+  position: relative;
+  margin: auto;
+  height: 85vh;
+  width: 95vw;
+}
+
+@media only screen and (min-width: 767px) {
+  .chart-subheading {
+    font-size: 1.875rem;
+  }
+}
