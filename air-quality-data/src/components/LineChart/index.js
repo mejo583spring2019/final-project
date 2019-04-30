@@ -191,15 +191,16 @@ const options = {
   },
 };
 
-
+/** LineChart creates a react element for the Linechart
+ * that extends the Line component from Chartjs-2
+ * showing 4 data sets as outlines above
+   */
 class LineChart extends Component {
-  //     constructor() {
-  //         super()
-  //         this.state = {
-  //         }
-  //     }
-
-
+  /** render the LineChart component
+      * in a chart container called line-chart
+      * with an h2
+      * @return {any} single line chart
+       */
   render() {
     return (
       <div id="line-chart">

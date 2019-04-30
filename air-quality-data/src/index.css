@@ -16,5 +16,7 @@ code {
 #main-container{
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
+  margin: 10pt;
+  padding: 0 10vw;
 }

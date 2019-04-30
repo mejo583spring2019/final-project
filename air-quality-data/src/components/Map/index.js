@@ -4,9 +4,14 @@ import countriesGeoDataSource from "../../data/worldMapData.geojson";
 import aqData from "../../data/aqData.json";
 import "./style.css";
 
-
+/** Map creates a react element for the map
+ * that shows global data PM2.5 data for 2016 using d3
+   */
 class Map extends Component {
-  constructor() {
+  /** constructor sets up map data
+                                  * @param {object} props
+                                  */
+  constructor(props) {
     super();
     this.state = {
       worldData: [],
@@ -22,13 +27,19 @@ class Map extends Component {
     this.height = 500;
   }
 
+  /** projection sets up map projection using d3 geoMrrcator
+                         * @return {any} projection
+                            */
   projection() {
     return d3.geoMercator()
         .scale(100)
         .translate([800 / 2, 450 / 2]);
   }
 
-
+  /** loads data from static file and barring any error,
+                       * combines data into a singular json and sets
+                       * the state to that
+                              */
   loadData() {
     fetch(countriesGeoDataSource)
         .then((response) => {
@@ -57,18 +68,29 @@ class Map extends Component {
         });
   }
 
-
+  /** handles click event on a country
+                         * @return {any} div with specific country's data
+                            */
   handleCountryClick() {
     return <div id="tooltip">
       <div>{`Country: ${this.state.countryProp.name}`}</div>
-      <div>{`PM 2.5 Levels: ${Math.round(this.state.countryProp.airQuality)}`}</div>
+      <div>
+        {`PM 2.5 Levels: ${Math.round(this.state.countryProp.airQuality)}`}
+      </div>
     </div>;
   }
 
+  /** loads data once page is loaded
+                           */
   componentDidMount() {
     this.loadData();
-    // console.log(this.state.worldData2016)
   }
+
+  /** render the Map component
+               * in a container with a heading, a
+               * legend and markers showing city locations
+               * @return {any} one div including the map
+                */
   render() {
     return (
       <div>
@@ -76,8 +98,10 @@ class Map extends Component {
         <svg width={this.width} height={this.height} viewBox="0 0 800 450">
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" style={{ stopColor: "#fce3e3", stopOpacity: 1 }} />
-              <stop offset="200%" style={{ stopColor: "#ba0803", stopOpacity: 1 }} />
+              <stop offset="0%"
+                style={{ stopColor: "#fce3e3", stopOpacity: 1 }} />
+              <stop offset="200%"
+                style={{ stopColor: "#ba0803", stopOpacity: 1 }} />
             </linearGradient>
           </defs>
           <g className="countries">
@@ -95,8 +119,12 @@ class Map extends Component {
                   // console.log(`running on ${d.properties.ADMIN}`);
                   this.setState(
                       {
-                        countryProp: { name: d.properties.ADMIN, airQuality: d.aq },
-                        // clickLocation: { clickX: e.clientX, clickY: e.clientY }
+                        countryProp: {
+                          name: d.properties.ADMIN, airQuality: d.aq,
+                        },
+                        // clickLocation: {
+                        //     clickX: e.clientX, clickY: e.clientY
+                        // }
                       });
                   // console.log(this.state.clickLocation.clickX)
                   // if (this.clickLocation) { this.handleCountryClick({}); }
