@@ -15,9 +15,9 @@ class Charts extends Component {
     return (
       <div>
         <div className="header">
-          <h1 className="title">Debunking the
-            <span className="title-highlight">2018 Forbes 400</span>
-            Philanthropy Score</h1>
+          <h1 className="title">Debunking the <span
+            className="title-highlight">
+            2018 Forbes 400</span> Philanthropy Score</h1>
         </div>
         <div className="text-container">
           <h2 className="heading">Forbes' New Focus on Giving</h2>

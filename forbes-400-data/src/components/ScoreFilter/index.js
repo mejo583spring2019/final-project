@@ -145,10 +145,8 @@ class ScoreFilter extends Component {
       <div>
         <div className="text-container">
           <h2 className="heading chart-heading">
-            2018 Forbes 400 Philanthropy Scores:
-            <span className="chart-subheading">
-              Age vs. Total Net Worth
-            </span>
+            2018 Forbes 400 Philanthropy Scores: <span
+              className="chart-subheading">Age vs. Total Net Worth</span>
           </h2>
           <span className="subheading">Filter by philanthropy score:</span>
           <div className="switch-field">

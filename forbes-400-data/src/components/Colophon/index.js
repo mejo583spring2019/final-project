@@ -9,8 +9,8 @@ function Colophon() {
   return (
     <div>
       <div className="header">
-        <h1 className="title">Website
-          <span className="title-highlight">Colophon</span>
+        <h1 className="title">Website <span
+          className="title-highlight">Colophon</span>
         </h1>
       </div>
       <div className="text-container">
