@@ -1,0 +1,42 @@
+{
+  "name": "simpsons-data",
+  "homepage": "https://sivonne.github.io/simpsons-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chart.js": "^2.8.0",
+    "gsap": "^2.1.2",
+    "highcharts": "^7.1.1",
+    "highcharts-more": "^0.1.7",
+    "highcharts-react-official": "^2.1.3",
+    "node-fetch": "^2.3.0",
+    "react": "^16.8.6",
+    "react-bootstrap-carousel": "^3.4.1",
+    "react-dom": "^16.8.6",
+    "react-image-gallery": "^0.8.16",
+    "react-images": "^0.5.19",
+    "react-scripts": "2.1.8",
+    "react-scrollmagic": "^2.1.0",
+    "react-slick": "^0.24.0",
+    "scrollmagic": "^2.0.6",
+    "styled-components": "^4.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-config-google": "^0.12.0"
+  }
+}
