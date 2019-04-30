@@ -1,0 +1,12 @@
+.pest { 
+    background-image: url('./icon-3-1.svg');
+    background-color:white;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+}
+
+.pest-back { 
+    background-color: #BF7575;
+}

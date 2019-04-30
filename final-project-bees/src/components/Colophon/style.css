@@ -1,0 +1,32 @@
+/* panel 2 */
+.colophon-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 100px;
+  }
+
+  .colophon { 
+    padding: 50px;
+    background-image: url(./floral.jpg);
+  }
+  
+  #colophon-body {
+      line-height: 30px;
+        font-family: 'Playfair Display', serif; 
+        text-align: center;
+        margin-top: 20px!important;
+        vertical-align: bottom!important;
+        width: 75%;
+        height: 75%;
+  }
+
+  .sources { 
+    font-size: 10px;
+  }
+  @media screen and (max-width: 600px) {
+    .panel-2 { 
+        padding: 10px;
+        font-size: 12px;
+      }
+  }
+  

@@ -1,0 +1,185 @@
+/* styles */
+/* called by your view template */
+
+/* {
+  box-sizing: border-box;
+}*/
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; 
+    overflow-x: hidden;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    color: #222222;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 45px;
+  }
+  
+  h2 { 
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 35px;
+  }
+
+  p { 
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+    
+  
+  .panel {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+ /* .panel {
+    margin-bottom: 600px;
+  }*/
+  
+  .intro { 
+    background-image: url('../img/hive.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .off-white { 
+    background-color: #FAF2EC;
+  }
+  
+  .green { 
+    background-color: green;
+  }
+  
+  .readmore { 
+    background-image: url('..img/bee-2.jpg');
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  /* flex */ 
+  .flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .center {
+    display: flex; 
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column;
+  }
+  
+  
+  /* panel 1 */
+  
+  
+  .intro-panel { 
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+    background-image: url('../img/background-1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 60px;
+    padding: 20px;
+  }
+  #outline {
+    -webkit-text-fill-color: #881D1D;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+  }
+  #intro-subheading {
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 0px;
+  }
+  
+  /* panel 2 */
+  .grid-2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 100px;
+  }
+  
+  #panel-2-myth {
+    background-color: #f2c641;
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+    margin-top: 20px!important;
+    vertical-align: bottom!important;
+    height: 90vh;
+  }
+  #panel-2-fact {
+    background-color: #f2e2ce;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 20px!important;
+    margin-bottom: 0px;
+    height: 90vh;
+  }
+  
+  #panel-2-footer { 
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url('../img/ground_2.jpg');
+    background-position: center;
+    background-size: contain;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  
+  
+  /* panel 3 */
+   .grid-3 {
+     background-image: url('../img/bee-2.jpg');
+     background-size: cover;
+     background-position: right;
+     background-repeat: no-repeat;
+    display:grid;
+    grid-template-columns: 10px 1fr 1fr 1fr 10px;
+    grid-template-rows: 75px 300px 300px;
+  }
+
+  #panel-3-title {
+    text-align: center;
+    vertical-align: bottom!important;
+    margin-top: 30px!important;
+    font-size: 45px;
+  }
+  
+
+  
+  
+  
+  

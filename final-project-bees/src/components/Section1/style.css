@@ -1,0 +1,59 @@
+/* panel 2 */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 100px;
+  }
+
+  .panel-2 { 
+    background-color: #f2c641; 
+  }
+  
+  #panel-2-myth {
+    background-color: #f2c641;
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+    margin-top: 20px!important;
+    vertical-align: bottom!important;
+    width: 100vw;
+    height: 50vh;
+  }
+
+  #panel-2-readmore {
+    padding-bottom: 50px;
+    background-color: #f2c641;
+    background-image: url('./arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 20px!important;
+    margin-bottom: 0px;
+    width: 100vw;
+    height: 20px;
+  }
+
+  #arrow { 
+    align-items: center;
+    background-image: url('./arrow.png');
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #panel-2-footer { 
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background-image: url('../img/ground_2.jpg'); */
+    background-position: center;
+    background-size: contain;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  

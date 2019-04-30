@@ -1,0 +1,143 @@
+/* styles */
+/* called by your view template */
+
+/* {
+  box-sizing: border-box;
+}*/
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif; 
+    overflow-x: hidden;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    color: #222222;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 45px;
+  }
+  
+  h2 { 
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  p { 
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+    
+  
+  .panel {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+ /* .panel {
+    margin-bottom: 600px;
+  }*/
+  
+  .intro { 
+    /*background-image: url('../img/hive.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .off-white { 
+    background-color: #FAF2EC;
+  }
+  
+  .green { 
+    background-color: green;
+  }
+  
+    /*.readmore { 
+  : url('..img/bee-2.jpg');
+  }*/
+  
+  .white {
+    background-color: white;
+  }
+  
+  /* flex */ 
+  .flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .center {
+    display: flex; 
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column;
+  }
+  
+  
+  /* panel 3 */
+  
+   .grid-3 {
+    
+     background-size: cover;
+     background-position: right;
+     background-repeat: no-repeat;
+    display:grid;
+    grid-template-columns: 70px 1fr 70px;
+    grid-template-rows: 150px 75px 500px;
+    
+  }
+
+  #panel-3-title {
+    text-align: center;
+    vertical-align: bottom!important;
+    margin-top: 30px!important;
+    font-size: 45px;
+  }
+
+  /* for responsive design */
+
+  @media only screen and (max-width: 900px) {
+    /*enlarge margins on widescreen*/
+    .grid-3 {
+      grid-template-columns: 15px 1fr 15px;
+      
+    }
+  
+      h1 {
+         font-size: 30px;
+       }
+       p { 
+         font-size: 15px;
+       }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-3 {
+    grid-template-rows: 150px 75px 700px;
+}
+}
+
+
+  
+  
+  
+  
