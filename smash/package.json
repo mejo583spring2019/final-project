@@ -1,5 +1,6 @@
 {
   "name": "smash",
+  "homepage": "http://brianshurney.com/smash4/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
