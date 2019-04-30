@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { HashRouter, Route, NavLink } from "react-router-dom";
 import './App.css';
 import Genre from "./components/Chart";
-import top20 from './components/top20';
 import Table from './components/Table';
 
 
@@ -37,6 +36,7 @@ class App extends Component {
           </ul>
         </div>
         <div className="content">
+
           <Route path="/" exact component={Index} />
           <Route path="/genre/" className="main-content" component={Genre} />
           <Route path="/data/" className="main-content" component={Table} />

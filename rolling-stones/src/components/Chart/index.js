@@ -85,10 +85,10 @@ class Genre extends Component {
             }
         });
         return (
-            <canvas id="myChart" width="400" height="400"
+            < canvas id="myChart" width="400" height="400"
                 aria-label="This chart shows the amount of albums on the top 500 for each genre." >
-            </canvas>
-        );
+            </ canvas>);
+
     }
 }
 export default Genre;
