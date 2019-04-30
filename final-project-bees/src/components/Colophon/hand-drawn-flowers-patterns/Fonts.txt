@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Elsie
+Author: Alejandro Inler
+Url: http://www.fontsquirrel.com/fonts/elsie
+
+Font: Montserrat
+Author: Julieta Ulanovsky
+Url: http://www.fontsquirrel.com/fonts/montserrat
