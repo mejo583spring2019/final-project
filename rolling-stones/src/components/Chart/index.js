@@ -3,39 +3,55 @@ import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Chart from "chart.js"
 import albumList from "../../data/index";
 
+
+function albumTree(fullData) {
+    const byGenre = {};
+
+    fullData.forEach((r) => {
+        const strGenre = r.top_genre;
+        let genreData = byGenre[strGenre];
+
+        if (genreData === undefined) {
+            genreData = {};
+        }
+
+        const strAlbum = r.album;
+        let albumData = genreData[strAlbum];
+
+        if (albumData === undefined) {
+            albumData = {};
+        }
+
+        albumData[r.artist] = r.number;
+        genreData[strAlbum] = albumData;
+
+        byGenre[strGenre] = genreData;
+
+
+
+    });
+    return byGenre;
+}
+
+
+
 class Genre extends Component {
     render() {
 
-        var numFolk = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Folk');
-        }, 0);
-        var numRock = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Rock');
-        }, 0);
-        var numJazz = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Jazz');
-        }, 0);
-        var numHipHop = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Hip Hop');
-        }, 0);
-        var numElectronic = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Electronic');
-        }, 0);
-        var numPop = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Pop');
-        }, 0);
-        var numBlues = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Blues');
-        }, 0);
-        var numClassical = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Classical');
-        }, 0);
-        var numReggae = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Reggae');
-        }, 0);
-        var numLatin = albumList.reduce(function (n, album) {
-            return n + (album.top_genre === 'Latin');
-        }, 0);
+        console.log(albumTree(albumList)['Folk']);
+
+
+
+        var numFolk = Object.keys(albumTree(albumList)['Folk']).length;
+        var numRock = Object.keys(albumTree(albumList)['Rock']).length;
+        var numJazz = Object.keys(albumTree(albumList)['Jazz']).length;
+        var numHipHop = Object.keys(albumTree(albumList)['Hip Hop']).length;
+        var numElectronic = Object.keys(albumTree(albumList)['Electronic']).length;
+        var numPop = Object.keys(albumTree(albumList)['Pop']).length;
+        var numBlues = Object.keys(albumTree(albumList)['Blues']).length;
+        var numClassical = Object.keys(albumTree(albumList)['Classical']).length;
+        var numReggae = Object.keys(albumTree(albumList)['Reggae']).length;
+        var numLatin = Object.keys(albumTree(albumList)['Latin']).length;
 
         var ctx = 'myChart';
         new Chart(ctx, {

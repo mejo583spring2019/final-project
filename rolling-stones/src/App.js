@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter, Route, NavLink } from "react-router-dom";
 import './App.css';
 import Genre from "./components/Chart";
 import top20 from './components/top20';
@@ -7,39 +7,48 @@ import Table from './components/Table';
 
 
 function Index() {
-  return <div><h2>Home</h2></div>;
-}
+
+
+  return (
+    <div>
+      <h1>let's rock n' roll</h1>
+      <div className="mainContent"></div>
+    </div>
+
+  )
+
+};
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div id={this.el}>
+      <HashRouter>
+        <div className="header">
+          <ul className="navigation">
+            <li className="navlink">
+              <NavLink to="/">home </NavLink>
+            </li>
+            <li className="navlink">
+              <NavLink to="/data/" id="data">the updated list</NavLink>
+            </li>
+            <li className="navlink">
+              <NavLink to="/genre/" id="genre">genre breakdown</NavLink>
+            </li>
+          </ul>
         </div>
-        <h2>Rolling Stones Data</h2>
-        <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home </Link>
-              </li>
-              <li>
-                <Link to="/top20/" id="top20">Top 5 Albums of 2017</Link>
-              </li>
-              <li>
-                <Link to="/data/" id="data">Top 500</Link>
-              </li>
-              <li>
-                <Link to="/genre/" id="genre">Genres</Link>
-              </li>
-            </ul>
-          </nav>
+        <div className="content">
           <Route path="/" exact component={Index} />
-          <Route path="/genre/" exact component={Genre} />
-          <Route path="/top20/" exact component={top20} />
-          <Route path="/data/" exact component={Table} />
+          <Route path="/genre/" className="main-content" component={Genre} />
+          <Route path="/data/" className="main-content" component={Table} />
         </div>
-      </Router>
+
+
+
+      </HashRouter>
+
+
+
+
     );
   }
 }

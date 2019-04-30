@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Tabulator from "tabulator-tables"; // import Tabulator library
 import "tabulator-tables/dist/css/tabulator.min.css";
 import albumList from "../../data/index";
-import { truncateSync } from "fs";
 // import Tabulator stylesheet
 
 /** create table
@@ -28,6 +27,8 @@ class Table extends Component {
     componentDidMount() {
         this.tabulator = new Tabulator(this.el, {
             height: "500px",
+            layout: "fitColumns",
+            responsiveLayout: "hide",
             resizableColumns: true,
             data: this.tableData, // link data to table
             reactiveData: true, // enable data reactivity
@@ -35,9 +36,7 @@ class Table extends Component {
         });
     }
 
-    /** render header with table
-     *  @return {any}
-     */
+
     render() {
         return (
             <div>
