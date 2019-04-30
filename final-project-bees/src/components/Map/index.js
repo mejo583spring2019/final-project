@@ -1,12 +1,19 @@
+/* eslint-disable require-jsdoc */
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import { render } from "react-dom";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
-import mapDataUSA from "./mapDataUSA";
+// eslint-disable-next-line no-unused-vars
+import mapDataUsa from "./mapDataUsa";
 
 // Prepare demo data
 // Data is joined to map using value of 'hc-key' property by default.
 // See API docs for 'joinBy' for more info on linking data and map.
+
+// Load Highcharts modules
+require("highcharts/modules/map")(Highcharts);
+
 const data = [
   ["us-ma", 0],
   ["us-wa", 1],
@@ -109,14 +116,13 @@ Highcharts.mapChart("container", {
   }],
 });
 
-// Render app with demo chart
+// Render the map with demo chart
 
-class Chart extends React.Component {
+class Map extends React.Component {
   render() {
     return (
       <div>
         <h1>Demos</h1>
-
         <h2>Highmaps</h2>
         <HighchartsReact
           // options={mapOptions}
@@ -128,4 +134,4 @@ class Chart extends React.Component {
   }
 }
 
-export default mapDataUSA;
+export default Map;

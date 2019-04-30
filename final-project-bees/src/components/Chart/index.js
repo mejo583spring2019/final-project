@@ -1,39 +1,39 @@
-import React from 'react';
-// eslint-disable-next-line no-unused-vars 
-import { render } from 'react-dom';
-import Highcharts from 'highcharts';
-import HighchartsReact from 'highcharts-react-official';
+import React from "react";
+// eslint-disable-next-line no-unused-vars
+import { render } from "react-dom";
+import Highcharts from "highcharts";
+import HighchartsReact from "highcharts-react-official";
 
 const options = {
-    chart: {
-      type: 'spline'
+  chart: {
+    type: "spline",
+  },
+  title: {
+    text: "Bee Colony Losses, 2017 - 2018",
+  },
+  series: [
+    {
+      data: [1, 2, 1, 4, 3, 6],
     },
-    title: {
-      text: 'Bee Colony Losses, 2017 - 2018'
-    },
-    series: [
-      {
-        data: [1, 2, 1, 4, 3, 6]
-      }
-    ]
-  };
+  ],
+};
 
-  class Chart extends React.Component{ 
-      render() { 
-          return (
-              <div>
-                  <HighchartsReact 
-                  highcharts={Highcharts} 
-                  options={options} />
-                </div>
-          )
-      }
+class Chart extends React.Component {
+  render() {
+    return (
+      <div>
+        <HighchartsReact
+          highcharts={Highcharts}
+          options={options} />
+      </div>
+    );
   }
+}
 
-  export default Chart
+export default Chart;
 
-  //  const App = () => (
-  //      <div>
-  //      <HighchartsReact highcharts={Highcharts} options={options} />
- //       </div>
- //   );
+//  const App = () => (
+//      <div>
+//      <HighchartsReact highcharts={Highcharts} options={options} />
+//       </div>
+//   );
