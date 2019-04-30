@@ -1,5 +1,3 @@
-
-
 body {
   margin: 0;
   padding: 0;
@@ -29,37 +27,32 @@ code {
 }
 
 .panel {
-  /* height: 100vh; */
   height: 100vh;
   width:100vw;
-  /* padding: 5%; */
   padding-bottom: 400px;
 }
 .panel.intro{
   background: #6DD7F0;
-  /* margin-bottom:400px; */
   display: flex;
   flex-direction:column;
   align-content: center;
-  justify-content: center;
-   
+  justify-content: space-evenly;
+  
  }
  .panel.body{
-  background:#6492D0;
+  background:#38409A;
   display:flex;
   flex-direction:column;
-  align-content: center;
-  /* justify-content: center; */
+  justify-content:center;
+
  }
  .panel.chart{
   background:#FFD938;
-  /* margin-bottom:400px; */
  }
 .panel.colophon {
   background: #64D09E;
-  /* margin:5%; */
+  overflow: scroll;
 }
-
  h1{
   font-family: 'Permanent Marker', cursive;
   font-size:4em;
@@ -83,12 +76,17 @@ h3{
 p{
   font-size: 1em;
   font-family: 'Varela Round', cursive;
-  margin:5%;
+  margin-left:2%;
+  margin-right:2%;
 }
-a{
+.imgs-a{
   text-decoration: none;
   color:black;
 }
+a{
+  color:blue;
+}
+
 h3{
   text-align: center;
   padding:10px;
@@ -112,7 +110,18 @@ h4{
   padding:10px;
 
 }
-
+h5{
+  /* margin-left:1%;
+  margin-right:1%;  */
+  background:#FFD938;
+  color:white;
+  font-size: 1.5em;
+  text-align: center;
+  padding:10px;
+}
+/* #scroll{
+margin-bottom:1;
+} */
 #homer .cls-1{fill: #f3df49;}
 #homer .cls-2{fill: "#231f20";}
 #marge .cls-1{fill:#f3df49;}
@@ -133,6 +142,7 @@ h4{
   flex-basis: row;
   flex-wrap: wrap;
 }
+
 /* img{
   height: 50%;
   border:white 1px solid;
@@ -142,15 +152,15 @@ img{
   width:100%;
 }
 .slider{
-  padding-left:5%;
-  padding-right:5%;
+  padding-left:10%;
+  padding-right:10%;
  
 }
 @media only screen and (max-width: 600px) {
   
-/* .panel {
-    height:100vh;
-  } */
+.panel {
+  overflow: scroll;
+}
   .panel.intro {
     /* height: 100vh; */
     height: auto;
@@ -161,8 +171,8 @@ img{
    width:auto;
   }
   .simpsons-images{
-    width:100px;
-    display:flex;
+    width: 100px;
+    display:inline-flex;
     /* align-content: center; */
     /* justify-content: space-evenly; */
     /* flex-wrap: wrap; */

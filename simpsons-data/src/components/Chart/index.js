@@ -19,7 +19,7 @@ const options = {
     backgroundColor: "#FFD938",
   },
   title: {
-    text: "The Simpsons - Characters by Appearance and Voice Actor",
+    text: "",
   },
   tooltip: {
     useHTML: true,
@@ -64,8 +64,6 @@ const options = {
           textOutline: "none",
           fontWeight: "normal",
           fontFamily: "Gloria Hallelujah",
-
-
         },
       },
     },
@@ -377,6 +375,7 @@ class Chart extends React.Component {
           <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
             <Scene pin>
               <div className="panel chart">
+                <h2>The Simpsons - Characters by Appearance and Voice Actor</h2>
                 <HighchartsReact
                   highcharts={Highcharts}
                   //   construtorType={"packedbubble"}
