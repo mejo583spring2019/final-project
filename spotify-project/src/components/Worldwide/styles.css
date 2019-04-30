@@ -39,7 +39,10 @@
 #WorldwideIntroContainer{
     background-color: #1DB954;
     border-radius: 10px 10px 0px 0px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 11.5px 0px 11.5px;
+    border-color: white;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
 }
 
 .bold {
@@ -47,15 +50,21 @@
 }
 
 #CountryPicker{
-    border-top: 2px solid white;
+    border-width: 0px 3px 0px 3px;
+    border-color: #1DB954;
+    border-style: solid;
     height: 5vh;
-    margin: 0px 10px 1.5px 10px;
+    margin: 0px 11.5px 0px 11.5px;
+    padding: 0px 0px 0px 0px;
     display: flex;
     flex-direction: row;
 }
 
 .CountryOption{
-    width: 10%;   
+    font-family: 'Montserrat', sans-serif;
+    border: 0px;
+    background-color: white;
+    width: 25%;   
     display: flex;
     text-align: center;
     justify-content: center;
@@ -67,31 +76,41 @@
     cursor: pointer;
 }
 
+#FCO {
+    border-radius: 2px 0px 0px 2px;
+}
+
+#LCO{
+    border-radius: 0px 2px 2px 0px;
+}
+
 .CountryOption:hover{
     background-color: #1DB954;
     color: white;
     transition: .5s;
 }
 
-#Option1{
-    border-top-left-radius: 0px;
+.CountryOption:focus{
+    background-color: #1DB954;
+    color: white;
+    transition: .5s;
 }
 
-#Option10{
-    border-top-right-radius: 0px;
-}
 
 #CountryDisplay{
-    border: solid #1DB954;
-    border-width: 0px 1.5px 0px 1.5px;
+    border: solid white;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 0px 0px 5px 5px;
     height: 40vh;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 11.5px 0px 11.5px;
     background-color: #1DB954;
 }
 
 #CountryData{
-    margin: 0px 2px 0px 2px;
+    height: auto;
+    margin: 0px 10px 0px 10px;
     border-radius: 0px 0px 5px 5px;
+    overflow-x: scroll;
 }
 
 .CDHeader {
@@ -104,13 +123,12 @@
     font-weight: 500; 
 }
 
-#USTable, #JPTable, #DETable{
-    width: 100%;
+#USTable, #JPTable, #DETable, #BRTable{
     margin-top: 0;
     margin-bottom: 0;
     background-color: white;
     border-radius: 0px;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 0px 0px 0px;
 }
 
 .CDDatum{
@@ -149,4 +167,8 @@
     padding: 0px;
     border-radius: 4px;
     height: 20vh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
 }
