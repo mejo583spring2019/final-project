@@ -4,6 +4,7 @@ import Top10 from "./components/Top10";
 import ChartToppers from "./components/ChartToppers";
 import Top100 from "./components/Top100";
 import Worldwide from "./components/Worldwide";
+import Colophon from "./components/Colophon";
 
 /**
  * renders main app w components
@@ -22,6 +23,7 @@ function App() {
       <Top10></Top10>
       <ChartToppers></ChartToppers>
       <Top100></Top100>
+      <Colophon></Colophon>
     </div>
   );
 }
