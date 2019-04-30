@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Chart from "chart.js";
-import { Bar, Line, Pie } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
+import "./style.css"
 
 class AllCharacters extends Component {
 
@@ -23,7 +23,6 @@ class AllCharacters extends Component {
   chartRef = React.createRef();
 
   checkCount() {
-    console.log("Checking count");
     if (Object.keys(this.attrs).length < this.expectedCount) {
       setTimeout(this.checkCount.bind(this), 100);
     } else {
@@ -32,8 +31,6 @@ class AllCharacters extends Component {
         this.eachCharAttr[i] = cleanedAttrs[i][0].Values[0].Value;
         this.eachCharName[i] = cleanedAttrs[i][0].Owner;
       }
-      console.log(cleanedAttrs);
-      console.log("All loaded", this.attrs);
       let result = this.initialResult;
       this.setState({
         isLoaded: true,
@@ -73,11 +70,7 @@ class AllCharacters extends Component {
           });
 
           this.checkCount();
-          // console.log(result[0].Links[2].Href);
         },
-        // Note: it's important to handle errors here
-        // instead of a catch() block so that we don't swallow
-        // exceptions from actual bugs in components.
         (error) => {
           this.setState({
             isLoaded: true,
@@ -91,7 +84,7 @@ class AllCharacters extends Component {
   }
 
   render() {
-    const { error, isLoaded, items } = this.state;
+    const { error, isLoaded } = this.state;
     if (error) {
       return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {

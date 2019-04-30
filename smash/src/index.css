@@ -12,3 +12,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#main-nav{
+  display: flex;
+  height: 16.4vh;
+  background: rgb(41, 41, 41);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.link{
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  transition: 100ms;
+}
+
+.link:hover{
+  transition: 100ms;
+  transform: scale(1.1);
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#loading{
+  margin-top: 20vh;
+  font-weight: bold;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}

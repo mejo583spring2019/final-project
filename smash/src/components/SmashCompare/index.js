@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./style.css"
 
 class SmashCompare extends Component {
 
@@ -94,6 +95,7 @@ class SmashCompare extends Component {
 
   render() {
     const { error, isLoaded, items, charInfo } = this.state;
+    let color = ""
     if (error) {
       return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
@@ -156,10 +158,9 @@ class SmashCompare extends Component {
         imgURL = "http://kuroganehammer.com/images/smash4/logo2/" + charInfo.Name + ".png"
       }
 
-      console.log(imgURL);
       return (
-        <div>
-          <div id="charPicker">
+        <div id="main" style={{ backgroundColor: charInfo.ColorTheme }}>
+          <div id="charpicker">
             <select value={this.state.usrInput} onChange={this.handleChange.bind(this)} >
               <option value="bayonetta">Bayonetta</option>
               <option value="bowser" >Bowser</option>
@@ -222,21 +223,26 @@ class SmashCompare extends Component {
               <option value="zerosuitsamus">Zero Suit Samus</option>
             </select>
           </div>
-          <div id="basic-info">
-            <h1>{charInfo.DisplayName}</h1>
-            <div id="char-picture">
-              <img src={imgURL} alt={charInfo.DisplayName}></img>
+          <div id="flex" >
+            <div id="sect-1">
+              <div id="basic-info">
+                <div id="char-picture">
+                  <img src={imgURL} alt={charInfo.DisplayName}></img>
+                </div>
+              </div>
+            </div>
+            <div id="sect2">
+              <div id="movement-info">
+                <h2>Run Speed: {charAttrbs[4]}</h2>
+                <h2>Ground Jump Height: {charAttrbs[3]}</h2>
+                <h2>Aerial Jump Height: {charAttrbs[0]}</h2>
+                <h2>Air Speed: {charAttrbs[5]}</h2>
+                <h2>Air Acceleration: {charAttrbs[1]}</h2>
+                <h2>Fall Speed: {charAttrbs[2]}</h2>
+              </div>
             </div>
           </div>
-          <div id="movement-info">
-            <h2>Run Speed: {charAttrbs[4]}</h2>
-            <h2>Ground Jump Height: {charAttrbs[3]}</h2>
-            <h2>Aerial Jump Height: {charAttrbs[0]}</h2>
-            <h2>Air Speed: {charAttrbs[5]}</h2>
-            <h2>Air Acceleration: {charAttrbs[1]}</h2>
-            <h2>Fall Speed: {charAttrbs[2]}</h2>
-          </div>
-        </div >
+        </div>
       );
     }
   }
