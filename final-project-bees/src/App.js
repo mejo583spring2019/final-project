@@ -6,6 +6,8 @@ import Section2 from "./components/Section2";
 import Table from "./components/Table";
 import Chart from "./components/Chart";
 import Colophon from "./components/Colophon";
+import Flip from "./components/Flippy";
+
 // import Map from "./components/Map";
 
 import "./App.css";
@@ -24,6 +26,8 @@ class App extends Component {
         <Table />
         <Chart />
         <Colophon />
+        <Flip />
+
       </div>
     );
   }
