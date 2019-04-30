@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import Map from "././components/Map";
+import Map from "./components/Map";
 import LineChart from "./components/LineChart";
 import "./index.css";
 import Colophon from "./components/Colophon";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
+import cphImg from "./data/cph.jpeg";
+import raleighImg from "./data/raleigh.jpg";
+
 
 /**
  * Returns the app  containing a Map, LineChart and Colophon as well as jsx text
@@ -14,10 +17,14 @@ function Index() {
     <div id="main-container">
       <menu></menu>
       <h1>Air Quality and Car Ownership</h1>
+      <div className="image-wrapper">
+        <img src={cphImg} alt="Copenhagen" />
+        <img src={raleighImg} alt="Raleigh" />
+      </div>
       <div className="body-copy">
         <p>
           It’s no secret that the air we breathe probably isn’t good for us.
-          Air quality common news subject, especially Carbon Dioxide
+          Air quality is a common news subject, especially Carbon Dioxide
           and its impact on climate change.
           But, there’s a lot more to the air in our lungs than just air.
           <br />
@@ -38,14 +45,14 @@ function Index() {
            thick, and comes from things like construction
            or dirt and doesn’t pose a significant threat to
            health. <br />PM2.5 however, is small enough that,
-        according to the WHO, it can get deep
-        into your lungs and even your bloodstream.
-        This can cause serious health problems
-         such as asthma, irregular heartbeat and
-         premature death in those with prior conditions.
-         While no level of these compounds is safe, the
-         WHO suggests a yearly average below 10 µg/m3 as
-         the baseline for healthy living.
+according to the WHO, it can get deep
+into your lungs and even your bloodstream.
+This can cause serious health problems
+such as asthma, irregular heartbeat and
+premature death in those with prior conditions.
+While no level of these compounds is safe, the
+WHO suggests a yearly average below 10 µg/m3 as
+the baseline for healthy living.
           <br />
           The map below shows the average levels of
            PM2.5 in µg/m3 in 2016 across the globe.

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Line } from "react-chartjs-2";
+import { defaults } from "react-chartjs-2";
 import "./style.css";
 
 
@@ -151,6 +152,8 @@ const data = {
   ],
 };
 
+defaults.global.defaultFontFamily = "roboto";
+
 const options = {
 
   scales: {
@@ -173,6 +176,7 @@ const options = {
         },
         labels: {
           show: true,
+          defaultFontFamily: "Roboto",
         },
       },
       {
@@ -185,6 +189,7 @@ const options = {
         },
         labels: {
           show: true,
+          defaultFontFamily: "Roboto",
         },
       },
     ],
@@ -197,15 +202,15 @@ const options = {
    */
 class LineChart extends Component {
   /** render the LineChart component
-      * in a chart container called line-chart
-      * with an h2
-      * @return {any} single line chart
-       */
+                          * in a chart container called line-chart
+                          * with an h2
+                          * @return {any} single line chart
+                           */
   render() {
     return (
-      <div id="line-chart">
+      <div id="line-chart-wrapper">
         <h2>Car Ownership Rates and Air Quality Over Time</h2>
-        <Line data={data} options={options} />
+        <div id="line=chart"><Line data={data} options={options} /></div>
       </div>
     );
   }
