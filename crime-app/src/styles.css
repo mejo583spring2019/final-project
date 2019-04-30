@@ -49,12 +49,12 @@ p {
     background: #F3E6C3;
 }
 
-ul {
+.list {
     display: flex;
     justify-content: flex-end;
 }
 
-li {
+.item {
     font-family: primary;
     font-size: 21px;
     width: 250px;
@@ -84,6 +84,20 @@ a:link {
 a:visited {
     color: #F3E6C3;
     text-decoration: none;
+}
+
+/* Link Styles */
+.link:link {
+    color: orange;
+    font-family: secondary;
+}
+
+.link:visited {
+    color: #B19255;
+}
+
+.link:hover {
+    color: white;
 }
 
 /* Animated Elements */

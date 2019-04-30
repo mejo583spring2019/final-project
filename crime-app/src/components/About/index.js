@@ -15,7 +15,12 @@ class About extends Component {
             Property crime in the United States is the most common type of
             crime to happen in the nation compared to violent crimes. Property
             crime offenses can include larceny, burglary, motor vehicle theft,
-            ect. According to John Gramlich from the Pew Research Center, the
+            ect. According to <a
+              className="link"
+              target="_blank" rel="noopener noreferrer"
+              href="https://www.pewresearch.org/fact-tank/2019/01/03/5-facts-about-crime-in-the-u-s/">
+              John Gramlich
+            </a> from the Pew Research Center, the
             Federal Bureau of Investigation has reported a 50 percent drop in
             property crime offenses between 1993 and 2017. Bureau of Justice
             Statistics reported a 69 percent drop in property crime over this

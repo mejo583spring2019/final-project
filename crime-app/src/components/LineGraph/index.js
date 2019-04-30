@@ -302,16 +302,21 @@ class AreaChart extends Component {
           <div className="maxWidth">
             <p>
               It is unclear as to why crime rates have been dropping over the
-              years. According to an article written by Neil Howe from Forbes,
-              many theories include a change in risk behavior from the baby
-              boomers and generation Xer’s to the millennials, tightening
-              police forces across the country and the economic growth that the
-              United States has experienced over the course of its history.
-              Although many of these arguments can be argued that crime is a
-              less problem today, for many people it can still be an issue.
-              Property crime still affects millions and the most common of them
-              relate to larceny, burglary and vehicle theft. This is how those
-              numbers have changed over time.
+              years. According to an article written by <a
+                className="link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.forbes.com/sites/neilhowe/2015/05/28/whats-behind-the-decline-in-crime/#179faa026f61">
+                Neil Howe
+              </a> from Forbes, many theories include a change in risk behavior
+              from the baby boomers and generation Xer’s to the millennials,
+              tightening police forces across the country and the economic
+              growth that the United States has experienced over the course of
+              its history. Although many of these arguments can be argued that
+              crime is a less problem today, for many people it can still be an
+              issue. Property crime still affects millions and the most common
+              of them relate to larceny, burglary and vehicle theft. This is
+              how those numbers have changed over time.
             </p>
           </div>
         </div>
@@ -343,7 +348,13 @@ class AreaChart extends Component {
             <div className="maxWidth">
               <p>
                 Larceny is the most common type of property crime committed in
-                the United States. According to the Legal Match website,
+                the United States. According to the <a
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.legalmatch.com/law-library/article/robbery-vs-larceny-charges.html">
+                  Legal Match
+                </a> website,
                 larceny is defined as stealing another person’s piece of
                 property with an intent to completely deprive them of it. In
                 2015, there were over 5.7 million reports of larceny in the
@@ -364,12 +375,18 @@ class AreaChart extends Component {
             <div className="maxWidth">
               <p>
                 Burglary is the second most common type of property crime
-                committed in the United States. According to the Legal Match
-                website, burglary is defined as unlawfully entering a building
-                in order to commit a crime. In 2015, there were over 1.5
-                million reports of burglary in the United States. Over the
-                years, there has been a lot of improvement for reducing the
-                number of reports for burglary in the United States.
+                committed in the United States. According to the <a
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://criminal.findlaw.com/criminal-charges/burglary-overview.html">
+                  Find Law
+                </a> website, burglary is defined as unlawfully entering a
+                building in order to commit a crime. In 2015, there were
+                over 1.5 million reports of burglary in the United States.
+                Over the years, there has been a lot of improvement for
+                reducing the number of reports for burglary in the United
+                States.
               </p>
             </div>
           </Tab>
@@ -386,10 +403,15 @@ class AreaChart extends Component {
                 Vehicle theft is another common type of property crime that
                 occurs in the United States. Although vehicle theft has
                 drastically dropped since 2006, there was a small increase in
-                the crime from 2014 to 2015. According to the National Highway
-                Traffic Safety Administration, this crime can be very costly to
-                the victim when this occurs. Unfortunately, around 42 percent
-                of stolen vehicles are never recovered.
+                the crime from 2014 to 2015. According to the <a
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.nhtsa.gov/road-safety/vehicle-theft-prevention">National Highway
+                Traffic Safety Administration
+                </a>, this crime can be very costly to the victim when this
+                occurs. Unfortunately, around 42 percent of stolen vehicles
+                are never recovered.
               </p>
             </div>
           </Tab>

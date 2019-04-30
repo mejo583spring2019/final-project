@@ -234,8 +234,13 @@ class BarChart extends Component {
             <p>
               Although crime is decreasing across the country,
               there are still states well above the national
-              average. According to the Crime Solutions website,
-              many communities have come up with strategies to
+              average. According to the <a
+                className="link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.crimesolutions.gov/TopicDetails.aspx?ID=10">
+                Crime Solutions
+              </a> website, many communities have come up with strategies to
               help reduce crimes. Some of these strategies include
               neighborhood watch, community policing, urban or
               physical design, and comprehensive or

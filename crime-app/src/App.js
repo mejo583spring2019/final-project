@@ -18,21 +18,23 @@ class App extends Component {
         <div className="navBG">
           <nav>
             <div>
-              <img id="logo"
-                src={require("./images/logo.png")}
-                alt="Website Logo" />
+              <a href="https://cochapel.github.io/crime-info/#/">
+                <img id="logo"
+                  src={require("./images/logo.png")}
+                  alt="Website Logo" />
+              </a>
             </div>
-            <ul>
-              <li>
+            <ul className="list">
+              <li className="item">
                 <Link id="categoryLink" to="/">About Project</Link>
               </li>
-              <li>
+              <li className="item">
                 <Link id="categoryLink" to="/linegraph/">Crime Over Time</Link>
               </li>
-              <li>
+              <li className="item">
                 <Link id="categoryLink" to="/columnchart">Crime By State</Link>
               </li>
-              <li>
+              <li className="item">
                 <Link id="categoryLink" to="/colophon/">Colophon</Link>
               </li>
             </ul>
