@@ -1,3 +1,4 @@
+/* sets up the body and code elements */
 body {
   margin: 0;
   padding: 0;
@@ -11,10 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* sets the size of the Simpsons svgs */
 .simpsons{
   width:200px;
   height:200px;
 }
+/* sets the spacing of the Simpsons svgs */
 .simpsons-images{
   display:flex;
   align-content: center;
@@ -25,6 +28,7 @@ code {
 /* For a refresher on vh and vw, I used: https://web-design-weekly.com/2014/11/18/viewport-units-vw-vh-vmin-vmax/ */
 /* For some color inspiration, I referenced this image: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.imdb.com%252Ftitle%252Ftt0096697%252F%26psig%3DAOvVaw1HpWTHyl5onkh2eQiPiKmy%26ust%3D1556545654540310&psig=AOvVaw1HpWTHyl5onkh2eQiPiKmy&ust=1556545654540310
 And used Adobe Color to pick out shades: https://color.adobe.com/create */
+/*sets up panel sizes*/
 .panel {
   height: 100vh;
   width:100vw;
@@ -36,14 +40,12 @@ And used Adobe Color to pick out shades: https://color.adobe.com/create */
   flex-direction:column;
   align-content: center;
   justify-content: space-evenly;
-  
  }
  .panel.body{
   background:#38409A;
   display:flex;
   flex-direction:column;
   justify-content:center;
-
  }
  .panel.chart{
   background:#FFD938;
@@ -52,32 +54,57 @@ And used Adobe Color to pick out shades: https://color.adobe.com/create */
   background: #64D09E;
   overflow: scroll;
 }
+
+/*sets up headers*/
  h1{
   font-family: 'Permanent Marker', cursive;
   font-size:4em;
   text-align: center;
   color:white;
-
  }
  h2, p{
   font-family: 'Varela Round', sans-serif; 
 }
-
 h2{
   font-size:2em;
   color:white;
   text-align: center;
 }
 h3{
+  text-align: center;
+  padding:10px;
+  margin-left:2%;
+  margin-right:2%; 
+  background:white;
   font-family: 'Gloria Hallelujah', cursive;
-
 }
+h3:hover{
+  background:#FFD938;
+}
+h4{
+  text-align: center;
+  padding:10px;
+  margin-left:2%;
+  margin-right:2%; 
+  color:white;
+  font-size:1.5em;
+  font-family: 'Varela Round', cursive;
+}
+h5{
+  color:white;
+  font-size: 1.5em;
+  text-align: center;
+  padding:10px;
+}
+
+/*sets up paragraph styling*/
 p{
   font-size: 1em;
   font-family: 'Varela Round', cursive;
   margin-left:2%;
   margin-right:2%;
 }
+/*sets up link styling*/
 .imgs-a{
   text-decoration: none;
   color:black;
@@ -86,36 +113,12 @@ a{
   color:blue;
 }
 
-h3{
-  text-align: center;
-  padding:10px;
-  margin-left:2%;
-  margin-right:2%; 
-  background:#FFD938;
-  color:white;
+/*sets up sizing for the down-arrow on the intro slide*/
+.fas.fa-angle-down{
+  padding:2%;
+ }
 
-}
-h3:hover{
-  background:white;
-  color:#FFD938;
-}
-h4{
-  margin-left:2%;
-  margin-right:2%; 
-  background:#FFD938;
-  color:white;
-  font-size: 1.5em;
-  text-align: center;
-  padding:10px;
-
-}
-h5{
-  background:#FFD938;
-  color:white;
-  font-size: 1.5em;
-  text-align: center;
-  padding:10px;
-}
+/*sets up svg fills*/
 #homer .cls-1{fill: #f3df49;}
 #homer .cls-2{fill: "#231f20";}
 #marge .cls-1{fill:#f3df49;}
@@ -129,7 +132,6 @@ h5{
 #maggie .cls-2{fill:#231f20;}
 #maggie .cls-3{fill:#894253;stroke:#231f20;stroke-miterlimit:10;stroke-width:0.5px;}
 
-
 /* For some reference for css grid and flexbox, I used these resources:
 https://css-tricks.com/snippets/css/complete-guide-grid/
 https://envato.com/blog/css3-flexbox/
@@ -141,17 +143,19 @@ https://www.google.com/search?q=how+to+get+flex+to+go+to+next+line&oq=how+to+get
   flex-basis: row;
   flex-wrap: wrap;
 }
-
+/*sets up image sizing*/
 img{
   width:100%;
 }
+/*sets up styling for the slider on ImageCarousel component*/
 .slider{
   padding-left:10%;
   padding-right:10%;
- 
 }
+
 /* For a refresher for media queries, I used the following resource:
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+/*sets up mobile-friendly viewport*/
 @media only screen and (max-width: 600px) {
 .panel {
   overflow: scroll;
@@ -162,9 +166,11 @@ https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
   img{
    width:auto;
   }
-  .simpsons-images{
-    width: 100px;
-    display:inline-flex;
+  .simpsons{
+    display:none;
+  }
+  #homer{
+    display:block;
   }
   
 }

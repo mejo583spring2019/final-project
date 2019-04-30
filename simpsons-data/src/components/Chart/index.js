@@ -11,11 +11,13 @@ if (typeof Highcharts === "object") {
   hcMore(Highcharts);
 }
 
-// for chart reference, I used these resources:
+// For High Chart reference, I used these resources:
 // https://www.highcharts.com/docs/chart-and-series-types/packed-bubble-charts,
 // https://jsfiddle.net/gvaartjes/0yrdsv2a/,
 // https://www.highcharts.com/demo/packed-bubble-split
 
+
+// sets up the chart options, with tooltips, titles, and data, etc.
 const options = {
   chart: {
     type: "packedbubble",
@@ -27,14 +29,21 @@ const options = {
     backgroundColor: "#FFD938",
   },
   title: {
-    text: "",
+    text: "Hover over a bubble to see the characters played by each actor.",
+  },
+  subtitle: {
+    text: "It also display the number of appearances per character.",
+
   },
   tooltip: {
     useHTML: true,
     pointFormat: "<b>{point.name}:</b> {point.y} appearances in the series",
   },
+
   // To alter colors on High Charts, I used this for reference:
   // https://stackoverflow.com/questions/7414287/how-do-you-change-the-colour-of-each-category-within-a-highcharts-column-chart (answered by Ricardo Alvaro Lohmann)
+  // For some color inspiration, I referenced this image: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D2ahUKEwjTgPXJ9vLhAhXNZd8KHRW3BTwQjRx6BAgBEAU%26url%3Dhttps%253A%252F%252Fwww.imdb.com%252Ftitle%252Ftt0096697%252F%26psig%3DAOvVaw1HpWTHyl5onkh2eQiPiKmy%26ust%3D1556545654540310&psig=AOvVaw1HpWTHyl5onkh2eQiPiKmy&ust=1556545654540310
+  // And used Adobe Color to pick out shades: https://color.adobe.com/create
   colors: [
     "#E87D21",
     "#2B4AD0",
@@ -46,11 +55,10 @@ const options = {
     "#4BA672",
     "#353940",
   ],
-
   plotOptions: {
     packedbubble: {
-      minSize: "40%",
-      maxSize: "70%",
+      minSize: "50%",
+      maxSize: "80%",
       zMin: 0,
       zMax: 700,
       layoutAlgorithm: {
@@ -79,6 +87,10 @@ const options = {
   },
   // For my data, I sourced the names and characters from: http://api.tvmaze.com/shows/83/cast
   // And the value, or number of appearances, from: http://www.tvmaze.com/shows/83/the-simpsons/characters
+
+  // For the formatted data below, I basically altered what is in
+  // altDataArray manually, entering value amount manually from
+  // the second link above.
   series:
     [{
       name: "Dan Castellaneta",
@@ -369,14 +381,17 @@ const options = {
       ],
     }],
 };
+// Using scrollMagic section wipes from Scroller
+// component so it works as a Scene as well.
 const SectionWipesStyled = styled.div`
   overflow: hidden;
 `;
 
 
-/** this is a JSDOC comment*/
+/** Sets up the High Chart component*/
 class Chart extends React.Component {
-  /** this is a JSDOC comment
+  /** render() method sets the chart inside a Scene wrapper
+   * from Scroll Magic React so that it will work as a slide, too.
    * @return {div}
   */
   render() {
@@ -389,11 +404,9 @@ class Chart extends React.Component {
                 <h2>The Simpsons - Characters by Appearance and Voice Actor</h2>
                 <HighchartsReact
                   highcharts={Highcharts}
-                  //   construtorType={"packedbubble"}
                   options={options} />
               </div>
             </Scene>
-
           </Controller>
         </SectionWipesStyled>
       </div >

@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 const dataURL = "http://api.tvmaze.com/shows/83/cast";
 const personName = {};
 
-/** this is a JSDOC comment
+/** sets up makeTree method
  * @param {any} fullData
  * @return {string}
 */
@@ -26,7 +26,7 @@ function makeTree(fullData) {
   return personName;
 }
 
-/** this is a JSDOC comment
+/** sets up the writeJSONFile method
  * @param {any} filename
  * @param {any} fullData
 */
@@ -37,7 +37,7 @@ function writeJSONFile(filename, fullData) {
 }
 
 
-/** this is a JSDOC comment */
+/** sets up the main method that sends the data to a new file*/
 function main() {
   process.stdout.write(`Loading data from ${dataURL}\n`);
   const filename = "public/byPersonName.json";

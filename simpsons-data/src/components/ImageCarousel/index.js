@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-/** jsdoc comment */
+
+/** Sets up the Carousel component from react-slick, using
+ * https://react-slick.neostack.com/docs/example/responsive &
+ * https://www.npmjs.com/package/react-slick
+ */
 class Responsive extends Component {
-  /** jsdoc comment
-               * @return {div}
-               */
+  /** Render() sets up a carousel element, setting up images and
+    *  slider breakpoints for responsiveness.
+    * @return {div}
+    */
   render() {
     const settings = {
       dots: true,
@@ -43,10 +48,9 @@ class Responsive extends Component {
     return (
       <div className="slider">
         <h2>Meet the cast that kept a show on-air for 30 years.</h2>
-
         <Slider {...settings}>
           <div>
-            {/*  For a refresher on img format, I used: https://www.w3schools.com/html/html_images.asp */}
+            {/* For a refresher on img format, I used: https://www.w3schools.com/html/html_images.asp */}
             {/* For a refresher on a href, I used: https://www.sitepoint.com/community/t/how-to-make-h1-h2-etc-as-links/3004 */}
             <img src="http://static.tvmaze.com/uploads/images/medium_portrait/0/963.jpg" alt="Dan Castellaneta" />
             <h3><a href="http://www.tvmaze.com/people/14854/dan-castellaneta" className="imgs-a">Dan Castellaneta</a></h3>
@@ -80,6 +84,8 @@ class Responsive extends Component {
             <h3><a href="http://www.tvmaze.com/people/44735/tress-macneille" className="imgs-a" >Tress MacNeille</a></h3>
           </div>
         </Slider>
+        <h4>These 8 people together voice over
+           60 characters on the Simpsons.</h4>
       </div>
     );
   }

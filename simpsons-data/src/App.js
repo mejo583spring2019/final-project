@@ -5,9 +5,9 @@ import Scroller from "./components/Scroller";
 import Colophon from "./components/Colophon";
 
 
-/** this is a JSDOC comment*/
+/** sets up the entire Simpsons app*/
 class App extends Component {
-  /** this is a JSDOC comment
+  /** renders the scrollmagic sections, chart, and colophon sections
  * @return {div}
 */
   render() {

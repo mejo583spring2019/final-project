@@ -2,13 +2,16 @@ import React from "react";
 import { Controller, Scene } from "react-scrollmagic";
 import styled from "styled-components";
 
+// Doesn't allow slides to scroll past max screen-width
+// Used the Scroller set-up using ScrollMagic React
 const SectionWipesStyled = styled.div`
 overflow: visible;
 `;
 
-/** this is a JSDOC comment*/
+/** sets up the Colophon slide */
 class Colophon extends React.Component {
-  /** this is a JSDOC comment
+  /** The render() method returns the colophon section as a slide,
+     * to fit into the Scroller content.
      * @return {div}
     */
   render() {
@@ -23,25 +26,27 @@ class Colophon extends React.Component {
                 <p>As a senior multimedia major, I created this final project
                 as a demonstration of some of the skills we have been
                 learning in our advanced multimedia class.
+                 I always like to choose fun and personal topics
+                 for my projects, and like to play around with
+                  a very cartoon-y style.
                  This project demonstrates some understanding
                 of the basics of data visualization,
                 using the tool <a href="https://www.highcharts.com/docs/chart-and-series-types/packed-bubble-charts
                 ">High Charts,</a> as well as
                  some structuring tools such as <a href="https://bitworking.github.io/react-scrollmagic/section-wipes
-                ">Scroll Magic</a> and <a href="https://reactjs.org/">React</a> to format everything. To lint my code, I used <a href="https://eslint.org/">ESLint</a>
-                  and <a href="https://github.com/google/eslint-config-google">Eslint Config Google</a>. To check my code was linted correctly to fit the class standards, I ran it through <a href="https://circleci.com/">Circle CI</a>
+                ">Scroll Magic</a> and <a href="https://reactjs.org/">React</a> to format everything. To lint my code, I used <a href="https://eslint.org/">ESLint </a>
+                  and <a href="https://github.com/google/eslint-config-google"> Eslint Config Google</a>. To check my code was linted correctly to fit the class standards, I ran it through <a href="https://circleci.com/">Circle CI</a>.
                 <br/><br/>
                 I found all of my Simpsons data from TVMaze.com,
-                     from their API, which gave me a data file
-                      (http://api.tvmaze.com/shows/83/cast) with
+                     from their <a href="http://api.tvmaze.com/shows/83/cast">API</a>,
+                      which gave me a data file with
                        cast information and the corresponding characters
                         they play. Additionally, to find the number of
                         appearances
                          per character in the series, I took a look at
-                          their website
-                          show page for Simpsons characters
-                           (http://www.tvmaze.com/shows/83/
-                           the-simpsons/characters),
+                          their <a href="http://www.tvmaze.com/shows/83/
+                           the-simpsons/characters">website
+                          show page for Simpsons characters</a>,
                             and then manually entered the appearances
                              into my chart
                              data (since it was not included in the
@@ -58,14 +63,14 @@ class Colophon extends React.Component {
                            in the API).
                 <br/><br/>
                 To structure the assignment, I used the extremely helpful
-                <a href="https://reactjs.org/">React</a> library.
+                <a href="https://reactjs.org/"> React</a> library.
                 Alongside the React base, I used various components,
                  such as <a href="https://www.highcharts.com/blog/post/
                  highcharts-wrapper-for-react-101/">HighchartsReact</a>,
                 a carousel called <a href="https://react-slick.neostack.
-                com/docs/example/responsive">Responsive Slider</a> from
-                <a href="https://www.npmjs.com/package/react-slick">
-                 react-slick</a>, and the <a href="https://www.npmjs.
+                com/docs/example/responsive">Responsive Slider </a>from
+                <a href="https://www.npmjs.com/package/react-slick"> react-slick</a>,
+                 and the <a href="https://www.npmjs.
                  com/package/react-scrollmagic">React version of Scroll
                  Magic</a>.
                 For styling, I mainly used flexbox and <a href=
@@ -75,6 +80,8 @@ class Colophon extends React.Component {
                 <br/>
                I’m using a 2015 MacBook, with VSCode
                      for all code editing.
+                <br/>
+                <br/>
                 For the Simpsons svgs, I actually made them
                      myself using Adobe Illustrator,
                    looking at some Simpsons photos for reference.
