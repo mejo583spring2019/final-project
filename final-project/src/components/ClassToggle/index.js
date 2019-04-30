@@ -65,7 +65,7 @@ const ClassToggleStyled = styled.div`
     p {
       margin: 0;
       background-color: rgba(255,255,255,0.8);
-      padding: 1%
+      padding: 3%;
     }
 
     @media screen and (max-width: 900px) {
@@ -137,7 +137,7 @@ class ClassToggle extends Component {
           <Scene
             classToggle={[".contained", "graph-scroll-fixed"]}
             triggerElement=".trigger"
-            duration={"150%"}
+            duration={"160%"}
           >
             <div className="contained">
               <div className="graph" id="nc-map-container">
@@ -152,7 +152,11 @@ class ClassToggle extends Component {
                 </div>
                 <div className="trigger text__box">
                   <p>
-                    The UNC System
+                    The UNC System is comprised of seventeen schools.
+                    Below is completion rate data from College Scorecard
+                    for 16 public and private colleges around North Carolina.
+                    All data comes from the latest data by College Scorecard
+                    which was updated in October 2018.
                   </p>
                 </div>
                 <PackedChart />

@@ -5,6 +5,8 @@ import BlackChart from "./components/BlackChart";
 import AsianChart from "./components/AsianChart";
 import HispanicChart from "./components/HispanicChart";
 import AIANChart from "./components/AIANChart";
+import NHPIChart from "./components/NHPIChart";
+import MixedChart from "./components/MixedChart";
 import ClassToggle from "./components/ClassToggle";
 
 /** App component builds out main part
@@ -27,11 +29,16 @@ class App extends Component {
     const asianChart = document.getElementById("chart-asian");
     const hispanicChart = document.getElementById("chart-hispanic");
     const aianChart = document.getElementById("chart-aian");
+    const nhpiChart = document.getElementById("chart-nhpi");
+    const mixedChart = document.getElementById("chart-mixed");
+
     const whiteBtn = document.getElementById("sort-white");
     const blackBtn = document.getElementById("sort-black");
     const asianBtn = document.getElementById("sort-asian");
     const hispanicBtn = document.getElementById("sort-hispanic");
     const aianBtn = document.getElementById("sort-aian");
+    const nhpiBtn = document.getElementById("sort-nhpi");
+    const mixedBtn = document.getElementById("sort-mixed");
 
     whiteBtn.onclick = function() {
       whiteChart.classList.toggle("hide");
@@ -50,6 +57,12 @@ class App extends Component {
       if (aianBtn.classList.contains("active")) {
         aianBtn.classList.toggle("active");
       }
+      if (nhpiBtn.classList.contains("active")) {
+        nhpiBtn.classList.toggle("active");
+      }
+      if (mixedBtn.classList.contains("active")) {
+        mixedBtn.classList.toggle("active");
+      }
       if (!blackChart.classList.contains("hide")) {
         blackChart.classList.add("hide");
       }
@@ -61,6 +74,12 @@ class App extends Component {
       }
       if (!aianChart.classList.contains("hide")) {
         aianChart.classList.add("hide");
+      }
+      if (!nhpiChart.classList.contains("hide")) {
+        nhpiChart.classList.add("hide");
+      }
+      if (!mixedChart.classList.contains("hide")) {
+        mixedChart.classList.add("hide");
       }
     };
 
@@ -81,6 +100,9 @@ class App extends Component {
       if (aianBtn.classList.contains("active")) {
         aianBtn.classList.toggle("active");
       }
+      if (mixedBtn.classList.contains("active")) {
+        mixedBtn.classList.toggle("active");
+      }
       if (!aianChart.classList.contains("hide")) {
         aianChart.classList.add("hide");
       }
@@ -92,6 +114,12 @@ class App extends Component {
       }
       if (!hispanicChart.classList.contains("hide")) {
         hispanicChart.classList.add("hide");
+      }
+      if (!nhpiChart.classList.contains("hide")) {
+        nhpiChart.classList.add("hide");
+      }
+      if (!mixedChart.classList.contains("hide")) {
+        mixedChart.classList.add("hide");
       }
     };
 
@@ -112,6 +140,12 @@ class App extends Component {
       if (hispanicBtn.classList.contains("active")) {
         hispanicBtn.classList.toggle("active");
       }
+      if (nhpiBtn.classList.contains("active")) {
+        nhpiBtn.classList.toggle("active");
+      }
+      if (mixedBtn.classList.contains("active")) {
+        mixedBtn.classList.toggle("active");
+      }
       if (!whiteChart.classList.contains("hide")) {
         whiteChart.classList.add("hide");
       }
@@ -123,6 +157,12 @@ class App extends Component {
       }
       if (!aianChart.classList.contains("hide")) {
         aianChart.classList.add("hide");
+      }
+      if (!nhpiChart.classList.contains("hide")) {
+        nhpiChart.classList.add("hide");
+      }
+      if (!mixedChart.classList.contains("hide")) {
+        mixedChart.classList.add("hide");
       }
     };
 
@@ -143,6 +183,12 @@ class App extends Component {
       if (aianBtn.classList.contains("active")) {
         aianBtn.classList.toggle("active");
       }
+      if (nhpiBtn.classList.contains("active")) {
+        mixedBtn.classList.toggle("active");
+      }
+      if (mixedBtn.classList.contains("active")) {
+        mixedBtn.classList.toggle("active");
+      }
       if (!whiteChart.classList.contains("hide")) {
         whiteChart.classList.add("hide");
       }
@@ -154,6 +200,12 @@ class App extends Component {
       }
       if (!aianChart.classList.contains("hide")) {
         aianChart.classList.add("hide");
+      }
+      if (!nhpiChart.classList.contains("hide")) {
+        nhpiChart.classList.add("hide");
+      }
+      if (!mixedChart.classList.contains("hide")) {
+        mixedChart.classList.add("hide");
       }
     };
 
@@ -174,6 +226,12 @@ class App extends Component {
       if (hispanicBtn.classList.contains("active")) {
         hispanicBtn.classList.toggle("active");
       }
+      if (nhpiBtn.classList.contains("active")) {
+        nhpiBtn.classList.toggle("active");
+      }
+      if (mixedBtn.classList.contains("active")) {
+        mixedBtn.classList.toggle("active");
+      }
       if (!whiteChart.classList.contains("hide")) {
         whiteChart.classList.add("hide");
       }
@@ -185,6 +243,95 @@ class App extends Component {
       }
       if (!hispanicChart.classList.contains("hide")) {
         hispanicChart.classList.add("hide");
+      }
+      if (!nhpiChart.classList.contains("hide")) {
+        nhpiChart.classList.add("hide");
+      }
+      if (!mixedChart.classList.contains("hide")) {
+        mixedChart.classList.add("hide");
+      }
+    };
+
+    nhpiBtn.onclick = function() {
+      nhpiChart.classList.toggle("hide");
+      if (!nhpiBtn.classList.contains("active")) {
+        nhpiBtn.classList.toggle("active");
+      }
+      if (whiteBtn.classList.contains("active")) {
+        whiteBtn.classList.toggle("active");
+      }
+      if (blackBtn.classList.contains("active")) {
+        blackBtn.classList.toggle("active");
+      }
+      if (asianBtn.classList.contains("active")) {
+        asianBtn.classList.toggle("active");
+      }
+      if (hispanicBtn.classList.contains("active")) {
+        hispanicBtn.classList.toggle("active");
+      }
+      if (aianBtn.classList.contains("active")) {
+        aianBtn.classList.toggle("active");
+      }
+      if (!whiteChart.classList.contains("hide")) {
+        whiteChart.classList.add("hide");
+      }
+      if (!blackChart.classList.contains("hide")) {
+        blackChart.classList.add("hide");
+      }
+      if (!asianChart.classList.contains("hide")) {
+        asianChart.classList.add("hide");
+      }
+      if (!hispanicChart.classList.contains("hide")) {
+        hispanicChart.classList.add("hide");
+      }
+      if (!aianChart.classList.contains("hide")) {
+        aianChart.classList.add("hide");
+      }
+      if (!mixedChart.classList.contains("hide")) {
+        mixedChart.classList.add("hide");
+      }
+    };
+
+    mixedBtn.onclick = function() {
+      mixedChart.classList.toggle("hide");
+      if (!mixedBtn.classList.contains("active")) {
+        mixedBtn.classList.toggle("active");
+      }
+      if (whiteBtn.classList.contains("active")) {
+        whiteBtn.classList.toggle("active");
+      }
+      if (blackBtn.classList.contains("active")) {
+        blackBtn.classList.toggle("active");
+      }
+      if (asianBtn.classList.contains("active")) {
+        asianBtn.classList.toggle("active");
+      }
+      if (hispanicBtn.classList.contains("active")) {
+        hispanicBtn.classList.toggle("active");
+      }
+      if (aianBtn.classList.contains("active")) {
+        aianBtn.classList.toggle("active");
+      }
+      if (nhpiBtn.classList.contains("active")) {
+        nhpiBtn.classList.toggle("active");
+      }
+      if (!whiteChart.classList.contains("hide")) {
+        whiteChart.classList.add("hide");
+      }
+      if (!blackChart.classList.contains("hide")) {
+        blackChart.classList.add("hide");
+      }
+      if (!asianChart.classList.contains("hide")) {
+        asianChart.classList.add("hide");
+      }
+      if (!hispanicChart.classList.contains("hide")) {
+        hispanicChart.classList.add("hide");
+      }
+      if (!aianChart.classList.contains("hide")) {
+        aianChart.classList.add("hide");
+      }
+      if (!nhpiChart.classList.contains("hide")) {
+        nhpiChart.classList.add("hide");
       }
     };
   }
@@ -207,9 +354,6 @@ class App extends Component {
         </header>
         <section className="main flex">
           <p>
-            <a href="#colophon">Colophon</a>
-          </p>
-          <p>
             Race plays an important factor in undestanding how someone's college
             completion rate can be affected by his or her own's identity.
             According to a <a href="https://nscresearchcenter.org/signaturereport12-supplement-2/" target="_blank" rel="noopener noreferrer">report</a> published by the National Student Clearinghouse Research Center in 2017. This data found that 6-year completion rates of black students were the lowest among all racial groups at 45.9 percent, while Asians had the higest 6-year completion rate at 71.7 percent. The average across 6-year completion rate was 62.4 percent.
@@ -228,6 +372,8 @@ class App extends Component {
               <div id="sort-asian">Asian</div>
               <div id="sort-hispanic">Latinx</div>
               <div id="sort-aian">American Indian/Alaskan Native</div>
+              <div id="sort-nhpi">Native Hawaiian/Pacific Islander</div>
+              <div id="sort-mixed">Two or more races</div>
             </div>
           </div>
           <div className="chart-container flex">
@@ -251,6 +397,16 @@ class App extends Component {
               className="chart__column hide" id="chart-aian"
             >
               <AIANChart />
+            </div>
+            <div
+              className="chart__column hide" id="chart-nhpi"
+            >
+              <NHPIChart />
+            </div>
+            <div
+              className="chart__column hide" id="chart-mixed"
+            >
+              <MixedChart />
             </div>
           </div>
           <h2>Results</h2>

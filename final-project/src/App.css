@@ -76,6 +76,7 @@ a:hover {
   margin: 4%;
   justify-content: space-around;
   cursor: pointer;
+  flex-wrap: wrap;
 }
 
 .sort__btns div{
