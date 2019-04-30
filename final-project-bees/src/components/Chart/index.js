@@ -6,41 +6,49 @@ import HighchartsReact from "highcharts-react-official";
 
 const options = {
   chart: {
-    type: "spline",
+    zoomType: "x",
+  },
+  yAxis: {
+    title: {
+      text: "Percent Hive Loss",
+    },
+  },
+  subtitle: {
+    text: "Source: https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en",
   },
   title: {
-    text: "Bee Colony Losses, 2017 - 2018",
+    text: "Bee Colony Losses to Colony Collapse Disorder, 2017 - 2018",
   },
   xAxis: {
     categories: [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec"],
+      "January-March-2015",
+      "April-June-2015",
+      "July-September-2015",
+      "October-December-2015",
+      "January-March-2016",
+      "April-June-2016",
+      "July-September-2016",
+      "October-December-2016",
+      "January-March-2017",
+      "April-June-2017",
+      "July-September-2017",
+      "October-December-2017"],
   },
   series: [
     {
       data: [
-        29.9,
-        71.5,
-        106.4,
-        129.2,
-        144.0,
-        176.0,
-        135.6,
-        148.5,
-        216.4,
-        194.1,
-        295.6,
-        454.4],
+        31,
+        13,
+        13,
+        14,
+        26,
+        12,
+        14,
+        15,
+        34,
+        12,
+        14,
+        18],
     },
   ],
 };
@@ -51,6 +59,7 @@ class Chart extends React.Component {
       <div>
         <HighchartsReact
           highcharts={Highcharts}
+
           options={options} />
       </div>
     );

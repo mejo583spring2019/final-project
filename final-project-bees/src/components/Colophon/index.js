@@ -5,8 +5,8 @@ import "./style.css";
 class Colophon extends React.Component {
   render() {
     return (
-      <section class="panel-2">
-        <div class="grid-2 flex">
+      <section class="colophon">
+        <div class="colophon-2 flex">
           <div id="colophon-body">
             <h1>
                   Colophon
