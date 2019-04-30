@@ -15,7 +15,7 @@ class Cards extends Component {
  */
   render() {
     return (
-      <div className="outer">
+      <div className="outer outer-card">
         <Card>
 
           <Chart/>
