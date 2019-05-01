@@ -19,7 +19,7 @@ class Top10 extends Component {
         <div id="Top10TitleUnderline"></div>
         <p id="Top10Intro">
           These are the <span id="IntroSpan">Top 10 Worldwide </span>
-          songs of 2017. Click on a song to learn more!
+          songs of 2017. Hover over a song to learn more!
         </p>
         <div id="Top10Grid">
           <div className="Top10Spot" id="A01">
