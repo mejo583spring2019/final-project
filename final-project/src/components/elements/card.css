@@ -1,0 +1,25 @@
+.card {
+    display: inline-flex;
+    margin: 0 25px;
+    width: 350px;
+    background-color: #FF7081;
+}
+.btn-primary {
+    background-color: #00F1AB;
+    border-color:  #00F1AB;
+}
+.card-txt {
+    height: 125px;
+}
+.spacer {
+    margin-bottom: 40px;
+}
+.modal-content {
+    padding: 10px;
+}
+.btn {
+    color: rgb(33, 37, 41);
+}
+.outer-card {
+    padding-bottom: 25px;
+}
