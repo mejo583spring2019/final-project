@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Segoe UI",  "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h3{
+  font-size: .8em;
+  font-style: oblique;
+
+}
+
+#main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5pt;
+  padding: 0 20vw;
+}
+
+#main-container h1{
+  text-align: center;
+}
+
+.menu-container{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 3pt;
+  background-color:rgba(219, 217, 217,.4);
+  height: 40px;
+  align-items: center;
+}
+
+.menu-item{
+  text-decoration: none;
+  font-size: 16pt;
+  font-weight: lighter;
+}
+
+
+a:visited{
+  color:rgb(77, 77, 182);
+}
+
+a{
+  color: rgb(77, 77, 182);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(58, 58, 184);
+}
+
+.body-copy{
+  line-height: 1.5rem;
+}
+
+br{
+  line-height: 3rem;
+}
+
+.image-wrapper{
+  width: 80vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin: 0;
+  padding:0;
+}
+
+.image-wrapper img{
+  max-width: 40vw;
+  height: auto;
+}
