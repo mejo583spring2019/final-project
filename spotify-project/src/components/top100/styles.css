@@ -1,0 +1,66 @@
+#Top100Container{
+    background-color: white;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+    height: auto;
+}
+
+#Top100Title{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 5vh;
+    color: #1DB954;
+}
+
+#Top100TitleUnderline{
+    height: 1px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5px;
+    background-color: #1DB954; 
+}
+
+#Top100Intro{
+    padding: 0px 5px 0px 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    text-align: center;
+    font-weight: 300;
+    color: #1DB954;
+}
+
+#Top100TableContainer{
+    width: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+#Top100Legend{
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    border: 1.5px solid #1DB954;
+    border-radius: 5px;
+}
+
+.LegendItem{
+    font-weight: 300;
+}
+
+.LegendSpan{
+    font-weight: 500;
+    color: #1DB954;
+}
+
+#LIS{
+    margin-top: 0px;
+}
+
+#LIF{
+    margin-bottom: 0px;
+}

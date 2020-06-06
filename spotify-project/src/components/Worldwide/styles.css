@@ -1,0 +1,184 @@
+#WorldwideContainer{
+    background-color: white;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+    height: auto;
+}
+
+#WorldwideTitle{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 5vh;
+    color: white;
+}
+
+#WorldwideTitleUnderline{
+    height: 1.5px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5px;
+    background-color: white; 
+}
+
+#WorldwideIntro{
+    padding: 0px 10px 5px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+}
+
+#WorldwideIntroContainer{
+    background-color: #1DB954;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px 11.5px 0px 11.5px;
+    border-color: white;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+#CountryPicker{
+    border-width: 0px 3px 0px 3px;
+    border-color: #1DB954;
+    border-style: solid;
+    height: 5vh;
+    margin: 0px 11.5px 0px 11.5px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.CountryOption{
+    font-family: 'Montserrat', sans-serif;
+    border: 0px;
+    background-color: white;
+    width: 20%;   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #1DB954;
+    transition: .5s;
+    height: 100%;
+    font-size: 1.7vh;
+    cursor: pointer;
+}
+
+#FCO {
+    border-radius: 2.2px 0px 0px 2.2px;
+}
+
+#LCO{
+    border-radius: 0px 2.2px 2.2px 0px;
+}
+
+.CountryOption:hover{
+    background-color: #1DB954;
+    color: white;
+    transition: .5s;
+}
+
+.CountryOption:focus{
+    background-color: #1DB954;
+    color: white;
+    transition: .5s;
+}
+
+
+#CountryDisplay{
+    border: solid white;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 0px 0px 5px 5px;
+    height: auto;
+    margin: 0px 11.5px 0px 11.5px;
+    background-color: #1DB954;
+}
+
+.SVGPad{
+    height: 25px;
+}
+
+#SVGHolder{
+    min-height: 60vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#CountryData{
+    height: auto;
+    margin: 0px 10px 0px 10px;
+    border-radius: 0px 0px 5px 5px;
+    overflow-x: scroll;
+}
+
+.CDHeader {
+    font-weight: 300;
+    background-color: #1DB954;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    width: 7.14%;
+    color: white;
+    font-weight: 500; 
+}
+
+#USTable, #JPTable, #DETable, #BRTable, #IDTable{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;
+    border-radius: 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+.CDDatum{
+    background-color: rgba(29, 185, 84, .5);
+    border: 1.5px solid white;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px;
+    height: 20vh;
+}
+
+.DatumTitle, .DatumArtist, .DatumStreams {
+    text-align: center;
+    margin: 4px 4px 10px 4px;
+    font-size: 1.5vh;
+}
+
+#PadDiv {
+    height: 10px;
+    border: 1px solid white;
+    background-color: white;
+    margin: 0px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.PositionCol {
+    font-size: 8vh;
+    text-align: center;
+    font-weight: 500;
+    background-color: #1DB954;
+    color: white;
+    border: 1.5px solid white;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px;
+    height: 20vh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}

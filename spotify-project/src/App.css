@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+
+body {
+  background-color: #1DB954;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Intro {
+  color: #FFFFFF;
+}
+
+.Title{
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.Year{
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0px;
+}
